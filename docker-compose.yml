@@ -1,0 +1,16 @@
+services:
+  stockmafia:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8787:8787"
+    env_file:
+      - ./server/.env
+    environment:
+      HOST: 0.0.0.0
+      PORT: 8787
+    volumes:
+      - stockmafia-data:/app/server/data
+
+volumes:
+  stockmafia-data:

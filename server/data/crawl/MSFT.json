@@ -1,0 +1,214 @@
+{
+  "yahoo": "MSFT",
+  "symbol": "MSFT",
+  "market": "US",
+  "crawledAt": 1788238811879,
+  "sources": {
+    "prices": [
+      "Yahoo Finance"
+    ],
+    "news": [
+      "Google News US",
+      "Yahoo Finance",
+      "CNBC",
+      "Reuters",
+      "MarketWatch",
+      "Bloomberg",
+      "MarketWatch Top"
+    ],
+    "fundamentals": [
+      "Yahoo quoteSummary"
+    ],
+    "other": [
+      "Yahoo profile"
+    ]
+  },
+  "quote": {
+    "symbol": "MSFT",
+    "yahoo": "MSFT",
+    "price": 510.61,
+    "change": -2.92,
+    "changePct": -0.57,
+    "previousClose": 513.53,
+    "dayHigh": null,
+    "dayLow": null,
+    "volume": null,
+    "marketCap": null,
+    "currency": "USD"
+  },
+  "candles": [],
+  "fundamentals": {
+    "pe": null,
+    "forwardPe": null,
+    "pb": null,
+    "dividendYield": null,
+    "marketCap": null,
+    "beta": null,
+    "eps": null,
+    "roe": null,
+    "debtToEquity": null,
+    "profitMargins": null,
+    "revenueGrowth": null,
+    "earningsGrowth": null,
+    "targetMeanPrice": null,
+    "recommendation": null
+  },
+  "profile": {
+    "name": null,
+    "sector": null,
+    "industry": null,
+    "country": null,
+    "website": null,
+    "summary": null,
+    "currency": null,
+    "exchange": null
+  },
+  "news": [
+    {
+      "title": "Can MSFT Stock Compound Its Way Higher? - trefis.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObE4yclE4ckdGNk5MTW8xSmVqenkwMVF6Vm5abXltY2t3VUV4OUpHdDRFejQxbzkybHFSeVBKcGg4alRVZFpZeWZOQXB2b055SGs5aldEMGdfZVRQYmttU3R1dHdqaldzQ3NhaTdrcXdtZkt5NWlXOFFTNUtnY1B1TXB4clVQOWxPVlRKdkk4c192cE1UYy1Db1owOE1pb1M4?oc=5",
+      "published": "Tue, 01 Sep 2026 00:53:12 GMT",
+      "source": "trefis.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Why Is Microsoft (MSFT) Up 12% Since Last Earnings Report? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObVp5azE0RFpsQkFwRXkyenRjTXYzWWI1QXdSc19LUldtNy1ybUNYYU4zYWEzak8ycmhRV29qSjZ0Rm16WUFDM2xJaVJaQ3p1X3lCVzUxNUNZaWQwYzUxOE10ZzFZMHFLUUdUNUZrTU5Na2Q0aFFkQi1BeEZJdlh5aVdnR0xsTFpMdHQtZ1kwSHFIWHlzV19v?oc=5",
+      "published": "Fri, 28 Aug 2026 15:30:27 GMT",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Microsoft, Stock Of The Day, Flashes New Buy Signal. Why It's Still An ‘AI Winner.' - Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZE82M0g2ajRwRjRFbGFMbnpzRERuTzlTSGFOMDlPSFkxTUIzWW5KZHMtN1ZLV1Q0RlZKZDZZNURzekZxa1NMUEFHZ09FMXhheUpBZ2NqWmZUVGg0d2p1SVh5aWh1TWQ3a1FURHdoMGZNZExhMXg0Y0xKT2lfN19SX3lfODh4c3RHeWxZcjNZLVNiR3RoSlp6WU55dw?oc=5",
+      "published": "Fri, 28 Aug 2026 16:17:00 GMT",
+      "source": "Investor's Business Daily",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "MSFT Stock Alert: Moonshot Could Give Microsoft Another AI Revenue Stream - Barchart.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc3I5dFl2aDhyRGpJSVBUSFhfUmdjVWFRTlQ4dDFPSGpaaUVjbW5JdmZDZEl5UnoxX2JVZ19hNmFSZTd4ZlBvcnZBcHdQZ2EwYnU4NGptbEFiWDVqTC1nTFVrWFh4aS12em0yRURyMUZ4S2N4MnNIN2U5MlROdTZBT1ozdDAwY016eTZUb3hTajlEUXJ2WlRzNGxHcTRidWo0ODZxVjU0Y3Y4VTcxMDZPOHp2WnIxWEk?oc=5",
+      "published": "Fri, 28 Aug 2026 18:57:18 GMT",
+      "source": "Barchart.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Microsoft Stock and 2 AI Infrastructure Plays for the Next Data Center Buildout - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY2hMNmJPbll0b0h2ZE1mQk82YzFzNGlFTE9XN3dWTHROdmg1eTQ0d0pTSzdjTGVfdnR3LVdxSVJpZF8xWmg3QldCc182R2dBZTJVZDU3NG9od3BVdGhGN3Z0TUpIT1NpWkFkY2x2R001QzVVNVFwcEFpbWhock1kV0lVVXhKZTQyY1pvcHo3SXdMTjRVNEVDNVJ0WkRfcGlEUnlWTnFGem9TUktQT2VEWEQ1T2hmeXlWeXJ1Zmg4M3Z2amdzUVkw0gHMAUFVX3lxTE5faG5XWmdpZ1R1R1B4TlU0d2xzNG1ZTUIyLUJxSWY5RU84eVFFcjJCMFl3WFR5RGFNZjNhd1dLS1lwcVlwY29QN0t1ZVpTT3VvbGVWM3I5TDlmMGxYYmdFZ1F6bFkxbUNYNnIyOGVWNlA5cEJyZElwUVBhelZJYTR4M3pzTWlOVmFNVnB5a2cwZk1SVXJMVEl5YmYycWU2UXBfM1FoaERJVW8zSU15c29DU2plU0phak1xSmVZUGtNNnZNTkNjTmlqZFNDSQ?oc=5",
+      "published": "Mon, 31 Aug 2026 12:17:24 GMT",
+      "source": "simplywall.st",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Software Stocks & ETFs: Is the AI Sell-Off Over? - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMlpTZlJHV1d5SHlTck1CdGlZNHR1UW1TNkJPcHFTZU5NWWZzcVBZencwTGNrdWc1NTFRVlpNOU1OZVZEc3RUNS01WEVYS09OWmgyaGFNQXRPY1BsbmRlSzk2dmZyend6QTcwSW9WTXhvSUExQ2tudnRzeXdEd1JCaUVPZlZQTVJTdTZfMDJuTU9fNGdvTG5jVHlnM1Qya01ubFE?oc=5",
+      "published": "Mon, 31 Aug 2026 20:50:00 GMT",
+      "source": "TradingView",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "Market Concentration Risks: Microsoft (MSFT) and Nvidia (NVDA) D - GuruFocus",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQellXSDRXekNhSGJyY01PcjRaRFpvNmpNMHZURlEySkNiQ3ZNNWFwbm5tNjJyZnowX1gxcEY3UFV2WC1VeFBCUWNDSXNwTFZtUFFrREphd3hxb0ttOUhjRHpyV1dubXZvNzgyTVdtX1FZM3QtRHBsMkNJbHZ5aUg2VVVOYnY3N0UzNDJiSWJYSVFVdWlUSUVhRm5XV0c0U1p5QzR4OUVZSkZiQmk5Nk9XTnY3cDhJUQ?oc=5",
+      "published": "Mon, 31 Aug 2026 09:32:29 GMT",
+      "source": "GuruFocus",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Microsoft Stock: 6 Straight Green Days, Up 6.7% - trefis.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRWJ6VmVPUE1ORnhGVlhPQlktT1o4QktmZEFnNm1pa25RY1RvNUluTWhxRVZaaTFzcllzM3hoUTZ0dENHSzRGN1NTQURjY1pLODN1ZDRwSTVTeTFqQ2lVX1ozNm03c29PMTZoS3JveUo3VTFOTFNuY2ZwcUNkNDZaYVoxNVdDZDFteTJaRVBpYkpPcVA3NGVqMkJuTDJZQndUZElhWUlzd20?oc=5",
+      "published": "Mon, 31 Aug 2026 09:30:43 GMT",
+      "source": "trefis.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Microsoft’s Split Verdict Tests Investing Without a Fed Safety Net - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRzI0U2ZnRTlHQlByYzJ4eDIyaVB3NkM5c294M1hjOThWVFFvNGlIUWFOWVBHVXpDOGxWQ0ZuSVRCcWtNRGRuU05YNjUxbUxwUjFCTWJ2bWYxelhkdjBFMTZhdXRTN3ZsUlJleW9kNDNZR0g0VndNd0M1Y3k1MXpyeHZmUm83b0hrck5MdFdtME43X2dhV1NfSmRvaUtTT3hzb1B3OA?oc=5",
+      "published": "Mon, 31 Aug 2026 13:53:31 GMT",
+      "source": "MarketBeat",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Microsoft Stock Breaks $513 as Azure and Copilot Growth Support MSFT - TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOT3ZMc3JqbnRla0FJLXNWR1lxVUJ5eEE2NXdtRkZaRTAzdGRyb2MxaWNUZmRGMHpaclNzSzhtRTFETkROQlRCa2JZTFFzaWxLZ05oSkVXYUdqZ2FFZ3NXcHB5a2E2Zk1QSEprVEVmSU5UZ2hCS3U2NGlEbExneWpyTm1mMWZTNjlxcmRkMWZsU01Ecm5lMGFLMVdSaGdGZGh5V0JQUE9ubnZwNjh0bGFWUHQtaXZJUlNUaVdpYXlB?oc=5",
+      "published": "Mon, 31 Aug 2026 15:02:21 GMT",
+      "source": "TradingKey",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Can MSFT Stock Compound Its Way Higher?",
+      "link": "https://www.trefis.com/articles/613694/can-msft-stock-compound-its-way-higher/2026-08-31?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 00:53:37 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Microsoft (MSFT) Brings Arabic Language AI Models To Its Ecosystem",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-brings-arabic-language-210536821.html?.tsrc=rss",
+      "published": "Mon, 31 Aug 2026 21:05:36 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Bill Gates Says ‘We Need Time to Prepare’ for an Economic Upheaval — Especially the $20-an-Hour Workers Being Replaced by $10-an-Hour Robots",
+      "link": "https://www.barchart.com/story/news/4362191/bill-gates-says-we-need-time-to-prepare-for-an-economic-upheaval-especially-the-20-an-hour-workers-being-replaced-by-10-an-hour-robots?.tsrc=rss",
+      "published": "Mon, 31 Aug 2026 21:00:39 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Software Stocks & ETFs: Is the AI Sell-Off Over?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/software-stocks-etfs-ai-sell-205000363.html?.tsrc=rss",
+      "published": "Mon, 31 Aug 2026 20:50:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "Top Analyst Reports for Microsoft, Intel & Bank of America",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-microsoft-intel-201000476.html?.tsrc=rss",
+      "published": "Mon, 31 Aug 2026 20:10:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Microsoft Has Raised Its Dividend Every Year for More Than a Decade. History Provides Clues of How Big This Year's Raise Might Be.",
+      "link": "https://www.fool.com/investing/2026/08/31/microsoft-has-raised-its-dividend-every-year-for-more-than-a-decade-history-provides-clues-of-how-big-this-year-s-raise-might-be/?.tsrc=rss",
+      "published": "Mon, 31 Aug 2026 18:38:01 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Magnificent Seven's $780 Billion AI Bet Hits Critical Test",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/magnificent-sevens-780-billion-ai-014737102.html?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 01:47:37 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Sector Update: Tech Stocks Edge Lower Monday Afternoon",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-edge-lower-174108486.html?.tsrc=rss",
+      "published": "Mon, 31 Aug 2026 17:41:08 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    }
+  ],
+  "sentiment": 0.018500000000000003,
+  "errors": []
+}

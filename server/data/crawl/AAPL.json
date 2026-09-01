@@ -1,0 +1,214 @@
+{
+  "yahoo": "AAPL",
+  "symbol": "AAPL",
+  "market": "US",
+  "crawledAt": 1788238810882,
+  "sources": {
+    "prices": [
+      "Yahoo Finance"
+    ],
+    "news": [
+      "Google News US",
+      "Yahoo Finance",
+      "CNBC",
+      "Reuters",
+      "MarketWatch",
+      "Bloomberg",
+      "MarketWatch Top"
+    ],
+    "fundamentals": [
+      "Yahoo quoteSummary"
+    ],
+    "other": [
+      "Yahoo profile"
+    ]
+  },
+  "quote": {
+    "symbol": "AAPL",
+    "yahoo": "AAPL",
+    "price": 313.77,
+    "change": -5.93,
+    "changePct": -1.85,
+    "previousClose": 319.7,
+    "dayHigh": null,
+    "dayLow": null,
+    "volume": null,
+    "marketCap": null,
+    "currency": "USD"
+  },
+  "candles": [],
+  "fundamentals": {
+    "pe": null,
+    "forwardPe": null,
+    "pb": null,
+    "dividendYield": null,
+    "marketCap": null,
+    "beta": null,
+    "eps": null,
+    "roe": null,
+    "debtToEquity": null,
+    "profitMargins": null,
+    "revenueGrowth": null,
+    "earningsGrowth": null,
+    "targetMeanPrice": null,
+    "recommendation": null
+  },
+  "profile": {
+    "name": null,
+    "sector": null,
+    "industry": null,
+    "country": null,
+    "website": null,
+    "summary": null,
+    "currency": null,
+    "exchange": null
+  },
+  "news": [
+    {
+      "title": "How Much Upside Can AAPL Stock’s Growth Deliver? - trefis.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQXA0MTlsc29SNHlhRzh2ZU0tWnI3aXJHUnBtd0FRT0hrMkNfWWZpYkFKLVFOT1BROG14OVVXTWtNMzVCdFNzT0pnOEp3UXB6YjY0WVhOQ2lPNFZ4SC1Ia0VxYVlGbERSM1JQb2FUSU1WcFVidEMxamdNUHBURjJpYnIzWEhIeXQwR0h1M0FBYkhkX1I3RmNJYUtubzROQ0E1MGROZGJkV1QwcEU?oc=5",
+      "published": "Fri, 28 Aug 2026 21:53:32 GMT",
+      "source": "trefis.com",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Apple Stock (AAPL) Rose 2,256% During Tim Cook’s 15 Years as CEO - TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQkI5WHc1bExVOGZqbEhrTUtmQ2l5ci1mUTNCN0M1Vm9xTjItSFlFa3IyQk1STDZqcjk1YkNwYWRTY0NlWkk1VkUwOTFSQjBLRG9XSHBndmtUczJ4aU42TTM1bW1xVGxhYUowUjFqRzhNWExPVF8yLVdaSWh1ZmRkTkhoVjZxTlI2QWxhejZpYkduYnM?oc=5",
+      "published": "Mon, 31 Aug 2026 17:29:16 GMT",
+      "source": "TipRanks",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Tim Cook’s Final Day as Apple CEO: How His 15-Year Tenure Transformed the Company’s Stock - investopedia.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOczdRLVloOTFWMFBlOXVlWUlCSnBvckZBTF9SWElmOWp3X2lORVNVZllna0N0aDZ5d1BpdkJYcDNBLVFFVWJGNzJBTFZVcmRrdlpzVHZGRk5WWFhXUmNQdXNQWVhGX3dTNlRhZkRrZHhDc0VyLUR2QVhpMzZmZFVGWXlqSGFmaDBOYTZHcjRRYjJQQU1PMFpXclVka2lOUl9mUWVsYk5Fb3JURW9HZlVWVjFIR1NKc1RmY3IyN2xpTzRHRTI0?oc=5",
+      "published": "Tue, 01 Sep 2026 00:36:10 GMT",
+      "source": "investopedia.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "AAPL Stock Gains — Apple Reportedly Eyes Foldable iPhone, Camera-Equipped AirPods Launches In 2027 - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWGtNOTlQelFyMkJVelNVejNjQWQ5ME9lTHlkd2dJWnExazNscTRiSWVhWG1KTlVXOXBpSnEyeWZpNmdldHQxV2lwcU1OZ29HNVI4Z2pHbTFOclRzdHROSEhqMFBjekZwRU84TzF6UE0yN0NyanA2UnpoM29rakxkUXlPVEpLcHFMdTd2Rll3T0NjdElvc0xJeDVtZnBUSE9BTGdXWW9YendCMjRvdkZySkNQRDBDU2R3cUNhM0pXbHhZMkJpOUNaclZMT2M4UzhGUThEWQ?oc=5",
+      "published": "Mon, 31 Aug 2026 09:44:44 GMT",
+      "source": "Stocktwits",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Apple Is Suddenly an AI Infrastructure Stock as OpenAI Buys Macs by the Tens of Thousands - 24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYTlTSzMtVGo0dzYzNWZkUTJOMElaQkJWMkc5aGVibHRYSmhaZFd6dnoyUlRXbWNCTFQ4cFAyMWFWVDU2ek0ybU5faVBJMVZWeUs5Skl2YnR1VFVSdVhWdFBhZjFhME1tUHVlTjBnTF9GTlFObmFhaTJ4V2RiLWY0OWZNWlVZeVI2Zld4aHFIMkZwN09hYXB5Sjc4dThFbXNHdUVBYVpsaXVhMjNSWTkxYUE0MDgwNXc4SUwxbC0tYllfdldIOXU2TkNRQlMtQQ?oc=5",
+      "published": "Mon, 31 Aug 2026 13:02:00 GMT",
+      "source": "24/7 Wall St.",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "New Apple CEO John Ternus Inherits AI Test as AAPL Stock Slips - BeInCrypto",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GSVdkc2Qxa3FBbWRvWXFqMkJ3R0ZheUdqeDNHd0xISGtVbFRRTUxDbW1lOGk2eXdJaC1MdTlPYUZ5aUVYaFlRQUJXdlBqV2pFSUppVEZZbmJGcjdPTWMwNjVSXzBDc1p6?oc=5",
+      "published": "Tue, 01 Sep 2026 03:37:00 GMT",
+      "source": "BeInCrypto",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Apple Stock (AAPL) Opinions on Tim Cook's CEO Transition - Quiver Quantitative",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeW9XQktYdnB5aW9NTDNmV3NfR3hWRnpWZGM2NENja2hVSE1Ta29feklFY1NWNE1VcjJVZmxjMk5rU3I2WHRsYzNFV0I2b3hSUGh6WVVNaGdzUmxlUlVaZDV4V1ByVVE3WjlqWEs2NGRqQWRlVXBLd2kxdHlSdENKLTdhMFJlRjA2MnhkTV9CbjZHSl93WmRDdG10TQ?oc=5",
+      "published": "Sat, 29 Aug 2026 17:33:00 GMT",
+      "source": "Quiver Quantitative",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Tim Cook’s Apple Era Ends Today After a $4 Trillion Rise. What Comes Next for AAPL Stock? - Stocks Down Under",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB3dVNxZnFQLWM0R1RjQkQ2Y0hZMVBYUVk5by1wdUNqTlhTNzBNd3Y3V0NDRDcySGdjSmlOSXc2b21VQ3ZfN0xqN2wwSXdlZmN5UXl1b2VFbFEtV1hOU0N0aWQ5WlowTnBiRUZMcXhpWk8?oc=5",
+      "published": "Mon, 31 Aug 2026 14:50:56 GMT",
+      "source": "Stocks Down Under",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Apple Stock Forecast: Apple Posted $111.2B Revenue, So Why Did AAPL Fall After WWDC? - TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMXV4XzlFSkVPUTRmVEdHSWd2UW0zQlVWMTc1a3JPRHU0eFZqMkxjcTBZS3NtekYwcUxYb0hjTG5PWDZRVjNnWVUzY2pqSVlEMEtCUTBBMmtBU18wUGQ3UnMtTkFsMDBPYy1ueUxmZFhMdWRyenJiV21XUS1XS09zaWI3cktiXzl1N3RPbFJNdElfeTZPQ0s5WUhIUmtUX3VJYVNBV1ZiRXhoc2YwbjRrdXRyeS1wMUFDU1FPM1FiaHF3SGw2MWt0NE9YM21zM0pJWV9rTjJ3aUtNMENwMTBqZnJnQ243eUk0R3c?oc=5",
+      "published": "Mon, 31 Aug 2026 01:14:57 GMT",
+      "source": "TradingKey",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "After Earnings, Is Apple Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORjZpRVNZOXZfQ1dxcFNtTXJqRjhtdnhNczBRaVc4UElvcnhVV3pRZk1YVTRZYTRmWm84LWp6R2htcm9YS0tCOXJDcVFOUEU1TkRtYWZkTUJFX1YtNG9CdUxIOTAwb0hFeThvWEplWVpUTWpSMmdDLVljenpmWUpLX1dqb2hwU0ZPMXRZZHR5TEVpUnBqTW1mTUFDWnpkUVl0ME1F?oc=5",
+      "published": "Mon, 10 Aug 2026 07:00:00 GMT",
+      "source": "Morningstar",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Rewind to 2011: Tim Cook's first Apple product launch as CEO",
+      "link": "https://finance.yahoo.com/video/rewind-2011-tim-cooks-first-212632931.html?.tsrc=rss",
+      "published": "Mon, 31 Aug 2026 21:26:32 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Here's what Tim Cook posted on his last day as Apple's CEO",
+      "link": "https://finance.yahoo.com/video/heres-tim-cook-posted-last-193127146.html?.tsrc=rss",
+      "published": "Mon, 31 Aug 2026 19:31:27 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Apple’s new CEO inherits a fortune and an AI question",
+      "link": "https://www.thestreet.com/technology/apples-new-ceo-inherits-a-fortune-and-an-ai-question?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 04:37:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "New Apple CEO John Ternus Inherits AI Test as AAPL Stock Slips",
+      "link": "https://beincrypto.com/apple-ceo-ternus-aapl-stock-slips/?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 03:37:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Apple's New CEO Is Inheriting a Nearly $5 Trillion Problem",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apples-ceo-inheriting-nearly-5-030427622.html?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 03:04:27 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Apple's CEO Handoff Keeps 72% of Sales Tied to Hardware",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apples-ceo-handoff-keeps-72-024747097.html?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 02:47:47 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "CEO Tim Cook Sends Goodbye Message to Apple Staff as 15-Year Run Ends",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ceo-tim-cook-sends-goodbye-020725672.html?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 02:07:25 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
+      "link": "https://finance.yahoo.com/technology/articles/apple-shares-shocking-evidence-against-001300436.html?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 00:13:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    }
+  ],
+  "sentiment": 0.018500000000000003,
+  "errors": []
+}

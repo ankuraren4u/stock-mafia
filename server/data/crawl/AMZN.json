@@ -1,0 +1,214 @@
+{
+  "yahoo": "AMZN",
+  "symbol": "AMZN",
+  "market": "US",
+  "crawledAt": 1788238814369,
+  "sources": {
+    "prices": [
+      "Yahoo Finance"
+    ],
+    "news": [
+      "Google News US",
+      "Yahoo Finance",
+      "CNBC",
+      "Reuters",
+      "MarketWatch",
+      "Bloomberg",
+      "MarketWatch Top"
+    ],
+    "fundamentals": [
+      "Yahoo quoteSummary"
+    ],
+    "other": [
+      "Yahoo profile"
+    ]
+  },
+  "quote": {
+    "symbol": "AMZN",
+    "yahoo": "AMZN",
+    "price": 260.8,
+    "change": -5.63,
+    "changePct": -2.11,
+    "previousClose": 266.43,
+    "dayHigh": null,
+    "dayLow": null,
+    "volume": null,
+    "marketCap": null,
+    "currency": "USD"
+  },
+  "candles": [],
+  "fundamentals": {
+    "pe": null,
+    "forwardPe": null,
+    "pb": null,
+    "dividendYield": null,
+    "marketCap": null,
+    "beta": null,
+    "eps": null,
+    "roe": null,
+    "debtToEquity": null,
+    "profitMargins": null,
+    "revenueGrowth": null,
+    "earningsGrowth": null,
+    "targetMeanPrice": null,
+    "recommendation": null
+  },
+  "profile": {
+    "name": null,
+    "sector": null,
+    "industry": null,
+    "country": null,
+    "website": null,
+    "summary": null,
+    "currency": null,
+    "exchange": null
+  },
+  "news": [
+    {
+      "title": "Amazon Is Firing on All Cylinders. This is Where The Stock Will Go. - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZHIxZ1ExOVVQYzYyZXMxbkN1bzlaOS14UXg1TWtlTmZiWmdMWUxtUmRJMW5uSnRMUl96RVJTNGFzNGJJRzZiT3VQTjRDQ090VF9UdzE4ZzY5b2pFdEd2QXpjVmM4dXBxNlFScHozSGJXYVp6R29SUDg1MjZ4YmtYNXBlRUM2U2N1MThMdmlXTElRN2NucDBNOWswTGRmalluMmc?oc=5",
+      "published": "Mon, 31 Aug 2026 13:30:33 GMT",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "AMZN Stock Drops For Second Day — Amazon Reportedly Cuts Jobs In Artificial General Intelligence Unit Amid Strategic Realignment - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObGx0T21YQzRqVjNDR3A2cEx1RWI4RTZidVNhbk9mQUZpZ3loUEJtbWd0SFBlOFdKY0NtaEp2SWpTVDRGLUVWWnFSOUJ3dS13N05KbTlPcC1aYTV2M3YyVTNkRExpTG52UTZWYVZDQ3dzRl8wV3FzTGlGWXByUi1kd2xmcnRlXzFBNk8tMGJUYUZJeVYtUmo2ZDUyWDFRNGkteWZNNjIyYTh4Y1JSMTFaNHdlS2VuSEJjdS1tU0RGWFljVmsyZVdmZmlB?oc=5",
+      "published": "Mon, 31 Aug 2026 12:39:37 GMT",
+      "source": "Stocktwits",
+      "sentiment": -0.667,
+      "label": "negative"
+    },
+    {
+      "title": "Why Amazon (AMZN) Stock Is Up Today - Quiver Quantitative",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBNOEYweGh5cXRMU3ZCS0R4YnNDVFJ5N211d2lXYWdzdjFBWFlib2FZNHlzUVQ2Q2c3cjktWnktajM2MU5uSExDVGNZUGppcURWdTFLbDFBQkc0UXo5MUZIN1lsaXRmVUNzYlBtQkZyYUFJRUZkZFZ5N2xScmo?oc=5",
+      "published": "Fri, 28 Aug 2026 15:34:00 GMT",
+      "source": "Quiver Quantitative",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Amazon Still Holds A Massive Upside Potential (NASDAQ:AMZN) - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeFpVSEZmRDAyU0Z2Q3MzLTcwRXZuR0hUSEYwNFVjY0JWMDVtdXhhYnNubndaT0E2Y3RlS0p2NWx1VUZ5Zy14UXA0MUtWLVZDaDhZenJpZXVsTkthYllxeHo3eE5VQ0lZdy1Yb2ZRM1UyYUZFTTRlYVhOSXdXMlc3WVpQUU44Vy1oM284OA?oc=5",
+      "published": "Fri, 28 Aug 2026 14:31:30 GMT",
+      "source": "Seeking Alpha",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "What's Going On With the Fall in Amazon Stock? - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV1FfaTZpbjhTeGRJSTl1VVRFeHhuUnFHVjdJRHRLc21sYVRxelEyQTdoSmpRNVNPaHlJdzRLUjJrekRKbENBQjZ4Y1VBVjhuMllQdk5UUHY0ZFNZeU9iQXBFUlVWVE45RFVEZFNDV3JIX3NpZnhsR1NNdUtDR05WUWE2N2xKTkFMQlh0SFRWWFJmdEhuZlNLZHBEMDQ3bXFxblh6LWZLWQ?oc=5",
+      "published": "Mon, 31 Aug 2026 19:05:45 GMT",
+      "source": "TradingView",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "Amazon (AMZN) Stock Could Be 39% Undervalued After Chip Push - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdFNPcmplOHpCRjRYUmZpbjR3TEdmcjRxQnhiTTRQT2ROeWRFTzJMNkVTT2twcFZtWHF3NWkxMm1SeGxacUhGWDlUa2N3VEVmd1E2ZDBkRXVtNnp0RVlFMTEzMk1MSXYyYVdCTzh2YThvT0NLYW9fdnQ1VjlfX3VtY1ZNUDdqd0lpYmJyLUtoZWR6SmRBWkZ4Y3JGeURGcWFVX09wUHpOdU92TlFJN3BwXzBxb3RwUGRhMzE4ZGFBWUzSAcYBQVVfeXFMUEJiTkhrWDh5SkRnbFdmbUdEUUNVWHBzUkpYS05BNjB1ZDZsVnRhT2RvNzBfWHFVdVlyYUV5TjBxT3hTN3B0N3hsOVM0NFZfdmc5cUZEZEo0SExXejdIamtYZzM5c2hwQnd5Yzh4X2ZLMEtNUTR0cVhUR0lCVXpKVGtUN2xYMFF1LVRjMFRlRzdrODNkYXAzSF95Mlpac1c1aTdLSHpJOWp3WE1kcFZ3SnVrR1BUMXZ0OXRXY1BxdlBaOGQyVmx3?oc=5",
+      "published": "Tue, 25 Aug 2026 11:32:16 GMT",
+      "source": "simplywall.st",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Amazon’s Post-Q2 Earnings Rally Has Faded But Don’t Give Up on AMZN Stock Just Yet - Barchart.com",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaFBLOVRCSlc0Ym41dFhSOEZud0otVkFEVzEzY19idkhJXzE1ZkhNS2lPSHFZVV9UbjN4UU5pbVJTbGk4OXcyM2NhWlpwSUF2WlpURHVoTDdlUlVrMW5qVlZzR18xRUEzdk1jb3U5dWg1eUNDUVhQNHdfRkZKM3lWR2JiN29YN0NvUzlCTU9Qd2pKM0lhbjdnbjRmSE9aTU5YLWtRVnRaOUdldWhFdGpsM2RheWxaWkZkc2Q0eUR3NDhjUQ?oc=5",
+      "published": "Fri, 28 Aug 2026 18:46:36 GMT",
+      "source": "Barchart.com",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Will Amazon Stock Benefit From Prime Membership Growth and Loyalty? - The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSE1xQ1k3ZXM5OUJmRUxJWXJMWGFhUlZtWTNaZHZxeUNMWU5fd1BVSkNCb0pvVWxkalhXLW5nRmdmWXRLU3h0OTB2MmhrR2RlVm9lWnk2SDdBX0tNZFM2WklpUVZ5ZmtkSGtMbFEwYlVUODQ0RlhGd1ZraG9QTU9maW9DaFdUVFZQdHJqQWhXSkw3VmhHM1BqR0dxUTVSYTcxZzJiVk8teHIzTEhOYS16S041M0dzaTNwdWxvcURxY1dRWXRxTWFwWkdVejdQU3AzajVOTzFsQmx3N2M2MWNzN0FCSVRZQQ?oc=5",
+      "published": "Mon, 31 Aug 2026 14:58:00 GMT",
+      "source": "The Globe and Mail",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Amazon.com (NASDAQ:AMZN) Shares Down 2.5% - Time to Sell? - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTk1GZmZDWjhLZFhMeE5lM1NYWkFTTjgtb3hNTzUtcnFIMkh2cVVRRmtkOXo4aXY5Y3ViQ2hZMnF5ZzZRZFJBaWRSVUZLYXlTZWE1Q2p4Y1pMeFNhbDlWbjVOM2VnYTNQYlJSLVJJNS13SGYxSnhLNmNKRmV3TEVTdDRfS1RHbXRyS2xXeVRxXzhmRjhTZ2M2SXF2VjJ1cEFlaEwyd08yMW9Wd3JIVVE?oc=5",
+      "published": "Mon, 31 Aug 2026 21:36:16 GMT",
+      "source": "MarketBeat",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Kane Brown concert will cap Amazon’s college campaign on Sept. 5 - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSlFtb0FfbXFrVXBSS1hoaWlkWWtEcTZ4MlFYZ1ZidWhBOEZuVVBNb3N3MFdYRTdZeWVPakZQeVcwQ1M0ZzZiMFJiZ09LcVBiZjhkWUtNN2ZxRzcwaWNBVXo5M1Q5Z3pUeUlTTUVJa1hBTXNiUzhZNkNtZU1zSENXNzViYi0wZFp4NVFtYVk1dlBQUXV3WWJVVTVSa2FJN1h3dTNMdjFqbG13Z3VHUmR0Nzhubw?oc=5",
+      "published": "Mon, 31 Aug 2026 14:42:00 GMT",
+      "source": "Stock Titan",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "ZonPrep Acquires FNSKU Studio and Wizard-Industries, Deepening Its Investment in Amazon Inbound Logistics",
+      "link": "https://finance.yahoo.com/small-business/articles/zonprep-acquires-fnsku-studio-wizard-040800936.html?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 04:08:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "FTC sues Amazon, alleging it overcharged advertisers",
+      "link": "https://www.cnn.com/2026/08/31/business/ftc-amazon-lawsuit-pricing?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 03:01:03 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Amazon shares fall as FTC sues over alleged advertising price manipulation",
+      "link": "https://www.proactiveinvestors.com/companies/news/1097873/amazon-shares-fall-as-ftc-sues-over-alleged-advertising-price-manipulation-1097873.html?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 02:37:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "Magnificent Seven's $780 Billion AI Bet Hits Critical Test",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/magnificent-sevens-780-billion-ai-014737102.html?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 01:47:37 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "FTC Lawsuit Puts Amazon’s (AMZN) High-Margin Advertising Business in Focus",
+      "link": "https://finance.yahoo.com/media-advertising/articles/ftc-lawsuit-puts-amazon-amzn-235057590.html?.tsrc=rss",
+      "published": "Mon, 31 Aug 2026 23:50:57 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "US regulator, 22 states accuse Amazon of 'manipulating' ad auctions: lawsuit",
+      "link": "https://finance.yahoo.com/media-advertising/articles/us-regulator-22-states-accuse-230624178.html?.tsrc=rss",
+      "published": "Mon, 31 Aug 2026 23:06:24 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "FTC, 22 states sue Amazon over deceptive advertising practices",
+      "link": "https://www.axios.com/2026/08/31/ftc-amazon-deceptive-advertising-lawsuit#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-media?.tsrc=rss",
+      "published": "Mon, 31 Aug 2026 22:30:34 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "UPS reorganization prioritizes global logistics over parcel delivery",
+      "link": "https://finance.yahoo.com/small-business/articles/ups-reorganization-prioritizes-global-logistics-223004459.html?.tsrc=rss",
+      "published": "Mon, 31 Aug 2026 22:30:04 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    }
+  ],
+  "sentiment": -0.07405555555555556,
+  "errors": []
+}

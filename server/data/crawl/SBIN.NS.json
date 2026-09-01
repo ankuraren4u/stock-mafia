@@ -1,0 +1,205 @@
+{
+  "yahoo": "SBIN.NS",
+  "symbol": "SBIN",
+  "market": "IN",
+  "crawledAt": 1788238809497,
+  "sources": {
+    "prices": [
+      "Yahoo Finance"
+    ],
+    "news": [
+      "Google News IN",
+      "Economic Times",
+      "Moneycontrol",
+      "Livemint",
+      "Business Standard",
+      "Livemint Markets"
+    ],
+    "fundamentals": [
+      "Yahoo quoteSummary"
+    ],
+    "other": [
+      "Yahoo profile"
+    ]
+  },
+  "quote": {
+    "symbol": "SBIN.NS",
+    "yahoo": "SBIN.NS",
+    "price": 1060,
+    "change": 0,
+    "changePct": 0,
+    "previousClose": 1060,
+    "dayHigh": null,
+    "dayLow": null,
+    "volume": null,
+    "marketCap": null,
+    "currency": "INR"
+  },
+  "candles": [],
+  "fundamentals": {
+    "pe": null,
+    "forwardPe": null,
+    "pb": null,
+    "dividendYield": null,
+    "marketCap": null,
+    "beta": null,
+    "eps": null,
+    "roe": null,
+    "debtToEquity": null,
+    "profitMargins": null,
+    "revenueGrowth": null,
+    "earningsGrowth": null,
+    "targetMeanPrice": null,
+    "recommendation": null
+  },
+  "profile": {
+    "name": null,
+    "sector": null,
+    "industry": null,
+    "country": null,
+    "website": null,
+    "summary": null,
+    "currency": null,
+    "exchange": null
+  },
+  "news": [
+    {
+      "title": "SBI Share Price - Live NSE: SBIN Stock Price & Chart - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPa0lHTFVCTVBxWVRmVXR6cE5FMDhDc25ublZmbVllcFgyMU0wZF9NZmdZQWVjQmJrd0tPSFN2OUdVRnpfVVBWdDFCMmRPSkZFc1R4cFIyOGdMSmdtNThoam1zNGN6WnFKbGc?oc=5",
+      "published": "Mon, 31 Aug 2026 05:39:20 GMT",
+      "source": "Upstox",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "SBI, arm to dilute up to 1% stake in NSE via IPO - BusinessLine",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeUt6d0dEdmphOS1pQTBVckJMSVNfVWVoMVhwRV9lcDlxemo2TUVfNTJGZE1Zd1VlaVV5SmF0X2RyajdvV0x3RW5LMEFHUXZGZzJFZnJRZTU3NkltQ1JhY3FvMklib0JnNnVkVHdPeXoxU1dIVjNpQk1SelJiU0FQaE14aUkwc3VvSjFHS2RLZzFMY1hGQnZCUlp1Yy1wTmxEY0Q2RjdGaDdiYzdyekNYONIBtwFBVV95cUxOamZ0YlFSWDNmTmRfRmE5QlJwWHFUVWVxcS1CZktPaU45Qy1sWTlTVEZrbV8xMmJQMS1pclNGa0M5cHRWV3Ytci1zeVlaNzhyNlBJOEtlN2hGOHAzSHNScVRYajlBaXpBZXo0UExvM3lxNnRWNnRGdzk2SEY4b3N5M3hCUEpZTlppQ3ZRUU90MzEwajJCYUFueWhremU3ZTV0REVhQjlJSVM2aVdjNUJjRlpIazhtdUk?oc=5",
+      "published": "Sun, 30 Aug 2026 06:44:25 GMT",
+      "source": "BusinessLine",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "SBI to Dilute 1% Stake in NSE IPO; Home Loans Near ₹10 Lakh Cr - HDFC Sky",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPN1hsdk1KVU1YLXJ4YWVqZ0drM3Vka0FxNkRoUEJIWTNxdFVVWEp4R3oxRnRjR05nRVFuZWFVeE56dE9La1FwR3pPekJpYlZtTTlMcUkyZW02T1RUdXh5VksxN2pfTV9hZlc2bU95WjdURlRpdVNUczhXOTJfeE1XVDFmckRpUHppMWpR?oc=5",
+      "published": "Mon, 31 Aug 2026 03:29:46 GMT",
+      "source": "HDFC Sky",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "SBI and SBI Capital Markets to dilute up to 1% stake in NSE offer - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVU9KbTJhZ24tTXJTZFc5aGZjTHc2SGNkZ0loWHRQMTVzM091UnNEaE5rTmdnSWpVTGd5Zno5RHlQUHRMaHF3cS1WWkFxVFRvdmpBTzV4UFJnaWVycHJEdDJ2QjFKOG02UThYZ3AxeWFVVVRmNGhzZFQ0cWdIMXRvSnVVMTRNczF2aDdFQTdMTFRTaFBLTW1IR2hkODZGWEpWWUV0MGZlSG41OFV5dGFBYVlmWnNMNFF0NC1KTnlaQlFTZTlCTlRUcFllSUI3NzMxUC1vNGdyZmZzS29NcE4wX2diTk_SAeoBQVVfeXFMUFdIeEp3R1VfX1BXXzVYYUJieDFuM1Z5bzA2RlRMQXNhUU01NDh1S2djMlRrdXJNeFR0blRrUzRYVW9URjFySEJkb2VEdWJ5c20tUmJfOE5IVDBXYmFZT0RMeXZENTQxdjJiNmNsajRiaGpHNlI3cldPdG4tUVl5YzJFV1lmNkhCNHdOdkNfdlllY2M4NVBuNE5tTG95Qm1hWTdCQzluMlVSc0dWRzl5OXk4bHp5WU1vU2NkWGV4TzVIcDhFVWVPQURlT2dXeGcyVzMwU0J3d3luZk9ZMnhRbEpVSmFkNnZJcDJn?oc=5",
+      "published": "Sun, 30 Aug 2026 23:40:00 GMT",
+      "source": "The Times of India",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "SBI, SBI Capital Markets plan 1% NSE stake sale via IPO: Bank Chairman C S Setty - economictimes.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVjNxTUs2NTFHUzF6V3c4RTJpMVNwcUlaQnljU2ViRjVQeHVydWp3RUliYXIwRHpmRXhudmVEeWQ2VENvaEZsYVpKT2hlVTNjaEdJbG13cjZTYTN3YzhQSl9NQ1k0Mk9ibDZSRU43YTg2Tk50NjY5cXVzOXVmWTJDRnI3VlRMbmtGUzJJdDlmUVI5a3pIdnNjUzJqaWJ3a0RCbUlPX3lOeGFVVTVpbkhOTm9yeXhPT1dSLU1TcTJqcXY1TER6UGfSAcsBQVVfeXFMTlJvVEhHeGpQeHFmMkI4RExNQWZVRWhEakk0Ti1qaWZSQ1VTd0dkdGtSZWg3cmZfZzhjOUhRa2ZDTy1KYi1rQURqWjVyczZ1ckQ3TlZmSXNmM1hGNUtLR3daTTFJU2NoTUdrMlhFUmI5cWFnbTA0Q1RPaGZTTUdTcUFrc1NrTTFtUjJBWGgySVpyM1h1QnBzWndyOWNKc0JabGdZWTZpbUc3YzdCd0kwTm5LZXdJWVpxU2JMaHA3RFFmZ1ZpVVlveFItdVU?oc=5",
+      "published": "Sun, 30 Aug 2026 06:33:43 GMT",
+      "source": "economictimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "SBI Share Price Today, August 24, 2026: Closes at ₹1,039.50 on NSE - The Eastern Herald",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DNFcwVVNSR3Z5ZUhwblVFQ1RYeDZsMVlhTGJIaEl0Z05rT19wVTRRZ19oMU9td1BOdDRQLTB3VTNjNHVfUG5jVGptZlNnS1dFN1pRc05KdVpob0hfR3pxSnVzLWNHTFR4TFEzNF9DQUVjRGlZUkE5eDF0YTZ5Vms?oc=5",
+      "published": "Mon, 24 Aug 2026 15:09:36 GMT",
+      "source": "The Eastern Herald",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "NSE's ₹30,000 crore IPO: SBI, its investment banking arm to offload 1% stake - Business Today",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWWl2Vmh4VGFfbHZ5U3IwU0NYM29wQk5od1ZSNXlVcGdYdzZZNU5ZdktCMm16amIwNmI1eHpleVhETTBnTFlZVXRuOGJnZzhSWTBaOE5vWWxIcjJYOHpRNWMtWlAzQVpORFI3SmlJUmNUNU8zOUUyalhlZGo1ZEw0aDdBWFdGOGhSMzd1RDN3bE9jYzlPdVRBQW55Tld2enVzVmFvTHY4RlpQdnZkVUg4eWxFYjV2cTVBeVNjM1l6YXBBamQ5X2FiSkkzemhod9IB0wFBVV95cUxONk1laUJFVFM0ak9VVEJBQ1k1VWExaVZ0enp4RjV0SEFQU3oydlJsNUxZZTJGSDlNVlVTN1FReDJkbTMyWHViQm96dS1LaUlVb0FNWTJRNEp6M2NUdFZxUkEyWXROY0ZTaVp5dHZ1MXlGWWdBWGxqd2RCYk5mcUhqaURSMXg5Y2s3U1VrLUNXbjFjU1hOakpaTHBqTEJ2cl9OcXR5bE5HcDNYclVLM2ZJZGFzTG5DNUM0S21oaXVJT2ttakFMVlJoWnFIdGRHY3JVQlcw?oc=5",
+      "published": "Sun, 30 Aug 2026 09:47:46 GMT",
+      "source": "Business Today",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "SBIN Forecast — Price Target — Prediction for 2027 - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YZktWd1pyaGVHa3hJUENIZzh3UGtTS2YzdUZib0E1TjQ1SGNNb1I0aF81RlA4elRrcGkwVEFJRXBFN1RLRDZZWmd6M1JQRFphUlN5aktQeVpyNGVxSVpSbURfU1NxZVQxYkVBVUJ2YjRJbi1wZUE?oc=5",
+      "published": "Thu, 25 Jun 2026 13:07:22 GMT",
+      "source": "TradingView",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "SBI Capital Markets to sell up to 8.78 million NSE shares in IPO - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUHJvbW9tRE9Ic2lZcVA1UjQ0YmtiQ2J3S1VyS1V4bWFmbXdDcWxVTTZIRmhTUVNFcTMzLV9XM0FzZHRuSlBhLVI3QVhfR1RKU1ZyZjl6em42Qkp6UTFRaFdnQ2s4dW84bW45bkIyVm5zMUdqUEF6M2xSVnJKUWUwcW5HMmxoaDViV0c4QnVJNnVDV3RwSGdndkN2SklIVzJFMmJfUGc1WWQ0eE1QQ2dhVzlVNnhxLXhHN2M1cVZNTVlBd00wbWFZRdIBzgFBVV95cUxNeXZ4eUFITUx5dnhaOTlTVk1qMTc4eWpYaUFRVk9wZW1lREIxMDlvVW9aRkJ3cXZyLXJmLVhoNE5DQ1JoQTRMalVfdllxMXExdm9MbWdRdm9zRGRkbXV0SlRMRS0xUmFESm5ERDNsWDFRbUFFRUJLVDY1bFFYSXc0di01VVc3VEtEMUtRWGkwcFU5RWhkaXVtSEJqalZVTUxuVzZfZ2JjNmIyNnQxMmpvNVptTmYtVVM5NHNaQWtxQ3I1TVVpazNfcjNWY2gxZw?oc=5",
+      "published": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "source": "Moneycontrol.com",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "Why SBI share price falling despite strong Q1 results? Brokerages remain bullish - Livemint",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQREwyNWxEVDBkZ3JnQzF1MmdPUUtMcTdja0hlUlNDbG5HLURuTV9kbmc0T1FUSzlYQVdqWDhpQjY4c1ZKRzEzdEw5cUNFOFg2VGJRc1hrMFpBRi0xbjFiSzVPTFctbXVxNWJFbGNYdTI1UTRWYW9RMVRmeTBNQ2VmdWVmb2xick1tWUl6X29UQ3pHYjJRd0dLX21hQ0V5bzhwOU1yT0VzNWRTNzh5eGFaaGQwZGVza1V2cFc5Y1NISzhkYUVsS2JNcVowWE0xSXVSLTQxOVVoZUV0VUYyMmQ4bjdvd9IB6AFBVV95cUxOY0RiV1BNendVTGdUZ21ZeWVXWmt6Q24zZmdQdmZYd1hJVURTVm9kMFV4Rk80RTdEUGE3SFVuT2hDN3dBblVhX0w0SENWSk9tS2NUODliQXlDNlhJLXk0WUVyRzJnTE9HbXlFNEV5ZFFtS3o4RDJVSlZ2TFVZZjJobEtlMlA5Qk53R3pHWXQ5YjFGelNlanRINHY2RzRabVIyTlluT184SDNucHdtRE5ScDhVTGpkQl81Z3dNdElXWWQzTXpKemhEdzV3cl9sYnVGRkZSejFSSVN4STB3RUNGQWx3bm5UR21B?oc=5",
+      "published": "Mon, 10 Aug 2026 07:00:00 GMT",
+      "source": "Livemint",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "SBI sees corporate loan pipeline at Rs 5 lakh crore: CS Setty, SBI, Chairman - economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVG0yRk40RmJqc0ZuV25NLVBkY09ranhCelEtT3JweDVhUlNIQnAzNl83QTN5T0hCR1dBWmdWa2tFZnBMdWtwa0wyNnJ5TDVSVFpXeFhBamhfNEhZUkNvV0t0dDg0RzFwUllzVlllSHNrNW5ybjlld3VSeGRTZUR2UGUyaHVaNDV6M2tBVXpSTUdxWVc3c3ZkbW5mYTRYY2ZPY05xdERsVTF4MmtXSjlQSXZ1RjcxQjhFNjRqM05JVkswQWpfNjkyS01fZktWSTQ0TFRCcTdFcE5rOG9CUU53UWFXRzUwQW1FV2QzdDZiOEMzdXhLYm1kUmpNUi1GQdIB9wFBVV95cUxQMV9HaEgyR3JGci1NOHhoaldDQzlZSzd2dE51cHMyd1o5bHR6Q2lYQzZodEhtWDczaUhMbGVLVGtmSGJhZDByd3czLUNiQWE2eWwzZzJJa0k1QlFJbDIxcFU0OVBKV3NNeThvNUVLS19idkwzaHVXS1ZNRV9PVlZ0ZDZIM3Z3dll3b19MNVMwRTByVXYwa3RRa1MxcWtNTzNCZnNlTmwtT3hFN2l1Y2JuWmVNWnJQLXpMMmV4RTNOQUFXc29yZ3poUDlBZTRLLVZHTWU0UlNBQ0xXRk8tMGJmb0tyRjJKSVdZWUxIbi16UTVXeTMzMzdr?oc=5",
+      "published": "Fri, 28 Aug 2026 00:30:00 GMT",
+      "source": "economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "SBI retains 25% debit card market share in Jul'26; HDFC Bank continues to lead credit cards - bfsi.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQc2RLdzY2RTVaOUJJWlVqRFRONzhhRmZJaXRBdnNGWWxkRXhGemMxeG4zbi1Mbndwenp3NXZZWXB3ZGg4WkJmLWtuZ2J4aFd6RlNrZzYteGxHczlzQkQ0bmo1WllQcElPLWJBMkdWcFZLd0hmY3BQcFpwRWRkbDN4YjVtTkRGbHNfNUNDSEZWSWlvbk92czhRMndITGJRZFlwUFZhZndUcUtERWJsMEx6Z3NVSDZvWmNfeHFZT0ZtYVlhdVoxTzZmZ0JBcGJZSVlHZ3pNVmxEdlN4aHNrMkRMTWowTdIB6AFBVV95cUxQeGJxMEZxc1pXem1OZzRjS3RpMjV5N0NKTURtVksza1AwZWNCZlJQOE9yM2hWQmNKaVRyRTVVR0ZiQmF2UWZmd0JsN2d0RW92QkVpakNZdkJEVF8wWExPbUI4SDJmSGJuMU9POU5qRHRHTU9pQ1NoaEpzaTZWWVlJWUpEYmdLVlhpdjNsYmV6dVdBNnprZ3JYREstUEpiZUhlVWZ4aHd3RldUczBoM3FtMmhWZG9OVG5kQU95dU9mR0s5S2pIRkhOWGgzeTdyd1BlVlBvS2tCYVduTFh5cV9JRGt4S3MtUThu?oc=5",
+      "published": "Thu, 27 Aug 2026 12:51:32 GMT",
+      "source": "bfsi.economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "SBI eyes $10 billion from NRIs, foreign investors ahead of RBI swap window closure - bfsi.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeXhOT0hjLUhLbm1xUjg1cWpjbGlyNm9mM1NrTzNXQkZyUFJuZzdKSTA2Ny1VSGIxT3ZfbzBfT0VlVE5uVmk1TVA5R3dEUVZRalZmcXJiMXA2OEVpRzQxZENaWFZLVGFROVh5X0NZcDc3NUtGbDRBeUthZzl1YTRZbkdHaTg2N2lwUDVWVzFBclAxX0RmVHEtOTJqaWxXVnhKemRvQkhuMmMyV1BGNmZQS19RVl9kY3NuZWZsc1AwZ0h6M0t4WlVzSW1PWnR4cXlsZ25tS0hFUE3SAd4BQVVfeXFMUGZ4WEVZRmd6TVVMWEJnUUZyUHZQTjNKRFZSa0tuWlZHNVphclF2bkdOVzZBUXBTSGdkb3B5MTRuWGpoOFAtS0ZhRHUwenVEWUtHZXpodHcxczVGNUJ1QWNWMHJBWXVHbkw4bkxyVEpiUHVLTnRoQ05JbVRjTnFBdEpIVXg0dnVWbkRyNFhyZlY2MG5HSFBObDZfTHlRNnFuMS13eUZ2NFRXNk1GWVhESm5NTURZNzZoWmo5T3JXMExPWWszaTBGY1lwd2lfTlh5Ulc2T1o4MGtaTDZNYlhn?oc=5",
+      "published": "Wed, 26 Aug 2026 02:36:31 GMT",
+      "source": "bfsi.economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Union Bank of India taps dollar debt market after 12-year hiatus - bfsi.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTHFta29KSzRhVVZJQ1ltU1dnRXFjMEJGMk9IRVF3QWFmVGczbjlCTkdfZVlTc2FYeFFYMmNmaHhWMEFNNV8wSFYtcnZDYVllaHczalhNR24yZWstRnFIb3FJSWRyRTNzYlN3YmozakI2bFk4eUpORktwQ2V6T1hjNEh5LThOUGxRZFBsTU12TXA2VTdiblE2SVVkTDU0TDJIelNGZU05WUpXT0FzVVljZjJfTS1KTWNtQ1FWYWNZaGdOS1lWYXpfT9IBzgFBVV95cUxOb2k1OE1ZT0h6VlRudUtramphb2ExU1UyeElvY2czTjVWYlZBOVpfOEtCdXFaRHhqeGUzeTU4RzVfbFV2UGtjMW80WFZ5c20wb1d6d3lfRTBJZGt5cmwwZFYxWkJvWUVQdWRmSXdGR2Z0cnJBTWxkX3o0X0pGdG04bGd3Uzc1M2x2WEtaMmpWWmlvazEzcU5wblFpVklnWk43Rk1JLXpBRmhFZ1R4UFZBanRpUTNjdTVfcjI3YzZPN18yNmNIcTgwUldUanJCdw?oc=5",
+      "published": "Tue, 25 Aug 2026 13:59:24 GMT",
+      "source": "bfsi.economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Former SBI branch manager awarded 4-year jail term, fined Rs 90,000 in bribery case - bfsi.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbWpEUHZqc0J0S3BHakQ1blVscEVjZjlmNTNyTEpWX2Flc21uZEIzdHNVbFhyOWtzLWozV0FibUd1UDEzamgtNnZVTG5oOGVzcExjdjZ1QnNaVHZ6NVRPVFhxVE45aDdRcEMxZkxoWFp2LV9mM1czdzFGb0s0ZEw0QVVBbk1iUlpKV2pSdl9jU3RxSkZCbms1YTFCUVRiMi1GZjNMbEF1dVFDWGdES1NNdXh0aFhrRzhYc25INnVNQVJ4MlM4MXJ0aTFvVzBUX2wyalFWQ1o1OWZYUdIB3wFBVV95cUxNVmhCUUpoNERFVUtzSWtMMm5lWWtubTJ4TE4zU280Y2tucHd5cjdPNEUtSHdYVnZGdEFaY2ROand5QjBXcno3ajlmbFB2ZWZ6a2pXNS1VdG9oTlR5SjJKMTdQVFBONWhVOWhncFJRa2g3SHhxVllzT1lWSi1peVFnUHJvOUpMbG5NWUN6TUJFV0dWYkxWMmFnbmY3OWc5RUFneU9IQ3BZZF9aX3dXV2xqbGdwWGFuTVlnNlVfRDZqNEhUZm1KamxRLVgyR1NuRmlybFViSFh6b05jWTMxYkN3?oc=5",
+      "published": "Tue, 25 Aug 2026 08:30:34 GMT",
+      "source": "bfsi.economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "EAC-PM paper suggests consolidation of banks of equal size without compromising market competition - economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPRk11SWdKXzhXcm5PNFZEQm9HbFVQUlJVODJ1NGhlZlhtd0RhZDFGTC1CUDhpME9lOTRQLTN3dUVIWWZNdXEzbUhEUUFsUGxvRWpXcUt6NTNtMjQ3bUg0YUh2ZDA0OF8yYm03YUdaMW0yZXcxOWNCX3dnek9LYTJUVVljcllmUnJ2bXEzbEppNGdRQmwydGhBTUFWVjI3ZGw0VnljcGlIbGxLdUhfSVFJbkNpUHZOZUt2dDZEdUxxcVk4MkkwWmJXaWVqZEVkd1o2NlZoOTBKRF9yejVYeVJIV05BN0pWaENEZFY0b255ZURwUWUxWW1GSVhJUGxqMEFhT2psdUI2bFFtTWFMZk1Tb05iQmkwMHVWUnljbdIBlgJBVV95cUxPX2lOZUxBNG9MUGFUQ1hZdEdYSENoRTE1VmdXamlvWUxPUFZpT0pKOXJ0UHV2d2xMQjRaVVlrRW5NUDdDZ1NSSjh5c1BxazBMaHdPUG9fVmQ1NGFCVXhBRHY1QnlrbW9BckRCeUR4RGY4eV92Zkl2bjR1ZmV2UHZaM2FYQmhxVk5NRmdmVExhclk1YWFJa2tOWi1IMDZJemtPRGVfSDlRa3VYa19TM1p4Y2xuaC1rbHZudDVNeF92VHpnMXkyQ1d1R2xYeHUtaHAyemFKblhnSGdmcFdHV21sZ3Rua0syVU5YSnBZZzViNlBxQ3d0ZHZxSDdiSHRjYmxfOWQzWHREWnI3WnFGeGZhSVRFVDVHQQ?oc=5",
+      "published": "Wed, 26 Aug 2026 10:19:20 GMT",
+      "source": "economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "NBBL's Bharat Connect forex transactions cross Rs 100 million in four months - bfsi.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZXVEWnA0czlQbG4xaldBUGVjZXk3NURvaEVGTjNQbXpGVWFxamNabjA4VnNLWmZGMm9VY292Wk1OVWM5VEZsYlpmb1Y5cjFsUExOWHc5VWNYNkZVN090dGh3eW1GMjgtc0ZNYXJGRnJuU0Iwam1tcHZNNDliWjh6RDdVYTlhUXRlNFBOSlgwVEhrWHFHN2N3elF6WXNDT21sRDdpUlpSSUVhVzZWWUpCQjlxYkZHeEd0bHphdEhiN19ucDFqdXk4eTlWb3FsTGxVNnfSAdcBQVVfeXFMTVk0Y2hEM2l4WWpJdEdieG43cndrcHA0VGw2Q1c1a0VsSFUzTmdUeW1PbGl6c1VWc2psTklwN2pmSUhoYUR5QmlreGdRX1Y1YnJoMTJmUlhnUUNiaVVpWkJDRDZCeWhHWWZBeFhib3BadkplRGRtcEJ0MEZuWWs1MlhMZmRFUjZfME9Ec0JEdlZ5MUZ1Y19LNmJ4N3NCTGZKWUZ1Ump1VnBGb3U3d1hQN25UNERpOFZqd05maFdpSjY3cGdoMU1sRDhTQU1MQ2pjbnhyYVJ1RWM?oc=5",
+      "published": "Mon, 31 Aug 2026 06:40:50 GMT",
+      "source": "bfsi.economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    }
+  ],
+  "sentiment": 0,
+  "errors": []
+}

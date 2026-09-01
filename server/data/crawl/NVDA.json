@@ -1,0 +1,214 @@
+{
+  "yahoo": "NVDA",
+  "symbol": "NVDA",
+  "market": "US",
+  "crawledAt": 1788238812673,
+  "sources": {
+    "prices": [
+      "Yahoo Finance"
+    ],
+    "news": [
+      "Google News US",
+      "Yahoo Finance",
+      "CNBC",
+      "Reuters",
+      "MarketWatch",
+      "Bloomberg",
+      "MarketWatch Top"
+    ],
+    "fundamentals": [
+      "Yahoo quoteSummary"
+    ],
+    "other": [
+      "Yahoo profile"
+    ]
+  },
+  "quote": {
+    "symbol": "NVDA",
+    "yahoo": "NVDA",
+    "price": 219.27,
+    "change": 1.72,
+    "changePct": 0.7906,
+    "previousClose": 217.55,
+    "dayHigh": 220.6,
+    "dayLow": 216.21,
+    "volume": 55417600,
+    "marketCap": null,
+    "currency": "USD"
+  },
+  "candles": [],
+  "fundamentals": {
+    "pe": null,
+    "forwardPe": null,
+    "pb": null,
+    "dividendYield": null,
+    "marketCap": null,
+    "beta": null,
+    "eps": null,
+    "roe": null,
+    "debtToEquity": null,
+    "profitMargins": null,
+    "revenueGrowth": null,
+    "earningsGrowth": null,
+    "targetMeanPrice": null,
+    "recommendation": null
+  },
+  "profile": {
+    "name": null,
+    "sector": null,
+    "industry": null,
+    "country": null,
+    "website": null,
+    "summary": null,
+    "currency": null,
+    "exchange": null
+  },
+  "news": [
+    {
+      "title": "Nvidia stock flashes unusual signal for investors - thestreet.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcVlfTE5lRG5teGNaZm1oRmgzT0hDaVJ6TjEzYWMxek9tS2lNR2d6YmYxbUdjZjFfMlN2RVYwYW82c1VUYzllV09mdzNWeC1xb1NhU3gwWWtfZVcyY0dCU0FKVFpJbEJCU0JZQWs1VFRwZG5LQ0s5cHppYTZXSTBmd1dnc1N1cEdr?oc=5",
+      "published": "Mon, 31 Aug 2026 22:01:34 GMT",
+      "source": "thestreet.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Prediction: Nvidia Stock Will Trade at $350 on This Date - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa09tSTRvcDBJR2NRSEFWQXE3LXJaODZXbnlfVnJEb0xjay0zYTVmdUsydUhTQlpVajBHN3BUc01va3VIN0Q3ajFZWlpHbnRXX0l2amNqS1Q1d1NMcFI2SjY2VEN5TG94TWJrZXdzdmloRXZISmxLY3pVUjB5RGJ0X3Frb3p3NHVCRmVIN0Y2bU1kWGdIajcyX3hoTks1TlU?oc=5",
+      "published": "Mon, 31 Aug 2026 14:00:53 GMT",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "NVDA Stock: Where Compounding Could Take The Price - trefis.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZUNoWkd4RkpTZ2hqR3RNeHI3S24wSlVMN3IwR2drUkg2TGt0T2dxTm1NRWF6aXg5RERwQjFjbVZtcGVkb3d4bnhuOTVWUnAyREx4UlZ0NTJqZnZwQ2RsOGllMXFNU1pYSURGc1JqVUNlRHZ0WkcxNnUtbHdhWl9TTXJHRVZIUGFNRFdKRkRJZmd3bTdmUjZ4TXdiWGppWjUxVWVWbU9WcHNGcUtmZ1dnaDln?oc=5",
+      "published": "Tue, 01 Sep 2026 00:25:15 GMT",
+      "source": "trefis.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Prediction: This Is Where Nvidia Stock Will Be When September Ends - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONFRsVHhKNG9FWXRiVF9oV2Ryei1YZlFLckVoWFFYeEZpa253cEVmSjBEZUpGT3ZObDdqSkpBNGhhT19kejg0NjhHRDJhZ1YwbXFfeEt5STZFbDlUZDJEd2dVTTVZUmFCcngtVGd5VTZQSWpacnlRSXI1aG5GTHV6OUxNdmZPRld5X1NlMXRvenZBdXE2Zk5DZQ?oc=5",
+      "published": "Mon, 31 Aug 2026 18:49:00 GMT",
+      "source": "The Motley Fool",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Nvidia: AI Boom Times Still Ahead - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wWnRRMGM5MXkzTjVSZUphTkZsekVDcGdRUXdvQi0zOVVvX3VpUnhsdzRfOFJtY1p6akVXSk5mMVpuVzlKaGx1cERpa0l2VDNQRHpOR3VFMlFsYnQ4Ny0zMDN1ZDFSNzdETWRlSHBTLVJ1M0pjTWtQTFVuNURGQQ?oc=5",
+      "published": "Tue, 01 Sep 2026 00:00:18 GMT",
+      "source": "Seeking Alpha",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Nvidia Stock (NVDA) Breaks Away from Chip Peers as Correlation Falls to 0.03 - TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLVZHT19kRFRUY1REeVZ6cVRpN05hY0s1MlRYeW9mbHpoS1RpRUVlX1ZZZ1BGOU9JaUtObURwUGlWR1kyay1ScFFmMTljTVNMbGRULTQ2MmdqZTduMk5vZWZnLU9hRGRweDFVb0k0UlNNR3lJbDZYcEdrVnQ2Z2VoSC1oV1N5b3FRME5BYUdodDFVZFQ4NG8xOW81NENTUTd6QmE0bUVvTQ?oc=5",
+      "published": "Fri, 28 Aug 2026 19:22:04 GMT",
+      "source": "TipRanks",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "Why I'm Still Holding Nvidia (NVDA) Stock Despite Its Sky-High P/E Ratio - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUjF2OE1WWW1XYV9sa3ZoY3FKa2dXNnA2VjFUelBlXzlQdEg4TEVsRklEUllqY3dXUTdZak5vV0Z5MnU3ekIwNkxId3NtOXJVSVZfX00xdWdxZENCczM0MV83RU1hYlFCZUZlLVhHUDVvTjNBN0pRRzBfOVZqSmtsUnpzdU92dnR2UEdwa1RXWHA4N1JvUXpR?oc=5",
+      "published": "Sat, 29 Aug 2026 18:20:00 GMT",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Nvidia: Stock Price To Catch Up To Earnings Growth (NASDAQ:NVDA) - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSFhoRFRWZXlKblBTc3JMYk43QldXNEh5NGxmbHVzRkFCZEZNSk5DM2hhMGE5WjBsT2czekNRWGtCT1hPdkp4UXFWbERpb1V2ZTNybXRzZmR0bTlpRmRxMGNWLThidmNzSGtVTW5UbWFpaHpuOWlnQmdhN1A3TmdZSG1vczhKWUh2VnBfVU9HYjJ5NWwtdTVBUUhNRS1RLUZrZnNLd2pKenF0QklUVnc?oc=5",
+      "published": "Mon, 31 Aug 2026 08:23:00 GMT",
+      "source": "Seeking Alpha",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Nvidia (NVDA) Stock Could Trade Below Fair Value As AI Platform Deal Expands Its Reach - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaFphcmh6NFhPQ0tUcGxoZjRxSG5DWUsyME1SX2dYalo3TFBPYkZlclZPTGNNMkt2N3d3dXRjSzVGMENvNU1obnNOMkU4cXozeHlaLUNzYXBkemMycXN1RE5QbU45VFJvaGV6SEppOC1CUEtFNDdUaE93SXJJVEswRzg5OThDYmNhZWNPa2xaTThJeUs0bjJILWRB?oc=5",
+      "published": "Sun, 30 Aug 2026 15:07:36 GMT",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Nvidia: The Cracks Are Finally Showing (NASDAQ:NVDA) - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lUE1UYmtLOVpQWmNyZkh0eW8tZHV4blpYSnBlR1Q3OUxjS1NfS1ViWWlSQUdCTEszeVBlSHZRbmRxblZvM0FrRmxUMHlDaFVtT2F3ODA1cEhlT2hjX0tkbUZRM0p6S2dPUUJpQlhiMndUc285b25WQmN3?oc=5",
+      "published": "Sat, 29 Aug 2026 14:00:54 GMT",
+      "source": "Seeking Alpha",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Can't Decide Between Investing in Rare-Earth Materials and Nuclear Energy? This Under-the-Radar Stock Provides Exposure to Both Industries.",
+      "link": "https://www.fool.com/investing/2026/09/01/cant-decide-between-investing-in-rare-earths-and-n/?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 04:50:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "If You'd Invested $5,000 in the Vanguard S&P 500 ETF (VOO) a Decade Ago, Here's What You'd Have Today",
+      "link": "https://www.fool.com/investing/2026/09/01/if-youd-invested-5000-in-vanguard-sp-500-etf-voo/?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 04:35:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "The Nasdaq Has Fallen in 48% of Septembers Since 1971. Here's What That Means for Nvidia and Micron.",
+      "link": "https://www.fool.com/investing/2026/08/31/the-nasdaq-has-fallen-in-48-of-septembers-since-19/?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 03:05:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "Nvidia Just Put $3.5 Billion Behind Its Next AI Expansion",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-just-put-3-5-030116528.html?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 03:01:16 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Anthropic Signs $35 Billion Cloud Agreement With Nvidia-Backed Lambda in Deal Where Chip Giant Holds the Lease: Report",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-signs-35-billion-cloud-023807811.html?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 02:38:07 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Anthropic signs $35B computing deal with startup backed by Nvidia",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-signs-35b-computing-deal-022806081.html?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 02:28:06 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Why ExxonMobil, Chevron, SLB, and Other Energy Stocks Climbed Today",
+      "link": "https://www.fool.com/investing/2026/08/31/why-exxon-mobil-chevron-slb-energy-stocks-up/?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 02:07:50 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Why Is HUT Stock Rising Nearly 5% In Overnight Trading?",
+      "link": "https://stocktwits.com/news-articles/markets/equity/why-is-hut-stock-rising-nearly-5-in-overnight-trading/cZsocQzRJt5?.tsrc=rss",
+      "published": "Tue, 01 Sep 2026 01:49:29 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    }
+  ],
+  "sentiment": 0,
+  "errors": []
+}

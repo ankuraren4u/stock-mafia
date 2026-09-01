@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/appstatus.tsx","./src/components/tickersearch.tsx","./src/components/ui.tsx","./src/lib/api.ts","./src/pages/algopage.tsx","./src/pages/crawlerpage.tsx","./src/pages/marketspage.tsx","./src/pages/paperpage.tsx","./src/pages/signalspage.tsx","./src/pages/stockpage.tsx"],"version":"5.9.3"}

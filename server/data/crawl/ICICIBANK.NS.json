@@ -1,0 +1,213 @@
+{
+  "yahoo": "ICICIBANK.NS",
+  "symbol": "ICICIBANK",
+  "market": "IN",
+  "crawledAt": 1788238808603,
+  "sources": {
+    "prices": [
+      "Yahoo Finance"
+    ],
+    "news": [
+      "Google News IN",
+      "Economic Times",
+      "Moneycontrol",
+      "Livemint",
+      "Business Standard",
+      "Livemint Markets"
+    ],
+    "fundamentals": [
+      "Yahoo quoteSummary"
+    ],
+    "other": [
+      "Yahoo profile"
+    ]
+  },
+  "quote": {
+    "symbol": "ICICIBANK.NS",
+    "yahoo": "ICICIBANK.NS",
+    "price": 1454,
+    "change": 0,
+    "changePct": 0,
+    "previousClose": 1454,
+    "dayHigh": null,
+    "dayLow": null,
+    "volume": null,
+    "marketCap": null,
+    "currency": "INR"
+  },
+  "candles": [],
+  "fundamentals": {
+    "pe": null,
+    "forwardPe": null,
+    "pb": null,
+    "dividendYield": null,
+    "marketCap": null,
+    "beta": null,
+    "eps": null,
+    "roe": null,
+    "debtToEquity": null,
+    "profitMargins": null,
+    "revenueGrowth": null,
+    "earningsGrowth": null,
+    "targetMeanPrice": null,
+    "recommendation": null
+  },
+  "profile": {
+    "name": null,
+    "sector": null,
+    "industry": null,
+    "country": null,
+    "website": null,
+    "summary": null,
+    "currency": null,
+    "exchange": null
+  },
+  "news": [
+    {
+      "title": "ICICI Bank Share Price - Live NSE: ICICIBANK Stock Price & Chart - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE41ZWlLb1o0emplRlRyWWY3MnhuaG1TMzVobHB2ZVk4NGc5aTFkb3FrX2Q4ZjZaanV6V2oySlFPTlZZa05qUnNicW9pNktGdnlxU1BvalA3VjJVUlBqaUtSSmdaMA?oc=5",
+      "published": "Fri, 28 Aug 2026 07:00:00 GMT",
+      "source": "Upstox",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "ICICI Bank Insiders Sell ₹282m Of Stock, Possibly Signalling Caution - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMXl6R3dtcExzOERicUgwTmd5b2JXN2dXNGFLVnQ1TmptSFhGdW9seG54LThPR1hXdll4c0pNWW1ZR1V3R0NjY24wancxZmJYMzBNOWQ2cGJPOFpPLW5ueFFwUWpDcDctWlFLMW5oanlnbEg1Mjh6VUNja2k1QTRLTzBPMVNSdnFmeVhuc0ZxMzB5ajNuNU9Gak1xd01Da29ibkdqVWIzUWh6S2lid2lTWW11YVFZd01VeTZqeTFLVFZGZlBmMTNWSnR5ZTM1RnRl0gHWAUFVX3lxTE9WZjB3OHBYWjZ0LUFiZy1nLWx3bjRSWEtkcUdCbmNRLWxPZF9QbHNGc09MZ2tFRTFoWUtjRURYRG5wOGZGblZ4YW1XLWZnYjkxdVVCa016bFBXOUFmQTFqLVl5SE90REhZSS0yLXlXblRqX3dRQUMxNHhxdjVzUnhRdVF2eFVzNjR1NFh5RmM3QmNNUlVFTFpQNUdBM1pBanZVR1N4V1NvTzFQVXMzOXhLSk1mM0FwYU1uV3RJYW91UEhnSGtlckNLeDFPSl8wTUJGOGdLVXc?oc=5",
+      "published": "Tue, 11 Aug 2026 07:00:00 GMT",
+      "source": "simplywall.st",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "ICICI Bank Share Price Today, August 24, 2026: Closes at ₹1,415 on NSE - The Eastern Herald",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcGc5S1hQbmxuWE84cnpzZ0FOWDFndDFqUFJ5U2ttZjhseFR2MXY1LU9FbzEyNFNzQnIyZU9FRkpSVDNnVHNDRm9zM19tdUt0VmJya3BtSnF6MXNkT05ZTUtiX2dNOXFlcmJQQ1hTSGtSSzByYlpFZ1VSYjQ1S3h6ZWtSZ3dfdjc3?oc=5",
+      "published": "Mon, 24 Aug 2026 14:59:31 GMT",
+      "source": "The Eastern Herald",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "ICICI Bank Share Slips 0.61%; Board Okays Vibha Paul Rishi’s Re-Appointment, Fixes Aug 21 AGM, Aug 3 Dividend Record Date - HDFC Sky",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPd2lNTU1ZaW5vRVliaC1xa1p3NDZhYWcyejhkMUFETm5fRWpKRUFBNDNsYzR5TlVTWXZabDVFUUFRYzBUVmRrY1gxOEtSZXN0QVA0RFNTa3ZRSlpaUEE3S0hDcHJjWXJqRjB0ZTI1cXBIOWFuSlM1TG9JUEZuN2k3aWl0TExWaUw1QlBacHdob2FwMzVhTDM3WkJYY0FVY19uSnFxYmFYaU9ISlk5Z2ZRYjNVbHlJSXZKNjNHTmpxTWJ6LTQ4dUI4cEpsMm15UmxqR2VoSGlSU0k0R2FLLW5mTW93?oc=5",
+      "published": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "source": "HDFC Sky",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Why Is ICICI Bank Share Price Falling? Key Reasons 2026 - Univest",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGeDR4bFF5Tm1lSXd4dkR3TGRRQW1XaWl6bkVUNUMzbE01eHNwUGdkNUc0ME9iclZ4cXBMbHlWZ05nd0tiRWVEc01XOVVmcGRGSjNBQjR0RmZ3cTJnbVJadGVLejl2TEJlOU4tRUpjYw?oc=5",
+      "published": "Sat, 25 Apr 2026 07:00:00 GMT",
+      "source": "Univest",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "ICICI Bank Q4 FY26 Results: Net Profit Beats Estimates | Target Price - Liquide Blog",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcjBfYVZTdUFxbEk0RlJfNDBpYjhVamRERUUwbVFsVTd1SVcwcmp5R3pPYlVMdmg4a0hJVTlwSEE4ZkZRVUMwMDFZZkxyWWVDUGdiVDNpUkxlRXV2U25FaTd4ZmM0aFFHcHoxS0x4Q3JSWnhZaFdpMndsbm9iOWxocEZYYUtYa0lD?oc=5",
+      "published": "Tue, 21 Apr 2026 07:00:00 GMT",
+      "source": "Liquide Blog",
+      "sentiment": 0.667,
+      "label": "positive"
+    },
+    {
+      "title": "Here's Why We Think ICICI Bank (NSE:ICICIBANK) Might Deserve Your Attention Today - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTEpYdFZWZkhnekktanJIUEVwcEpWQ0xBODducENvZXlIVmVmeHBaR1RLVENZeElMMV9DOV80dVRPckE2ekE4SDh5UFhId2QyMmtJS2tyZDZvb0VpV1R1cng1UVlaUmowZEt5c1YxdTYyRW5jYW91VGdnZzFTOGNUV21LSnA5NXlqQkJrczdWcTZMb0twV1JPQ1BIdkltRGZwQnlfT3R6N2VWM2F0RkFQMF9HbXlxSlh3dHF1Z3ctaWEwLUtEWThKdmlSME5MOTNmTzhz0gHYAUFVX3lxTE1VVlZ2UC1NTkdlTGxCSUV5eUFIV3hmbzEzbktCcnJySkw1MFBPT0hrZUdTNGk0YVFlYkxLWFc0RlBwdU4zWTdkaUFpUHdWWEo4N29Gbjh5TVozOUZ5NHF4VkN5YWRZMldlYUZlQzV6a3RGTC0wN3RMb1hKYkVIYjFjemQ1NTZfbksyNnEtLVprUm11XzBTLVRueVhfOWhTajZ2Mm95U3BEMkVwUWJKTTFWb1lYdFFhVkdxNmFKdVAwOUg0VTFOZ2hpaFRPaTFybzRfLUx0MDh5Sw?oc=5",
+      "published": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "source": "simplywall.st",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "ICICI Bank Ltd. Share Price Today - ICICI Bank Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSQ0o1T2hvcWxvTWM2N2ZwYkU0WEFwR3hBMlRDYW9yajA3ODN5cDRzNkpWdU9BMjQtdmx2NDA1di1NT3BzN3FqSmFOQmN6MWU5SDBkLUdCQ1ZZSzFtTkhNR0NGMERuOTZ6cm82b01oRDItc0NCUFNicjdyVlQ?oc=5",
+      "published": "Sat, 03 Jan 2026 14:47:47 GMT",
+      "source": "CNBC TV18",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "ICICI Bank (ICICIBANK.NS) Edges Higher by 1.01%; Key Support and Resistance Levels in Focus - Bullish Percent Index - vinanet.vn",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPXzRpSHZ6eDVaWHA2aVRhekxKX3hyM0JNRjJxeUxvazVnTWhxeno5ODRPZFdVdnJ5MU9FcjdldnhTZ1lXSC1CX0NTb1pCTTItTjV2dlNseTM5NEd3SFZLcXBGalV4Mk9tWlhXRzRpbGM3RXViazZ3WTFhWXZRcUtKUFFoYjgzcThJb0lQQWJhTHhrenBtMUpseXM4cjRkZUtGOFNidWt3UjVMcUZiaFE4Q3Z0eVQxeGJyNm9uMlJOR09abFNp?oc=5",
+      "published": "Thu, 25 Jun 2026 07:00:00 GMT",
+      "source": "vinanet.vn",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "ICICI Bank Analyst Review 2026: ICICIBANK at Rs 1,240 Buy or Hold? - Univest",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12a0c0VXhlSnhVeERJcUxZYWU0ZVdKeEowVDZkdjJfNGdHSUhBekNlWUFpaldFSVktMUF5TUZVMXd4MzRqQ1B3OEpBSUdDMGcwcGFmdi1SWVN1b0ZqeXh6TkJXcFY3QQ?oc=5",
+      "published": "Fri, 15 May 2026 07:00:00 GMT",
+      "source": "Univest",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Kharif output may see limited impact from monsoon deficit as sowing improves: ICICI Bank - bfsi.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUHlicUFndmpJd1pFa0lfaXNKaG05aHRfQlNWVll5M0ZQNlZBbllYVjU3Q2FpWUM0R1pPUVBTU3lRVkI1dmpUSHUyMU11YkYzbjVDRmlBRzRTeG9mVjdqMDA3blQwNVlSMkZzbGN2ZTZlNEZQSFlxODRiN18xQTlmRzJpb0xPajQ1Y2NRRncxUE5lcWVwLVJmVEpBME1QN0NXWXFxazVCZVJ2ckZFME5yVlNMNm5WSzg0R1RUenZHZjRmdS1rTGEwcUdMOTJjOGFEVzU0ZG1Ga2FsemlqSTJMdk130gHnAUFVX3lxTE9qVXBoX1dyVkd1aFh3bmhIZEJnS2NWUDZqdUh5cW42eVJwdXRxX1plUk52Sl9id2NXSGhPb001SFRHSGc2NGlvTHB3YV8zMTk4enNSVWRwcVpsX2pBUTZMY2NZMXBmV3FBdlZWRU84Z0xGVk90a3hjZHZKWTZuak5WQzVNMm02dExKSy16SWRTQjd0dDZsb2xnQnN3WVMtUzRWWWdRcjdLdTAxbFNILTZhcV95Ylg3bU5aTG4xSHJFWnprUjRUSDY1aDlpWEZQcXFDN3RLZkpLQVppWktFRkZWWWVjUmhxZw?oc=5",
+      "published": "Wed, 26 Aug 2026 07:40:18 GMT",
+      "source": "bfsi.economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Baroda BNP Paribas Dynamic Term Fund Regular-IDCW Monthly - economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSEFTd2lmQ1Vtb2FQTmJPN0NZZWFZNEg2bzY3MWdjNEFaRThFSGdkNkpDaUdnWWNtaVI0TjY0TTRMSUF4T1RrV2NTdFJ5Z0ZvWDZIQldxa1pPRi1uOGRELXB5WTdnRVVwZzlaN0pzYWlxcjF5MFpQbGFGTDRpWlo3V2hYQnItWVE2VDlkSnJCNUZCY0g3cmY1Wjh6QXNwWmZHSW5CcWVHTFU3MTkxSE80TG9tWFlQWnAxc3ltYQ?oc=5",
+      "published": "Mon, 31 Aug 2026 17:39:03 GMT",
+      "source": "economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "NBBL's Bharat Connect forex transactions cross Rs 100 million in four months - bfsi.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZXVEWnA0czlQbG4xaldBUGVjZXk3NURvaEVGTjNQbXpGVWFxamNabjA4VnNLWmZGMm9VY292Wk1OVWM5VEZsYlpmb1Y5cjFsUExOWHc5VWNYNkZVN090dGh3eW1GMjgtc0ZNYXJGRnJuU0Iwam1tcHZNNDliWjh6RDdVYTlhUXRlNFBOSlgwVEhrWHFHN2N3elF6WXNDT21sRDdpUlpSSUVhVzZWWUpCQjlxYkZHeEd0bHphdEhiN19ucDFqdXk4eTlWb3FsTGxVNnfSAdcBQVVfeXFMTVk0Y2hEM2l4WWpJdEdieG43cndrcHA0VGw2Q1c1a0VsSFUzTmdUeW1PbGl6c1VWc2psTklwN2pmSUhoYUR5QmlreGdRX1Y1YnJoMTJmUlhnUUNiaVVpWkJDRDZCeWhHWWZBeFhib3BadkplRGRtcEJ0MEZuWWs1MlhMZmRFUjZfME9Ec0JEdlZ5MUZ1Y19LNmJ4N3NCTGZKWUZ1Ump1VnBGb3U3d1hQN25UNERpOFZqd05maFdpSjY3cGdoMU1sRDhTQU1MQ2pjbnhyYVJ1RWM?oc=5",
+      "published": "Mon, 31 Aug 2026 06:40:50 GMT",
+      "source": "bfsi.economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Vedanta Oil and Gas Target Share Price, Vedanta Oil and Gas Share Price Forecast - economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcVQ0a1ppQXQyZ05IeFNoSlpMUlhNeV8tYTZUa19FR3BFZ2I1c3hYaTdaa21jUWMya0xaNWJ6QjdRQkhkdHlPbjBCeXRDd0daZEpBV09tRzZuT050ZVhIVWROWXZMZHlZaFRLTHhBbHRGTXlvSnNXdlpjeXZBLU51NkkyUGRuejBPZUhJYzVHeVI?oc=5",
+      "published": "Mon, 31 Aug 2026 09:38:00 GMT",
+      "source": "economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Central govt employees’ bonus calculator: NC-JCM seeks ceiling hike from Rs 7,000 to Rs 21,000 ahead of Dussehra; how much bonus employees can get - economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxNVVFjbjg1ZG50QVpfakQyQW83Y1I4SjFKaXcxU0xvd2prbHozTHN2d1VqVTdEa2NvZTd1T0FVUUYxY0QyT3d3SGR5YTRUOE50M1VvMkpFUHJMV3k2X0RUYzFZSWtxSWJEbVpNRFlYM2wxY0QzNnJyODZKYm1SLTRPZkVYYUVnLVF3TnNXMk4tTkl3RHgxdXJpMHduUnZpVDhwc085MlFpVk8talBpVTN0XzJyUG00eDBQQWlZUHZZRllORVhZV095QkVYVmpkY1p6aVdEdWNGNUpoRm5JXzlKaDI5bVI5aGltNjNmTzZLOFA2cW9TbTRIZlhfMlJCZ1hNV2NMWHQ1NmJKTV9FYTJ6cTRXeHktSzdISzJwanl2MHhrSmU0aWhxNi1zYVd4dTlZQTNrVlYybTV0b0pWS2hwQ2tXNzM4Y09MUnA3NWZvajJnMkJuNUNBUVEwV3h1enA0YzFfNnNsaG54ay14c2t3SDN5a2xMZnhteVZtVGpzYzNsNmZnWUh4SjVVNTRyOV9B?oc=5",
+      "published": "Mon, 31 Aug 2026 11:21:30 GMT",
+      "source": "economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "ICICI Prudential Long Term Bond Fund Direct Plan-IDCW Yearly - economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUlZvcGlScFVheGlvUVN0XzIxVjBuS1ZzLUJlRFJmUS1fNjdfTzJGQ2hwVDhhamhyNDhxRmFTa0VidnRyYVNINmhLM0V0UVU3YzNtc01MMDBiQkltMnB3N2dyT0ZFOXgwNVlVY0RRaWFsVW44eWNQUnd4MkU3N0s2bHgzaWtVX0NNbWwwSmVFbzg2UktITnVMUU9kbEJibkZzMjFTUS1HelZGdGkzX1g4QUpn?oc=5",
+      "published": "Mon, 31 Aug 2026 17:37:33 GMT",
+      "source": "economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Banks look to push prudent borrowing for small loan-takers - economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWno3WjdVd0hKQlZ5MTJEWlpzRjczejhlV3dYaVUwaG9wV3dLY0ZzR0ZoOUNTQ1VxeXJyU1dFa1EybG5vSVdnNi1Ta3phV0hSS0ZISC1uZVBDZ1dLR2M2UFY5RXZiZE5nVjhaVkV0RWtyTFBtQ0xyaC1ZdnNWR0FLSDhJQmRzdHBxT3VkY2czX3IwUm4xYlRBcDlSR1A1RkpyOWpKUmlSVGVZbi0yeGpJTG5YbUR1OFpFTkFoUS1ZSGhfQmEzT1hsdXUyaThsVmxoWjV0c0h1Y0FkaHJuZXR4bXJseXhoR0xtcUHSAeMBQVVfeXFMUERjelh1dXJNZ3J0cFJMWHMxRG1NMVdRRDRXRVJ4YUF3cXZGWVJHMXpDcldtU0pFbF9Nd3BlZUVmWVp1YUF2Z3d6MG1xT3lFODdNRDFMSlpiLTlZTS02b2pieFRvMGNESUF3VGlFbF9fQWpHVk9FbzczU2dmcVhaanlXZVNtbWlkVjB4em5PMndyTzhrSER6Vk11UWp3dVNkUzlMZWdYa2tISW1wdFc3Y1JZLWN2Q0g1djB3U3cwZmdxUXh3ektJNHZtM2xxSkM1dlgxdFRUaF9MLXduQXVuMzRqVWM?oc=5",
+      "published": "Sun, 30 Aug 2026 17:48:45 GMT",
+      "source": "economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "NIPL and Uzbekistan's HUMO sign agreement enabling Indian travelers' seamless transactions - economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOY3BuZG5MR0pHcFhzM0xReDA2RHVZVzZfWUZnYVREZHNqOFgzTXFLSzJZWENYS3JnT2Zmb09VQ0dQd0VrS3c2YnJvRkJRbENxdG9mQjZDZDhsaW5nbHZEblNhOUVRN2NLVGY3eDBuMXVyUHRDemhXOHg1MXV4dU9HWGFsSmY0eWdfa3d1bGV2TUNsTGJzcTNQUmpxTE9RZzdCRmh4NThFM3lmZ3J5MWhHM3NZOWdiQ3I4Z1N4bUtYVUQ1OGJhaGpyV0FhQUs3MnFBckVxNWpoVy1fOTNWZzBtbU9zWTAyVHpDLXJ4b2xXVUNMX0hJUHJrQUVuNTJZdFR2UDJtd1VFWngyWmtQc0ZGUVphd09iVXp1QWFXNmU0cTFQZzRONkpVOHpCcVprb0VsbWFjUEhJa2liclZ5SVZYSkxLVEpEbTZvNXdBLWd3Q3N5QkhxQTNGLTVRbE1WdmxsVklSVjVGR27SAYQCQVVfeXFMUEduejBpeFlQeDBVV25DdmZ6cUw4cWtISUQzQmdRWk1wY2otRmIxQ04zQS1zV0pUQ2tSWWpOazZIUzYwN1VGVjhqczRwc29VQVB0N0QxbXIzRENPQnZMamVxNC1oQ0h1ZGFHLXRCYm9Oemx4azF6NGtXLW5UVlRJMHZoYUFlbUJOcVQwd2twako4RFlXOTAzakh6ZFpHSUxMQ2VaRkdZSURLdXRfcDdFMklxLUMzaXhCcWVRTGp0TGU2Uk9QdTgyUVh3bXpCbDdlT1B3MkU2RDY4YTV1VWkyX2ZFTDFvNl9MTGJoaXNhQ2x0cVI3RGxvdkN6Q2l2Umpub2YxM0U?oc=5",
+      "published": "Mon, 31 Aug 2026 12:21:54 GMT",
+      "source": "economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    }
+  ],
+  "sentiment": 0.05555555555555555,
+  "errors": []
+}

@@ -1,0 +1,215 @@
+{
+  "yahoo": "RELIANCE.NS",
+  "symbol": "RELIANCE",
+  "market": "IN",
+  "crawledAt": 1788238803061,
+  "sources": {
+    "prices": [
+      "Yahoo Finance"
+    ],
+    "news": [
+      "Google News IN",
+      "Economic Times",
+      "Moneycontrol",
+      "Livemint",
+      "Business Standard",
+      "Livemint Markets"
+    ],
+    "fundamentals": [
+      "Yahoo quoteSummary"
+    ],
+    "other": [
+      "Yahoo profile"
+    ]
+  },
+  "quote": {
+    "symbol": "RELIANCE.NS",
+    "yahoo": "RELIANCE.NS",
+    "price": 1277,
+    "change": 0,
+    "changePct": 0,
+    "previousClose": 1277,
+    "dayHigh": null,
+    "dayLow": null,
+    "volume": null,
+    "marketCap": null,
+    "currency": "INR"
+  },
+  "candles": [],
+  "fundamentals": {
+    "pe": null,
+    "forwardPe": null,
+    "pb": null,
+    "dividendYield": null,
+    "marketCap": null,
+    "beta": null,
+    "eps": null,
+    "roe": null,
+    "debtToEquity": null,
+    "profitMargins": null,
+    "revenueGrowth": null,
+    "earningsGrowth": null,
+    "targetMeanPrice": null,
+    "recommendation": null
+  },
+  "profile": {
+    "name": null,
+    "sector": null,
+    "industry": null,
+    "country": null,
+    "website": null,
+    "summary": null,
+    "currency": null,
+    "exchange": null
+  },
+  "news": [
+    {
+      "title": "Stock markets edged higher in early trade amid lower crude oil prices, buying in Reliance Industries - The Hindu",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYzNBaERiY3ktQlpONVZpcjU1allWclVVQXpuak9wN0RmRzJteThFXzdfMVZhRUlQZS05ZWM4SEhTLXN5RjBCbk51LTR5aUYtUXNXMVdpeVFzNnFwNGY4aGlRLWw5UGRBTkxHajJBdTUwZGNTR0pucXE1bDVjLWZxWXl5YzR0ZUdrTkozYzAzSnlXY1JjdXQtZkNNVWhRNmZXbU92MlhubFJ1MWpyNWpuZjhneHllWEU0aDBLaFhKNU5qY2JLQnBMamRZeHJNRHl4aUt5M1Z4VGdOZDBybXdyTlc5Vnh4bnFtU2g4MlR3UDF3ZGfSAfoBQVVfeXFMTUowOExWcFp1cmZZc1FHQzQxdWM3S2YtanFsN1dMaFd4R051TVR5QlZXYlA2dVlBQ0FlY3lNNzFKb0c1cDBNdURaYlQ3YmxGbE1JaXE2a3VvbGxRaFhtbUZPM0s2R3pUTTJ4dHFIenU2WjRpX2RHcXo3UE53bnotWXlZQnVKNHN3a3NIUkpBTWZ4ZXNqOGNIbkE3V3FhTGtuSmNQcDQyd2h3cjRMNEYxQlFiSm9CdHFSNzB6eHFCY1Q4cTV6eUN2bnJ2QW1ERG1YOGdCR3BBRTBBb2NuRWkteWxyQm5KZ1ZvYklKRWtzUUN4aGo3ekhBdWNSUQ?oc=5",
+      "published": "Thu, 06 Aug 2026 07:00:00 GMT",
+      "source": "The Hindu",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Reliance Industries’ shares settle higher; three developments market participants need to know - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWWVObGplNEF5RGJkUURKNkdrTzJNZlpVUEhlMWUyRGxWUWppTFpBYm83UUh4aVJzcEtXLWk0QkZ0aDdSZDVVa2hCWTVUUGl5X2dvZXE5YnJvR052YWp5SjJnNjF0bldZTjBHSEdPRHpyV1d3QnFabFJoLVhsdnZpZFN3QTRWeHg2QkN5aGxLbnRYYWNXbTlHZXRpMzZuMFAyR2lpNEpWMXB2UTE0VV9jNmpZZnpCWGNCRm54M3VnXy1DWHRVc3Z0NWdkQnVCbUozTHpZLTFsVkJlNWgxV0YxNU1DQV9jZWExSWc?oc=5",
+      "published": "Mon, 17 Aug 2026 07:00:00 GMT",
+      "source": "Upstox",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Reliance Stock And 2 Indian Energy Names Facing Margin Pressure - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaVdaNFp0YTZyREVaYVUtWkhhSTJSVHJwZE9GeFBBRHhqSHV1azhsTXF5NlZldlByOUhQYS1rOGRpcGZaN1g0M0JKZ1pIWjZmZTd4RUtTRzZMT1Y1U0o5U0l6NUVNdzJuSDlrZzFiZTJJZzNlcTA0bEd5WnA0WHE0SURFNURxNmVUYXNPM0MxNzkwWG41U1RubVNxcjdicFUweW9GV3lqdmpEUUhxZk80TXBQamNmWkNKNkxFak0xYjdmZXpmYmxkR1AzMFM5ZkxXMGpSOTc1Q0VzbG1P0gHiAUFVX3lxTE5na3VxeWlQNzgyWUVpdzlFV0c3SnBjdXlGSGRscWYzUkNuZHZWaW9CUU56blBtUDBLdktMVW9lQUFvR0F1WUFMYnY5NFdJUk5RUlZHbGpSeTNZWmVTNGgxcHZ1Y0xkVHJMWi1VRHV2Ty16UnF6RWVEWk9ZUHVWdDA1bVBEbkxfUndGd0JkOWpKbkJoUzEtR21pNlpyTkhYT0FvVGh0SDhXc1ZUNmt5V0VXVl9vaXFwZkdrcmFFbVU2ci1nNW04MmxnOWZPd3NYZmZ2blBQYkVRclhpdDBjSk9ydUE?oc=5",
+      "published": "Mon, 03 Aug 2026 07:00:00 GMT",
+      "source": "simplywall.st",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Reliance Industries shares rise 3.5% on crossing key technical indicator, multiple block deals - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZ2Q0NTJ5R2RnWVdYQnQzQ0xXX0lBaWtwWVk4bk55V0FueGZsWlJ6S25meTBCdEJ3Q1l4blJtZ1Uyc0hVOFhiendrX0FqZ19MczV6b0s3SWp5Y3UzcTNiemgzdE9OM2o2WGZMTmlyX09nZDFwX0FFX3hZNmRRWmU5SU1lNDQzc25zLWEzS1hudTJqbTVBU0FUWXJKZ1BiVzRacGZLRG1yOXpJdVVFUjZ4VGZYUTVXczJLWVB6b0ZETTljeHpkam5UUjNMbzU4bW42NmxYVjFvRk84MU5MS0RqV05IQVdUeEE0UzJjNml30gHzAUFVX3lxTFB3eWN0NmJOcWhRVWVBSUJwd1NzaHB4aGo4WFNuVE9KOG5sRl9ZMWt6ZjM1dUQyUWlKX2MycjlNNy05ZE9EeGRLWlRGY3l6dGZzOWhlOEhsbWNERTFZMVB1MkVIOGJxVi14bnAwYTMzY3lSTkx5MXphMktvMS1VNUtxZTJDYXdBbHJrOC02NmxCNTRjbExhcG4ybTI5V2RpR1dkRXJfRXhlX3I1SENMdFlDdWthaGQ5OVVoZnlIZ05SMmhTZko0bVNxdGNJYURwQWZFbkg0Qk9GR21OSzhGNzl0YzBXT2V4dWlqY3MxMHlvSGRjUQ?oc=5",
+      "published": "Thu, 06 Aug 2026 07:00:00 GMT",
+      "source": "Moneycontrol.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Reliance Share Price Today, August 25, 2026: ₹1,301 in Morning Trade - The Eastern Herald",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUmZpLUt4RHlQZnlZV2pIdFBIb1U4N0dHQVh6bmxxS1lnSlAxSTRwYnU4UWxOMjBzbWVYaDRmRmhFUkVIcWE5SFgxWWY5MW91WjNqaFNXYTlkQ3pNLVA0d2NyT2w1SUR1d2ZFY01kMUdCRllkMnhscDZ3aWpvMUVDX2J4VUg3Zw?oc=5",
+      "published": "Tue, 25 Aug 2026 07:13:35 GMT",
+      "source": "The Eastern Herald",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Reliance Industries Shares Remain Under Pressure After SEBI Administrative Warning Over Alleged Insider Trading - India Infoline",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMHgweUwtZVdnQm5JdkFKTmwtWGxDZHZuWTlERjlfVURqY2dmcElGeEQzdXpvbFVDUTY2ZkF4TUhCWGhNUmZQMHRNWnJJR3o3X2lIajM5UTEtN3V5eWNRRlhxNVZ6WnNNZHRzQXU5bTBfZDlfUk5CaFpxa0s5dHRGaHkwV0M0VEt4MWd3MzZPS1dKLTluSEZEVUJjc2dRVy1Xb3ZNVVUySk9OVnlFbEo0TFl4Q3lzWnBYajlWQTk4QkpfOVg5U1YxWThtMW5kQjFNXzg3YV83QVhnT3dfMHg3OGVTdEJadkFMdTBQZg?oc=5",
+      "published": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "source": "India Infoline",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "IPO: Reliance Jio announces what may be India's biggest-ever share sale - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnUkY4Vjh5Y1piRHVyMGg0cG1fX0lQam5jWWN0OFU4WUI3NGJDbU45T1dFXzFBR3VqV2xlNzdINlFyclhYN0wwb05jOUxsZGJRRkRvOHNfMlhxQQ?oc=5",
+      "published": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "source": "BBC",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Reliance Industries share price rises 2.5% despite stock market crash. Do you own? - Livemint",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPclNuaXBHVDZWazRlV090dGR0NVU5bW1vVm1ZaDRKbjdZem5KTTFnc0pnM0doeEl4TEZzb2JVMm5rV3JLN1hnbUJrS2RNejRjWV9ySFNWQTJvUjg2Qk9ic0p0YW9pbzFtNVNmOTYtNFB4c3lfVlpSdjQtS2RNQ1g5WjJraFNQNHNJeW0zaDhpYUJfajFzY3NjQ2hNN3RSdmNrc3FVc2tCZ0p3RzVlM2dmQm1jVktHeTJuOWdfUkFTSV9OSld3YXFDc2FjR0QwbXhoc2lMbzFJYzJERTNkLUhieUlRUdIB6AFBVV95cUxNdEFEb19yZUY2T1Rlc2NtZXg4RGM5eEc1aWZCQnZ6eDRzb0lCOUJqTmYwUkZUNlY0RWZld3FPcVhjdVJaemQ3X0ptMV9IdGoyOTNpd3R1b3VWcExlWTdOX3ZXdTdMaFl0X3FTUDVJVEtfUlBLMklrWTI0UkxLTTZ3Q3VWNjFmUFFkaDA4bG5lU1VCSEloQWZ4R280VU44Wk9LMU4wblcxN1U2RWJvb0p1cGZuWTRMX3dYa1dqa3Nrb2VpZmtsT1lJaHVvTlRLNmx2S2llWmxlN0NpWkxodHV0bklndUFhT1I2?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT",
+      "source": "Livemint",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "RIL AGM strategy: How to trade Reliance shares amid hopes of big-bang announcements from Mukesh Ambani - economictimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOa1hDUm5KaG9JVUpWOGhpalVxZ2lEaW5IeUhvR2luR0o0cnh2bmhKOVFwaWNkOXl0UkJwYXU3eG85NGp6bGRsR2NpaExuRGI5azZJbnlQSk9aM2RnTDA2ZVRtVUFEeG1XNjBoNC0tUk5YZzFaUjUxUkg1b0pDZDFIQ0V6V0xzclFFYlJ0WTl5UFJnQ1JQSFFsM3Y0MDhxM012dE83dUk2Z0Y1anpaYUEteDZfazdhY3VWOFRsQzdOczl2bnVoRG9RM1VTV3Q2eFRDbzRiNkR3UlkxOGhTMUxiSE11NkRwZEFKaTBOZmV1M3dkekxvQTlj0gH8AUFVX3lxTE9mSXJKUGFIZG1PdGxjR01hcUFhdUd4eW1pM0kta2xZcVhmZ3lmZ0dvc2Q1WTNXLUJWUFpqTTFHOE1rMzAwNUJIXy1CZXJ2elREVFFraFRMcUlueENNLXVodDBweXZUUVJmVjhUNkp1RkFNaFU1S09Edy1DU0VYN1dMS01NaldIM1JjREhFT3VMWTBZOXJValJ3N3dLaTIyNnRRbXRrUFNXWDA0Q05MUFlzUVUwekVSdEpYSkNsZFR3WmdMN2pxMEdDWFA1dkdPM3NucVNaSmt4dDdNWUpvcEZqUnBnWlFUNU5TUGQ5Mkt6WkRWczJZSGh5SkFGbA?oc=5",
+      "published": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "source": "economictimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Is It Smart To Buy Reliance Industries Limited (NSE:RELIANCE) Before It Goes Ex-Dividend? - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQLWhWbTh4RDJTSjgxS1N6aU16Rk5ZdjRlQmhjTFY3Mkw1S0JybFptejVtell1NTVXSTlvQVpVN0tidVVEU0UzUmRrcWhVT0VMcWdDOVB1S3ZDOHMwVkt1b0hlYWs3NHJSZ0Jpd0hzME1EOGJobTNoTFpqR0hHVzZndjQ4TmNWLVZVSzBmVGR1blhvUGJ4MzB4OWFUSHIxQ0ZoZDV4OGsybUR3QkJ2aXJ2MjIxYWpxTzFja29xNVZtT3VPTjgyX2NORlpKZkVkNW5QZ3RjZEVqRnZCY2V30gHiAUFVX3lxTE5zcXF4REktWHhqNDN2X3M1V19qS28tYlFkZ05jZXZLZG5aM09IY1d5SGVIczd2Y2hJTHlLZmEycnhwanZKRHRHMkdHc3IxYXU5a1BKeWRCSmV2T0FOMTlhcmFScW00ZTdpNzdrNkZIb29YTTRIeUtZNDlZNUFrUExoNDczOGVXYTg0YUVtSkwxSktBVU8zVmhPWk5lUzZyMUtXYVA3YWt0ZmlyY0VGaWNPVjBJQnVQVVFOdVh1U0JHVGo3dExrbnBKMkpDM1lYSWtMVmx2aHp0b0dZd1oxUWtfWVE?oc=5",
+      "published": "Sun, 31 May 2026 07:00:00 GMT",
+      "source": "simplywall.st",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Sintex Industries: NCLAT upholds clean slate principle, rejects shareholder's plea for compensation - ETLegalWorld.com",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPa09KQU9iVlgyUHZncjMtbjhMdVBMQTJxX2UtalNuOHU3YzBKVDFRWng5R2dxa0EwMHV6RS16OTNzVjNtWmM4eENfa3ZZTENSR0xVN1VRb1V0LTE1S2FZeW9LVXpjRGhkWlk1b21yeDVGaEZPeHlmOG10bUEzOGdEUUQ4X1MyZ1RuUk9YNV9qS1A2RVVmc2VrRk5Za3I3NnJuaUNqRjRzLTBlQThJRGpxLXdKWXYybVR1Ml9oRGwtb0ZGbzI5TkIwY0xYbW1jdFlxWGp0S18yQ3RlRlZjcG0xamZjQWNwaHVFd1BrMDlnRE5TRkdvNlZKYtIB_gFBVV95cUxQVXBSelJ6ZDRvT0RQQjV5VHZsUmI0UXl3SzNSZHVqd18tdnJZZEdSbVkxdzhvOVpsaEcyOFRiVXc4cW9tZUUzcUN3NDA4ak1YNUJaUzIwanhqRGxieS1qV3dkYTR6NzZnU3lPVWswWWxMQXVTS1Y3LURDdmc2MlFIQnNKYzU4Rm15M1BYUVRIeWVlWk5uclg3WG1TX3RlUmxOajdJQU16dFpjUmZqZlZ0RlVTejdwQlFBODU5U2VhWEozUFhHSHZWb09ZV0NXWk9HQnl3c05PUHhZbnV4WllJY1RaaENsWTBBSklKUFF1WGdjQXZsVGhJMWo3dklHdw?oc=5",
+      "published": "Sun, 30 Aug 2026 18:32:47 GMT",
+      "source": "ETLegalWorld.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Reliance weighs aluminium push as Adani advances Odisha expansion - rajasthan.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdWpVRmdBRG1iMnNUSTE5OEFCS0Exa2lqeldlNEc2MEQyN2NOVlRNdDBtTXJGSkdTZUhLRG5ORXd2bXE4czIwNWdVb09HVF82enZSSl9pckFxcmQ1WndwM1lWOFIza2hsVXFiaTNOMW9NTTg0RGF4OGF3RXNNdzVaTzFZcVF5NEdEaXhVNldNQjd6N2lPTEJsTlk0cVN5anlVbzNBcmFuMXZNUHBCdkFVQU1sTUxBTkhjMmVKcEVPYW5SdTF4THJLaDBtWDJkX2xK0gHUAUFVX3lxTE5MVEZLOG5qcDNlcU9VYm5hblNNdjRuLVhpcWI2MlR2RE9aeHN0ZloxS00wcV90VGJ6Zy1fOUVrTWRuMkNDLTlZWEQ0UnhiQnIxZVJGUTFhYXZmVDNLdVg1Wkw2Y1VjdEMxNkxWbjlKRU5WV0Zva0RzTFJDajJMZVZhV0hEdnlIeFpLS0NoelVDSVFDSFdlMWdteGEtUVZNcnBGREFtcVdSSEphaGZETGY0YUVVSUctS1BDYWFFZ1pPZTVlcnJzYU5zVFlTQWJjbDZhZ1p2?oc=5",
+      "published": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "rajasthan.economictimes.indiatimes.com",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Reliance Jio IPO: 7 risk factors investors should know as firm gets Sebi nod for Rs 37,000-crore issue - economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdkF1UVVpWE96SXppNWpjd0hRdnhFUkdDTjVpVVJZWlptNXRIT2xFVEtmdTBsVGJBQ0dQYVV2eHlGdktWQnYyMEpOTmJLWmVYbERsMlJQbUtxOWV5c3RBNW9PbTdLdTFrVmJlT2dsTXZtcUhhTEZPU0lBWlVHdXNSdXFJcThEZ211UVNN?oc=5",
+      "published": "Sun, 30 Aug 2026 12:41:04 GMT",
+      "source": "economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Jio BlackRock AMC launches regular mutual fund plans available via distributors - economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQldtZGpIMExuVVpuN3pENHZWRlM5ckpnNW5IcGREcmlHSGoyeC1WaENiSmlrbkxDSVUyT296bmRSWnJGc3pWbUtWUlhBSnp0MjVndFJhNFJwRVo1Wml4X3VsREhTQmNpN1NDTHhaSVk4N3VQVU9FOHZRWFpObHpkWQ?oc=5",
+      "published": "Fri, 28 Aug 2026 06:18:56 GMT",
+      "source": "economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Jio Platforms gets Sebi nod for $3.8-bn IPO, set to be India's biggest - ET Telecom",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVHFoTU5IdElqOFZwZk10am9tZVB2bFJ2NG9EOUdNandJYmxlS3Z3RXhsYUgwM0FaaVlFdjhxblRoUVVWbTAyTG42V3ktdVg5U1dhNGpaNEJkNXJfVEpuajlsMDRvX0xyM3phRHlsMTVUeERwdVhOa19qOXJmUkFIbzVJbVNLSVVGOWVrUTBtTjk1bnRPNXhXQWt3X2lOa2dKZHUwZjIxWVRWN0tZMkVnMTRzZ3RrRkJtTDgzSExxMGFseU5LWVVfNzhVb3RZcUpjWHfSAdcBQVVfeXFMTlAyalFLRGtHVjRKY3haQ19JS0M4XzhQVHBVUkRERmlQcWFOMHVmSUZVcFNLaG05S2lNS053VFNpZWRlWUY2Q3NpcGZzR2lUSlozYV9sRV9kd1pTaXZXMVdRTXhMSV84aVFKYkh5dGVOaFlJYldGZmdCMGZvbW11V1FCY3dZeC1Cd2t3LTFyOXhISTlnZUhZb2pTTU5haENwMnFodl9YZVlkTXpWUzNQNVJKZVN4aHFOVndSclJMeldnLW5GaFVwcTk4eTlMUXRWVGxKX0VxVUk?oc=5",
+      "published": "Sat, 29 Aug 2026 01:57:08 GMT",
+      "source": "ET Telecom",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Reliance Industries Share Price Today Live Updates: Reliance Industries Closes at Rs 2941.2 with 6-Month - economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxQclIyVl9CSXZFZF92N1VsTzdtczZKV3FPbmR2cHFzSVA3LUswZEE0czlFN1JaWWdSY1M3TVVvdF9STDI5YTVmcGFWMmtXckEwSWpGbHhMVU8wUFVhUXRtXzlHWGUyWlg2dGZidTRtdF9oS0pWUE51THYyQ2lpZVB2YlRQalRHWVJldVNzb05HUUNqWHhRbGxGdWhiaHJCVHRzU0RVWW9LVTVDX0pvS3B4WHB0V2JvMGcxV1h6Y0phcnRZUjIzSUM0Zkt5NDQtMGNLX3RGWk1PcnRQZzdYZDVPSXNlZFd5Y1dKYXZ3UjY2TkpZcy1ETUxxSElsYnR0R1A0Z3VVRy1CRS1NY0U1SDYtVHMzNG1sbU4tU085OTRKcnk3ZWppM2laZk52OUtxOUxJSm9jdldqMjNmNVJINDA0Yk5qUXI1OU9rYXVZb2pJQVpGaHphQURYU2dnZDZuUktFLTBzeUNjOFN2elhZaXItQjNJbTQ2Vmx3cGZSbXBHRmlLNTRjd3RPRUxn0gGDA0FVX3lxTFBIVHJsWnJxQTdsSHdtV2dwbDBVNnQza1JBU2FwY01pdmRET0c0bF9uZk9ERTdXUXYySEQwb3dyTVR2Q21uVWtVVF9QM2RnY2VCam5adWVjYnducjA0dy1qWUd0aURidzhPZzQtLW96VVJCeHFmUHdHSVBUb0p2SWItZnNWeEwwZTV2MXdPSVBDWlB3OWk2TVNZaEgtaThQZDhpSVBXd2JuckdGM25POG9ybTdOZURLLXZZX2ZqX0hNTVNHc2I4Zkt4RGhwOHp1aUNYY1YwSmdadlRmdTNyQUVHanlFVU9EWXV4aUZpb0xUcTJXRlM2czd2NnNkajhOZDhGWDhuTGUwWGtsYmJHQTMweUtXbnJzb2hfREs3NnF4Ump3bENHOUFEWkR5MWZFUXN3UDdHNzJLSzhoV1RDaEVPZ1Etd2hfeTNPV3ctX1ZFc3lmSm0yRTVsUUg4SlZRa1dJRzRTX3ZDU0NMdWJUQ2pxY1EzbnJKLTNSamRBSkh4N1FzVQ?oc=5",
+      "published": "Fri, 16 Feb 2024 08:00:00 GMT",
+      "source": "economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Reliance Jio IPO: Google, Meta among 6 investors to retain stakes in Rs 37,700 crore offer - economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuNEdvUkFrR2VxSmljRXRsUmJCYXRkSHhuRV9oZTBMM3psbFJzdFZEa1NLWFY0bThDYzhjTV9qRGxUY2R6UGNuSFlxRjZXS0t6cEwtTEVVNzFacmxhVS1teEprM09lUk53?oc=5",
+      "published": "Sun, 30 Aug 2026 06:48:32 GMT",
+      "source": "economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "RIL SHARE ELIGIBILITY - economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE84ck5TMUhrUks2TVVxZjV0emFWbXNSYVlyWnhOR04zaHhJZFBockFDY3gyODJKWEkzSVdLOEE4MkU1UXRtYWtlX19ZTXZxZ0hGTEJ6bVpnZVVpUlo0TUpfbXZVbDdZdW9SVzZweFh3aUhRdw?oc=5",
+      "published": "Fri, 28 Aug 2026 16:32:38 GMT",
+      "source": "economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    }
+  ],
+  "sentiment": 0.018500000000000003,
+  "errors": [
+    "yahoo-chart: Yahoo request failed 429 for https://query1.finance.yahoo.com/v8/finance/chart/RELIANCE.NS?range=1y&interval=1d&includePrePost=false"
+  ]
+}
