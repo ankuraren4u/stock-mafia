@@ -2,7 +2,7 @@
   "yahoo": "AMZN",
   "symbol": "AMZN",
   "market": "US",
-  "crawledAt": 1788359414829,
+  "crawledAt": 1788388211665,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -65,44 +65,12 @@
   },
   "news": [
     {
-      "title": "Amazon Stock Extends Losses After FTC Lawsuit Over Ad Practices - Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUDZwVUpsY25wdGMtSGZCZXc4bmp2eE5raktyLTNHWGh2bnVCcERVT0hwMVFzT2ktLTk4bFpqLXh4aUF5a3Q0ektCZGhIMU1nZE1hdnRCVVQyMDVKb2hCVjJhLXAyR0xEazFvMjRjdzRLT3Z1NHRpdHJpTGdWMF84TTRhY1NxZGIwWmZBSnctYVdVeUJ3azhTag?oc=5",
-      "published": "Tue, 01 Sep 2026 16:27:00 GMT",
-      "source": "Investor's Business Daily",
-      "sentiment": -0.667,
-      "label": "negative"
-    },
-    {
       "title": "Why Amazon (AMZN) Stock Is Up Today - Quiver Quantitative",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBNOEYweGh5cXRMU3ZCS0R4YnNDVFJ5N211d2lXYWdzdjFBWFlib2FZNHlzUVQ2Q2c3cjktWnktajM2MU5uSExDVGNZUGppcURWdTFLbDFBQkc0UXo5MUZIN1lsaXRmVUNzYlBtQkZyYUFJRUZkZFZ5N2xScmo?oc=5",
       "published": "Fri, 28 Aug 2026 15:34:00 GMT",
       "source": "Quiver Quantitative",
       "sentiment": 0,
       "label": "neutral"
-    },
-    {
-      "title": "Amazon.com (NASDAQ:AMZN) Stock Price Down 1.9% - Time to Sell? - MarketBeat",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcVhrNTBDOTdFUjBBMzJjaFZaTXVhcjVxY1Q0OERLSVUxUHVJV05Yem1vMmZJWi1VU0p6dW9fSU02QnFPMUlqaHo4UDczZHRUaHBWUWp3V1Z0Y3BqUk9qaFNuN1pMNDdHc3NWZFpUV0gwT3dYOE9NVTY2TWZ5VXRzOUwtd2N6MDJKeldFcjk0azMwcDhEbFNnc1NtbXk4b2RsdDZXTXYzUG5GLWpRWW1DZzdBTFk?oc=5",
-      "published": "Tue, 01 Sep 2026 21:23:26 GMT",
-      "source": "MarketBeat",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Amazon Still Holds A Massive Upside Potential (NASDAQ:AMZN) - Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeFpVSEZmRDAyU0Z2Q3MzLTcwRXZuR0hUSEYwNFVjY0JWMDVtdXhhYnNubndaT0E2Y3RlS0p2NWx1VUZ5Zy14UXA0MUtWLVZDaDhZenJpZXVsTkthYllxeHo3eE5VQ0lZdy1Yb2ZRM1UyYUZFTTRlYVhOSXdXMlc3WVpQUU44Vy1oM284OA?oc=5",
-      "published": "Fri, 28 Aug 2026 14:31:30 GMT",
-      "source": "Seeking Alpha",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Amazon Stock Is Near Record Highs. Why There’s Still Room for AMZN to Grow. - Barchart.com",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYWlqY3RXTU1reGZIbkp5WVZheWFfa1NiNEpDbGpjbGxDYnpxN0w0V29sZUZsSGMyUk0yUTZTXzg5R0p4bUpLMDJJZHA1bmk2dmVzNno4d3FIWFlmUC1XLVdRbGlBZDAtYlg1S3FqZzFMLW0xVmtTT0wwQkkycm9aNnh3d0lXUFRLV3pWZHByM1Rza25PeHVfUW1aWV8yWW5kTkh1QU5OUHVSOVFsRmpoSkprbEU0eU0?oc=5",
-      "published": "Mon, 31 Aug 2026 18:28:37 GMT",
-      "source": "Barchart.com",
-      "sentiment": 0.333,
-      "label": "positive"
     },
     {
       "title": "AMZN Stock Slips On $20B FTC Ad Lawsuit: Citi Calls Pullback A ‘Buying Opportunity’ As Amazon ‘Strongly Disagrees’ With Allegations - TradingView",
@@ -113,10 +81,18 @@
       "label": "positive"
     },
     {
-      "title": "Amazon (AMZN) Stock Still Looks Undervalued On Cash Flow And Earnings - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQX3Z3R2NnWjF4RTI3QTZxMnhIX2lJRzZIUURnN1psREN2Z1hyOEhZYTkxWTloQjE1QS1iQUsxZFZCVU5WLXdxLUxZb2xic2lFd3Y1RXk4NzV6T2ZpQWt4b21xeUl5LS1jUXZnMGZqTEV0bGx0YjAyVUhSVnI3bFVjVm5NVjFzUmFoUm5aa0hqNGhoOFBnREhqdDVB?oc=5",
-      "published": "Tue, 25 Aug 2026 21:07:12 GMT",
-      "source": "Yahoo Finance",
+      "title": "Amazon Stock Is Near Record Highs. Why There’s Still Room for AMZN to Grow. - Barchart.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYWlqY3RXTU1reGZIbkp5WVZheWFfa1NiNEpDbGpjbGxDYnpxN0w0V29sZUZsSGMyUk0yUTZTXzg5R0p4bUpLMDJJZHA1bmk2dmVzNno4d3FIWFlmUC1XLVdRbGlBZDAtYlg1S3FqZzFMLW0xVmtTT0wwQkkycm9aNnh3d0lXUFRLV3pWZHByM1Rza25PeHVfUW1aWV8yWW5kTkh1QU5OUHVSOVFsRmpoSkprbEU0eU0?oc=5",
+      "published": "Mon, 31 Aug 2026 18:28:37 GMT",
+      "source": "Barchart.com",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Greenleaf Trust Sells 4,126 Shares of Amazon.com, Inc. $AMZN - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQU1k4WmRIeWtKdGZWT1ZPeC11aWstLTlSRGpKZEozTy14d3lBRV9LVFg3TW00Wk1LcVdhdWoyY3BjYmRHNVRNc0szWEtDMzBfbEo1M1JTUUE5UkJPYm9OTk1lSzFwR1dqbWNsRzNvVjluM3hXYmpGNnJoVmNWbWxWZTROc2ZTc0d4c2lMMUlsTWoyQ2paYm1oMjhjc19XTlZybzRxYktWQllaM0VIQVMtSy05R3hRLWM?oc=5",
+      "published": "Wed, 02 Sep 2026 08:19:52 GMT",
+      "source": "MarketBeat",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -129,86 +105,110 @@
       "label": "neutral"
     },
     {
-      "title": "Federal Trade Commission Sues Amazon Over Alleged Advertising Price Manipulation - TIKR.com",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYi1YMEZaeElzZGRnWDJJRHFTZGV6S1d1am5uMG1fLTVydDhJYW1nQzNHS2hFOThiNGhXZFd1Z0FHYXpiSHFyQV9Cc1BKZktzUWdRX2h3bUgwcGh5UUpJclFTVVFkUk1rZWczTFAxa0pVN1JuUklhNjVkajhPZERPQldwNEU2cjI0bGdkRFlucXphSkQ0c2NEbXBkenFaMFhfZzRKS2xMZHZSdw?oc=5",
-      "published": "Tue, 01 Sep 2026 13:18:12 GMT",
-      "source": "TIKR.com",
+      "title": "Amazon (AMZN) Stock Gets Fair Value Bump As AWS AI Demand Lifts Analyst Views - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUVBrM1U1NDFNZVRhZWR6VVhzMTRIMlFaR3dTMlh4OE10cllDeUtqZ2ZDc0w4LTM2bXIwdTMzZXlEb0k5dEtsSV80WFpXNVg2WXVkMGplSGlmX0p3MDVZVThBNmxuU3lZMFZXa0FqR3VQRnBWZVgxVVpiM1lQQTE4ODFkZWYwNVJUU2FCbXhWeGtnR3p5WjRN?oc=5",
+      "published": "Sat, 15 Aug 2026 07:00:00 GMT",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "AMZN Stock: Don't Make This Mistake! Patrick Roy (yYmvVS2Ebj) - Mshale",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qMmZEdmFJd0FkNUpWdXVfalc3dW50WDdQMWlUUmdpSWRWcjI3Z3RsU1NyckFER29XWXBWY1ZVSEdzRmlKMWNWOE41akRSNGR1aVRHa25fOWNXVHgyVl9oTg?oc=5",
+      "published": "Wed, 02 Sep 2026 03:03:53 GMT",
+      "source": "Mshale",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "FTC accuses Amazon of manipulating ad pricing -- update (AMZN:NASDAQ) - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSHVYZm5ScDdVTnRDSzBTUmhOelk2V2Z3anp1MG45T3QyRHM3MUN6YU9jSzRQWjc0SGFNTFJtS3d3R09icld1Z1l5R1pGT3RpUVRGa05VZWxvdDc2LWRXLTZyeF9BRXdKNTNyUXV3YWRLaUk1REhXdUVkVTJCZHdtQmpBU0NPbl8zUGJUbDE2VllWZlFIaFRwZ1d6aw?oc=5",
+      "published": "Mon, 31 Aug 2026 20:30:00 GMT",
+      "source": "Seeking Alpha",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "What's Going On With the Fall in Amazon Stock? - Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZzdTaU94SExtY3JkdFBGcTE0R0d1ZG5YdV9mT0NGTlVzaER1c1M4bXBxSXRoSHd2Z01jTVpWMmFvckRpQ3NxaFB1bHVySTlEOXN6NEJMWGQtSVdiODZ4NEN3UmZIVmRib2VMS3VyV05JeGttRDAtS2ZZR1o4b1E0V1JzWko3VnlSbmhYcUh3MG1UNklfZUpiOVhJeDRyWVFob3ZQSjhUME4?oc=5",
+      "published": "Mon, 31 Aug 2026 19:05:45 GMT",
+      "source": "Benzinga",
       "sentiment": -0.333,
       "label": "negative"
     },
     {
-      "title": "Amazon’s Stock Could Hit $500 by End of 2027. Why AWS Revenue Is the Key. - Barron's",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LOGU0SG9wME5XTTFVbFU5VXotS1pWRUg2dnVFZ3JZY3AwSmROVFkzRXF0TjBDUExqdEVTalZKU1hsVzZOYVZwQUpTckFpTWtzbWZwTEFiYUM0ZGdqeWZLOXJwTXVOcjhlQzhIa010ZDRtVjlNLU1CaA?oc=5",
-      "published": "Mon, 17 Aug 2026 07:00:00 GMT",
-      "source": "Barron's",
+      "title": "Prediction: This Will Be Amazon's Stock Price by the End of 2026 - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSE9VNW5jU0Y1M1FlbWdTNW1pM2hUc3lrT0lmdzl1LTRnczZkWUg0RWhLNDFDWnBPdFdrYTgyVWI0aFlBb2ZlMmxtZTA1ODhDYllvaWk2bVlob0FNZ2hETDNSdVRuRkowM09kMjdEdTd0YldDUjRfSlZPRnJaZnhzd19wTEVhU1p1TklBWHNR?oc=5",
+      "published": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "The Motley Fool",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Sundar Pichai’s Credibility Crisis: The AI Model That Never Came",
-      "link": "https://247wallst.com/investing/2026/09/02/sundar-pichais-credibility-crisis-the-ai-model-that-never-came/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:15:40 +0000",
+      "title": "Stanley Druckenmiller Increased Amazon More Than 10-Fold and Opened an AMD Position. What’s the Common Bet?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stanley-druckenmiller-increased-amazon-more-215834577.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 21:58:34 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Why Is Nvidia Willing to Pay $14 Billion for Hugging Face?",
-      "link": "https://finance.yahoo.com/m/90c3c364-c7bc-3e50-aa37-6075c6388e55/why-is-nvidia-willing-to-pay.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:02:00 +0000",
+      "title": "How Could Amazon.com (AMZN) Gain From New Creator Shopping Tools?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/could-amazon-com-amzn-gain-190612987.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 19:06:12 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "MANGOS ETFs: The Next Big AI Tech Investing Theme",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mangos-etfs-next-big-ai-140000152.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:00:00 +0000",
+      "title": "DoJ requests beef price data from major retailers including Amazon and Walmart",
+      "link": "https://finance.yahoo.com/economy/policy/articles/doj-requests-beef-price-data-182500927.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 18:25:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Booking (BKNG): Buy, Sell, or Hold Post Q2 Earnings?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/booking-bkng-buy-sell-hold-142023375.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:20:23 +0000",
+      "title": "What's Wrong With Amazon Stock? Here's the Honest Answer.",
+      "link": "https://www.fool.com/investing/2026/09/02/whats-wrong-with-amazon-stock-honest-answer/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 18:09:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "ADP Brings +38K Private-Sector Jobs in August",
-      "link": "https://finance.yahoo.com/economy/articles/adp-brings-38k-private-sector-141200036.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:12:00 +0000",
+      "title": "3 Surging  Stocks Worth Investigating",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-surging-stocks-worth-investigating-192423748.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 19:24:23 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Can Serve Robotics' $240M Liquidity Cushion Fund Its Robot Ambitions?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/serve-robotics-240m-liquidity-cushion-141000253.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:10:00 +0000",
+      "title": "Better Artificial Intelligence Stock: Astera Labs vs. NVIDIA",
+      "link": "https://www.fool.com/coverage/better-buy/2026/09/02/better-artificial-intelligence-stock-astera-labs-vs-nvidia/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 18:17:16 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "5 Undervalued Stocks Based on Price-to-Sales Worth a Closer Look",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/5-undervalued-stocks-based-price-140700469.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:07:00 +0000",
+      "title": "U.S. Debt, AI Borrowing Binge Spurs Bessent's Bond Market Gambit; Risks Rise For Stocks, Dollar",
+      "link": "https://finance.yahoo.com/m/8c0446a7-cdeb-308d-bedb-e9fb2c5d2d73/u.s.-debt%2C-ai-borrowing-binge.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 17:41:38 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "SharkNinja's Category Strength Fuels Growth Across Product Portfolio",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sharkninjas-category-strength-fuels-growth-140700893.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:07:00 +0000",
+      "title": "Snowflake Earnings Show a Company Riding the AI Wave",
+      "link": "https://finance.yahoo.com/m/fe95bb11-35de-33ab-b88d-f850fdba6e29/snowflake-earnings-show-a.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 20:36:00 +0000",
       "source": "Yahoo Finance",
-      "sentiment": 0.333,
-      "label": "positive"
+      "sentiment": 0,
+      "label": "neutral"
     }
   ],
-  "sentiment": -0.000055555555555555606,
+  "sentiment": 0.018500000000000003,
   "errors": []
 }

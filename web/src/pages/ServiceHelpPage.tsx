@@ -10,7 +10,7 @@ const gatewayEndpoints: Endpoint[] = [
   { method: "GET", path: "/api/health", description: "Gateway health check" },
   { method: "GET", path: "/api/status/detailed", description: "Full platform status including all services" },
   { method: "GET", path: "/api/market/indices", description: "Market index data (NIFTY, SENSEX, DJIA, etc.)" },
-  { method: "GET", path: "/api/market/stocks", description: "List all tracked stocks", example: 'curl -H "Content-Type: application/json" http://localhost:8787/api/market/stocks?market=IN&sector=IT' },
+  { method: "GET", path: "/api/market/stocks", description: "List all tracked stocks", example: 'curl -H "Content-Type: application/json" https://STOCK_HOST:8787/api/market/stocks?market=IN&sector=IT' },
   { method: "GET", path: "/api/market/stock/:symbol", description: "Get stock detail with price, chart data, and signals", params: [{ name: "symbol", type: "string", required: true, description: "Stock symbol e.g. RELIANCE" }] },
   { method: "GET", path: "/api/market/search", description: "Search stocks by symbol or name", params: [{ name: "q", type: "string", required: true, description: "Search query" }, { name: "market", type: "IN | US", required: false, description: "Market filter" }] },
   { method: "GET", path: "/api/research/signals", description: "AI-generated trading signals" },
@@ -31,7 +31,7 @@ const crawlerEndpoints: Endpoint[] = [
   { method: "GET", path: "/health", description: "Crawler health check" },
   { method: "GET", path: "/status", description: "Crawler status with worker count, queue depth, and source stats" },
   { method: "GET", path: "/sources", description: "List all data sources with success rates" },
-  { method: "POST", path: "/crawl", description: "Trigger a manual crawl for a symbol or category", params: [{ name: "symbol", type: "string", required: false, description: "Specific symbol to crawl" }, { name: "category", type: "string", required: false, description: "Category: large_cap, mid_cap, small_cap, us_stocks" }], example: 'curl -X POST http://localhost:50051/crawl \\\n  -H "Content-Type: application/json" \\\n  -d \'{"symbol": "RELIANCE", "sources": ["yahoo", "stooq"]}\' ' },
+  { method: "POST", path: "/crawl", description: "Trigger a manual crawl for a symbol or category", params: [{ name: "symbol", type: "string", required: false, description: "Specific symbol to crawl" }, { name: "category", type: "string", required: false, description: "Category: large_cap, mid_cap, small_cap, us_stocks" }], example: 'curl -X POST https://STOCK_HOST:50051/crawl \\\n  -H "Content-Type: application/json" \\\n  -d \'{"symbol": "RELIANCE", "sources": ["yahoo", "stooq"]}\' ' },
   { method: "GET", path: "/workers", description: "Active worker status and queue depth" },
   { method: "GET", path: "/proxies", description: "Proxy pool status and health" },
   { method: "GET", path: "/rate-limits", description: "Rate limiter status per domain" },
@@ -43,7 +43,7 @@ const priceEndpoints: Endpoint[] = [
   { method: "GET", path: "/health", description: "Price service health check" },
   { method: "GET", path: "/price/:symbol", description: "Get current price for a symbol", params: [{ name: "symbol", type: "string", required: true, description: "Stock symbol" }] },
   { method: "GET", path: "/prices", description: "Bulk price fetch for multiple symbols", params: [{ name: "symbols", type: "string", required: true, description: "Comma-separated symbols" }] },
-  { method: "WS", path: "/ws", description: "WebSocket for real-time price streaming", example: 'const ws = new WebSocket("ws://localhost:8082/ws");\nws.onopen = () => ws.send(JSON.stringify({ action: "subscribe", symbols: ["RELIANCE", "TCS"] }));\nws.onmessage = (e) => console.log(JSON.parse(e.data));' },
+  { method: "WS", path: "/ws", description: "WebSocket for real-time price streaming", example: 'const ws = new WebSocket("wss://STOCK_HOST:8082/ws");\nws.onopen = () => ws.send(JSON.stringify({ action: "subscribe", symbols: ["RELIANCE", "TCS"] }));\nws.onmessage = (e) => console.log(JSON.parse(e.data));' },
   { method: "SSE", path: "/stream", description: "SSE endpoint for price updates" },
   { method: "GET", path: "/history/:symbol", description: "Historical OHLCV data", params: [{ name: "symbol", type: "string", required: true, description: "Stock symbol" }, { name: "interval", type: "1d | 1w | 1m", required: false, description: "Candle interval" }, { name: "period", type: "string", required: false, description: "Lookback period e.g. 1y, 6mo" }] },
   { method: "GET", path: "/quotes/:symbol", description: "Detailed quote with bid/ask spread" },
@@ -53,11 +53,11 @@ const priceEndpoints: Endpoint[] = [
 
 const analyticsEndpoints: Endpoint[] = [
   { method: "GET", path: "/health", description: "Analytics service health check" },
-  { method: "GET", path: "/signals", description: "Get current trading signals (BUY/SELL/HOLD)", example: 'curl http://localhost:50053/signals?market=IN&min_confidence=0.7' },
+  { method: "GET", path: "/signals", description: "Get current trading signals (BUY/SELL/HOLD)", example: 'curl https://STOCK_HOST:50053/signals?market=IN&min_confidence=0.7' },
   { method: "GET", path: "/signals/:symbol", description: "Signals for a specific symbol" },
   { method: "GET", path: "/strategies", description: "List all active strategies with performance stats" },
   { method: "GET", path: "/strategy/:name", description: "Detailed strategy info with recent calls" },
-  { method: "GET", path: "/analysis/:symbol", description: "Full technical analysis for a stock", params: [{ name: "symbol", type: "string", required: true, description: "Stock symbol" }], example: 'curl http://localhost:50053/analysis/RELIANCE\n\n{\n  "symbol": "RELIANCE",\n  "signal": "BUY",\n  "confidence": 0.82,\n  "indicators": {\n    "rsi": 34.2,\n    "macd": "bullish_cross",\n    "sma_20": 2450,\n    "sma_50": 2420\n  }\n}' },
+  { method: "GET", path: "/analysis/:symbol", description: "Full technical analysis for a stock", params: [{ name: "symbol", type: "string", required: true, description: "Stock symbol" }], example: 'curl https://STOCK_HOST:50053/analysis/RELIANCE\n\n{\n  "symbol": "RELIANCE",\n  "signal": "BUY",\n  "confidence": 0.82,\n  "indicators": {\n    "rsi": 34.2,\n    "macd": "bullish_cross",\n    "sma_20": 2450,\n    "sma_50": 2420\n  }\n}' },
   { method: "GET", path: "/indicators/:symbol", description: "Technical indicators (RSI, MACD, Bollinger, etc.)" },
   { method: "GET", path: "/backtest/:strategy", description: "Backtest results for a strategy", params: [{ name: "strategy", type: "string", required: true, description: "Strategy name" }, { name: "period", type: "string", required: false, description: "Backtest period" }] },
   { method: "POST", path: "/analyze", description: "Run ad-hoc analysis with custom parameters" },
@@ -68,7 +68,7 @@ const analyticsEndpoints: Endpoint[] = [
 const alertEndpoints: Endpoint[] = [
   { method: "GET", path: "/health", description: "Alert service health check" },
   { method: "GET", path: "/alerts", description: "List all active alerts" },
-  { method: "POST", path: "/alerts", description: "Create a new price alert", params: [{ name: "symbol", type: "string", required: true, description: "Stock symbol" }, { name: "condition", type: "above | below | cross", required: true, description: "Trigger condition" }, { name: "target", type: "number", required: true, description: "Target price" }, { name: "channel", type: "email | push | websocket", required: false, description: "Notification channel" }], example: 'curl -X POST http://localhost:50054/alerts \\\n  -H "Content-Type: application/json" \\\n  -d \'{"symbol":"RELIANCE","condition":"above","target":2600,"channel":"push"}\'' },
+  { method: "POST", path: "/alerts", description: "Create a new price alert", params: [{ name: "symbol", type: "string", required: true, description: "Stock symbol" }, { name: "condition", type: "above | below | cross", required: true, description: "Trigger condition" }, { name: "target", type: "number", required: true, description: "Target price" }, { name: "channel", type: "email | push | websocket", required: false, description: "Notification channel" }], example: 'curl -X POST https://STOCK_HOST:50054/alerts \\\n  -H "Content-Type: application/json" \\\n  -d \'{"symbol":"RELIANCE","condition":"above","target":2600,"channel":"push"}\'' },
   { method: "DELETE", path: "/alerts/:id", description: "Delete an alert", params: [{ name: "id", type: "string", required: true, description: "Alert ID" }] },
   { method: "PUT", path: "/alerts/:id", description: "Update an alert" },
   { method: "GET", path: "/alerts/fired", description: "Recently fired alerts" },
@@ -84,7 +84,7 @@ const portfolioEndpoints: Endpoint[] = [
   { method: "GET", path: "/portfolio", description: "Portfolio summary (total value, P&L, allocation)" },
   { method: "GET", path: "/positions", description: "All open positions with unrealized P&L" },
   { method: "GET", path: "/position/:symbol", description: "Position detail for a specific stock" },
-  { method: "POST", path: "/trade", description: "Execute a trade (paper or live)", params: [{ name: "symbol", type: "string", required: true, description: "Stock symbol" }, { name: "side", type: "BUY | SELL", required: true, description: "Trade side" }, { name: "quantity", type: "number", required: true, description: "Number of shares" }, { name: "order_type", type: "MARKET | LIMIT", required: false, description: "Order type" }, { name: "limit_price", type: "number", required: false, description: "Limit price (required for LIMIT orders)" }], example: 'curl -X POST http://localhost:50055/trade \\\n  -H "Content-Type: application/json" \\\n  -d \'{"symbol":"RELIANCE","side":"BUY","quantity":10,"order_type":"LIMIT","limit_price":2480}\'' },
+  { method: "POST", path: "/trade", description: "Execute a trade (paper or live)", params: [{ name: "symbol", type: "string", required: true, description: "Stock symbol" }, { name: "side", type: "BUY | SELL", required: true, description: "Trade side" }, { name: "quantity", type: "number", required: true, description: "Number of shares" }, { name: "order_type", type: "MARKET | LIMIT", required: false, description: "Order type" }, { name: "limit_price", type: "number", required: false, description: "Limit price (required for LIMIT orders)" }], example: 'curl -X POST https://STOCK_HOST:50055/trade \\\n  -H "Content-Type: application/json" \\\n  -d \'{"symbol":"RELIANCE","side":"BUY","quantity":10,"order_type":"LIMIT","limit_price":2480}\'' },
   { method: "GET", path: "/orders", description: "Order history" },
   { method: "GET", path: "/order/:id", description: "Order status by ID" },
   { method: "DELETE", path: "/order/:id", description: "Cancel a pending order" },
@@ -121,13 +121,13 @@ export default function ServiceHelpPage() {
             { label: "HTTP", port: 8787 },
             { label: "WebSocket", port: 8787, protocol: "ws" },
           ]}
-          healthEndpoint="http://localhost:8787/api/health"
-          kibanaLink="http://localhost:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-gateway-*',interval:auto,query:(language:kuery,query:'service:gateway'))"
-          jaegerLink="http://localhost:16686/search?service=gateway"
+          healthEndpoint="https://STOCK_HOST:8787/api/health"
+          kibanaLink="http://STOCK_HOST:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-gateway-*',interval:auto,query:(language:kuery,query:'service:gateway'))"
+          jaegerLink="http://STOCK_HOST:16686/search?service=gateway"
           configOptions={[
             { key: "PORT", default: "8787", description: "HTTP server port" },
             { key: "JWT_SECRET", default: "dev-secret", description: "Secret for JWT token signing" },
-            { key: "CORS_ORIGIN", default: "http://localhost:5173", description: "Allowed CORS origins" },
+            { key: "CORS_ORIGIN", default: "https://STOCK_HOST:8787", description: "Allowed CORS origins" },
             { key: "RATE_LIMIT", default: "100", description: "Max requests per minute per IP" },
             { key: "GRPC_TIMEOUT", default: "5000", description: "gRPC call timeout in ms" },
           ]}
@@ -148,9 +148,9 @@ export default function ServiceHelpPage() {
             { label: "gRPC", port: 50051 },
             { label: "HTTP", port: 50052, protocol: "REST debug" },
           ]}
-          healthEndpoint="http://localhost:50052/health"
-          kibanaLink="http://localhost:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-crawler-*',interval:auto,query:(language:kuery,query:'service:crawler'))"
-          jaegerLink="http://localhost:16686/search?service=crawler"
+          healthEndpoint="https://STOCK_HOST:50052/health"
+          kibanaLink="http://STOCK_HOST:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-crawler-*',interval:auto,query:(language:kuery,query:'service:crawler'))"
+          jaegerLink="http://STOCK_HOST:16686/search?service=crawler"
           configOptions={[
             { key: "GRPC_PORT", default: "50051", description: "gRPC server port" },
             { key: "HTTP_PORT", default: "50052", description: "REST debug API port" },
@@ -178,9 +178,9 @@ export default function ServiceHelpPage() {
             { label: "WebSocket", port: 8082, protocol: "ws" },
             { label: "gRPC", port: 50052 },
           ]}
-          healthEndpoint="http://localhost:8082/health"
-          kibanaLink="http://localhost:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-price-*',interval:auto,query:(language:kuery,query:'service:price'))"
-          jaegerLink="http://localhost:16686/search?service=price-service"
+          healthEndpoint="https://STOCK_HOST:8082/health"
+          kibanaLink="http://STOCK_HOST:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-price-*',interval:auto,query:(language:kuery,query:'service:price'))"
+          jaegerLink="http://STOCK_HOST:16686/search?service=price-service"
           configOptions={[
             { key: "HTTP_PORT", default: "8082", description: "HTTP/WS server port" },
             { key: "GRPC_PORT", default: "50052", description: "gRPC port for internal communication" },
@@ -206,9 +206,9 @@ export default function ServiceHelpPage() {
             { label: "gRPC", port: 50053 },
             { label: "HTTP", port: 50054, protocol: "debug" },
           ]}
-          healthEndpoint="http://localhost:50054/health"
-          kibanaLink="http://localhost:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-analytics-*',interval:auto,query:(language:kuery,query:'service:analytics'))"
-          jaegerLink="http://localhost:16686/search?service=analytics"
+          healthEndpoint="https://STOCK_HOST:50054/health"
+          kibanaLink="http://STOCK_HOST:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-analytics-*',interval:auto,query:(language:kuery,query:'service:analytics'))"
+          jaegerLink="http://STOCK_HOST:16686/search?service=analytics"
           configOptions={[
             { key: "GRPC_PORT", default: "50053", description: "gRPC server port" },
             { key: "HTTP_PORT", default: "50054", description: "Debug REST port" },
@@ -234,9 +234,9 @@ export default function ServiceHelpPage() {
             { label: "gRPC", port: 50054 },
             { label: "HTTP", port: 50055, protocol: "debug" },
           ]}
-          healthEndpoint="http://localhost:50055/health"
-          kibanaLink="http://localhost:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-alert-*',interval:auto,query:(language:kuery,query:'service:alert'))"
-          jaegerLink="http://localhost:16686/search?service=alert"
+          healthEndpoint="https://STOCK_HOST:50055/health"
+          kibanaLink="http://STOCK_HOST:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-alert-*',interval:auto,query:(language:kuery,query:'service:alert'))"
+          jaegerLink="http://STOCK_HOST:16686/search?service=alert"
           configOptions={[
             { key: "GRPC_PORT", default: "50054", description: "gRPC server port" },
             { key: "HTTP_PORT", default: "50055", description: "Debug REST port" },
@@ -262,9 +262,9 @@ export default function ServiceHelpPage() {
             { label: "gRPC", port: 50055 },
             { label: "HTTP", port: 50056, protocol: "debug" },
           ]}
-          healthEndpoint="http://localhost:50056/health"
-          kibanaLink="http://localhost:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-portfolio-*',interval:auto,query:(language:kuery,query:'service:portfolio'))"
-          jaegerLink="http://localhost:16686/search?service=portfolio"
+          healthEndpoint="https://STOCK_HOST:50056/health"
+          kibanaLink="http://STOCK_HOST:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-portfolio-*',interval:auto,query:(language:kuery,query:'service:portfolio'))"
+          jaegerLink="http://STOCK_HOST:16686/search?service=portfolio"
           configOptions={[
             { key: "GRPC_PORT", default: "50055", description: "gRPC server port" },
             { key: "HTTP_PORT", default: "50056", description: "Debug REST port" },

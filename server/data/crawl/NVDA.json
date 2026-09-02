@@ -2,7 +2,7 @@
   "yahoo": "NVDA",
   "symbol": "NVDA",
   "market": "US",
-  "crawledAt": 1788359413052,
+  "crawledAt": 1788388210333,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -65,18 +65,18 @@
   },
   "news": [
     {
-      "title": "Prediction: Nvidia Stock Will Trade at $350 on This Date - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa09tSTRvcDBJR2NRSEFWQXE3LXJaODZXbnlfVnJEb0xjay0zYTVmdUsydUhTQlpVajBHN3BUc01va3VIN0Q3ajFZWlpHbnRXX0l2amNqS1Q1d1NMcFI2SjY2VEN5TG94TWJrZXdzdmloRXZISmxLY3pVUjB5RGJ0X3Frb3p3NHVCRmVIN0Y2bU1kWGdIajcyX3hoTks1TlU?oc=5",
-      "published": "Mon, 31 Aug 2026 14:00:53 GMT",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
+      "title": "Analysts Expect Nvidia Stock to Soar 47%, But You Shouldn’t Rush to Buy NVDA Here - Barchart.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM3E2UG1XNVBrT2N2UGxrM0lRQk1LY0QwV0Fpc2djT3FwTWpyWEhIYkV3V0hWTFZlTEhUU1NwQmhVLV9UMmctV3BEWUQ5d0V2MXluWWVZTXBnT1N5R1g3WWhFMW0xR1RTV2FuanlfUktCcVBCbm5wcHk0TVU2V0ZqRmpfVG9rZFVhdWludEVJQXdWMXVYUWhza0RPdEtsSUZhTGlkS2hZQ0dkdWM4Qm8zeFNaLW9lMzlfLVdVSHYzOA?oc=5",
+      "published": "Mon, 31 Aug 2026 19:40:56 GMT",
+      "source": "Barchart.com",
+      "sentiment": 0.333,
+      "label": "positive"
     },
     {
-      "title": "Prediction: This Will Be Nvidia's Stock Price by the End of 2027, Based on Its Latest Forecast - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPT2RyZkJqUlpvRVJRUW9BRzZKMDRJaFV0a2w4OTV4djJhMTRiUXBOTlZuaC1mbWdpcEZaZjVUOVE4ckhhR3MwTkJxZjN6cXU3N01oNVRjZDhidjNGNU9UdmQ1QnFmalh3bXdDMlhMcXR4YTYzYVZETVJlZmtUSVFOVU9vaThwc0xZblNITm16YVpKanJmYU9mSTRaa0NaSzJ2SVE?oc=5",
-      "published": "Tue, 01 Sep 2026 08:02:00 GMT",
-      "source": "The Motley Fool",
+      "title": "NVIDIA (NVDA) Stock Rebounds as Inference Partnership Boosts Outlook - FXLeaders",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM0xVLXVpRFdNQVNyTkpybHdlckxCc2tuWmNycTZRRkh3ajlpZDRUUVFWMTRYdDU4RzVBMkNCWmxWY2RGWWtEWERucEJYTWFsYW9rSl95TGlTcXN3d0lMVUVWMEFTaFc5Q0s4akkwTUNndjZGcERZemlxNHg2aVhKMkdhNDBMUXp3d1d3R0FLeEloeFVzZ0FQX0lmZkd6dXlPanlFQ1JNM1RUYWRzSnc?oc=5",
+      "published": "Wed, 02 Sep 2026 19:36:55 GMT",
+      "source": "FXLeaders",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -89,10 +89,18 @@
       "label": "neutral"
     },
     {
-      "title": "Wall Street predicts Nvidia stock price for next 12 months - Finbold",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMnM0ZEJELUlGSXJ0WElXY0U1VjdUQVBGVjlIYmtPMDNlTk4yZU5WMVRZYUNmMEdUc2NxYjQ1MFdXeUJzTUJJeGY4Z1dPQzVMVEM1TmR3NDlLcU02WXdEc0x1dVhoR2YxQW5jMmVvekNwYVV5SGZDZmNybmNfLWZsd0o0UlpGX2hV?oc=5",
-      "published": "Tue, 01 Sep 2026 13:24:58 GMT",
-      "source": "Finbold",
+      "title": "Nvidia Stock Rises Over 4% Today. What’s Driving the Rally? - TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSFkxWUNGbURmRlZ6ZEpweFNYaXRPZHcxNzdCYlY4WW9iN2ZKYzFIRHFaT0pPVmo5SEtvemtDVnVpSTdkd0JKT202SGg3Y3VMNWtoX1pQTU1sZ2JGN182dWxfYUJWejBLcE90TWJldnlWTWtTOXhaSU1nV2laUE9OSXdFVFpJMXktSkFsTzV3?oc=5",
+      "published": "Wed, 02 Sep 2026 16:12:11 GMT",
+      "source": "TipRanks",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Nvidia stock flashes unusual signal for investors - thestreet.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcVlfTE5lRG5teGNaZm1oRmgzT0hDaVJ6TjEzYWMxek9tS2lNR2d6YmYxbUdjZjFfMlN2RVYwYW82c1VUYzllV09mdzNWeC1xb1NhU3gwWWtfZVcyY0dCU0FKVFpJbEJCU0JZQWs1VFRwZG5LQ0s5cHppYTZXSTBmd1dnc1N1cEdr?oc=5",
+      "published": "Mon, 31 Aug 2026 22:01:34 GMT",
+      "source": "thestreet.com",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -105,110 +113,102 @@
       "label": "positive"
     },
     {
-      "title": "Prediction: This Is Where Nvidia Stock Will Be When September Ends - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONFRsVHhKNG9FWXRiVF9oV2Ryei1YZlFLckVoWFFYeEZpa253cEVmSjBEZUpGT3ZObDdqSkpBNGhhT19kejg0NjhHRDJhZ1YwbXFfeEt5STZFbDlUZDJEd2dVTTVZUmFCcngtVGd5VTZQSWpacnlRSXI1aG5GTHV6OUxNdmZPRld5X1NlMXRvenZBdXE2Zk5DZQ?oc=5",
-      "published": "Mon, 31 Aug 2026 18:49:00 GMT",
+      "title": "Prediction: $1,104 Invested in Nvidia Today Will Be Worth This Much by 2030 - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZ0k1RUhHeGYzT1NSMFNtYzdJeGNsY0ZVb0VxZ3llZ21tZWRlOEJUbDAwZXpkZTV0ak10WjQyZmg1cG9DS3RySkNQODZaN09EWEZPY2s1QU9ia2wxVl9sTmtweUxveHIwcHU1Y1RvazVRYTF1Zi1EcFkzNVhGd0NBOXNWajF2WlhMQ2ktOE5Cd1Zldw?oc=5",
+      "published": "Wed, 02 Sep 2026 19:30:00 GMT",
       "source": "The Motley Fool",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Nvidia Reports Blowout Quarter, Says Demand for AI Chips Is Getting Even Hotter - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03cHRsZk93LVRNRHBPUkVPZEVuZnFMNnB0LXluOHFRRXRCS2xBR3RmNGh0QjhoM1FmcjRkSXdURUFpVHVjZkpRckFJeWl4R3NzWU8yWDF2bFlUdU51TmV2Ml9BTUFiT3dxekpWdjdUa0ROVVVoY3NN?oc=5",
-      "published": "Wed, 26 Aug 2026 23:27:00 GMT",
-      "source": "WSJ",
+      "title": "Beyond The Cloud Giants: What Could Power NVIDIA Stock From Here? - Trefis",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObmJYbUp1ejFmZVNRQnFGTmVVMHM5X01uX05ncVNSZE9seVJTbUxZT3JyeWFxdE1LUmJVZGJGUWNicjEwMWd5NkdkY09GVGJhX2NwVU5vMGVQRlhxdFptU3duaDEzbTBPckNsY1ZtT3NFeFhSU3lGdnRmZlAzY2twZHZRejF3SHBCSmphUFZOTFhjcjFrdm5VVGZDTzhHX0FVYjhJbGxtUjZLTzNVcHJtN0VfT01uUnRwWS1yTEV2Ym51QQ?oc=5",
+      "published": "Wed, 02 Sep 2026 16:24:22 GMT",
+      "source": "Trefis",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027 - NVIDIA Newsroom",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcjZPeVV6eC01Z2tWOHlyVEhmMG9uZDgyaXdvVTV3MVVMWGdKVVhJdlNiRHBvejd0UnlSNFJfTFA4dXAxUk9fVi1RQ2h2VU1kd2FkSUoydEJheDVMNWRnYUdMa2RFcG8zcTROTl9ZX1lJQ0tRU1VZR2pkQjFRdEtkM0tpUUlOcXhsYTFGcGY5RHFQYWZyNkh6LXVCSmN0Y1J3WWc?oc=5",
-      "published": "Wed, 26 Aug 2026 20:25:18 GMT",
-      "source": "NVIDIA Newsroom",
+      "title": "Nvidia Leads Chip Stocks Higher Amid Renewed Confidence In AI Spending - Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeXdEWkFIalBmUF9HbFdhN0pwMlNIdU9FNDRoT2lZU01mYUtaV2FDVVhSOW5yVTByUXJKVzQ3cl9BNGgzaTFQRFZXYl91MVRkdW5ZcC1kRkt0SU1hczUza0xvZkhWSVZVSGFZSUlFLTBqMHljMGxMUlN5aGN0WE0wcFdpR0ZJM3RtR09F?oc=5",
+      "published": "Wed, 02 Sep 2026 20:53:00 GMT",
+      "source": "Investor's Business Daily",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Why I'm Still Holding Nvidia (NVDA) Stock Despite Its Sky-High P/E Ratio - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUjF2OE1WWW1XYV9sa3ZoY3FKa2dXNnA2VjFUelBlXzlQdEg4TEVsRklEUllqY3dXUTdZak5vV0Z5MnU3ekIwNkxId3NtOXJVSVZfX00xdWdxZENCczM0MV83RU1hYlFCZUZlLVhHUDVvTjNBN0pRRzBfOVZqSmtsUnpzdU92dnR2UEdwa1RXWHA4N1JvUXpR?oc=5",
-      "published": "Sat, 29 Aug 2026 18:20:00 GMT",
+      "title": "Nvidia: The Market Is Crazy Not To Push The Stock Higher (NASDAQ:NVDA) - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSVZ4NjJiVkduRG9ZVndLOGFrbW9OZHBYUnVaQXA5UTZSTHR2TmZsMFZST0hsM3Jzay1HMXBqWUd0ajQ5ZEllSEVmWkhfTy1KWlFPMjhGSHRVUEF5MFZnQmhJQ0JCbmtwc012dGlBSXYwd0xvR2xjNjAzQzV3cTlpQ2R3NllVZHgxQ2hIRlZmZ090aXBseFRzQTYwQzk?oc=5",
+      "published": "Wed, 02 Sep 2026 17:01:15 GMT",
+      "source": "Seeking Alpha",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Nscale doubles contracted revenue to $103 billion after Anthropic win - report",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nscale-doubles-contracted-revenue-103-222526129.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 22:25:26 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Machine learning algorithm sets Nvidia stock price for September 30, 2026 - Finbold",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWElCeWIzYkR4UDl5eGZtYXU2a05HUi1EWnVtRkd2S0hWVTRFcGxNVU9IYnBBcEp3WGFNZkJDd1poSzVNSUFoMEVZeVQyamlvNHktVGFlX1lROVluMDJnX05sMzFGaHJwR1JGSzBiempsQWJhQkZGdUhZa0daUUJVT3FnY1A4SVpGdWV3Q0M4T3RDc1RzOW5Ldw?oc=5",
-      "published": "Wed, 02 Sep 2026 12:17:37 GMT",
-      "source": "Finbold",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Warren Buffett's Successor, Greg Abel, Has Over 50% of Berkshire Hathaway's Portfolio Invested in These 3 Top Stocks",
-      "link": "https://www.fool.com/investing/2026/09/02/warren-buffetts-successor-greg-abel-has-over-50-of/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:05:00 +0000",
+      "title": "Nvidia’s $1 Billion Nokia Bet Was Worth About $2.2 Billion by June. Is 6G the Hidden AI Trade?",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-1-billion-nokia-bet-215606198.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 21:56:06 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Is Interactive Brokers Quietly Becoming an AI Stock?",
-      "link": "https://www.fool.com/investing/2026/09/02/is-interactive-brokers-becoming-an-ai-stock/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:05:00 +0000",
+      "title": "Why Calumet Stock Topped the Market Today",
+      "link": "https://www.fool.com/investing/2026/09/02/why-calumet-stock-topped-the-market-today/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 21:44:45 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "AI Infrastructure Spending Is Set to Hit $1.4 Trillion by 2030. These Are the 3 Chip Stocks Positioned to Capture It.",
-      "link": "https://247wallst.com/investing/2026/09/02/ai-infrastructure-spending-is-set-to-hit-1-4-trillion-by-2030-these-are-the-3-chip-stocks-positioned-to-capture-it/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:03:17 +0000",
+      "title": "Stock Market Today, Sept. 2: Dell Helps Stocks Edge Higher Despite Geopolitical Tensions",
+      "link": "https://www.fool.com/coverage/stock-market-today/2026/09/02/stock-market-today-sept-2-dell-helps-stocks-edge-higher-despite-geopolitical-tensions/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 21:31:13 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Why Is Nvidia Willing to Pay $14 Billion for Hugging Face?",
-      "link": "https://finance.yahoo.com/m/90c3c364-c7bc-3e50-aa37-6075c6388e55/why-is-nvidia-willing-to-pay.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:02:00 +0000",
+      "title": "Sprinklr, Inc. Q2 2027 Earnings Call Summary",
+      "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-sprinklr-inc-q2-2027-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 21:06:31 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Can Serve Robotics' $240M Liquidity Cushion Fund Its Robot Ambitions?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/serve-robotics-240m-liquidity-cushion-141000253.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:10:00 +0000",
+      "title": "Why Goldgroup Mining Stock Soared on Wednesday",
+      "link": "https://www.fool.com/investing/2026/09/02/why-goldgroup-mining-stock-soared-on-wednesday/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 21:03:16 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "How CrowdStrike (CRWD) is Defending Against Evolving Threats",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-crwd-defending-against-evolving-141715106.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:17:15 +0000",
+      "title": "StealthGas Inc. Q2 2026 Earnings Call Summary",
+      "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-stealthgas-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 20:56:36 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Stock Market Today: Dow Up On Surprise Jobs Data; Dell Tries To Break Out (Live Coverage)",
-      "link": "https://finance.yahoo.com/m/cfb2cdec-15e7-3189-8ed9-8dc34c530637/stock-market-today%3A-dow-up-on.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:16:50 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Sundar Pichai’s Credibility Crisis: The AI Model That Never Came",
-      "link": "https://247wallst.com/investing/2026/09/02/sundar-pichais-credibility-crisis-the-ai-model-that-never-came/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:15:40 +0000",
+      "title": "Nvidia Leads Chip Stocks Higher Amid Renewed Confidence In AI Spending",
+      "link": "https://finance.yahoo.com/m/938b13f8-2657-359e-b8b2-57623664da4b/nvidia-leads-chip-stocks.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 20:53:52 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     }
   ],
-  "sentiment": 0.018500000000000003,
+  "sentiment": 0.05550000000000001,
   "errors": []
 }

@@ -2,7 +2,7 @@
   "yahoo": "INFY.NS",
   "symbol": "INFY",
   "market": "IN",
-  "crawledAt": 1788359407202,
+  "crawledAt": 1788388204296,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -80,20 +80,12 @@
       "label": "neutral"
     },
     {
-      "title": "Infosys (NSE:INFY) Shares Gain 3.7% Despite Guidance Cut, Lifted by Sector Rebalancing - TechStock²",
+      "title": "Infosys (NSE:INFY) Shares Gain 3.7% Despite Guidance Cut, Lifted by Sector Rebalancing - ts2.tech",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLTdPa3VfVEVFZG8yMG1HZFU5WHhoeTBtNXdEVFNlRjRKbFZsT3AwTzlxQWdkYnEzNlNXQUZlaWwxZUhLSGxYV0FDeTNQZ0JPNk1iLXlucXFUUC1TNEJWVXRhM240dmlxR0VnRk14Q2FWSHEwM0tNRlpQVVFDN3dBT3hDSFVOSmQ0WV9Wby1ZU29VV2Q1d0hYRF9zbTNrUjdIcUpjdw?oc=5",
       "published": "Mon, 27 Jul 2026 07:00:00 GMT",
-      "source": "TechStock²",
+      "source": "ts2.tech",
       "sentiment": -0.333,
       "label": "negative"
-    },
-    {
-      "title": "Infosys shares post worst day in six years! Market cap plunges by ₹56,000 crore; here is why - Upstox",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOc2pHUmNZYkowYWRjcGY0T21MdmQtWWNfN3p0V3VxRWpBQ0JnNnVyU0xoSlJnblN2U0stOWs1X0JMdHJtRHNSNzBxMHh3UEVkQjJ2TnJzR1U0WkR0TWdRb1BfeURDM3VBb3F5SEp5dmJ2Slc3dzRRNG4yaUwwVDdYNHRWYUliZXdjOVBCZ2tkTXFNaDBoWEF2U2o4M29OUFBNa0dSMlpXUERTazM5c21veDNOLWFUQ2ZGVU8xMHhRS1RoUlg0WDViSU1LRXVFQ2pRMHpEX0Z2MldHQXhzVWlSMXN0QTNGR0sy?oc=5",
-      "published": "Tue, 03 Feb 2026 08:00:00 GMT",
-      "source": "Upstox",
-      "sentiment": 0,
-      "label": "neutral"
     },
     {
       "title": "Infosys Shares Dip on Ex-Dividend Date for Rs 25 Final Payout - Equitypandit",
@@ -102,6 +94,14 @@
       "source": "Equitypandit",
       "sentiment": 0,
       "label": "neutral"
+    },
+    {
+      "title": "Infosys shares fall nearly 3% after Q1 results; analysts decode guidance cut and new CEO-designate - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaGVNUUJHdDlNVEZtaDFNT0FzRFd0eDE4eTcxb2lQUnVqUUp0d2FJR3M0eUJLbU5SMERSUlR2ajQzV3NPZFJwbDVDTWF2MGNkdU5idGZxVFg1MG9sbFBTUEdvdUZ5WGZDWWw1NVg0RG52VkxLTHpuTnVONU9pM3NyLWxIVXVNdmdTMjF5Ri1ZRnJsZzlGaUtYMl9yUWgwLWF2SzBveDhPbURTc2ktTUZfc1hiNUwxWnVma2paODRTMndIWFlRRnkzWlhsRkZnanpBMVZ3NjJkb1lRdUVfaUJWblhUZ2FxVGw0MkFUUQ?oc=5",
+      "published": "Thu, 23 Jul 2026 07:00:00 GMT",
+      "source": "Upstox",
+      "sentiment": -0.667,
+      "label": "negative"
     },
     {
       "title": "AI represented 8.2% of Infosys' Q1 revenue; FY27 guidance given - Stock Titan",
@@ -208,6 +208,6 @@
       "label": "positive"
     }
   ],
-  "sentiment": 0.037111111111111116,
+  "sentiment": 0.00005555555555556177,
   "errors": []
 }

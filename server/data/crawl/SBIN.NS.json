@@ -2,7 +2,7 @@
   "yahoo": "SBIN.NS",
   "symbol": "SBIN",
   "market": "IN",
-  "crawledAt": 1788359409762,
+  "crawledAt": 1788388207106,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -72,22 +72,6 @@
       "label": "neutral"
     },
     {
-      "title": "SBI, arm to dilute up to 1% stake in NSE via IPO - BusinessLine",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeUt6d0dEdmphOS1pQTBVckJMSVNfVWVoMVhwRV9lcDlxemo2TUVfNTJGZE1Zd1VlaVV5SmF0X2RyajdvV0x3RW5LMEFHUXZGZzJFZnJRZTU3NkltQ1JhY3FvMklib0JnNnVkVHdPeXoxU1dIVjNpQk1SelJiU0FQaE14aUkwc3VvSjFHS2RLZzFMY1hGQnZCUlp1Yy1wTmxEY0Q2RjdGaDdiYzdyekNYONIBtwFBVV95cUxOamZ0YlFSWDNmTmRfRmE5QlJwWHFUVWVxcS1CZktPaU45Qy1sWTlTVEZrbV8xMmJQMS1pclNGa0M5cHRWV3Ytci1zeVlaNzhyNlBJOEtlN2hGOHAzSHNScVRYajlBaXpBZXo0UExvM3lxNnRWNnRGdzk2SEY4b3N5M3hCUEpZTlppQ3ZRUU90MzEwajJCYUFueWhremU3ZTV0REVhQjlJSVM2aVdjNUJjRlpIazhtdUk?oc=5",
-      "published": "Sun, 30 Aug 2026 06:44:25 GMT",
-      "source": "BusinessLine",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "SBI and SBI Capital Markets to dilute up to 1% stake in NSE offer - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVU9KbTJhZ24tTXJTZFc5aGZjTHc2SGNkZ0loWHRQMTVzM091UnNEaE5rTmdnSWpVTGd5Zno5RHlQUHRMaHF3cS1WWkFxVFRvdmpBTzV4UFJnaWVycHJEdDJ2QjFKOG02UThYZ3AxeWFVVVRmNGhzZFQ0cWdIMXRvSnVVMTRNczF2aDdFQTdMTFRTaFBLTW1IR2hkODZGWEpWWUV0MGZlSG41OFV5dGFBYVlmWnNMNFF0NC1KTnlaQlFTZTlCTlRUcFllSUI3NzMxUC1vNGdyZmZzS29NcE4wX2diTk_SAeoBQVVfeXFMUFdIeEp3R1VfX1BXXzVYYUJieDFuM1Z5bzA2RlRMQXNhUU01NDh1S2djMlRrdXJNeFR0blRrUzRYVW9URjFySEJkb2VEdWJ5c20tUmJfOE5IVDBXYmFZT0RMeXZENTQxdjJiNmNsajRiaGpHNlI3cldPdG4tUVl5YzJFV1lmNkhCNHdOdkNfdlllY2M4NVBuNE5tTG95Qm1hWTdCQzluMlVSc0dWRzl5OXk4bHp5WU1vU2NkWGV4TzVIcDhFVWVPQURlT2dXeGcyVzMwU0J3d3luZk9ZMnhRbEpVSmFkNnZJcDJn?oc=5",
-      "published": "Sun, 30 Aug 2026 23:40:00 GMT",
-      "source": "The Times of India",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "SBI to Dilute 1% Stake in NSE IPO; Home Loans Near ₹10 Lakh Cr - HDFC Sky",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPN1hsdk1KVU1YLXJ4YWVqZ0drM3Vka0FxNkRoUEJIWTNxdFVVWEp4R3oxRnRjR05nRVFuZWFVeE56dE9La1FwR3pPekJpYlZtTTlMcUkyZW02T1RUdXh5VksxN2pfTV9hZlc2bU95WjdURlRpdVNUczhXOTJfeE1XVDFmckRpUHppMWpR?oc=5",
       "published": "Mon, 31 Aug 2026 03:29:46 GMT",
@@ -112,18 +96,18 @@
       "label": "neutral"
     },
     {
-      "title": "NSE's ₹30,000 crore IPO: SBI, its investment banking arm to offload 1% stake - businesstoday.in",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWWl2Vmh4VGFfbHZ5U3IwU0NYM29wQk5od1ZSNXlVcGdYdzZZNU5ZdktCMm16amIwNmI1eHpleVhETTBnTFlZVXRuOGJnZzhSWTBaOE5vWWxIcjJYOHpRNWMtWlAzQVpORFI3SmlJUmNUNU8zOUUyalhlZGo1ZEw0aDdBWFdGOGhSMzd1RDN3bE9jYzlPdVRBQW55Tld2enVzVmFvTHY4RlpQdnZkVUg4eWxFYjV2cTVBeVNjM1l6YXBBamQ5X2FiSkkzemhod9IB0wFBVV95cUxONk1laUJFVFM0ak9VVEJBQ1k1VWExaVZ0enp4RjV0SEFQU3oydlJsNUxZZTJGSDlNVlVTN1FReDJkbTMyWHViQm96dS1LaUlVb0FNWTJRNEp6M2NUdFZxUkEyWXROY0ZTaVp5dHZ1MXlGWWdBWGxqd2RCYk5mcUhqaURSMXg5Y2s3U1VrLUNXbjFjU1hOakpaTHBqTEJ2cl9OcXR5bE5HcDNYclVLM2ZJZGFzTG5DNUM0S21oaXVJT2ttakFMVlJoWnFIdGRHY3JVQlcw?oc=5",
-      "published": "Sun, 30 Aug 2026 09:47:46 GMT",
-      "source": "businesstoday.in",
+      "title": "SBI, arm to dilute up to 1% stake in NSE via public offer - Livemint",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNekhpVGFnRWl5TDNoZUUxNVJoc3BFQVkzaFdVeUFuTnhMZlRXNzBrQ0Q2T3JBSU93dUlna3lNNnRFNEJEclN5MnFmM3pzOWdOU3A2UEpSQzhyUlBrMUhPTzlCQzdpMFZJY0RITG4yd2xlY3VxdVRLNXhYclZseEVmSlpWUHFHQ1lPU0dVbDZHaXJaSVAtZlZaZTNiS1c1OURmMHZ6SDA4Tk5qN043QWFfbWdWaU5seVV4amk4Vk9MQmRzTzTSAcgBQVVfeXFMUDVaZjhtWGRfb0dwb3hUX0VQSDFjU1hvYTVPOWR1bEo2VDBHc2NYTUxYSTQwWFljVmZIZ0JwYXgtNkotYTNjVlNfaVFXQzl3dWFpTTJTREtCVlozR2s0aUtlMmFOcHY1N1NwWDVnM0FiamhFZkotem5aenRybFQyV19KQ1pWaHJFMEhMVUZUbXktbEVPMS12UFhnOS1pVzVEMFVnMzkxYjNkOU9fYndDZW1Yc3drNEQ3WXJFT1kwcXMzM3hFUFlZa2Q?oc=5",
+      "published": "Sun, 30 Aug 2026 18:08:19 GMT",
+      "source": "Livemint",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "SBIN Forecast — Price Target — Prediction for 2027 - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YZktWd1pyaGVHa3hJUENIZzh3UGtTS2YzdUZib0E1TjQ1SGNNb1I0aF81RlA4elRrcGkwVEFJRXBFN1RLRDZZWmd6M1JQRFphUlN5aktQeVpyNGVxSVpSbURfU1NxZVQxYkVBVUJ2YjRJbi1wZUE?oc=5",
-      "published": "Thu, 25 Jun 2026 13:07:22 GMT",
-      "source": "TradingView",
+      "title": "NSE's ₹30,000 crore IPO: SBI, its investment banking arm to offload 1% stake - businesstoday.in",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWWl2Vmh4VGFfbHZ5U3IwU0NYM29wQk5od1ZSNXlVcGdYdzZZNU5ZdktCMm16amIwNmI1eHpleVhETTBnTFlZVXRuOGJnZzhSWTBaOE5vWWxIcjJYOHpRNWMtWlAzQVpORFI3SmlJUmNUNU8zOUUyalhlZGo1ZEw0aDdBWFdGOGhSMzd1RDN3bE9jYzlPdVRBQW55Tld2enVzVmFvTHY4RlpQdnZkVUg4eWxFYjV2cTVBeVNjM1l6YXBBamQ5X2FiSkkzemhod9IB0wFBVV95cUxONk1laUJFVFM0ak9VVEJBQ1k1VWExaVZ0enp4RjV0SEFQU3oydlJsNUxZZTJGSDlNVlVTN1FReDJkbTMyWHViQm96dS1LaUlVb0FNWTJRNEp6M2NUdFZxUkEyWXROY0ZTaVp5dHZ1MXlGWWdBWGxqd2RCYk5mcUhqaURSMXg5Y2s3U1VrLUNXbjFjU1hOakpaTHBqTEJ2cl9OcXR5bE5HcDNYclVLM2ZJZGFzTG5DNUM0S21oaXVJT2ttakFMVlJoWnFIdGRHY3JVQlcw?oc=5",
+      "published": "Sun, 30 Aug 2026 09:47:46 GMT",
+      "source": "businesstoday.in",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -136,12 +120,28 @@
       "label": "neutral"
     },
     {
-      "title": "SBI Capital Markets to sell up to 8.78 million NSE shares in IPO - Moneycontrol.com",
+      "title": "SBI Capital Markets to sell up to 8.78 million NSE shares in IPO - moneycontrol.com",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUHJvbW9tRE9Ic2lZcVA1UjQ0YmtiQ2J3S1VyS1V4bWFmbXdDcWxVTTZIRmhTUVNFcTMzLV9XM0FzZHRuSlBhLVI3QVhfR1RKU1ZyZjl6em42Qkp6UTFRaFdnQ2s4dW84bW45bkIyVm5zMUdqUEF6M2xSVnJKUWUwcW5HMmxoaDViV0c4QnVJNnVDV3RwSGdndkN2SklIVzJFMmJfUGc1WWQ0eE1QQ2dhVzlVNnhxLXhHN2M1cVZNTVlBd00wbWFZRdIBzgFBVV95cUxNeXZ4eUFITUx5dnhaOTlTVk1qMTc4eWpYaUFRVk9wZW1lREIxMDlvVW9aRkJ3cXZyLXJmLVhoNE5DQ1JoQTRMalVfdllxMXExdm9MbWdRdm9zRGRkbXV0SlRMRS0xUmFESm5ERDNsWDFRbUFFRUJLVDY1bFFYSXc0di01VVc3VEtEMUtRWGkwcFU5RWhkaXVtSEJqalZVTUxuVzZfZ2JjNmIyNnQxMmpvNVptTmYtVVM5NHNaQWtxQ3I1TVVpazNfcjNWY2gxZw?oc=5",
       "published": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "source": "Moneycontrol.com",
+      "source": "moneycontrol.com",
       "sentiment": -0.333,
       "label": "negative"
+    },
+    {
+      "title": "SBI raises $500 mn via offshore bonds at 5.25% coupon; stock edges higher - Fortune India",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMWRMaVktMkl6Mzk5bU1KX1IxT2RZbWdwN3lTS1Y0N1pESDRSNmwxRzVldnJfZ3JvaWN2WG9HR3piRVp2X1VpSnZhSlhtUkMxZmlTX3J5OHo4RkZqNlFOUjlVM2dNcEhpT3paampMSC1ZOFVBMng0OG56dmVqYWx5YnFWQVRCc0E2U1o2YTN1WUZTRThBcEtfMmZTUFhlNFJ3ZDhVZzZEZGV5a2MtU1J1UWhvVdIBwAFBVV95cUxNYmlzeVVfR0RHTGJTMlJNMFdrR2gxOU12RkE2N3Z4WlFITzU1NUIta3VNa0lybmZJU1VvMkNnRlNXaWxWSGNyRjl4TjU2VDFoMFhESlVHa3hOZldBMjNYdVB5emZNa1FEWGZTZC11NUhVa0dJa3g4NHFIWHRBRkZWVkZFaGV2WUR6Qk9Nd0ExSVp4WXlWMFRoVEgwRzVsYTYzend0T0RQVk4yUk5BcVJzMGQwZ2FLa0RFMEE5OVlmUHE?oc=5",
+      "published": "Thu, 13 Aug 2026 07:00:00 GMT",
+      "source": "Fortune India",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Through 2 IPOs, SBI eyes record asset unlock. Why it could be ‘once-in-a-generation balance-sheet event’ - ThePrint",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLXBlb25tVkxqc1VaWTRlTnh1VWJMcy1uOVpQQ2kwTlpDak50LXk1VjVkV1VGZXlLY2trR1FvSzZvbmdnRUJ1VGVqQ3d5MjRwc3JYWlhIRE9NRWQyREFNcmlmVUNFdXY0WHBzaEJOaVdaNlFEdlFlYVJkcmJYYllhdHJqeTBrTG1zM1dPVzNYQUQyZEw3RWRaM1hHbmw1X1o3a0pWWW5sZXdoYlFJVEM3MlVtNWZ6UXpUaHhkTnVscVUwVWJJU0VYV3JYRlBaSXp2OVBj0gHYAUFVX3lxTE9VUHRCZ3pUdW9OVnhYeGZhaDZLRGlhYnA2RVNINjJ6QTVEZmFrM00zMFNXLU9UeE1oLUZ0QWRnQjhTUE5UYmFaWXNabk5tcm5iTlhjQl8xNnVYSk1EOFNSam9fZ2Iwb3dpWnZTRUo3ZWt3cHM4Vm9URUZfYWRQelY5ajJmZmR5elk4eHlSbGpiOXUtMGZZSU9QUW5Cd2lVV0ZEOHpsMEVUaEZ4UDJ1YWs5TVllRm5jMFExbTJ5UFBxWVA4RmhRemdNbGVHRmhfRzhDQURYM1dfSw?oc=5",
+      "published": "Fri, 22 May 2026 07:00:00 GMT",
+      "source": "ThePrint",
+      "sentiment": 0.333,
+      "label": "positive"
     },
     {
       "title": "Top 20 Corporate Taxpayers in India: SBI, ONGC, ICICI Bank Top List in FY26 - cfo.economictimes.indiatimes.com",
@@ -168,18 +168,10 @@
       "label": "neutral"
     },
     {
-      "title": "NBBL's Bharat Connect forex transactions cross Rs 100 million in four months - ET BFSI",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZXVEWnA0czlQbG4xaldBUGVjZXk3NURvaEVGTjNQbXpGVWFxamNabjA4VnNLWmZGMm9VY292Wk1OVWM5VEZsYlpmb1Y5cjFsUExOWHc5VWNYNkZVN090dGh3eW1GMjgtc0ZNYXJGRnJuU0Iwam1tcHZNNDliWjh6RDdVYTlhUXRlNFBOSlgwVEhrWHFHN2N3elF6WXNDT21sRDdpUlpSSUVhVzZWWUpCQjlxYkZHeEd0bHphdEhiN19ucDFqdXk4eTlWb3FsTGxVNnfSAdcBQVVfeXFMTVk0Y2hEM2l4WWpJdEdieG43cndrcHA0VGw2Q1c1a0VsSFUzTmdUeW1PbGl6c1VWc2psTklwN2pmSUhoYUR5QmlreGdRX1Y1YnJoMTJmUlhnUUNiaVVpWkJDRDZCeWhHWWZBeFhib3BadkplRGRtcEJ0MEZuWWs1MlhMZmRFUjZfME9Ec0JEdlZ5MUZ1Y19LNmJ4N3NCTGZKWUZ1Ump1VnBGb3U3d1hQN25UNERpOFZqd05maFdpSjY3cGdoMU1sRDhTQU1MQ2pjbnhyYVJ1RWM?oc=5",
-      "published": "Mon, 31 Aug 2026 06:40:50 GMT",
-      "source": "ET BFSI",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "SBICAP Securities appoints Mufaddal Matcheswala as CBO for capital markets - ETHRWorld.com",
+      "title": "SBICAP Securities appoints Mufaddal Matcheswala as CBO for capital markets - hr.economictimes.indiatimes.com",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOU2w0RUllS2x6ZHRsUmJSUG1BbzlFVUJjcm16LVFKN2lLMGJlSklYendnSXlPaWphcXNPU0RadFVMemVsUXVENEZoRkd4YVNEM0xQVUx0VE80cnZnSkhwVW1XRy13dm1jYkpBNVJidkNBRGtLbmdOaUpzdXVwVEs3VnBWbkVfQkhpN3EwOWdHdUtsZDZCaFRzSGpHdkhFZGdxRkpCcFNsdlZCbTQybE1kSzNGMnFMekNjNy1tSjlpTk51WlZxUTd5R2pnYWdBNWFRSkw5edIB2gFBVV95cUxPeFJEYTYtYWlBSlMxU3RFWEpSanZOdlh0LXdNVWZVeFVLOEs0Q3RRWlJYUmI4VDF1em54OGFzMnBEakNtWEZDa0tiYTYtTUF0X3VVYzU2akNlMzl5VW94NUtTdW16YWFia0tmY2hweUlqdjBFRHAyc09WakhuTWI1alJySTRac0llTkhFckhOT3NOQ21Hcld2c2pYSVI5MVFTYVRMRmUwcGhZbnJ1WE53UmpHRjdNdlpyeEFHU09EcXZ5VVJONF8wR25hTnAwSFNTRFVmQ0Y0RFpaUQ?oc=5",
       "published": "Tue, 01 Sep 2026 16:37:42 GMT",
-      "source": "ETHRWorld.com",
+      "source": "hr.economictimes.indiatimes.com",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -200,14 +192,22 @@
       "label": "neutral"
     },
     {
-      "title": "Bank of Baroda to recruit 2,482 officers fluent in local language across 20 states - ETHRWorld.com",
+      "title": "Bank of Baroda to recruit 2,482 officers fluent in local language across 20 states - hr.economictimes.indiatimes.com",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdmhrcHVsWXFqVmdDRV9hUUk2eHluUnQwVy1WcVpUY3pSX3J4UHRndFo5TU1hT0tvQ1c1UWFlWExvRTkyWXJiR0R1M0hyakxqRFNOcm9tOVNPbDZqWTRJeEtzZWJScjZjNFlacGYwaEpDUDktWV9sd3V5RmFnblEzQjlzRlVFMThBalNjR0xrR2I4aUlEQTRvR1plSlllMzRmTzlLbmptdDBuNUtuQ1JCb1M3VDZhNXo3UkFXdkJucmdoM2pLSlJMVkxibmY0NldVVjlTQ091MVF6S1VsUXfSAeMBQVVfeXFMUGJjdldudzFoT1NzbC1TVjNRRzFSbUhqN2ZxamN4UURNeV84REJoOXk1S1otdUFqX2Y4VXlYQW9mbElSWUFuazVfZk9BazVzTk9wNE9VSmVYNEZxUmVCRHlLUkNicVIwYnlTNjlFS3pnREY2ZDJ6ZjNVUjF3cjRzM1Q4V0ZvMFBzYThQbzNqQlN6VUl1NXBPb2Y2amw3V09aNndaQzVtWm43ak82M2RaUkdWeUVUNXZQeENsekVaOUZYZG5PbUtMMnpDeldpU1FkTWZjNEgxT0NnYUhOQm0zQTJtbmc?oc=5",
       "published": "Mon, 31 Aug 2026 17:03:17 GMT",
-      "source": "ETHRWorld.com",
+      "source": "hr.economictimes.indiatimes.com",
       "sentiment": 0,
       "label": "neutral"
+    },
+    {
+      "title": "India’s growth beat suggests economy on cusp of investment boom - ET BFSI",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaEg0dDdwbmxIdWJ1a0p2QU1CbDNLMU5oMHhuQTlzNWFPak1LSHR2ZDd5Zi1FQU5RMFRaT1c5WVI0Vm5PLVRfcHR6WFhLMjRCRzhxanRwWFd2MmZZaE5FQnpSeHZuVEJiWFl5bEhnU2JjVVdmVWwxekpHcUdGOFpoZmJiM1ZVMnhyS2tSMW5uNnJnRVBrQTlLd0JlUFhfd1JmR1VzMnV5NDdQcmRIakJpM0RaMWdPSGZUOVluSUhCQXE?oc=5",
+      "published": "Tue, 01 Sep 2026 05:16:56 GMT",
+      "source": "ET BFSI",
+      "sentiment": 0.667,
+      "label": "positive"
     }
   ],
-  "sentiment": -0.018500000000000003,
+  "sentiment": 0.05555555555555555,
   "errors": []
 }

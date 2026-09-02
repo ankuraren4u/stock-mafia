@@ -2,7 +2,7 @@
   "yahoo": "META",
   "symbol": "META",
   "market": "US",
-  "crawledAt": 1788359415773,
+  "crawledAt": 1788388212341,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -65,22 +65,6 @@
   },
   "news": [
     {
-      "title": "Meta Vs. Google: Analyst Says AI Boost Puts Facebook Parent On Track For Ad Crown - Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWlYxcXlmekJtSVE0bmhWRXhneDN4VGpjMFkwSUxFRHhmdUVOWnQ0RUxaQTZMWmxVZC16WDNxdHg4WVZsaEV2bmtxbGpncU10TDJxVl9yODRxRkowTUtQRDNWdC0waW9UVGlQUFQ4TEdXSzlROWc2NmsxU1RoX3ZCalJxUFh3LWhjZ24wTVJKQnVVYUU?oc=5",
-      "published": "Mon, 31 Aug 2026 14:42:00 GMT",
-      "source": "Investor's Business Daily",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Prediction: Meta Stock Reclaims Its All-Time High Before 2029. - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORzI0VzhHT0hFVnAzay14cTNkX0p2VERPQi1HQzlKanhUUmJJWTR1ZXY1ckpZNzJOand0djIwbW1NWWczWFNnWG1YM1N0U1BCRHd2Yi1xaHRmMS1JT1k1RFgydm1xZk1oMzF3OG5WVkNDSW8tSGtDUm1WZG5KcF9haHRUNjV1Q01IdXBEeXF3S2pMRnFhUE5SNkNyUDRUQ1hZa0EyWjVn?oc=5",
-      "published": "Mon, 31 Aug 2026 08:37:00 GMT",
-      "source": "The Motley Fool",
-      "sentiment": 0.333,
-      "label": "positive"
-    },
-    {
       "title": "Great News for Meta Stock Investors - The Motley Fool",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2R0N3NYQnhNNGhfamFYNGw3Yy1GcjBxckZnSW1EN1pLWnJiU2xwckE0TEhCMjNpNTBLS1JoR3FQU2xuWDltWm1FRjFLa1ktS1hfZG83RE1RNll4ZDROMlo5R3BtWDc1YzhoX1pnNWhDYW90anNnT3RkYTAyQUl6YVlMeE0?oc=5",
       "published": "Tue, 01 Sep 2026 16:00:00 GMT",
@@ -89,10 +73,26 @@
       "label": "neutral"
     },
     {
-      "title": "Meta Stock And Founder Led Peers Built For Higher Rates - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRFpRc1VfSFdqdTNUdmNMeW5MTWkxY0Z5bm0wS3hUeC12THZZbF9EV2N0RVpPSVowYmF3dGhIUl9Fcm1GOVc3UTdQdHRtVndtalVhTFE2SE9WbU1JZjRxZkktVElHZVBXT1VOcU5EMWpXTDFhamhpbHhaeUljYWdjNzdBM2tjaTgxN0V5c1BIS0xFTXBwT1MyYg?oc=5",
-      "published": "Sun, 30 Aug 2026 20:18:35 GMT",
-      "source": "Yahoo Finance",
+      "title": "Meta Vs. Google: Analyst Says AI Boost Puts Facebook Parent On Track For Ad Crown - Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWlYxcXlmekJtSVE0bmhWRXhneDN4VGpjMFkwSUxFRHhmdUVOWnQ0RUxaQTZMWmxVZC16WDNxdHg4WVZsaEV2bmtxbGpncU10TDJxVl9yODRxRkowTUtQRDNWdC0waW9UVGlQUFQ4TEdXSzlROWc2NmsxU1RoX3ZCalJxUFh3LWhjZ24wTVJKQnVVYUU?oc=5",
+      "published": "Mon, 31 Aug 2026 14:42:00 GMT",
+      "source": "Investor's Business Daily",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "META Stock Jumps To Best Day In Nearly A Month — Meta Platforms Unveils Most Powerful AI Model To Compete With AI Rivals - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQUlPZ2wzenJJTjFLQ1gxd2FyalF5WUVkN3pzdnJSMHF3aHBySUg3RHZHX25rbkdDM3dIT1lqaUI3b205RE9JcEJuV2VUd2l4Y1pOZDh3ZkpuQVdNV2dKUkp1akYzbzktSFZWdEhDSXNjZm1OR0RFcm0waFdhcXIxQzRlS2ZCb0lDS0lOaFB6REc4SldPdFFLUHdqZGJKNS1GUFNmTVVWVV94QnQtd1E?oc=5",
+      "published": "Wed, 02 Sep 2026 17:03:45 GMT",
+      "source": "Stocktwits",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Something Is Wrong With Meta (NASDAQ:META) - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qcFBnUWxkVEdSVUpoUHl4dzFVTmFoZ25Oa0tLaTBHNlVjc1ZVU3dtRlhCeHdXaURoTzB4dkpJV29XVG4tYVplVndLYUxCMXhVWVJmeXNVdW5laWF6a0czRW1xU1cxM0tDNXlOWWZwY3dfUU1fRkRMWA?oc=5",
+      "published": "Wed, 02 Sep 2026 21:45:40 GMT",
+      "source": "Seeking Alpha",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -105,26 +105,10 @@
       "label": "neutral"
     },
     {
-      "title": "The Social Media Trial Settlement Is A Major Win For Meta (NASDAQ:META) - Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVDV5WjJ6S1lfQXdxSDFncklKakdsa3MwS2dRcXhyeFVEbzhkVVlHNWxtX0xhbF9WUldrOWJFMm5IUXdyOFFaMGR3V1JFM19aMldycXM2b3dFM3dtVE0waHpPS0RFQkFjZFZDNkNUU1dTZG5MTExWZzg3RGNOLWFCQTU5STRfeTdjVUtCbjJsQWJtZ1FHa3Uza3hVZHZaV2c?oc=5",
-      "published": "Wed, 02 Sep 2026 13:30:00 GMT",
-      "source": "Seeking Alpha",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "Meta Stock Leads Founder Run Tech Names Worth A Closer Look - simplywall.st",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUWF6eVJJejY4NUxjRXVNSWZBOUhGaGZ5dkVfV1BkTFpOM2ZLU19ldTR3ZldzME9WNm11VWFpM0M5ZnJQdzV3UHpjR1MtdkdSQjIxUXFrdlc0QnBCSjZkWDRETDZWLXNzMkhFTk02UWt1a3JGbU5veERFZ1Z4TFhVallwbkNXOGYycnhIZDNQMUxCaHREMzlhY3djZlF4X2EyTjVRLXJVYk9sQl9KZFZiUUh6RXZYeXRhaDdxVlZjc0tMM2FlWDFPOdIBzgFBVV95cUxNY2VQMUs4dzhjbHZrN280NzluN1R0d1p4UUNJa3U1V05CWUEwN01iWFJIWVV2N3FiR0dGSlpPVTByeDRfRF96a1cyNzBVSVlaMC1Qc3NraXRmVTJIMEctN1Z4bjJsOXFkdnI4NVFzY3ZDWDlDMkhfYzdrd1VYSkdQWjV3Nk53ZkRMTnJnUmQ2TU1xdnhFd0ZqbEZDd0kweEpKUzgyWXJnZXpsVDlwMVk5WnpuWkVrQjRuUkM2V2hjcVU1eXdfWUVEeDgzVC1EQQ?oc=5",
       "published": "Mon, 31 Aug 2026 17:28:09 GMT",
       "source": "simplywall.st",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Meta Stock Could Have 50% Upside. Here’s the Bull Case - 24/7 Wall St.",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU1FY3U5bXhBSzg1bGVkaS1lZTI4WE9RWm1Cdm9WUGZtZUVBX1lSb1hQazN5QVItTFVoV1BneTNlTHNtX1N0VW9ySXN4N3UxWFNOTVJtQ2ZFdFpqUFByMkRLZzVrX2lGc0E2eGtpM3lZRnhGMTNWSU1JUllWSU9jTFZLMVF4Q3d0ekZBYVJvMTBYNVdKR0RGaWpnRQ?oc=5",
-      "published": "Fri, 28 Aug 2026 13:00:00 GMT",
-      "source": "24/7 Wall St.",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -137,78 +121,94 @@
       "label": "positive"
     },
     {
-      "title": "Meta’s stock looks too cheap, analysts say. Why it’s now set up for a Google-style rally. - MarketWatch",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWXNPTVNNYmNadE5lR2RqcVZObDJyTkFvYzIyUjMtNlVuMk5kNE1oRFVVLS1PTk9ucFVnb0RTVnFuaUJDR3ZublIyNmpReVdwbmRKbUhWUHdjdU42d0xPMTJHXzAxZWxvTUhjOHdtRXVhUmFxeU5KQ2podTV0VldNcnM2djFZUUhtcXpYdU1BdTExUGtTUUlRT254MjVwSmJTam1odXZGT0MwNDFSSDFabm9pT3BGSDJMQ2FVSlQwYjJ1cXJTUnc?oc=5",
-      "published": "Mon, 31 Aug 2026 18:12:00 GMT",
-      "source": "MarketWatch",
-      "sentiment": 0.333,
-      "label": "positive"
+      "title": "Meta Platforms Inc Stock (META) Moved Up by 3.69% on Sep 2: Facts Behind the Movement - tradingkey.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd0dwQXVFSjVuTURGYXV6ajhQejM1UTNaTWdOQVdpOUM5NnIxWWZvUXk4YjB2X0x1MjNHSkZmcVA4dC1NTTQ0QzcwZVN5aThwRDhjTVI0eU1oSnpUaDZ3dTBZNGdWTHR3cjE2cGFQcnhKNUYwNVoxLXpOSkNwQkRtSDd5Y19vRGp0Wjhv?oc=5",
+      "published": "Wed, 02 Sep 2026 14:15:22 GMT",
+      "source": "tradingkey.com",
+      "sentiment": 0,
+      "label": "neutral"
     },
     {
-      "title": "Sundar Pichai’s Credibility Crisis: The AI Model That Never Came",
-      "link": "https://247wallst.com/investing/2026/09/02/sundar-pichais-credibility-crisis-the-ai-model-that-never-came/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:15:40 +0000",
+      "title": "Meta Platforms (META) Heads To Trial, Is The Stock 44% Undervalued? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaDcwTG8xV2czdTMyMzQ1OTJ4M185LXpPYlFvQkdxSlNsS1NBVHdsMVM1VE94NDdoN3NPb1h0NUNTZEJBdXBZdFNJcGw0QTdrZHBYcjBZU1FQeVMtSmZMajhrRkNTNEQ0djdUa2V2MVJ1a1NxRHg3ZExhY0Viemgwekh2Smw5MV9aTGZ0R0xJR0RER3kzd1I3Y2JadGY?oc=5",
+      "published": "Tue, 18 Aug 2026 07:00:00 GMT",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Form 8.3",
-      "link": "https://finance.yahoo.com/markets/options/articles/form-8-3-142500601.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:25:00 +0000",
+      "title": "After Earnings, Is Meta Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbDNMOXlVblg3Rl93amZGRmUtV0xCbWtrSXVvdGhRby0wX2RxS2dzcS1MbmpzRkNqQlRBZ0J4ejRDWmJYcUFuaVV0VDJ3ejVKM2M0MXlwbnFWMk84NGotbHYyd1VaRzQzd1dIZm4tTWYxZ1E2RmprVDJ4VjlWbGU5TmRsNkF6T3hGd2hzRVRLVzk3b2FHZEpNcDMzN0RqUkx3NFE?oc=5",
+      "published": "Thu, 06 Aug 2026 07:00:00 GMT",
+      "source": "Morningstar",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Edwards Lifesciences to Present at the Deutsche Bank Healthcare Summit",
+      "link": "https://finance.yahoo.com/healthcare/articles/edwards-lifesciences-present-deutsche-bank-201500535.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 20:15:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "What to expect over the next 12 months from S&P 500 returns",
-      "link": "https://finance.yahoo.com/video/expect-over-next-12-months-142105313.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:21:05 +0000",
+      "title": "US judge rejects bid to break up Google's ad business",
+      "link": "https://finance.yahoo.com/media-advertising/articles/us-judge-rejects-bid-break-161532322.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 19:46:10 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Kazera secures mining right for Sea Concession 2A in Northern Cape",
-      "link": "https://www.mining-technology.com/news/kazera-mining-right-sea-concession-2a/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:19:13 +0000",
+      "title": "U.S. Debt, AI Borrowing Binge Spurs Bessent's Bond Market Gambit; Risks Rise For Stocks, Dollar",
+      "link": "https://finance.yahoo.com/m/8c0446a7-cdeb-308d-bedb-e9fb2c5d2d73/u.s.-debt%2C-ai-borrowing-binge.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 17:41:38 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "HTH's NII Increases 5.6% Y/Y in 1H26: Will the Uptrend Continue?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/hths-nii-increases-5-6-141700289.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:17:00 +0000",
+      "title": "Should You Hold on to RDDT Stock Despite Its 15% Dip in Three Months?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/hold-rddt-stock-despite-15-172900315.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 17:29:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "IBKR Sees 23% Y/Y Rise in Client DARTs in August 2026: What Drove It?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ibkr-sees-23-y-y-141600501.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:16:00 +0000",
+      "title": "Broadcom’s Outlook Weighs on Stock Even as AI Business Booms",
+      "link": "https://finance.yahoo.com/m/58a6f508-b17a-37c1-90fd-729e1cd92db3/broadcom%E2%80%99s-outlook-weighs-on.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 21:03:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Major Banks Make a Move Into Stablecoins: What Should Investors Watch?",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/major-banks-move-stablecoins-investors-141400253.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:14:00 +0000",
+      "title": "The $277 Billion That GOOGL Stock Quietly Paid Its Owners",
+      "link": "https://www.trefis.com/articles/613953/the-277-billion-that-googl-stock-quietly-paid-its-owners/2026-09-02?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 19:26:26 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "The Covered-Call Fund Nobody Talks About Pays a 70-Year-Old $2,900 a Month: GPIX",
-      "link": "https://247wallst.com/personal-finance/2026/09/02/the-covered-call-fund-nobody-talks-about-pays-a-70-year-old-2900-a-month-gpix/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:13:48 +0000",
-      "source": "Yahoo Finance",
+      "title": "Looking for evidence that Meta's AI investments are paying off? Here are 2 ways - cnbc.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbE9wZFM5elJWZVc4bEVwMDdVVlN0RjRPMExRb3JNdXdCdl9fTnBQR0VEbzZTeFdESjJTMEhPcDY1WlFJYXJoVlNuM3YzcjFhV2c0Z09kQWdOZU80R1lTbDlhb01EUy1UdjJxa0lTNzl6SjBnUFlyQzM5RkNYdDBZRXNqS21MWU1XRG82UHhsRXhDbjliUGctbzdheDZfZmk5MUJfRXFreDh2QWNkR0t0YUpBNzg?oc=5",
+      "published": "Tue, 01 Sep 2026 19:46:02 GMT",
+      "source": "cnbc.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Meta- and Google-backed Indian telecom operator Jio Platforms gets regulatory nod for IPO - cnbc.com",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11UC1TUVNmSU85cGI4cmlTMldPak1pWm5YN18wbDlYNER3QTFRR2xxMk90cVVkXzhvTTV6bDc3S2YzclY5OVRtX3Zjdks2OVBBdzQ0NU5nQTZ0VklVc3libFJWUXdETFdVVlB1VElzLUs2UFgxYVNEMXdpenQ1Z9IBgwFBVV95cUxObzRqSDlkYzNRRjIwTkdOQ014TmdsR09oZV83TDgyb3IzQmloM0tOZGUzcDRyTnVIc1NlTlNIaEJyemlUQ1RSVUw3SDBObTFHMzBjbnYtNG93b3BDX1VVc0dzMUtyb3JyMUhXR3hjMFFRLTZjQVItWmFmaTR4OWtsTElxMA?oc=5",
+      "published": "Mon, 31 Aug 2026 02:35:00 GMT",
+      "source": "cnbc.com",
       "sentiment": 0,
       "label": "neutral"
     }
   ],
-  "sentiment": 0.05550000000000001,
+  "sentiment": 0.018500000000000003,
   "errors": []
 }

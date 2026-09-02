@@ -2,7 +2,7 @@
   "yahoo": "GOOGL",
   "symbol": "GOOGL",
   "market": "US",
-  "crawledAt": 1788359413979,
+  "crawledAt": 1788388211014,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -65,20 +65,20 @@
   },
   "news": [
     {
-      "title": "Alphabet Stock: 3 Reasons to Buy Before It Hits a New All-Time High - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcGpFZzNIWW9DekVNN2hNUjBZNzNRNlgxblRlRm1JdlRsZ0EtMzhpOG5OZDBOLWtPa1NKTjcwcmx4VHlDd0Y2Q2JuTWN4YmVWX0t4UUM5TlZVWlBrR2VsVnAwVG0tRmtjbHJPZmJKb19WOG4tMkVrRkNOaE8tNGs4ZGs4TkhBcDJIQ3gzRWxTVUE0bVhkVXc3Uw?oc=5",
-      "published": "Sat, 29 Aug 2026 17:30:02 GMT",
+      "title": "Alphabet stock has tanked recently because of a 'brain drain' - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVWxjT0hZSldUem1wd1VNSTgtVF92cTZ1a19YU053UVBHaHpUZGxCUE8tMF8xaE85TUVZeUhvODM3cTF5bWc0MmNRaGZlcG1tcXFsbFdpLWJlOEk1cWJNR003OFJTeXJ0Y29EZFZOdGl4N29kbDdiaGVhdWNqN1hnRFNUWFZwSGN6RkE3QnFqUFpzTTdfNGs5VGxac0ljTk5yT2lMUnJpSkUtamZoUzZqYldDc0NIUGtqbVBYMnFpRjE?oc=5",
+      "published": "Tue, 01 Sep 2026 10:22:19 GMT",
       "source": "Yahoo Finance",
-      "sentiment": 0.667,
-      "label": "positive"
+      "sentiment": 0,
+      "label": "neutral"
     },
     {
-      "title": "Alphabet (GOOGL) Stock Price Forecast 2026: Cloud Hit $20B But FCF Collapsed — Buy or Short? - TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeXNna0FPVFVzVTBlNUM5NVVCNU9TLVhBazdFMVhkaFpBelZTMHBGV2ZqWTBwdFhwUVp3ajJLWXVaNTZURlFrRlhVQ010NDZzVTFhblZESDlvME0wWkhhemJBaXlyREZDLXhpckVRM3QxUlA2dW1idHlFQkEtT3FlbEdIb05UT1QtOFcySkRlc0pwRzc2Z25JQXE2YU8zS2JvLUh1ZUxEd3c5a2lETlItcXo3UEN6ZnA0c185SjNlN1J1QzI2VkE?oc=5",
-      "published": "Mon, 31 Aug 2026 02:02:35 GMT",
-      "source": "TradingKey",
-      "sentiment": 0.333,
-      "label": "positive"
+      "title": "Alphabet Stock Pays Out $277 Bil - Investors Take Note - Trefis",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPemRDd3J6N1JIQUUyaV93Ymh2b2lRTXZfdnljZE01SkRSZlk3Q3NJc2d2a1NhdUN3UFFWQlA1T2VmTFc4Q0VySjc0MDRfc2UwQzB3TTFEVnlxZ3lLVC1FczFjSzFFLWRXVlN6R3lRb0I0WXhKdjRlazI4SnpxYmVIQ2VLMFV0MnYwMjR5andEYThscmEyYS1ETG0yYnJWenlPeTZYUU1SN0ZRMXVEa0ZtSVpxeXNoWll6Q0MtSU1yQQ?oc=5",
+      "published": "Wed, 02 Sep 2026 09:02:30 GMT",
+      "source": "Trefis",
+      "sentiment": 0,
+      "label": "neutral"
     },
     {
       "title": "Alphabet Stock (GOOGL) Opinions on AI Growth Prospects - Quiver Quantitative",
@@ -86,6 +86,14 @@
       "published": "Sun, 30 Aug 2026 14:03:00 GMT",
       "source": "Quiver Quantitative",
       "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Alphabet Stock: 3 Reasons to Buy Before It Hits a New All-Time High - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcGpFZzNIWW9DekVNN2hNUjBZNzNRNlgxblRlRm1JdlRsZ0EtMzhpOG5OZDBOLWtPa1NKTjcwcmx4VHlDd0Y2Q2JuTWN4YmVWX0t4UUM5TlZVWlBrR2VsVnAwVG0tRmtjbHJPZmJKb19WOG4tMkVrRkNOaE8tNGs4ZGs4TkhBcDJIQ3gzRWxTVUE0bVhkVXc3Uw?oc=5",
+      "published": "Sat, 29 Aug 2026 17:30:02 GMT",
+      "source": "Yahoo Finance",
+      "sentiment": 0.667,
       "label": "positive"
     },
     {
@@ -105,26 +113,26 @@
       "label": "neutral"
     },
     {
-      "title": "Alphabet Is Getting ‘Ambitious’ With AI. Don’t Get Ambitious With GOOGL Stock. - Barchart.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMlFIQUpkQWFzVUxhWWp1LV9NcnNaNi1CXzFaNGZuT3djM29sS1VDZ2JGZ051Sm9SWEEzYVh4WHM5TU4tYzl3U1ZrdHJOUkhfWXBFbEQ5bExsYnA1dy1wMXNkVXZ6X3NjOElSWWhKQ3BYaGVMUmd4ME1yc3FkemVRNUg4eDZsZDlvQk9LNmx0bGw1RzN2N01CTWJ3VGk1cUw4X25MMl9NWkNnbkZObHIzMjdCR2tSeTFX?oc=5",
-      "published": "Sat, 25 Jul 2026 07:00:00 GMT",
-      "source": "Barchart.com",
+      "title": "Meta Vs. Google: Analyst Says AI Boost Puts Facebook Parent On Track For Ad Crown - Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWlYxcXlmekJtSVE0bmhWRXhneDN4VGpjMFkwSUxFRHhmdUVOWnQ0RUxaQTZMWmxVZC16WDNxdHg4WVZsaEV2bmtxbGpncU10TDJxVl9yODRxRkowTUtQRDNWdC0waW9UVGlQUFQ4TEdXSzlROWc2NmsxU1RoX3ZCalJxUFh3LWhjZ24wTVJKQnVVYUU?oc=5",
+      "published": "Mon, 31 Aug 2026 14:42:00 GMT",
+      "source": "Investor's Business Daily",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "After Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcU5wZDBReEdfVHpvZjFKZmQweDlydlFIR2txV0JYV2RscEFFWlZjWldQalg2MF9xWUNFbHNzSmNRaC1PN2JFNDh1OWE4U2lFRkVpbmQzLWhVelJqOUVQdFdLc2hKem5DUUpTdUNGVE5ZUXJQN3dSclIzcnA3X0RPOXhzME4xLXgyUGZFRzdJbkN6TzdJbVI3WUVCbzFTdWZUcjMtM3lGQQ?oc=5",
-      "published": "Tue, 04 Aug 2026 07:00:00 GMT",
+      "title": "Alphabet: Shares Sell Off on Artificial Intelligence Talent Exits; We See a Buying Opportunity - Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQjA5aHpOZTc4WmdnZ1FLTzByY0s1SUY2YVJNSDF3WTVBTklOTTRrZUtVakF2ZHVNZHdiYXVVMHdaSWhlUDVOdFRiNlozQmpKYTM1WWx5TFNmc0FqXzBzWGJlMkpJc1M4ZlhMaVR6OWN2cUJnQVhPeGdXYjN6aHFteHFLRGY3bTVSZzZHN0FCbUZPcXE0R3RaNnJDNHBjVlQycHhsVTBPWFh4dFhZSjhwODVBNXhoR0FzR2ZtNER4SmlWMF9sbVlkNm81UQ?oc=5",
+      "published": "Tue, 23 Jun 2026 07:00:00 GMT",
       "source": "Morningstar",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Alphabet (GOOGL) Stock May Be 20% Undervalued Following AI Bond Sale - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLUl1enV6Q0N3T1pKcG5FLVQ4SExSVlVDTkZ1VWZUc1VydTdEWGxDYlhlMTI5bGhMSXhRVUJKdFZYel96dnVobUJiLTBlZG5fZ1BwTERIa2kyYTltZDNuYlA2dGFGdzlFZk14eDVGSkFpX0lWclNVN0k1R3JWRWRsUUJRZkxVQjRsbjB5eTBLSHBEVkxHaU0w?oc=5",
-      "published": "Tue, 11 Aug 2026 07:00:00 GMT",
-      "source": "Yahoo Finance",
+      "title": "Alphabet Stock Ran After Its Ad Machine Had Already Shown Its Work - Trefis",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb0pFNlVfU0ZpYzJ3UFl2YW5TRjhLVUM4SWxWMzNMQTNJazl5ZlJfTTJUZXhoa2R3WlBmUXEtakd4QVJYZFhxeVRDcFhpSVJHX3V1UmY0SE1nN3ZQdDJMMk1aSEczeWhJSzRBbEpfV1JVQ1VCWWRQU0lPY2RBWkQ1cTU1UTJZcktDcXlCaFlEMklHMlJGN0RWTGRkNHFqNG16SGc2SURJXzh3QnJrNUx0QkRzVUNBbWpfY1Q1NUxQNXljcGIxbkhr?oc=5",
+      "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+      "source": "Trefis",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -137,78 +145,70 @@
       "label": "negative"
     },
     {
-      "title": "Alphabet: Shares Sell Off on Artificial Intelligence Talent Exits; We See a Buying Opportunity - Morningstar",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQjA5aHpOZTc4WmdnZ1FLTzByY0s1SUY2YVJNSDF3WTVBTklOTTRrZUtVakF2ZHVNZHdiYXVVMHdaSWhlUDVOdFRiNlozQmpKYTM1WWx5TFNmc0FqXzBzWGJlMkpJc1M4ZlhMaVR6OWN2cUJnQVhPeGdXYjN6aHFteHFLRGY3bTVSZzZHN0FCbUZPcXE0R3RaNnJDNHBjVlQycHhsVTBPWFh4dFhZSjhwODVBNXhoR0FzR2ZtNER4SmlWMF9sbVlkNm81UQ?oc=5",
-      "published": "Tue, 23 Jun 2026 07:00:00 GMT",
-      "source": "Morningstar",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Sundar Pichai’s Credibility Crisis: The AI Model That Never Came",
-      "link": "https://247wallst.com/investing/2026/09/02/sundar-pichais-credibility-crisis-the-ai-model-that-never-came/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:15:40 +0000",
+      "title": "SB Energy IPO Analysis, Google Taps 396MW of Geothermal with Fervo, Bitdeer’s $100M Landgrab for Rockdale",
+      "link": "https://blockspace.media/podcast/sb-energy-ipo-analysis-google-taps-396mw-of-geothermal-with-fervo-bitdeers-100m-landgrab-for-rockdale/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 20:22:47 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Warren Buffett's Successor, Greg Abel, Has Over 50% of Berkshire Hathaway's Portfolio Invested in These 3 Top Stocks",
-      "link": "https://www.fool.com/investing/2026/09/02/warren-buffetts-successor-greg-abel-has-over-50-of/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:05:00 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Jim Cramer Cheered Marvell’s $12 Billion Google Deal but the Stock Just Fell Nearly 10%",
-      "link": "https://247wallst.com/investing/2026/09/02/jim-cramer-cheered-marvells-12-billion-google-deal-but-the-stock-just-fell-nearly-10/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:00:42 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Marvell vs. Broadcom: One AI Stock Looks More Attractive Right Now",
-      "link": "https://247wallst.com/investing/2026/09/02/marvell-vs-broadcom-one-ai-stock-looks-more-attractive-right-now/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:00:21 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "MANGOS ETFs: The Next Big AI Tech Investing Theme",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mangos-etfs-next-big-ai-140000152.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:00:00 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Microsoft's AI Datacenter Expansion: A Game Changer for the Stock?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/microsofts-ai-datacenter-expansion-game-135400088.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 13:54:00 +0000",
+      "title": "Broadcom's Q3 earnings beat just isn't 'enough' to keep investors happy",
+      "link": "https://finance.yahoo.com/video/broadcoms-q3-earnings-beat-just-204909744.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 20:49:09 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0.333,
       "label": "positive"
     },
     {
-      "title": "Eos Energy Shares Rise 12% Following West Virginia Solar and Storage Project Announcement",
-      "link": "https://investorshub.advfn.com/market-news/article/35507/eos-energy-shares-rise-12-following-west-virginia-solar-and-storage-project-announcement?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 13:53:34 +0000",
+      "title": "Google Dodges Major Breakup Threat",
+      "link": "https://finance.yahoo.com/media-advertising/articles/google-dodges-major-breakup-threat-220542896.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 22:05:42 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "4 Stocks to Buy Now to Ride the AI Data Center Spending Boom",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/4-stocks-buy-now-ride-135200954.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 13:52:00 +0000",
+      "title": "Stock Market Today, Sept. 2: Eos Energy Surges 19% on Google Partnership for $350M West Virginia Project",
+      "link": "https://www.fool.com/coverage/stock-market-today/2026/09/02/stock-market-today-sept-2-eos-energy-surges-19-on-google-partnership-for-usd350m-west-virginia-project/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 21:55:28 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0.333,
       "label": "positive"
+    },
+    {
+      "title": "Google spared from ad-business breakup, but judge orders changes to how it operates",
+      "link": "https://finance.yahoo.com/media-advertising/articles/google-spared-ad-business-breakup-213834660.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 21:38:34 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "S&P 500 Q3 Earnings Preview: Earnings and Revenue Growth Expected to Surge",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-q3-earnings-preview-212000628.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 21:20:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0.667,
+      "label": "positive"
+    },
+    {
+      "title": "Broadcom shares fall 3% after revenue forecast misses estimates",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-shares-fall-3-revenue-211557374.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 21:15:57 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": -0.667,
+      "label": "negative"
+    },
+    {
+      "title": "Berkshire Is Making a Big Bet on Google. This Is Why, According to CEO Greg Abel",
+      "link": "https://www.investopedia.com/berkshire-is-making-a-big-bet-on-google-this-is-why-according-to-ceo-greg-abel-googl-brk-12077304?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 21:03:44 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
     }
   ],
-  "sentiment": 0.09255555555555556,
+  "sentiment": 0.07405555555555556,
   "errors": []
 }

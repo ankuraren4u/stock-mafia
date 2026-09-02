@@ -1,6 +1,6 @@
 # StockMafia
 
-Self-hosted microservices platform for **India (NSE)** and **US** market insights, strategy suggestions, dry-run, paper trading, and optional live NSE orders via **Zerodha Kite Connect**.
+Self-hosted trading platform for **India (NSE)** and **US** market insights, strategy suggestions, paper trading, and optional live NSE orders.
 
 > This is a research and execution workstation, not a promise of profit and not investment advice.
 
@@ -9,50 +9,44 @@ Self-hosted microservices platform for **India (NSE)** and **US** market insight
 ## Architecture
 
 ```
-                        INTERNET
-                           │
-              ┌────────────┼────────────┐
-              │            │            │
-         ┌────▼────┐ ┌────▼────┐ ┌────▼────┐
-         │  HTTPS  │ │  gRPC   │ │   WS    │
-         │  :443   │ │  :443   │ │  :443   │
-         └────┬────┘ └────┬────┘ └────┬────┘
-              │           │           │
-         ┌────▼───────────▼───────────▼────┐
-         │          NGINX REVERSE PROXY     │
-         └────────────┬────────────────────┘
-                      │
-    ┌─────────────────┼─────────────────┐
-    │                 │                 │
-┌───▼─────┐    ┌──────▼──────┐    ┌────▼────┐
-│ GATEWAY │    │    PRICE    │    │  KIBANA │
-│  :8080  │    │   :8082     │    │  :5601  │
-│ HTTP+SSE│    │  WS + SSE   │    │ Logs UI │
-└────┬────┘    └──────┬──────┘    └─────────┘
-     │                │
-     │ gRPC           │ gRPC
-┌────┼────────────────┼──────────┐
-│    │                │          │
-▼───▼───┐      ┌──────▼───┐ ┌───▼────┐
-│CRAWLER│      │ ANALYTICS│ │ PORTF. │
-│ :9001 │      │  :9003   │ │ :9005  │
-│Worker │      │ Signals  │ │Trading │
-│ Pool  │      │ Scoring  │ │  P&L   │
-└───┬───┘      └──────────┘ └───┬────┘
-    │                          │
-    │    ┌─────────────────────┼──────────┐
-    │    │                     │          │
-┌───▼────▼─────────────────────▼──────────▼──┐
-│              INFRASTRUCTURE LAYER           │
-│  ┌─────────┐  ┌─────────┐  ┌─────────┐    │
-│  │  MySQL  │  │  Redis  │  │  Kafka  │    │
-│  │  :3306  │  │  :6379  │  │ :9092   │    │
-│  └─────────┘  └─────────┘  └─────────┘    │
-│  ┌─────────────────────────────────────┐   │
-│  │          PROXY POOL                 │   │
-│  │  HTTP/SOCKS5 + VPN rotation         │   │
-│  └─────────────────────────────────────┘   │
-└─────────────────────────────────────────────┘
+                          INTERNET
+                             │
+                    ┌────────┼────────┐
+                    │        │        │
+               ┌────▼───┐ ┌─▼────┐ ┌─▼────┐
+               │ HTTPS  │ │ gRPC │ │  WS  │
+               │ :8787  │ │:9087 │ │:8082 │
+               └────┬───┘ └──┬───┘ └──┬───┘
+                    │        │        │
+               ┌────▼────────▼────────▼────┐
+               │    API GATEWAY (Node.js)   │
+               │    Express + HTTPS         │
+               └────────────┬──────────────┘
+                            │
+          ┌─────────────────┼─────────────────┐
+          │                 │                 │
+    ┌─────▼─────┐    ┌──────▼──────┐    ┌────▼────┐
+    │  CRAWLER  │    │   PRICE     │    │ANALYTICS│
+    │  Worker   │    │  WebSocket  │    │ Signals │
+    │  Pool     │    │  + SSE      │    │ Scoring │
+    └─────┬─────┘    └──────┬──────┘    └────┬────┘
+          │                 │                 │
+          │                 │            ┌────▼────┐
+          │                 │            │  ALERT  │
+          │                 │            │ Monitor │
+          │                 │            └────┬────┘
+          │                 │                 │
+    ┌─────▼─────────────────▼─────────────────▼────┐
+    │              INFRASTRUCTURE LAYER              │
+    │  ┌─────────┐  ┌─────────┐  ┌─────────────┐  │
+    │  │  MySQL  │  │  Redis  │  │   Kafka     │  │
+    │  │  :3306  │  │  :6379  │  │   :9092     │  │
+    │  └─────────┘  └─────────┘  └─────────────┘  │
+    │  ┌─────────────────────────────────────────┐ │
+    │  │         PROXY POOL + RATE LIMITING      │ │
+    │  │  HTTP/SOCKS5 + Domain throttling        │ │
+    │  └─────────────────────────────────────────┘ │
+    └──────────────────────────────────────────────┘
 ```
 
 ## Features
@@ -63,140 +57,140 @@ Self-hosted microservices platform for **India (NSE)** and **US** market insight
 - **Signal scoring** with composite scores and confidence levels
 - **Stock screener** with category filters and custom strategies
 - **Paper trading engine** for risk-free strategy testing
-- **Live trading** via Zerodha Kite Connect (India only)
+- **Live trading** via Zerodha Kite Connect (disabled by default - India only)
 - **Alert system** with Telegram, Discord, and webhook notifications
 - **Trade journal** for tracking and analyzing trades
 - **Full observability** with Jaeger tracing, ELK stack, and Prometheus metrics
+
+### Enabling Zerodha Kite (Optional)
+
+Zerodha Kite integration is disabled by default. To enable:
+
+1. Set `KITE_ENABLED=true` in server/.env
+2. Set `KITE_API_KEY` and `KITE_API_SECRET`
+3. Whitelist IP in Kite Connect settings
+4. Add redirect URL: `https://YOUR_IP:8787/api/kite/callback`
+
+See [docs/DEPLOYMENT.md](./docs/DEPLOYMENT.md) for details.
 
 ## Quick Start
 
 ### Prerequisites
 
-- Go 1.21+
-- Docker & Docker Compose
-- Git
+- Node.js 18+
+- Go 1.22+ (for Go microservices)
+- MySQL 8.0+ (or Docker Compose)
+- Redis 7+ (or Docker Compose)
 
-### Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/stockmafia/trading-app.git
-cd trading-app
-
-# Run full setup (prerequisites, build, infrastructure, verify)
-./scripts/setup.sh
-```
-
-### Start Development
+### Local Development
 
 ```bash
-# Start all services
-./scripts/dev.sh
+# Install dependencies
+npm install
 
-# Or start just infrastructure
-./scripts/dev.sh infra
+# Start development server
+npm run dev
 
-# Start a single service
-./scripts/dev.sh service gateway
+# Access the app
+open http://localhost:8787
 ```
 
-### Access Services
+### Deploy to Proxmox LXC
+
+```bash
+# Full deploy
+./deploy-lxc.sh
+
+# Deploy specific service
+./deploy-lxc.sh server    # Node.js backend
+./deploy-lxc.sh web       # React frontend
+./deploy-lxc.sh gateway   # Go Gateway service
+./deploy-lxc.sh crawler   # Go Crawler service
+./deploy-lxc.sh price     # Go Price service
+./deploy-lxc.sh analytics # Go Analytics service
+./deploy-lxc.sh alert     # Go Alert service
+./deploy-lxc.sh portfolio # Go Portfolio service
+
+# Check status
+./deploy-lxc.sh status
+```
+
+### Docker Compose (Local)
+
+```bash
+cd deploy
+docker compose up -d
+```
+
+## Access Services
 
 | Service | URL |
 |---------|-----|
-| API Gateway | http://localhost:8080 |
-| Price HTTP | http://localhost:8082 |
-| WebSocket | ws://localhost:8082/ws |
-| MySQL | localhost:3306 |
-| Redis | localhost:6379 |
-| Kafka | localhost:9092 |
-| Jaeger | http://localhost:16686 |
-| Kibana | http://localhost:5601 |
-
-## Development
-
-### Run Tests
-
-```bash
-# All tests
-./scripts/test.sh
-
-# Unit tests only
-./scripts/test.sh unit
-
-# Single service
-cd services/{name} && go test ./...
-```
-
-### Build
-
-```bash
-# Build all services
-./scripts/deploy.sh build
-
-# Build specific service
-cd services/{name} && go build -o bin/{name} ./cmd/main.go
-```
-
-### Proto Generation
-
-```bash
-# Generate protobuf code
-./scripts/generate-protos.sh
-```
-
-## Deployment
-
-### Docker Compose
-
-```bash
-# Start all services
-docker compose -f deploy/docker-compose.yml up -d
-
-# View logs
-docker compose -f deploy/docker-compose.yml logs -f
-```
-
-### Kubernetes
-
-```bash
-# Deploy to K8s
-./scripts/deploy.sh deploy
-
-# Check status
-kubectl get pods -n stockmafia
-
-# Rollback
-./scripts/deploy.sh rollback
-```
-
-See [docs/DEPLOYMENT.md](./docs/DEPLOYMENT.md) for complete deployment guide.
+| Web App | https://YOUR_IP:8787 |
+| API Health | https://YOUR_IP:8787/api/health |
+| API Status | https://YOUR_IP:8787/api/status/detailed |
+| WebSocket | wss://YOUR_IP:8787/ws |
+| SSE Events | https://YOUR_IP:8787/api/events |
 
 ## Configuration
 
-### Environment Variables
+### Environment Variables (server/.env)
 
 ```bash
-# Database
-MYSQL_DSN=user:password@tcp(host:3306)/dbname
-REDIS_URL=redis://:password@host:6379
-KAFKA_BROKERS=host1:9092,host2:9092
+# Server
+PORT=8787
+HOST=0.0.0.0
+SSL_CERT=/etc/ssl/certs/stockmafia.crt
+SSL_KEY=/etc/ssl/private/stockmafia.key
 
-# External APIs
+# Proxy rotation
+PROXY_LIST=socks5://proxy1:1080,socks5://proxy2:1080
+
+# API Keys
 FINNHUB_API_KEY=your_key
+TWELVE_DATA_API_KEY=your_key
+ALPHA_VANTAGE_API_KEY=your_key
+TIINGO_API_KEY=your_key
+FMP_API_KEY=your_key
+POLYGON_API_KEY=your_key
+
+# Rate limiting
+YAHOO_RATE_LIMIT=2
+STOOQ_RATE_LIMIT=1
+FINNHUB_RATE_LIMIT=60
+TWELVE_DATA_RATE_LIMIT=800
+TIINGO_RATE_LIMIT=1000
+FMP_RATE_LIMIT=250
+POLYGON_RATE_LIMIT=5
+
+# Zerodha Kite (disabled by default)
+KITE_ENABLED=false
 KITE_API_KEY=your_key
 KITE_API_SECRET=your_secret
-
-# Notifications
-TELEGRAM_BOT_TOKEN=your_token
-DISCORD_WEBHOOK_URL=your_url
-
-# Auth
-API_KEY=your_api_key
-JWT_SECRET=your_jwt_secret
 ```
 
-See [.env.example](./.env.example) for all configuration options.
+### API Keys (~/Documents/work/auth/stockmafia/)
+
+| File | API | Free Tier |
+|------|-----|-----------|
+| finnhub-api-key.txt | Finnhub | 60 req/min |
+| twelve-data-api-key.txt | Twelve Data | 800 req/day |
+| alpha-vantage-api-key.txt | Alpha Vantage | 25 req/day |
+| tiingo-api-key.txt | Tiingo | 1000 req/hr |
+| fmp-api-key.txt | FMP | 250 req/day |
+| polygon-api-key.txt | Polygon.io | 5 req/min |
+
+## Data Sources
+
+### Indian Stocks (80+ sources)
+- **Prices**: NSE India, Moneycontrol, Yahoo Finance
+- **News**: Google News IN, Economic Times, Moneycontrol, Business Standard, Livemint, NDTV, Hindu BusinessLine (10+ RSS feeds)
+- **Fundamentals**: Yahoo Finance, Screener.in
+
+### US Stocks (80+ sources)
+- **Prices**: Finnhub, Twelve Data, Alpha Vantage, Tiingo, FMP, Polygon.io, Yahoo Finance
+- **News**: Google News US, CNBC, Reuters, MarketWatch, Bloomberg, WSJ, Seeking Alpha, Motley Fool, InvestorPlace, Benzinga (10+ RSS feeds)
+- **Fundamentals**: Yahoo Finance, Finnhub, Alpha Vantage, FMP
 
 ## Project Structure
 
@@ -211,10 +205,14 @@ trading-app/
 │   └── portfolio/               # Trading engine
 ├── pkg/                         # Shared Go packages
 ├── proto/                       # Protobuf definitions
+├── server/                      # Node.js backend
 ├── web/                         # React frontend (Vite + TypeScript)
 ├── deploy/                      # Deployment configs
 ├── scripts/                     # Automation scripts
-└── docs/                        # Documentation
+├── docs/                        # Documentation
+├── deploy-lxc.sh               # LXC deployment script
+├── Makefile                     # Build system
+└── AGENTS.md                    # AI development guidelines
 ```
 
 ## API Documentation
@@ -222,6 +220,7 @@ trading-app/
 - [REST/WebSocket/SSE/gRPC API Reference](./docs/API.md)
 - [Data Sources Catalog](./docs/DATA_SOURCES.md)
 - [Troubleshooting Guide](./docs/TROUBLESHOOTING.md)
+- [Deployment Guide](./docs/DEPLOYMENT.md)
 
 ## Contributing
 

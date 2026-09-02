@@ -109,7 +109,9 @@ screenerRouter.get("/radar", async (req, res) => {
 
     for (const stock of stocks.slice(0, 50)) {
       try {
-        const { candles } = await fetchChart(stock.yahoo, "3mo", "1d");
+        // Use crawl snapshot data instead of fetching from Yahoo
+        const snap = readSnapshot(stock.yahoo);
+        const candles = snap?.candles ?? [];
         if (candles.length < 30) continue;
 
         const closes = candles.map((c) => c.close);
@@ -159,12 +161,12 @@ screenerRouter.get("/radar", async (req, res) => {
         else if (trend === "down") reason = "Weakening — watch for support levels";
         else reason = "Consolidating — wait for a breakout";
 
-        let quote = { price: close, changePct: ret30 * 100, volume: lastVol };
-        try { const q = await fetchQuote(stock.yahoo); quote = { price: q.price, changePct: q.changePct, volume: q.volume ?? lastVol }; } catch {}
+        const price = snap?.quote?.price ?? close;
+        const changePct = snap?.quote?.changePct ?? ret30 * 100;
 
         radar.push({
           symbol: stock.symbol, yahoo: stock.yahoo, name: stock.name, market: stock.market, currency: stock.currency,
-          price: quote.price, changePct: quote.changePct, volume: quote.volume,
+          price, changePct, volume: snap?.quote?.volume ?? lastVol,
           trend, momentum: Number(momentum.toFixed(1)), volatility: Number(volatility.toFixed(1)),
           volumeSpike: Number(volSpike.toFixed(1)), signals, score: Math.max(0, Math.min(100, score)), reason,
         });

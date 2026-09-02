@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { createServer } from "node:http";
+import { createServer as createHttpsServer } from "node:https";
 import cors from "cors";
 import express from "express";
 import { marketRouter } from "./routes/market.js";
@@ -26,9 +27,25 @@ import { setupWebSocket } from "./services/websocket.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
-const server = createServer(app);
 const port = Number(process.env.PORT || 8787);
 const host = process.env.HOST || "0.0.0.0";
+
+// Create HTTP or HTTPS server based on SSL config
+const sslCert = process.env.SSL_CERT;
+const sslKey = process.env.SSL_KEY;
+let server;
+
+if (sslCert && sslKey && fs.existsSync(sslCert) && fs.existsSync(sslKey)) {
+  const httpsOptions = {
+    key: fs.readFileSync(sslKey),
+    cert: fs.readFileSync(sslCert),
+  };
+  server = createHttpsServer(httpsOptions, app);
+  console.log(`StockMafia v2.0 starting with HTTPS on https://${host}:${port}`);
+} else {
+  server = createServer(app);
+  console.log(`StockMafia v2.0 starting with HTTP on http://${host}:${port}`);
+}
 
 app.use(securityHeaders);
 app.use(rateLimiter);

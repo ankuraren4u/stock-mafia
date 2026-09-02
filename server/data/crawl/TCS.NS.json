@@ -2,7 +2,7 @@
   "yahoo": "TCS.NS",
   "symbol": "TCS",
   "market": "IN",
-  "crawledAt": 1788359405702,
+  "crawledAt": 1788388203260,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -72,14 +72,6 @@
       "label": "neutral"
     },
     {
-      "title": "TCS Shares up 6%. Infosys up 3%. Why IT companies are up today? - India Infoline",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdzJGMnJnaklrZFYycl94MHU5U21ibHUtdW5EX25ZbFRhcmx6eTNJRGFkYmVYeTF2U1FER2l0YzI1QTRGNkhxS1ZYVHhxQlREZllRNHRmN0ZUT3hmZ0FSOTRpWUVrTTFKYnYtbTZIbDlROUFObFNBYnRrYUdaclloTmxDTlVlRkxlNVZ0RUU2SlFlNzRlTWdwUUs0YWtVYVlpQldTdGxn?oc=5",
-      "published": "Mon, 13 Jul 2026 07:00:00 GMT",
-      "source": "India Infoline",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "TCS dips 2%, trades near 6-year low ahead of Q1 results; IT sector in focus - Business Standard",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNFExcjY0ZlhsLXVkOWVnQ0R6VHRQNkphU2h1eEVYdm13OVIwdDNaT1RvQmFzVGgtRnNERFFvdzVETlBuTkh3QUh3T2F2RDJJUnhuV2FHUEZFR29TQk42UHlPV0E1STlQUmxYQU9TSnBudnB0cTdidTlHVDZkZ3lEX3lGUjgxeWRiR0pkRFJGQ0lZaHJLUVl0OFVQYjFBTEdCSnN4dzBaSmwwenl6aWxCR09sc0NtY0hQcWQ2b2tvczd0TS1XNHQ0NHh5bHh0d19yNEpiR01FWW9wZnQ1T2tqWDR3Mkg4UdIB6wFBVV95cUxQNUZvdHZSbHE1akFZUGg3cG5oWE5jSGhDZUZUR3p3YS12cS13UUdqTlZuRzhPQlktTV8wbFlMTFNTNmNsVGZZTnV2N2RMclg2dFFkdDhkUU1jWGFpcHdZTmpLX1BHZ2tlLUlRSWtOQWpHbnI4ek1tMF9LdWd3WnhqYzVXR0tJemxWMGsxRTVHSEZLM1piOTVsWkV1c3RxMFhLQTZ1ZkV3ZHVId1FOM3FiT1FUdTRpU0lEbjg1OWp1ODIzbkVheGpZMktkOXlrLVM5TWNnWDdEeGpsUnN0Znp4bHlnU1R3OUY2R29V?oc=5",
       "published": "Thu, 09 Jul 2026 07:00:00 GMT",
@@ -88,50 +80,26 @@
       "label": "neutral"
     },
     {
-      "title": "TCS Share Price Today: Flat at ₹2,285 as Porsche MHP Deal Pop Fades - The Eastern Herald",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KeTA5QUJFTlFhejBDRmpCWkNDQWVydWtBOENxb2VySXg2b1djTWFkNG9LWVpUMHJ4UWF3dTRGRDBpMHNoaXVZRDlYeXRtQXVxRnpaek0tVzlOMGgzclhEMXVORzFVb0RDX200MnlDUWVxdVN3SENNT3pndzlmZVE?oc=5",
-      "published": "Tue, 25 Aug 2026 06:33:06 GMT",
-      "source": "The Eastern Herald",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Tata Consultancy Services Limited (NSE:TCS) Just Reported Earnings, And Analysts Cut Their Target Price - simplywall.st",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQ3h2aHZheTd1M3pxVTdpVnUyMUZadFlXMU1aQ0xrRVcxaXlab0dMMmRhd3FWOWJHaTJnN01pRWQwSW9xSEJMTUp3cGhPSHVNaW9fdG1KZHdQbnJ3UnYzS2pUNnVZMUVMcUoyUlhBUFdkaE5tSmRWM2tQV29aQVBqYUpyQzZkSkFkMl9yTFdJcnZ1ZG1qRmJSWG1LWi0yLThNRjhBZ09qTmN0T0RHNEQxN0NuSXNZY1RScmJoU3dPak5pUlZxOFpxSUZlV1Y5WWxNNndwX3lZeElhQlpmVTFQedIB5gFBVV95cUxPOG1HckVuazRXeE5mT1RoNGxZZmJ0UlZGQXBPTkdEaXJROGVLdHpJWkNCWFQ2RG5CclExckRmd0lOLUVISFh4SlhBUDRjYVVMTWZ2YWxpaHZ5RHU3M2NLQWs3YWJ1NTZBTUI5NG4yMWltY3AyTGJGaG1xbUlScUVyQ1RrMUVmdmZGSnBaOUQwWE1wX3hDLVd5cUpWcmdnVlJxekhNNVFWZGluUzRZaktCRGxqN05BTEFFMW1GazNWZU93OUJ6ekNKWlNqY2MxNzZvTW1ib0ViSlcxZ0F0R1pfeDg0NTRtQQ?oc=5",
-      "published": "Mon, 13 Jul 2026 07:00:00 GMT",
-      "source": "simplywall.st",
-      "sentiment": -0.333,
-      "label": "negative"
-    },
-    {
-      "title": "TCS shares slide to 6-year low after 9% crash; what lies ahead? - Moneycontrol.com",
+      "title": "TCS shares slide to 6-year low after 9% crash; what lies ahead? - moneycontrol.com",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN2FyYWNLeXRoMzlYOVFBRFJwX09FOWp6Wkg3empjUVF0LU9XMUV4ZmVjTTFTRE02cldUMzBqVFlaMlE2dGI2bktqWlU4ajlydFJoRnUtLUlOVXQteDJsYy1rNFptTUVGQmZfY1hfWUk2UlpIdXkxdjBFU3RrdUdGd0NZaXBxS2VMcWsySmF2N3RZZEU5SERLV0JWeXdydEVXSEJmeU92RS1lVi1UTzdVU0piRTg4SUFKdUhXTWlRZkV2N0nSAcgBQVVfeXFMT2luUXA5V1NKemRrTjc1RnEyZ1JKTkYtTDVING93RXlFcTVMSU5GbWZNU252SVRrTk9VdUp4aEhNdlM3VW1wbUVoUXI2MlJ4TjkwWC1ZN3NPQ0NucDdDUXhDUG55MjEwWjNhQ2RsZ1F2ZWh0VjEwa3FsV3FPWTgtUDJPYUN5dlBTNFluQnQ0NTdPR2tCRHNHdjhXc3pxY0JBZS01TnJ5X2FhUFU3c2U0bUpLTDl3UEdiRDFvTGRXMEp3TUY5dGs5Tmg?oc=5",
       "published": "Wed, 03 Jun 2026 07:00:00 GMT",
-      "source": "Moneycontrol.com",
+      "source": "moneycontrol.com",
       "sentiment": -0.333,
       "label": "negative"
-    },
-    {
-      "title": "TCS surges 12% in five sessions as IT stocks roar back after Q1 reset - Upstox",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeVFmVUpOY0poeVdOanY0RlpNMGVqUUZyUFZWVXZyQXEzTEVURG41cC1HbXJVMHJvQkFvOW9sY0dJZGQyNEpBMXFsUXc4SUtBQmoxeXZwN2xIajgwWHV6RGJPUS1RMnhvMEx3Q0I5YzBjRGRDREhSYkpqMXd4Mk9wUVZ4SHJTR0JJMkNyV2JWWUZsOWhoTUtGVGhYQ2VqV052NHFDNG51WURsRHd4ekFLVlU5QjdGQy1kX19ydjdPODI0Z3V3cVE?oc=5",
-      "published": "Wed, 29 Jul 2026 07:00:00 GMT",
-      "source": "Upstox",
-      "sentiment": 0.333,
-      "label": "positive"
-    },
-    {
-      "title": "Tata Consultancy Services Shares Climb 4% As Q1 Earnings Exceed Estimates - HDFC Sky",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONU9yWlo5RUlIZ3JOR0VZUmdaN2J5RHVGalMwX1BuUUhHUTMxM2ptT2doeWtyNWtydktZVEhvVWxfRWdkTDl0OW5RV21pWDlUUloyRTRlRVBHdFMwZXBHY3ZzTmJndm9SM2tSd1NtX3JsSlVPVjQ3WVo1cjUtcEp2NUtWSU5jQQ?oc=5",
-      "published": "Fri, 10 Jul 2026 07:00:00 GMT",
-      "source": "HDFC Sky",
-      "sentiment": 0,
-      "label": "neutral"
     },
     {
       "title": "IT shares crash after three-day rally, TCS nosedives 8 per cent - The New Indian Express",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZldUTmlCaFhwNGFCTGl4Sy1sa1ZmUWxzQU9uOXNkNEtZMnMwUWRTUGxxT0x4SWZxeWV5QjF0aFNnZDJUOFRuNlo0TzU4SnVsN3pFaHlyRmJGd0JvNFZ4dlpXMjVna3VHMDNqUlc2b2VfM3p3NUFoMjFQajJBXzRHQW5yNTVlczFBRUtxS0tza25ieXF3X3BSckVDaGNWN3RGS1d2MHR4ZUVIZlY1TGZpblotbm5YeUHSAcQBQVVfeXFMTjZTNFVJSm9LWUJreDdycHp1bm5veExTRFpoTVVBZGJiQnliQVdNUlp3SklQVU5RcjNmT1RIbW5PbVI3Q2hVOXpUMEF1X1RyaGFNdmw4dlM0bnU0RTRvbGg3YlJHcUtEbUdvN3ZhWkFGTkZuV3gwcWhaOGVrVTl0QWpTVFZOb1VvUWZPX1FQdjhJUGFiQXJ0d3lyVFl0OGVvRUd0WmgwYm9KekhJbloyVTVWSWRrdG8wWTFYYWN1aVpmNFM2cQ?oc=5",
       "published": "Wed, 03 Jun 2026 07:00:00 GMT",
       "source": "The New Indian Express",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Tata Consultancy Services Shares Climb 4% As Q1 Earnings Exceed Estimates - HDFC Sky",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONU9yWlo5RUlIZ3JOR0VZUmdaN2J5RHVGalMwX1BuUUhHUTMxM2ptT2doeWtyNWtydktZVEhvVWxfRWdkTDl0OW5RV21pWDlUUloyRTRlRVBHdFMwZXBHY3ZzTmJndm9SM2tSd1NtX3JsSlVPVjQ3WVo1cjUtcEp2NUtWSU5jQQ?oc=5",
+      "published": "Fri, 10 Jul 2026 07:00:00 GMT",
+      "source": "HDFC Sky",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -144,10 +112,42 @@
       "label": "neutral"
     },
     {
-      "title": "TCS workplace surveillance controversy: How far can boss legally monitor employees? - ETHRWorld.com",
+      "title": "Tata Consultancy Services Limited's (NSE:TCS) Share Price Could Signal Some Risk - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQVRTSHhyRTlJdFJYNndTclYtejlVWmFTYW9mam13b0t1VG9rZWRiYXB5aVc0T2pDUkZ4UjBOUjBhc2tzUnVDYnJ5SmlmVllLYlFaek1yd3BHVVA2YlhiQkViMURNcjZLQVY1Zkw3bGJZVXFnSFNHYnM4dEdrd2oyX0Q0Szh1TXdoVkhyZks2Q1dMeHA5dU5TQmphdEVYSjZmb1k5VGt1ckFZeldsVk0xTmhhUWY5cGgyTzUtUExVbmRhS3R0YVRZSVBXYkRQSjBqOHRxUDBMMS1KRUN1TUlWLW5n0gHnAUFVX3lxTE1acFN4VjNqN0ctWGp4b08tYkhyQnJOOEdqaE1GY3RPZkJmQzdCUmFJWkZBNEYxenJVazF6V1pXWlQ2VGlCQk82YXc5T0JxRDlQWUloc1VMM1ZlRzRaSTVQY3Z6N3NNOXZqQzk2N01zWXRLT0ZRZWdJS1dsNFJoZnJlQ1YyZkN2MWt1VzBKSlBpYjZReTd4dmREM1FOdzVWdkJQakR3YlRDbEUwdlBtbmZ0UkdFejZhZERQTVJvYy1DYm9XQ3lPSlhXMVZlXzYzdHVZc3pxaC0xM09GV2h6RWxIN1MtYlRuOA?oc=5",
+      "published": "Wed, 31 Dec 2025 08:00:00 GMT",
+      "source": "simplywall.st",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "TCS shares crash 8%, log worst single-day fall since historic COVID plunge. More pain ahead? - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNWS0xVkxFUXktMjhQbDgzNFZtRkh3Mkl3X3pMTDlZVUZIN2xVNVBUUDA0S2s2NDNZSnNTd1FNbU1jUVVDMm5KZXRMX21GeDE0bzhBZlR3T2pOTkxGanBZY2hOb0YtUkdwcWswc2JrQnhfcUxvdW9fYWhxYVFydFRJZ3VCZWhnZDVsZFBYTFNfaElRWGRja3V6aUlGX3dYRVN6UmQ4YU5qVGZGTkVkc1N2emdiNmNVZEdUVXRPWGFRZ2tXbjVSWV8xSkdmS2RScWRDM2JZRmVLVGlmMWJWa3h5UjZRMUpwWThlcnlJRUN3THJnQzVtaWhpMEpNaVU2MzhCcGfSAYcCQVVfeXFMTkFOdGY3X3AtSnJUbERVbjlONWFqV2txQll3aEdGRE9IVU1KOTV1QWZHSU40QmFWR1M5Ylo0S3E3UVA4aXlsdjFSeEpLeko0d09aYVJYdTVacHVaRXZ5YzVGYzAtc0ZtTHlTak5ydzdiUVgwMEdZdnJfNlBQaXJNb2E5ck94aUZ5SWs3amtXS0NYekQ4WnRLa2ljVWRRaUZzblkzWHdkRGtZb3dwQUlrU1ZpNVkxN0VOejNkNGhUaG1ndml3R0xwSGZmdXU0V205dnYxLXFESzZQNENkT0JVSUc5MGpRR1dpcnFaODg5aEtMdUxLa2RnUlRtMmVmSUZDNjRPa0E3RVk?oc=5",
+      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "source": "The Economic Times",
+      "sentiment": -0.667,
+      "label": "negative"
+    },
+    {
+      "title": "TCS share price falls 2% ahead of Q1 results 2026. Should you buy or sell? - Livemint",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTUV6Vk9XTmlCUUk5cTBhNUY0dTd5eGJyMVdJMG9YWk1ISVB5SEk1Skxqa1BTMi1JTkVQdjhSbk5GRzYzV1d5MW5GOHZaVWprNkVrdl8xenlzM213V3RsQ3hDMHVpY2tDeE1BQkxBRmdFNUw5dTc0UkRLdFZPb0I3Mi1GTVBEY25wUmc3UGRpTzVEMkV4OGlOSXVOZEpQY3ItMmJSVC1NZUgzQUpydW5CSkx5ZjRnTzB5X1F5ZE9VRmllN0VESGNleWVKNkx6dGN3SDJDWlo3ZmLSAd4BQVVfeXFMUHRuUUV0aEZpSEtzb2NmNFRGU2dONjdFYU5fRzRfV1RFVDZIMkUzdl9OQktaWEt2Nnc3V055dnY0YS1la1dSNUItaGtxbG4tXzRtczhJcloxRmRXQmFyMmw1ZWVaX1VWWjZ4UTJZdnRBTnZmVU5WUkM4dEppdlFxU3l6Q1l3ZmltSjUxdVVXZjJpRHdhbV9hQ0M2VXBraXdtYndDTnhlaWQ0cW8yMjFGRWQtZjcwQjIxcGFMVDBVRl8ySFdJQV83cEF3UEF6MDF3MURWbUFoRDhyR3kwWml3?oc=5",
+      "published": "Thu, 09 Jul 2026 07:00:00 GMT",
+      "source": "Livemint",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "India IT stocks climb as strong TCS earnings lift sector sentiment - investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWnQydFpIaWNvbGpkUTV0bDFKOUd4SWY3aWNCbUNQZ2xidWo2SzBsZXVQSklkRzZqamJ0RTQtNE5VWktZSEludkdid2Y0SWY2Zk03VlZ5OXN0aEpyYmJOUTh0SmpLa0U2OHVZdmVreGpGMHBRSTUyaktjTnZ4cWs4VDVXaTJnZkdJMnlsdWhFcHYzMG9kQTZwMkZrUFFwNGk5ZUR3eGkyWjhLUGY2c2s4WUJqSEk4dE5NaHBacnRGOGI?oc=5",
+      "published": "Fri, 10 Jul 2026 07:00:00 GMT",
+      "source": "investing.com",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "TCS workplace surveillance controversy: How far can boss legally monitor employees? - hr.economictimes.indiatimes.com",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWnhhcm40YjZ2Wk5TSkxNeEFTOFlPMkoyeWcxelBtV2lacUl4SVpic2ZXcU1aN0VMcG1xNlVPa05mcXNfcDV1SkxfS2dKeHFTWEJuZk5PbE5xa1o2YWF2ajNLeTBuNDdXTV9fZ1RaY1FnZVJQaTZXcXZjbUYweVEyUEFzS293OEVYcVE4X0NFb3VjOURFRmttamY5WFJwQ2hyVF9oUkVMTUxJazNVaHVld2Zwc2FoZDU0VVNoNVJFaW1uSTRXUzQySzZma0lxZ05lNS1BNWxGSmZZSmNfNlHSAeMBQVVfeXFMTjlRYjQyQThyNzd3MFJFZTA1V2haV0JaUFNjNjVfcnVOaEpfU3ZqNmh5QnpUb3BLaGx0T2tYcTE3NkgxemhQSHFySFIwck5tdXRtZkRIcmt6UEJtZE5fTXpTT3hwaVJNODJDZG1jOWFOUUdmVHgyNmxzSVVHU0d4QkNUVEx1VUUtTXB3ZS04WVQwbEhCd3BhYjhlUm1TS3B3bnFnYVdZYm1qaWJCVlhDaXc2RUJTdUhMRVdEYlVNZFBwR01USVpseUlNLXJmcEhjM0J1YW1SOHJVNVFnaVVUemljVms?oc=5",
       "published": "Mon, 31 Aug 2026 01:30:00 GMT",
-      "source": "ETHRWorld.com",
+      "source": "hr.economictimes.indiatimes.com",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -176,38 +176,38 @@
       "label": "neutral"
     },
     {
-      "title": "BSNL 4G: Tejas Networks gets ₹1,537 crore LoI from TCS for 18,685 sites - telecom.economictimes.indiatimes.com",
+      "title": "BSNL 4G: Tejas Networks gets ₹1,537 crore LoI from TCS for 18,685 sites - ET Telecom",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQVRIc3FpSFhlRFI3dUVNcnZ0Qy1oN1VwU1Jtd0NPRTJvM210aHlGVmF3NjdaS3J1eURBeDhEVGhQTTNDclhOLUZhTzZUUlk1UkRSM09EeHZWNTJwOHVZTmVERS11T0FxRzN0Q0xPTnBsdC00MTBsbHpEbVZHejlBMTZFdVljaUd3d3p5eTJaRmxfNFFsQXhMMGdYam92UjRqQ2N3a0o1bE9faDRINWlTRWhuNHRjMHFlMnZFRjJDbllhcTdkVkxQYS1vdU5Sd0duODAtWVdMWFRCcm1lOXfSAeMBQVVfeXFMUHhzRkRNYTByV0dwV2xJXzlONU8xR25vT2hiekZaZmFzeVFfc01kTFA2SGJfd3JoWmlYekFOQnYxZWN4cnRfbmRNcXBRT09kejUybE5qM012Rm9HR21kV1FtZk4yXzR3UWNwRzhaQUNtNUlqNGJqMjE0eTR5dFZKdWZYZF9fa2lZUGhzWXAzR2ozVTRZM3ZyZnQ3OVFSNC05NWNvWWR3TWxubTVDclktb0liTV83cVNpbDNyalpvYS1KelFRSzVPcW1BWFprSEhUMnJjNndkSGR1QUJsbWxxcl9GOUk?oc=5",
       "published": "Fri, 28 Aug 2026 02:14:11 GMT",
-      "source": "telecom.economictimes.indiatimes.com",
+      "source": "ET Telecom",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "₹49 lakh crore market-cap wipeout! Are Nifty’s fallen giants bargains or value traps? - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1tYmV5QWQ5azJqSmdIb0FfRWNWcjJtTHVIV1FOMWp1Vmw2R1BTbVB5NVVTWFRrTkF0bldncmhUcHROSnJ2cmRycGE4YTZNNF95Z0xWYWxLZFpzdnFtN1A1QXNIaWhldEJleFVJVGJGWkFKYkU1ZHJzREdwMlc?oc=5",
-      "published": "Sun, 30 Aug 2026 00:33:29 GMT",
-      "source": "The Economic Times",
-      "sentiment": -0.333,
-      "label": "negative"
-    },
-    {
-      "title": "Bharti Airtel gains 26.8 lakh mobile users in July, Reliance Jio's wireless net adds at 24.4 lakh - telecom.economictimes.indiatimes.com",
+      "title": "Bharti Airtel gains 26.8 lakh mobile users in July, Reliance Jio's wireless net adds at 24.4 lakh - ET Telecom",
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWTI0blhBZDFNbVNiTm85V2l1YUE0X1hPZWh4bG5oQXZSVHNqZk5VOVlrMFplUFRIQ0dmVXMxWllrNENPWXJUN3hWVW5vZU9IYmZTOC05NTlPcWdoTS1BTHN4NVhBY21KaVhIbjcxLU5aUmxwU09kRnhRNWNuTVQ4VDUxT3VDcmpkSTdKSVZBcHBSd3hQTXJ1X2VJM1ZrNS1DaVpkN19qbHdzdmJBYzYzOXNrbG5KOEJFSzQtX1ZXWENseWZqenB5Y0RIOVlRa002c1RudEU4bjVrSEZJYnBMVjBTQmJTcTlwYWxYazRfSldTOWN3d1M00gH8AUFVX3lxTE43VjU2dmdrZDVyWnlQNXg3SzYwVlMxY1lab3MteTRhc2l4NkQxMEZXNUQ2SHJOeG5VT2otejlEVmNuODdzeHZNcHc4c1U3M3JYd2phbWdoRHA1UGpQRUUxczliTTFFYmlWcG1jTGxuV01wMG5NZXByQmllSzgyN1pyajNFWGxUM29KOWtvaERCRmZSR2gzaGVOWVZUSTc1VHEtbkhJRDV6S1E0dlhuWm1EN2pxaVN0bDNlekE2ZU5NSk1vUXBzdUQtVVJuaWFpM2Y0bDQ2eTl1bFNzdW1EZ085d1BwRHJnQ1BZNll6THMxSkdVaTNEY1poN3gySQ?oc=5",
       "published": "Sat, 29 Aug 2026 01:50:16 GMT",
-      "source": "telecom.economictimes.indiatimes.com",
+      "source": "ET Telecom",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "'I reject your sympathy': Father of girl left disabled by immigrant driver confronts lawmakers - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTXp2cEVwdnZyTXBvSEVTZUh6Y3NoY0R2S2tKNzlEZEw3Vm1JSjhGNjlyWnhhalVodVpKMHhfTTNpVTU4QUhmRzhLajJLVWpVR0tmaWhzRHdyX1RlVndnQXB5ck1lQjFZdFZxcHJ3ZGotZXFseGhJZGNhV3lBSGJBNTBKNXduX3laT05DNHdqT1c0bS1vVTVrWndOMzhmUzZkaG13SU9zbDNGU2liaXlPb3J4T1BCSXJsTFZlaV9RQW03NE9IYmJXeTh4d2QzNERGSFFWTmJBTndxVTFjdlNrY3RucnZvMjFYR3ZNU1ZTOHd1RjRRZFdz?oc=5",
-      "published": "Tue, 01 Sep 2026 21:14:00 GMT",
+      "title": "India must strengthen dementia ecosystem as population ages: Tata Trusts - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTzBrSExITVJ4b0FhV01vM2JYdHV6cm00a1pzMHNubDFsUkxlSkJqenVUZFctOUxyZnM5VXlFX2JmRzB1NUNRMnJvdXU2NEZOazdYcGZCYjVSRWUzRUo0eTlqMThIWnlhQ1JwTXE1OHRvOE5JbDdHd2tFU2x1LU1iZVo2RjFsc1d1cGFiNWlKak5lWlljaS1SOEduZXZNZXU2b01tb2g0T3UyWXFsV0x4aDdoc0tjTVJneUZkS3VlbHJiQXRlNF9JNC03LUJLeTBSR1lNd3EtRWZvbEdBNnfSAdcBQVVfeXFMT2VYSERsU21nU293YTNPOV8zV1RrR2JwcHlzSmo4QWVLTC1LTmd2SGpEb25SRnEtQ2NQUVowQ3hwZVBDemRlYmxyT3d3eGItZUVMSUNtQXNpVmlqRFNmZ3ZsTHhSRnA1Z3JOcy1QbWVrVW96ZmhORjRLQnN4d0UtX0tMSUhVQWtxc1U0UHVrbzc1UWd6OGNyWWdvWkpRVGt3d3piemFMRklDWmZINUszOERWWXNRRHEtenlyOVhlVWZmTzVBMm11U2tWeExKZW1WaG9BdVhNR1k?oc=5",
+      "published": "Wed, 02 Sep 2026 15:48:53 GMT",
+      "source": "The Economic Times",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Taiwan: Semicon Network Summit 2026 drives global semiconductor partnerships - The Economic Times Video | ET Tv - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbVQ3Rmo2WGVDRUkxVjlZYXRJalNOWEZFS2JRcWhBblA1QlpieGpLdXduZ3EwbUlJOFgxZk5QUDFiYlluaEdEVG9Ya1ZnMWRhSDZZQ2JTZGR0czVfMVMyT2NvX2hLM0JWR1Rfb3BBTUFobGtqQlIwSDc5NTQxRDhZTVhtcEwtbmx0c05yMVdRcWR0SzM0RTBiblAzeFBYWm9ZR0p0N0JGWnhWS05QZ1A3cVZXMGFSeWJ2T3o3NzZWVTJCNTdnSUtXVWp0OXl1czhxWmFkeHZUVF9sU1UtQ3puQWRnc3RyOHBQSlY0RXFsNXFPN2M?oc=5",
+      "published": "Wed, 02 Sep 2026 10:17:00 GMT",
       "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
     }
   ],
-  "sentiment": -0.018500000000000003,
+  "sentiment": -0.03705555555555556,
   "errors": []
 }

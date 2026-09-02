@@ -26,6 +26,7 @@ import {
   fetchFinnhubQuote,
   finnhubEnabled,
 } from "./crawler-finnhub.js";
+import { canRequest, recordSourceFailure, recordSourceSuccess } from "./proxy.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const crawlDir = path.resolve(__dirname, "../../data/crawl");
@@ -130,6 +131,115 @@ export async function crawlSymbol(query: string): Promise<CrawlSnapshot> {
       }
     } catch (err) {
       errors.push(`stooq: ${err instanceof Error ? err.message : "fail"}`);
+    }
+  }
+
+  // Twelve Data (US stocks only, requires API key)
+  if (candles.length < 100 && stock.market === "US" && canRequest("twelvedata")) {
+    try {
+      const apiKey = process.env.TWELVE_DATA_API_KEY;
+      if (apiKey) {
+        const symbol = stock.yahoo.replace(/\.NS$/, "");
+        const url = `https://api.twelvedata.com/time_series?symbol=${symbol}&interval=1day&outputsize=120&apikey=${apiKey}`;
+        const resp = await fetch(url);
+        if (resp.ok) {
+          const data = await resp.json();
+          if (data.values && Array.isArray(data.values)) {
+            const existingTimes = new Set(candles.map((c) => c.time));
+            const newCandles = data.values
+              .map((v: { datetime: string; open: string; high: string; low: string; close: string; volume: string }) => ({
+                time: Math.floor(new Date(v.datetime).getTime() / 1000) * 1000,
+                open: parseFloat(v.open),
+                high: parseFloat(v.high),
+                low: parseFloat(v.low),
+                close: parseFloat(v.close),
+                volume: parseInt(v.volume, 10) || 0,
+              }))
+              .filter((c: { time: number }) => !existingTimes.has(c.time));
+            candles = [...candles, ...newCandles].sort((a, b) => a.time - b.time);
+            sources.prices.push("Twelve Data");
+            recordSourceSuccess("twelvedata");
+          }
+        } else {
+          recordSourceFailure("twelvedata");
+        }
+      }
+    } catch (err) {
+      errors.push(`twelvedata: ${err instanceof Error ? err.message : "fail"}`);
+      recordSourceFailure("twelvedata");
+    }
+  }
+
+  // Tiingo (US stocks only, requires API key - provides 10000 records)
+  if (candles.length < 100 && stock.market === "US" && canRequest("tiingo")) {
+    try {
+      const apiKey = process.env.TIINGO_API_KEY;
+      if (apiKey) {
+        const symbol = stock.yahoo.replace(/\.NS$/, "");
+        const url = `https://api.tiingo.com/iex/${symbol}/prices?startDate=2023-01-01&token=${apiKey}`;
+        const resp = await fetch(url);
+        if (resp.ok) {
+          const data = await resp.json();
+          if (Array.isArray(data)) {
+            const existingTimes = new Set(candles.map((c) => c.time));
+            const newCandles = data
+              .map((v: { date: string; open: number; high: number; low: number; close: number; volume: number }) => ({
+                time: Math.floor(new Date(v.date).getTime() / 1000) * 1000,
+                open: v.open,
+                high: v.high,
+                low: v.low,
+                close: v.close,
+                volume: v.volume || 0,
+              }))
+              .filter((c: { time: number }) => !existingTimes.has(c.time));
+            candles = [...candles, ...newCandles].sort((a, b) => a.time - b.time);
+            sources.prices.push("Tiingo");
+            recordSourceSuccess("tiingo");
+          }
+        } else {
+          recordSourceFailure("tiingo");
+        }
+      }
+    } catch (err) {
+      errors.push(`tiingo: ${err instanceof Error ? err.message : "fail"}`);
+      recordSourceFailure("tiingo");
+    }
+  }
+
+  // Alpha Vantage (US stocks only, requires API key)
+  if (candles.length < 100 && stock.market === "US" && canRequest("alphavantage")) {
+    try {
+      const apiKey = process.env.ALPHA_VANTAGE_API_KEY;
+      if (apiKey) {
+        const symbol = stock.yahoo.replace(/\.NS$/, "");
+        const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=${apiKey}`;
+        const resp = await fetch(url);
+        if (resp.ok) {
+          const data = await resp.json();
+          const timeSeries = data["Time Series (Daily)"];
+          if (timeSeries && typeof timeSeries === "object") {
+            const existingTimes = new Set(candles.map((c) => c.time));
+            const newCandles = (Object.entries(timeSeries) as [string, Record<string, string>][])
+              .map(([date, vals]) => ({
+                time: Math.floor(new Date(date).getTime() / 1000) * 1000,
+                open: parseFloat(vals["1. open"]),
+                high: parseFloat(vals["2. high"]),
+                low: parseFloat(vals["3. low"]),
+                close: parseFloat(vals["4. close"]),
+                volume: parseInt(vals["5. volume"], 10) || 0,
+              }))
+              .filter((c: { time: number }) => !existingTimes.has(c.time));
+            candles = [...candles, ...newCandles].sort((a, b) => a.time - b.time);
+            sources.prices.push("Alpha Vantage");
+            recordSourceSuccess("alphavantage");
+          }
+        } else {
+          recordSourceFailure("alphavantage");
+        }
+      }
+    } catch (err) {
+      errors.push(`alphavantage: ${err instanceof Error ? err.message : "fail"}`);
+      recordSourceFailure("alphavantage");
     }
   }
 
@@ -395,20 +505,58 @@ export async function crawlWatchlist() {
 
 const STALE_MS = 15 * 60 * 1000;
 
+// Cadence settings (in milliseconds)
+const CADENCE = {
+  PRICES: 5 * 60 * 1000,        // Every 5 minutes
+  NEWS: 15 * 60 * 1000,         // Every 15 minutes
+  FUNDAMENTALS: 60 * 60 * 1000, // Every hour
+  CANDLES: 30 * 60 * 1000,      // Every 30 minutes
+  FULL_CRAWL: 60 * 60 * 1000,   // Every hour for full crawl
+};
+
+let lastPriceCrawl = 0;
+let lastNewsCrawl = 0;
+let lastFundamentalsCrawl = 0;
+let lastCandleCrawl = 0;
+
 export function startCrawler() {
   writeLog({ running: false });
-  cron.schedule("*/15 * * * *", () => {
-    const status = crawlerStatus();
-    if (status.lastRun && Date.now() - status.lastRun < STALE_MS) {
-      return;
+  
+  // Price updates - every 5 minutes
+  cron.schedule("*/5 * * * *", () => {
+    if (!crawling && Date.now() - lastPriceCrawl > CADENCE.PRICES) {
+      lastPriceCrawl = Date.now();
+      queueWatchlistCrawl("price-update");
     }
-    queueWatchlistCrawl("schedule");
   });
-  setTimeout(() => {
-    const status = crawlerStatus();
-    if (!status.lastRun || Date.now() - status.lastRun > STALE_MS) {
-      queueWatchlistCrawl("startup");
+  
+  // News updates - every 15 minutes
+  cron.schedule("*/15 * * * *", () => {
+    if (!crawling && Date.now() - lastNewsCrawl > CADENCE.NEWS) {
+      lastNewsCrawl = Date.now();
+      queueWatchlistCrawl("news-update");
     }
+  });
+  
+  // Fundamentals - every hour
+  cron.schedule("0 * * * *", () => {
+    if (!crawling && Date.now() - lastFundamentalsCrawl > CADENCE.FUNDAMENTALS) {
+      lastFundamentalsCrawl = Date.now();
+      queueWatchlistCrawl("fundamentals-update");
+    }
+  });
+  
+  // Candle history - every 30 minutes
+  cron.schedule("*/30 * * * *", () => {
+    if (!crawling && Date.now() - lastCandleCrawl > CADENCE.CANDLES) {
+      lastCandleCrawl = Date.now();
+      queueWatchlistCrawl("candle-update");
+    }
+  });
+  
+  // Initial crawl on startup
+  setTimeout(() => {
+    queueWatchlistCrawl("startup");
   }, 2500);
 }
 

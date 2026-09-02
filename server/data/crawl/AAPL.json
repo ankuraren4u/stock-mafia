@@ -2,7 +2,7 @@
   "yahoo": "AAPL",
   "symbol": "AAPL",
   "market": "US",
-  "crawledAt": 1788359411215,
+  "crawledAt": 1788388208736,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -65,18 +65,18 @@
   },
   "news": [
     {
-      "title": "Tim Cook Just Handed Apple to John Ternus -- but He's Not Leaving. Here's What It Means for AAPL Stock. - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcWZ1QmtlcUppU2ZWN1hNOWhicXJqQ2Z4ZGdkZmhtWkg5a3hpaFFLVlotLUdjaUt0Q3RnVURpWUl6dzlMTk5wQ204aGI0MnhGSmppQUw3bm9DeVdCZzdtUzFmZmdrYmJCVG5RTWxHNFBZWjk1X3hxaXE2OGVuMUZnRlNaN3kwSzZJbWR0cU1TNTlPZTBKdXZNbnpsekZnLVBYSHZfUVdBdVd2Q1FEQnB5VXRZbGlRaGFpY1oxQVlMQXJ5X1k1R1RqNWxhVlJSUmlUcTFmWnZrNTA?oc=5",
-      "published": "Tue, 01 Sep 2026 20:19:00 GMT",
-      "source": "The Motley Fool",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "US Stock Market Moves | Apple (AAPL.US) Rises Nearly 2% as Tennas Takes Over as CEO; First Foldable iPhone Set for Release - Moomoo",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMllaTUpCc3BsTFhWVEdDU0s3X0dtdzlMUzRTU1VSR3k2ZzRmbXpPVzNZcEpYa19yWVVfd2dGWVFxYzE1ZS1TQVNzU1Jic2Y0Qkt6Z1QwMFcyeGlBS296SHMwaGNJV25NWjdfaU9IMkZKbF9nZHlEYnZ0aWxfNVQtYmxsWkQ5cFhLSGl3bHVZVTlUampvWnU2SmJR?oc=5",
       "published": "Tue, 01 Sep 2026 14:29:58 GMT",
       "source": "Moomoo",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Apple (AAPL) Stock: John Ternus Gets $58M Compensation as New CEO - Blockonomi",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb3ZpaWVBWjlDeHA5UnhCMERXNEI3YTk3djhMYTZLSnFGcDVZa1dXTFBMZFhCNnQ2Q08zWUlhQnFPTkZVMzVsRFdCNUFnUGZRRnc2ZEJYc1h2aHlCeTdoNERKdnotRUhIR1JiRmwzQmRmQjZHNktZcUNrMzR6YUtFVUR6Z2lWTzV4dTEyVkx3?oc=5",
+      "published": "Wed, 02 Sep 2026 15:12:59 GMT",
+      "source": "Blockonomi",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -89,34 +89,34 @@
       "label": "positive"
     },
     {
-      "title": "Why Is Apple Stock Up Today? - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUXBCWHl6REluU2Y3VW85YkhhM2N0UnEzdjYtX191Sm9mSEpoUkQwOE1iZ3RoQXBtME9JUU55aG95WW95OUl2aTMtT1VRN0NOa3hmemk0THVheWZxM0U0d2JFRDJNUVYzZl83R0V4ZjdoVW5PVE41VGY2OERFSjdmY1gxS0R5NWF3YkNCT3EzTQ?oc=5",
-      "published": "Tue, 01 Sep 2026 18:03:28 GMT",
-      "source": "Yahoo Finance",
+      "title": "Apple shares are doing something they haven't done in 20 years. Here’s what’s happening - cnbc.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVGVkZkNuYVFsVEo1T2NXLXlBbkhVTWlDVmdUNFdWQmwwemtEZWdxZmNxa3hhY3dfUzFNdHZKalFIbmg1M3gxMjIzLXBRSlJTRkRacUNSbWdkWk5YLWFvcVhzeVM1eVhVQkFFSnlGd2d4N1ZIX1ZBdDc2c3hBbUxteWdDRjNsd3BIQnBRZ044cDlwdFJDT1ozUW50dTNtX3RpR0RmRTV6Nk5TcmVwUm93ekp0RHVudW00RURoUdIBwgFBVV95cUxNdGE3eXFqSUNlNUpHZi1WSlEzOGNybW44aTg2TEQ2V3MwVGEtOFFEeHlxZzBIX3NaZ2VqeWQxQldPSkNMMDhaaEl6aDlXNDZqZWdlZVlpelY2QzhnZVlGWVRfR2VTWHlacUtYU1FmaDVHTVpuMzF4VnFrWkRkRlJtVExsWWhWZ0NwQXozWXR0WVp0dkNuWlM5TVZtRlE0ZWJZZXJ6eWE0cG9Sb0tmZS0xcEZlSXBvRXBMSDJfbllYUlBhZw?oc=5",
+      "published": "Wed, 02 Sep 2026 12:10:05 GMT",
+      "source": "cnbc.com",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Apple (AAPL) Stock Could Be 28% Overvalued On Fresh AI Mac Launches - simplywall.st",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLWZUX0RzdXRDT19CQWctT28zU1kwNmlnMV93TjdxcVNqaFZfN1BQM01KNkI5MGZsUHExMmc2MHB3V1RTLWhFNk1WZmpoNUR1TW9GbWJkeU4tV1hKclZvN2lhcUdPa0JqcC1RaHBKQ00tQzJhSDRmdjQyeC04eUFtWVh5aGxPRFAxekJrTEN4TC1DVHRsZTVwVFNJcURmd1ZSb2l5eWtHNFFpcEFoVS1wc3hkWUZ0c1RJWTliXw?oc=5",
-      "published": "Wed, 02 Sep 2026 01:36:51 GMT",
-      "source": "simplywall.st",
+      "title": "Apple stock becomes hedge as AI trade wobbles in 2026 - qz.com",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zNHlWQXVzR2hTSDNLaXhYdVMtRDZXUVlpMFl6SXQtVVo0dXlEbHpoTVQ0dDRLcTIxX1NRT3RfcndQMVUzSm95dW5OWlpMUU5WNFNZZXQ3dlNHZzZBS3hoUjFCeDJiMVJyQkg1Z1puSS0?oc=5",
+      "published": "Wed, 02 Sep 2026 13:29:38 GMT",
+      "source": "qz.com",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Why Is Apple Stock Up Today? - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9nbkllRzNBREZ2ZjVBNm5hc2twaHh6WGVxVDVtUGFWQWg1TkJYNVd3Z1FMMEIzcldQUWctMEh3UGRfU3lxNXdqZ1F5Sk8xREFSOGtjUk91VTFRZGJCRTJublByRUl1UUYwNjA1cjkwanFiQ1dUWktWU0FB?oc=5",
-      "published": "Tue, 01 Sep 2026 18:43:00 GMT",
-      "source": "The Motley Fool",
+      "title": "What’s the Real Fuel for Apple Stock’s Next Climb? - Trefis",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOd2FZTFYzXzk1RDRYSXl1SGxMdXN1X2FQQVBuM3FsaTBSbHBmYTc1NFZQRndKRGpIQVZyWWlSRmFDOUxLdzVEVFZqV3UtN0kzSnlDaDZzYnB0SFNWQl9QQnBXUTJSUDI2eFlqWDd4SjQyTGUwU0lRU2ZSVVRrZFk3RjFGemY4bFlpZTRsZ2JRTXNRVVgxVEZmTFZhUUkxTVNVM0tMX0xHNDl5ZURw?oc=5",
+      "published": "Wed, 02 Sep 2026 16:33:40 GMT",
+      "source": "Trefis",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "What Does Apple's TV Price Hike Say About Where the Stock Is Heading? - MarketBeat",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQa04yLTdITTM5OTRtWUw1UE9COUZRR0FVdGRxSU1La09UcjlFMEFKcFJzckx2SWhvMFkxYmpIVWpZd1cwd0pRdTFySy1XWE1Tc3FtUG5xUDQxQ3dJR2NrQ0dMRzZVY2xEdDNQVzIyN0RhOVVDaC1hZVpmUHFGTDZoanNselVscTF1LVFRRjh0LTlHUlVqa1dDcmFybDN5UG5jZzRwZXJqQQ?oc=5",
-      "published": "Wed, 02 Sep 2026 12:08:20 GMT",
-      "source": "MarketBeat",
+      "title": "This Apple Trade Captures Profit In Either Direction The iPhone Maker's Stock Flies - Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQU0xeW5aYjE5Mjc0NmVGekZBWW81WFJweVNpaWhVZjR3SGJ4TkZ3bk56dlA5QlhmVGVLN19Ic3RybjNRYVRlZ1ZodUdhTnlyQnY4OWl0OWhxMk5jRHpYWG1wVHRYeUlvcmRsX2s1U2d4bUZOTEh5SERhckZzWjdwbnFEbFZ2WkszcGFmakM1RnU0U1Z6ZzlmZ3hMRjhkZjJqMnYybVJXNHhkZUFPVFpBWnd6ck1jSmlCUFF1UGJQZHFPbml3cTR1MlBCdXVRRjVGMDdMVy1OcWpqSWNvTUtJSzVFSFFOV1AtUUo3Q1VRSVRZQQ?oc=5",
+      "published": "Wed, 02 Sep 2026 15:34:00 GMT",
+      "source": "Investor's Business Daily",
       "sentiment": 0.333,
       "label": "positive"
     },
@@ -129,86 +129,86 @@
       "label": "neutral"
     },
     {
-      "title": "Apple App Store Leader Phil Schiller Steps Down Ahead Of Executive Transition - TIKR.com",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSjVVODhSSTNpSDdiUk5KM04tNUd3NEE0LXpDbWZpOHpRRVVWVTVqNTRtYXpRT1dzamR5R1pGRkhSd3ZUSUJCelQxc1NjTWR4U3RDTHM0azdITC1UMFJDMDlWMWxHdW45UmE0Q2UtT3FhZ1d3eWNFWW85Mk9YNDU1dlBLcEw2bTdERzQ3NEFiSEowcXI2X1NB?oc=5",
-      "published": "Tue, 01 Sep 2026 11:38:54 GMT",
-      "source": "TIKR.com",
-      "sentiment": -0.333,
-      "label": "negative"
+      "title": "Why Is Apple Stock Up Today? - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9nbkllRzNBREZ2ZjVBNm5hc2twaHh6WGVxVDVtUGFWQWg1TkJYNVd3Z1FMMEIzcldQUWctMEh3UGRfU3lxNXdqZ1F5Sk8xREFSOGtjUk91VTFRZGJCRTJublByRUl1UUYwNjA1cjkwanFiQ1dUWktWU0FB?oc=5",
+      "published": "Tue, 01 Sep 2026 18:43:00 GMT",
+      "source": "The Motley Fool",
+      "sentiment": 0,
+      "label": "neutral"
     },
     {
-      "title": "AAPL Stock Heads For Worst Single-Day Fall In Over A Year — Wall Street Warns Apple’s AI Supply Chain Headwinds Are Far From Over - Stocktwits",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQM0NVeHRMVUhYQzcxTHE1RWR4c1BlOXZLa3VxYjZSNmhYci1ZamtvNGRDalktNlhmM1kwOE5IMmZUR05hWXMtb2lEUnN3S1BZNFE4c2s5emM4NGVnMlRXaFpQWm52S3haY191RW1KSEVwUGNJVTJEVmk1cnZhQmV1eE9VM1MwLXQ2c2pqeC1wZ1YyYnFMUmg2MFZ3Ri1aU21jN3F2aTI1S0ZhYTIzOGJXVDdxNzdBZ2FBc2JTOG9zMFZUMWJRbjdlWTYyWVRDMDlnUDVsN3hIOXNyM3lKaEQ4?oc=5",
-      "published": "Mon, 31 Aug 2026 15:51:24 GMT",
-      "source": "Stocktwits",
-      "sentiment": -0.333,
-      "label": "negative"
+      "title": "Apple at $320: Here’s Who Should Hold Their Shares - 24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdFBaOGRDREJ4eUdZckQ5ZHhCTkNqWHAzanA0UTFXMS1JVkxqcmRpSVZkbnN0WUprbUhVelJGeHU0aTRuNk9lVXNVTk55UENTSXlHTW5PWnZ5NnVjbGFZZFNfVmp0SnhEalN6WFNMVWItYThRMVVfT3FxdlloUmJkOXJMaUlVcnU1SkpXbVBsUVYyUXBfbFE?oc=5",
+      "published": "Mon, 31 Aug 2026 15:45:00 GMT",
+      "source": "24/7 Wall St.",
+      "sentiment": 0,
+      "label": "neutral"
     },
     {
-      "title": "ADP Brings +38K Private-Sector Jobs in August",
-      "link": "https://finance.yahoo.com/economy/articles/adp-brings-38k-private-sector-141200036.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:12:00 +0000",
+      "title": "Apple May Need a Foldable iPhone to Avoid a Revenue Slowdown Next Year",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-may-foldable-iphone-avoid-193326903.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 19:33:26 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "MANGOS ETFs: The Next Big AI Tech Investing Theme",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mangos-etfs-next-big-ai-140000152.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 14:00:00 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Apple stock becomes hedge as AI trade wobbles in 2026",
-      "link": "https://qz.com/apple-stock-hedge-ai-trade-selloff-nasdaq-090226?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 13:29:23 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Apple’s New CEO Has 8 Days to Answer the AI Question That Could Redefine Computing",
-      "link": "https://247wallst.com/investing/2026/09/02/apples-new-ceo-has-8-days-to-answer-the-ai-question-that-could-redefine-computing/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 13:25:37 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Apple’s Annual iPhone Event Is a Week Away. Why It’s More Important Than Ever.",
-      "link": "https://finance.yahoo.com/m/4c204a51-32a2-3229-a068-ba865e19b2bc/apple%E2%80%99s-annual-iphone-event.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 13:19:00 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Could Apple’s foldable iPhone be a $14B opportunity? Morgan Stanley weighs in",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/could-apple-foldable-iphone-14b-131500877.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 13:15:00 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Apple CEO John Ternus pay package: $58 million in fiscal 2027",
-      "link": "https://qz.com/apple-ceo-john-ternus-pay-package-58-million-090226?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 13:02:14 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Lyte Raises $165 Million Series C Led by Maverick Silicon to Give Robots a Trustworthy View of the World",
-      "link": "https://finance.yahoo.com/technology/ai/articles/lyte-raises-165-million-series-130000629.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 13:00:00 +0000",
+      "title": "Apple’s New CEO Has Millions Riding on the Stock Beating the Market",
+      "link": "https://finance.yahoo.com/m/c6549ac3-9e32-3eed-b2a6-64d458f1cb6a/apple%E2%80%99s-new-ceo-has-millions.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 18:47:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0.333,
       "label": "positive"
+    },
+    {
+      "title": "Tim Cook's Final Earnings Call as Apple CEO Came the Same Week Apple Hit a $5 Trillion Market Cap. Here's What Investors Should Watch Under His Successor.",
+      "link": "https://www.fool.com/investing/2026/09/02/tim-cooks-final-earnings-call-as-apple-ceo-came-th/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 18:20:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Apple's Foldable iPhone May Contribute $14 Billion to December Quarter Revenue, Morgan Stanley Says",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-apos-foldable-iphone-may-180909159.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 18:09:09 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Apple CEO John Ternus Once Spent Hours Counting 10 Extra Screw Grooves: The Steve Jobs Philosophy Behind His Obsession",
+      "link": "https://finance.yahoo.com/technology/articles/apple-ceo-john-ternus-once-173111901.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 17:31:11 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Why Apple’s Upcoming iPhone Event Is Wall Street’s Ultimate Test",
+      "link": "https://finance.yahoo.com/m/4c204a51-32a2-3229-a068-ba865e19b2bc/why-apple%E2%80%99s-upcoming-iphone.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 16:51:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "What's the Real Fuel for Apple Stock's Next Climb?",
+      "link": "https://www.trefis.com/articles/613956/whats-the-real-fuel-for-apple-stocks-next-climb/2026-09-02?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 16:34:04 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Apple's $54.25 Billion iPhone Engine Faces Its Foldable Moment",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apples-54-25-billion-iphone-161034987.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 16:10:34 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
     }
   ],
-  "sentiment": 0.018500000000000003,
+  "sentiment": 0.05550000000000001,
   "errors": []
 }

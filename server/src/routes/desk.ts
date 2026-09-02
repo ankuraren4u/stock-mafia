@@ -10,6 +10,7 @@ import {
 } from "../services/desk.js";
 import { readStore, updateStore } from "../db/store.js";
 import { resolveInstrument } from "../services/tickers.js";
+import { analyzeAlert } from "../services/smart-alert.js";
 
 export const deskRouter = Router();
 
@@ -113,5 +114,25 @@ deskRouter.post("/alert", (req, res) => {
     res.json({ ok: true, alert: row });
   } catch (err) {
     res.status(400).json({ error: err instanceof Error ? err.message : "alert failed" });
+  }
+});
+
+deskRouter.get("/alert/analyze/:yahoo", async (req, res) => {
+  try {
+    const yahoo = req.params.yahoo;
+    const alert = {
+      yahoo,
+      direction: "below",
+      price: 0,
+      note: "smart analysis",
+    };
+    const analysis = await analyzeAlert(alert);
+    if (!analysis) {
+      res.status(404).json({ error: "No data available for this symbol" });
+      return;
+    }
+    res.json(analysis);
+  } catch (err) {
+    res.status(500).json({ error: err instanceof Error ? err.message : "analysis failed" });
   }
 });

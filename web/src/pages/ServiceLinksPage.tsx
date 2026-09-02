@@ -118,58 +118,40 @@ function LinkSection({ title, links }: { title: string; links: LinkItem[] }) {
 
 /* ── Link Data ── */
 
+const getHost = () => window.location.hostname;
+const getBaseUrl = () => `https://${window.location.hostname}:${window.location.port || "8787"}`;
+
 const serviceHealthLinks: LinkItem[] = [
-  { label: "Gateway", url: "http://localhost:8787/api/health", description: "HTTP API gateway health", type: "health" },
-  { label: "Gateway (detailed)", url: "http://localhost:8787/api/status/detailed", description: "Full platform status JSON", type: "health" },
-  { label: "Crawler", url: "http://localhost:50052/health", description: "Data crawler service health", type: "health" },
-  { label: "Price Service", url: "http://localhost:8082/health", description: "Price streaming service health", type: "health" },
-  { label: "Analytics", url: "http://localhost:50054/health", description: "Analytics service health", type: "health" },
-  { label: "Alert Service", url: "http://localhost:50055/health", description: "Alert service health", type: "health" },
-  { label: "Portfolio", url: "http://localhost:50056/health", description: "Portfolio service health", type: "health" },
+  { label: "Gateway Health", url: `${getBaseUrl()}/api/health`, description: "API gateway health check", type: "health" },
+  { label: "Detailed Status", url: `${getBaseUrl()}/api/status/detailed`, description: "Full platform status with all metrics", type: "health" },
+  { label: "Prometheus Metrics", url: `${getBaseUrl()}/api/status/metrics`, description: "Prometheus-format metrics", type: "health" },
+  { label: "Crawler Status", url: `${getBaseUrl()}/api/crawler/status`, description: "Crawler status, sources, and recent crawls", type: "health" },
 ];
 
-const monitoringLinks: LinkItem[] = [
-  { label: "Jaeger - All Services", url: "http://localhost:16686/", description: "Distributed tracing overview", type: "monitoring" },
-  { label: "Jaeger - Gateway", url: "http://localhost:16686/search?service=gateway", description: "Gateway traces", type: "monitoring" },
-  { label: "Jaeger - Crawler", url: "http://localhost:16686/search?service=crawler", description: "Crawler traces", type: "monitoring" },
-  { label: "Jaeger - Price Service", url: "http://localhost:16686/search?service=price-service", description: "Price service traces", type: "monitoring" },
-  { label: "Jaeger - Analytics", url: "http://localhost:16686/search?service=analytics", description: "Analytics traces", type: "monitoring" },
-  { label: "Kibana", url: "http://localhost:5601/", description: "Log search and dashboards", type: "monitoring" },
-  { label: "Kibana - Gateway Logs", url: "http://localhost:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-gateway-*',interval:auto,query:(language:kuery,query:'service:gateway'))", description: "Gateway log stream", type: "monitoring" },
-  { label: "Kibana - Crawler Logs", url: "http://localhost:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-crawler-*',interval:auto,query:(language:kuery,query:'service:crawler'))", description: "Crawler log stream", type: "monitoring" },
-  { label: "Kibana - Price Logs", url: "http://localhost:5601/app/discover#/?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-1h,to:now))&_a=(columns:!(),index:'stockmafia-price-*',interval:auto,query:(language:kuery,query:'service:price'))", description: "Price service log stream", type: "monitoring" },
-  { label: "Grafana", url: "http://localhost:3000/", description: "Metrics dashboards (if available)", type: "dashboard" },
+const realtimeLinks: LinkItem[] = [
+  { label: "SSE Event Stream", url: `${getBaseUrl()}/api/events`, description: "Server-Sent Events for real-time updates", type: "monitoring" },
+  { label: "WebSocket", url: `wss://${getHost()}:${window.location.port || "8787"}/ws`, description: "WebSocket for real-time price streaming", type: "monitoring" },
+  { label: "Kite Login", url: `${getBaseUrl()}/api/kite/login-url`, description: "Zerodha Kite OAuth login (if configured)", type: "monitoring" },
+  { label: "Kite Status", url: `${getBaseUrl()}/api/kite/status`, description: "Zerodha Kite connection status", type: "monitoring" },
 ];
 
-const infraLinks: LinkItem[] = [
-  { label: "MySQL", url: "http://localhost:3306", description: "MySQL database (port 3306)", type: "infra" },
-  { label: "MySQL - Web UI", url: "http://localhost:8080", description: "phpMyAdmin or similar DB admin", type: "infra" },
-  { label: "Redis", url: "http://localhost:6379", description: "Redis cache (port 6379)", type: "infra" },
-  { label: "Redis Commander", url: "http://localhost:8081", description: "Redis web UI (if running)", type: "infra" },
-  { label: "Kafka", url: "http://localhost:9092", description: "Kafka broker (port 9092)", type: "infra" },
-  { label: "Kafka UI", url: "http://localhost:8085", description: "Kafka web UI (if running)", type: "infra" },
-  { label: "Kafka - KafkaUI", url: "http://localhost:9090", description: "Kafka UI alternative", type: "infra" },
-  { label: "Zookeeper", url: "http://localhost:2181", description: "Zookeeper for Kafka (port 2181)", type: "infra" },
-  { label: "Elasticsearch", url: "http://localhost:9200", description: "Elasticsearch cluster (port 9200)", type: "infra" },
-  { label: "Elasticsearch - Head", url: "http://localhost:9100", description: "Elasticsearch Head plugin", type: "infra" },
-  { label: "Kubernetes Dashboard", url: "http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/http/https:kubernetes-dashboard:/proxy/", description: "K8s dashboard (via kubectl proxy)", type: "infra" },
+const appPages: LinkItem[] = [
+  { label: "Markets Dashboard", url: `${getBaseUrl()}/`, description: "Live prices for watched stocks", type: "infra" },
+  { label: "Research Hub", url: `${getBaseUrl()}/research`, description: "Signals, screener, stock intel, radar", type: "infra" },
+  { label: "Trade Desk", url: `${getBaseUrl()}/desk`, description: "Daily trading command center", type: "infra" },
+  { label: "Paper Book", url: `${getBaseUrl()}/paper`, description: "Simulated portfolio with positions", type: "infra" },
+  { label: "Data Crawler", url: `${getBaseUrl()}/crawler`, description: "Manage data collection and watchlist", type: "infra" },
+  { label: "Service Status", url: `${getBaseUrl()}/status`, description: "Service health and metrics dashboard", type: "infra" },
+  { label: "Service Help", url: `${getBaseUrl()}/service-help`, description: "API documentation for all endpoints", type: "infra" },
 ];
 
-const kafkaTopicLinks: LinkItem[] = [
-  { label: "Topic: stock.prices", url: "http://localhost:8085/topic/stock.prices", description: "Real-time price update events", type: "infra" },
-  { label: "Topic: stock.signals", url: "http://localhost:8085/topic/stock.signals", description: "Trading signals from analytics", type: "infra" },
-  { label: "Topic: stock.alerts", url: "http://localhost:8085/topic/stock.alerts", description: "Alert trigger events", type: "infra" },
-  { label: "Topic: stock.crawl.results", url: "http://localhost:8085/topic/stock.crawl.results", description: "Crawler result data", type: "infra" },
-  { label: "Topic: stock.trades", url: "http://localhost:8085/topic/stock.trades", description: "Trade execution events", type: "infra" },
-  { label: "Topic: stock.portfolio", url: "http://localhost:8085/topic/stock.portfolio", description: "Portfolio update events", type: "infra" },
-];
-
-const grafanaDashboardLinks: LinkItem[] = [
-  { label: "Platform Overview", url: "http://localhost:3000/d/stockmafia-overview", description: "Overall platform health and metrics", type: "dashboard" },
-  { label: "Service Metrics", url: "http://localhost:3000/d/stockmafia-services", description: "Per-service latency, errors, throughput", type: "dashboard" },
-  { label: "Crawler Dashboard", url: "http://localhost:3000/d/stockmafia-crawler", description: "Crawl rates, source health, queue depth", type: "dashboard" },
-  { label: "Market Data", url: "http://localhost:3000/d/stockmafia-market", description: "Price update frequency and staleness", type: "dashboard" },
-  { label: "Alert Analytics", url: "http://localhost:3000/d/stockmafia-alerts", description: "Alert fire rate and notification delivery", type: "dashboard" },
+const quickApiLinks: LinkItem[] = [
+  { label: "Search Stocks", url: `${getBaseUrl()}/api/market/search?q=AAPL`, description: "Search stocks by name or symbol", type: "dashboard" },
+  { label: "Stock Details", url: `${getBaseUrl()}/api/market/stocks/AAPL`, description: "Full stock data (price, fundamentals, signals)", type: "dashboard" },
+  { label: "Trading Signals", url: `${getBaseUrl()}/api/signals`, description: "Current signals for watchlist stocks", type: "dashboard" },
+  { label: "Smart Alert", url: `${getBaseUrl()}/api/desk/alert/analyze/AAPL`, description: "Analyze any stock for buy/sell recommendation", type: "dashboard" },
+  { label: "Screener Presets", url: `${getBaseUrl()}/api/screener/presets`, description: "Available screener filter presets", type: "dashboard" },
+  { label: "Watchlist", url: `${getBaseUrl()}/api/desk/watchlist`, description: "Current watchlist and tracked instruments", type: "dashboard" },
 ];
 
 /* ── Page Component ── */
@@ -178,11 +160,10 @@ export default function ServiceLinksPage() {
   const [filter, setFilter] = useState<string>("all");
 
   const allSections = [
-    { title: "Service Health Endpoints", links: serviceHealthLinks, key: "health" },
-    { title: "Monitoring & Tracing", links: monitoringLinks, key: "monitoring" },
-    { title: "Infrastructure", links: infraLinks, key: "infra" },
-    { title: "Kafka Topics", links: kafkaTopicLinks, key: "kafka" },
-    { title: "Grafana Dashboards", links: grafanaDashboardLinks, key: "grafana" },
+    { title: "Service Health & API", links: serviceHealthLinks, key: "health" },
+    { title: "Real-time & Alerts", links: realtimeLinks, key: "monitoring" },
+    { title: "Application Pages", links: appPages, key: "infra" },
+    { title: "Quick API Access", links: quickApiLinks, key: "dashboard" },
   ];
 
   const filtered = filter === "all" ? allSections : allSections.filter((s) => s.key === filter);
@@ -192,7 +173,7 @@ export default function ServiceLinksPage() {
       <div className="topbar">
         <div>
           <h2>Service Links & Quick Access</h2>
-          <p>Direct links to health endpoints, monitoring tools, infrastructure, and dashboards.</p>
+          <p>Direct links to all running services, API endpoints, and application pages.</p>
         </div>
       </div>
 
@@ -200,11 +181,10 @@ export default function ServiceLinksPage() {
       <div style={{ display: "flex", gap: 6, marginBottom: 20, flexWrap: "wrap" }}>
         {[
           { key: "all", label: "All" },
-          { key: "health", label: "Health" },
-          { key: "monitoring", label: "Monitoring" },
-          { key: "infra", label: "Infrastructure" },
-          { key: "kafka", label: "Kafka" },
-          { key: "grafana", label: "Grafana" },
+          { key: "health", label: "Health & API" },
+          { key: "monitoring", label: "Real-time" },
+          { key: "infra", label: "App Pages" },
+          { key: "dashboard", label: "Quick API" },
         ].map((f) => (
           <button
             key={f.key}
@@ -219,7 +199,7 @@ export default function ServiceLinksPage() {
 
       {/* Quick Copy Section */}
       <div className="card" style={{ marginBottom: 20 }}>
-        <h3 style={{ margin: "0 0 10px" }}>Quick Copy - cURL Health Checks</h3>
+        <h3 style={{ margin: "0 0 10px" }}>Quick Copy — cURL Examples</h3>
         <pre
           style={{
             background: "var(--bg)",
@@ -232,21 +212,23 @@ export default function ServiceLinksPage() {
             lineHeight: 1.6,
           }}
         >
-{`# Check all services at once
-for port in 8787 50052 8082 50054 50055 50056; do
-  echo -n "Port $port: "
-  curl -s -o /dev/null -w "%{http_code}" http://localhost:$port/health || echo "DOWN"
-  echo
-done
+{`# Health check
+curl -sk https://HOST:8787/api/health | jq .
 
-# Gateway status
-curl -s http://localhost:8787/api/status/detailed | jq .
+# Detailed status
+curl -sk https://HOST:8787/api/status/detailed | jq .
+
+# Search stocks
+curl -sk "https://HOST:8787/api/market/search?q=AAPL" | jq .
+
+# Stock details (includes chart, fundamentals, signals)
+curl -sk "https://HOST:8787/api/market/stocks/AAPL" | jq .
+
+# Smart alert analysis
+curl -sk "https://HOST:8787/api/desk/alert/analyze/AAPL" | jq .
 
 # Crawler status
-curl -s http://localhost:50052/status | jq .
-
-# Quick price check
-curl -s http://localhost:8082/price/RELIANCE | jq .`}
+curl -sk "https://HOST:8787/api/crawler/status" | jq .`}
         </pre>
       </div>
 

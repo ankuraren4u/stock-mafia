@@ -2,7 +2,7 @@
   "yahoo": "HDFCBANK.NS",
   "symbol": "HDFCBANK",
   "market": "IN",
-  "crawledAt": 1788359407767,
+  "crawledAt": 1788388205277,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -64,28 +64,12 @@
   },
   "news": [
     {
-      "title": "HDFC Bank Ltd Share Price Today,, HDFCBANK Share Price NSE, BSE - businesstoday.in",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYl9PSEdSWjNuX0l2V1g2UGEydHExQ2lVREdwNzB4dUthSDV6Y0FCYVdXNHVPRG51dXFWbXQ4RjAwSnlFZGlhOTNYWUZpaVJfaHM4ZzFEOUlISGNDVHg2OWFzN1B0eDd1Wml1NWI4U2tUVGdaMjNYME1HNGZVVmZoRHFyYw?oc=5",
-      "published": "Mon, 31 Aug 2026 04:59:00 GMT",
-      "source": "businesstoday.in",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "HDFC Bank shares decline 2% to 52-week low; what investors need to know - Upstox",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZHdIeDN6NUJJWW1JdjFudzJaTnFQV21ORDdJY2tWWmwwS3p1T1J1M0tSMEQ2NVRFbDFUWnQzdjJZSzAwQ2ZQUGFGT1B4NTRGX3lhT3JwQUpvOU42QWZrVXBHb0d2UWRYa3EwM2dXamFSTzV2emhKajRYRHRtWWFvTHZ0ZnU0bEFOX1gxVXZjV3NjR3FpUHVUV1ZuWmdZcUdTTW05RW1YdWFyYmNOOHlzbmloeHBxM0tRU1NXWA?oc=5",
       "published": "Thu, 27 Aug 2026 06:06:15 GMT",
       "source": "Upstox",
       "sentiment": -0.333,
       "label": "negative"
-    },
-    {
-      "title": "HDFC Bank Share Price Today, August 25, 2026: ₹727.45 in Morning Trade - The Eastern Herald",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPU3NXRWR3bHg3N2NOV2d2TFd0UENkQjN5OFJvUlVXdWhYckllRXZOMXFZazViRU9HVGdPeDJxb2NxdG84Zkw1TGVqVVhWVzVPS3VhOTJCTndCVWg4RXBYeU5HamJvbUJNSVF4d1RKTVVRNXBoTV9wZUpMSG1vdkxFdFJaRWtQSk0?oc=5",
-      "published": "Tue, 25 Aug 2026 05:17:01 GMT",
-      "source": "The Eastern Herald",
-      "sentiment": 0,
-      "label": "neutral"
     },
     {
       "title": "HDFC Bank Stock Leads This India Watchlist as Volatility Tests Bank and Gas Shares - simplywall.st",
@@ -104,14 +88,6 @@
       "label": "positive"
     },
     {
-      "title": "HDFC Bank Stock Declines Amidst Profit Booking: Key Support and Resistance Levels to Watch - Momentum Trade - vinanet.vn",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTUx2Q1JkS3VGc1J5VEpvS04zM1UzWUVmX05VLTF1QUR1d3BRWGFYaU41Q2w1QWxSc0Vsa1FQSEdJX1FaaWMtVk9GNVlnVVBPLUFENWswMDY2UXJrNklLZUJNUWdLVzVPZ3BPSXBfekhCMlY1NXBjcUNsT1ptbFZKbElnRDllZ2JwYjJ1X1VXQ3dVdnpVMTMyZ0pkdW9TbmxNdzZRS2FUcGQ1MnJwMGVKY1RiQnBlcE4tNlZZZ0h0OXZNWXdqWmlnOU9ubw?oc=5",
-      "published": "Mon, 08 Jun 2026 07:00:00 GMT",
-      "source": "vinanet.vn",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "HDFC Bank (NYSE: HDB) executive exercises 51,800 options, holds 1.43M shares - Stock Titan",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWVlaMUwwUE9RVVZTbmxqM0JRclVMLUxBZFg5dG5ZekhjRXVTd2hPemdZTS1VQ1QxZ3M3alB3UVVMeDl4VEkyRW9tdmtRakV0TE15bFZnNUpLVllURm9yMTJXNkJkaTVKekQtWEl5NU5rajl1UEo2OHByMExxLXRmMGpBclBYX3hXb3ZUaDczaXNzY0hHOUg2QTJNUkk4NVJGRGdCZFBqR014UQ?oc=5",
       "published": "Fri, 17 Apr 2026 07:00:00 GMT",
@@ -128,20 +104,44 @@
       "label": "negative"
     },
     {
-      "title": "HDFC Bank Ltd. Share Price Today - HDFC Bank Ltd. Stock Price Live NSE/BSE - CNBC TV18",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BTGxHaFJEVVNGVEU4ZGhmNkIxZDV1R0YySnVDRV9qX3BwQnZiRG1qVU1hTU4xTktkVW9uRHJFMUY1bTNUQ19NQUJKalFIRkhDR3V1bmRwaDR3WFluX29yekhEVTNZN3dsYUFxMUp2dDlSLUNEeGpBSXhOSQ?oc=5",
-      "published": "Sat, 03 Jan 2026 22:29:21 GMT",
-      "source": "CNBC TV18",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "HDFC Bank Records Rs. 28.63 Crore Block Trade on NSE at Rs. 818.40 Per Share - scanx.trade",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSDdNR1liU2F2b0tDNU80dFNDYV9sOV9ueEJmQ2pyelZMUHNkd3hsd1pqdHhUUUE0LXNVQ3A2dFMyeGZsMEpZRFJuZ29KeG1XTWlrd3I3azhiRGgyQ0tmRDhkZmp4MFBTbm91eUROT0tQOEV6NVByWmxpd2NmWWViUnc5ektWMFQ4Y0VlczdqUGx2ZWs2QzJDWnVYdWl4RlA3MmtuS0k3ZF80RnpCN3NsLUt6QWtxaDEtbk5XcHFLNGpSYUVLWjBEWkdoS2RxYVdDVXc?oc=5",
       "published": "Fri, 13 Mar 2026 03:54:45 GMT",
       "source": "scanx.trade",
       "sentiment": 0.333,
       "label": "positive"
+    },
+    {
+      "title": "HDFCBANK Q2 2025 Earnings: Revenue Surges 19% YoY, Profit Per Share at ₹44.82 Amid Stable Margins - vinanet.vn",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUjRkMDNBSU1vQWhWcDg2WkJoN0RYaUlMcnprZFdBY2hOYnkwel84VEtROUp5TEhwX193bmpKbmo0VjgybTNqTG1WcVhyUWd0d1JHalFVcWZBVTQtc0dFY04xdGpWOWF6OUlJVGlSMHVacDV1dzN0bkVkd1Z2SHZDTFd2empodF9NdWdwSERvSWtSTUR4X2ttbGdCeWdqaHU2dDFTT0Q1V3EyZlhVbW5oWkZ2bTFKQTFHT2dxektSWjZFQW1NWndGRmVIMzFldw?oc=5",
+      "published": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "source": "vinanet.vn",
+      "sentiment": 0.667,
+      "label": "positive"
+    },
+    {
+      "title": "HDFC Bank shares jump 6% in 5 sessions; latest developments you need to know - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTjhrcnJkZk04NDRsbFVjUkF6cHB0a1RDbEc4Qkp3VFViZzBaYWJFYVN4b1pfalF3ZEhTdG4xRXpDcEMycU02aXlEd0hld2NTNmdrTkZqZXdoNFZneWUtWkdwZGZNNlNvZlpLUnNQTm9meGhxX2N1aWVYUG5RbVc5LVhQNU51R0dEV3N0OFluMkFSVWR4V1hscGdyeDJZVTFIc055VEdxcjJOYWVKX2ViV0l6blhSUUxWTXgzZ28tTmRyeDVwejNRbkx1WEtPNTNKaHp4ZA?oc=5",
+      "published": "Tue, 16 Jun 2026 07:00:00 GMT",
+      "source": "Upstox",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "HDFC Bank Allots 9,06,722 Equity Shares Under Employee Stock Option Scheme - scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPU0VmTlhBTExjVUhkYVc1SGdtZHM1cW5IWi1HRkZDR0lJS21RV1ZxNm5tdTVIWGExcThYMVZ3WXRJdXljZjQwdzZkWHo0ZnlwaVFnOEQzc1VSMzFvT3gxNmpQalBMN2ZhVFBDSDZTdnMyYWlrTnA1c3ZxdnFwMVNZZGFJQ0o3MzducmtfSmFHaXV4bEVyYlRDVm9WZ2F2aHBQWm5PQXFpcXdGUUxEZWdnS2ZUajA4emF4Z2FBOExlRGpMOGxEYnFKWUlpN2o1ZFdVX2pvSzFR?oc=5",
+      "published": "Fri, 27 Feb 2026 10:22:33 GMT",
+      "source": "scanx.trade",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "HDFCBANK Q2 2025 Earnings: Revenue Surges 19.4% YoY, EPS at ₹44.82 - Earnings Decline Risk - vinanet.vn",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQck9hUTZJMzlNeHd4WXlzbXNDT0VXQWE4TzN6UXU0MG90TGJKZUhDTW1pUGVHVE9Cb1kwNHAyNFd5YVRBY1ZsbDZjdXV3d3BQb2QzSEpzQmlZdXVvUVVUSWZEMmNqZnN3OENXZEw5bGhfbDNFalQ0OTlYdXN1b3V2bkhqN2QyOFg4MkQ1S0tQUGgzelBpX0hkandQbDBMY3Jsb24wbA?oc=5",
+      "published": "Sun, 12 Jul 2026 07:00:00 GMT",
+      "source": "vinanet.vn",
+      "sentiment": 0,
+      "label": "neutral"
     },
     {
       "title": "HDFC Bank’s next CEO: 3 big tests to win back investors - The Economic Times",
@@ -152,10 +152,18 @@
       "label": "neutral"
     },
     {
-      "title": "HDFC Bank next CEO: Check bankers in the running for top job - ETHRWorld.com",
+      "title": "ICICI closes in on HDFC Bank's no.1 spot in Nifty as share show diverges - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOZFdoS19URklvTmlFS0tXbU9WS20tdDVUd2sycXlncDV4VUtwbEc5aTJhUy0wbTE2SmQ1anVUX0p4SXhsYS1Pc1NuczVHdkxXeXpEUld1MVl5WTRYM3VweG52ckMtTW5xRUxzdFRpUm9QT3loMVVYNy1keTlickR6TGo0UWZxSFVDanR4ekwtVnlvdlI2QVRQUTlSdGk4dnNTSTMyNXY3R2VOQTNFVmpKeENDT1NCOWJtQmw4M0hnc2lYYTNLODRESXRNcWFhT0szaVB0UTVjSlE2RzdUNWQyVk82eERPWVREd0VUREJVN2lfaVZndVZzZkpzOGFoWEIwaVMzX3dCYVE0ZUYyeGoweWo5Nmt2WWVCYlduLUJyUmxDalRvX3hPZ2lLT0tTbkpCVzk5dmlZd1JIWjhrTF9NQVhYVkVzMVU?oc=5",
+      "published": "Wed, 02 Sep 2026 01:02:50 GMT",
+      "source": "The Economic Times",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "HDFC Bank next CEO: Check bankers in the running for top job - hr.economictimes.indiatimes.com",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOHRqUzhBWlJqaFdJLXdvWUxmU0tEVmxzWjV5d3FHNlJENnVMRl96WEJBVG54MmJTOEZseGdyc0pPX3laTHBSSU1LREZGWGdxcU1ncDJ0RmZqRjBsdjd3REhBMVd2TENTOGktbHhFUTBfcUJyaXFYdDE1eW54b3FZN2lDTmxOdGpPRmp5RjQ3NTlnN29uZElWQUpOLU5HSEdTak9WeVl0aW82YjQ5Rl9ZTjZQRlF1MVRsUk4zRFNJTUU?oc=5",
       "published": "Tue, 01 Sep 2026 09:54:56 GMT",
-      "source": "ETHRWorld.com",
+      "source": "hr.economictimes.indiatimes.com",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -164,14 +172,6 @@
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUTB3MWlYXzROYlh2MnBkMVN6RE5SYUp0SEZPbzd6Tjk5M1I2ZGRKSFk0MWduaFN6REt1elU5REpoWWZfcWIzTzUwY3NEUHNidHk3bE96Qjd4R1lzVHBmZzlLLUxmempGQS1zSG1iWGNCYjljMV9MX0lUTVZBVXJXS2tjRWVBRlcwaUpRQmFERUU3UG5DRllfbkllNEpQQkRqTjFkb1d4TW5ydmlvWE9jWlFSanNNVE0tbGc?oc=5",
       "published": "Tue, 01 Sep 2026 08:22:06 GMT",
       "source": "ET BFSI",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "ICICI closes in on HDFC Bank's no.1 spot in Nifty as share show diverges - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOZFdoS19URklvTmlFS0tXbU9WS20tdDVUd2sycXlncDV4VUtwbEc5aTJhUy0wbTE2SmQ1anVUX0p4SXhsYS1Pc1NuczVHdkxXeXpEUld1MVl5WTRYM3VweG52ckMtTW5xRUxzdFRpUm9QT3loMVVYNy1keTlickR6TGo0UWZxSFVDanR4ekwtVnlvdlI2QVRQUTlSdGk4dnNTSTMyNXY3R2VOQTNFVmpKeENDT1NCOWJtQmw4M0hnc2lYYTNLODRESXRNcWFhT0szaVB0UTVjSlE2RzdUNWQyVk82eERPWVREd0VUREJVN2lfaVZndVZzZkpzOGFoWEIwaVMzX3dCYVE0ZUYyeGoweWo5Nmt2WWVCYlduLUJyUmxDalRvX3hPZ2lLT0tTbkpCVzk5dmlZd1JIWjhrTF9NQVhYVkVzMVU?oc=5",
-      "published": "Wed, 02 Sep 2026 01:02:50 GMT",
-      "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -192,10 +192,10 @@
       "label": "neutral"
     },
     {
-      "title": "HDFC's changing guards: From Parekh to the next CEO - ETHRWorld.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVEVMQ1FIRHN1UGFBUUNsZ19nZDRoR1ltakxQRi1NLTl6TU1mWjg1NVNuVE1YMk1VYnZ6MmdCTjJMZGs2MnBLaE9OMzlNME1pU0pGOHJmVE9XYUpDOVFENTlmVmhOV2hvcmhBdjBfRmMybV91Wkl5QnNmdG52dDNqUmVDT3RJSk1SdnU5d19LTk4wUld0ejhjYnNlb2lIa3dEWHRmcjc5RWs1UzZQUHRPV3cwZlhjOTNJ0gG4AUFVX3lxTE1URUxDUUhEc3VQYUFRQ2xnX2dkNGhHWW1qTFBGLU0tOXpNTWZaODU1U25UTVgyTVVidnoyZ0JOMkxkazYycEtoT04zOU0wTWlTSkY4cmZUT1dhSkM5UUQ1OWZWaE5XaG9yaEF2MF9GYzJtX3VaSXlCc2Z0bnZ0M2pSZUNPdElKTVJ2dTl3X0tOTjBSV3R6OGNic2VvaUhrd0RYdGZyNzlFazVTNlBQdE9XdzBmWGM5M0k?oc=5",
-      "published": "Mon, 31 Aug 2026 17:45:04 GMT",
-      "source": "ETHRWorld.com",
+      "title": "HDFC's changing guards: From Parekh to the next CEO - hr.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNek5sb1pxYW5JZk82ZDdYaXUwNHNOMUxRRTR6TEZOanMwMlJWZmpjY3haYkx4azJBRURRTFFwaWFjcHJEYlVrNngtUDQtalRGeXUwSHMxNGJxcHBqRFBwZDFQMjdlY1BtaHU0eFl6UE5IREVvWXJRWWV6VHE5dmFzN2s4SzRrZ0FHbmtjcXJ2MGNHTFVZb25nVjBTMmUzSzdFbjlkdkV3T2NtbmhSVFQ5MjJlb9IBuAFBVV95cUxNVEVMQ1FIRHN1UGFBUUNsZ19nZDRoR1ltakxQRi1NLTl6TU1mWjg1NVNuVE1YMk1VYnZ6MmdCTjJMZGs2MnBLaE9OMzlNME1pU0pGOHJmVE9XYUpDOVFENTlmVmhOV2hvcmhBdjBfRmMybV91Wkl5QnNmdG52dDNqUmVDT3RJSk1SdnU5d19LTk4wUld0ejhjYnNlb2lIa3dEWHRmcjc5RWs1UzZQUHRPV3cwZlhjOTNJ?oc=5",
+      "published": "Tue, 01 Sep 2026 02:47:24 GMT",
+      "source": "hr.economictimes.indiatimes.com",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -208,6 +208,6 @@
       "label": "neutral"
     }
   ],
-  "sentiment": -0.018500000000000003,
+  "sentiment": 0.018555555555555558,
   "errors": []
 }
