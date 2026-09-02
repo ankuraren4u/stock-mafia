@@ -2,7 +2,7 @@
   "yahoo": "TCS.NS",
   "symbol": "TCS",
   "market": "IN",
-  "crawledAt": 1788348604788,
+  "crawledAt": 1788359405702,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -64,14 +64,6 @@
   },
   "news": [
     {
-      "title": "TCS Share Price August 31, 2026: Down 2.08% to ₹3,157.80 - The Eastern Herald",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjTG9SYXY2TTNpaTZ4dENjSXpmaVRDY2NLdXJYTFBhclpOVVZGMUtEWFF0by16LVNqb005MlVBLVU1Sm1hTTM1Q3A4NVVvWlBCdmwySTFsRHZKYTM1bUFScExGYlNiVGZWZ3RRUVVzWmhIVXpoQmhN?oc=5",
-      "published": "Tue, 01 Sep 2026 01:17:48 GMT",
-      "source": "The Eastern Herald",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "Bonus & Dividend Stocks To Watch: TCS, Tata Consumer, PAE & More Go Ex-Date Today May 25; Check Full list - Goodreturns",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMFBlLWRDOVRVeHFYSEg5R2tkU1hfT2J5b3FkaG5qd3VVdlZfVkw1NzE1Y2JBaHpTZWdCSWdFQmRjNk9mVlhoQlBaaEpsdFhhWmJIT2NYTHE5SWRYa3hSOHBnSlkxZDJrTThsUE9SWF9YNFVyNUZYN0VIWUNITUgyYV9IUWJMNmpXdVAyRjN4bThLUUZrd2dLcGF0WlQ0cE5BZDB1MFp2MWRVcVBHZVI1SURtYkVhQUlCTksxTkNRU0ZNMTh6T0xyRU0xaDBNZDBuU3FPcFh6c0xoU21Jc1lQb2Y2cw?oc=5",
       "published": "Mon, 31 Aug 2026 13:32:55 GMT",
@@ -92,6 +84,14 @@
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNFExcjY0ZlhsLXVkOWVnQ0R6VHRQNkphU2h1eEVYdm13OVIwdDNaT1RvQmFzVGgtRnNERFFvdzVETlBuTkh3QUh3T2F2RDJJUnhuV2FHUEZFR29TQk42UHlPV0E1STlQUmxYQU9TSnBudnB0cTdidTlHVDZkZ3lEX3lGUjgxeWRiR0pkRFJGQ0lZaHJLUVl0OFVQYjFBTEdCSnN4dzBaSmwwenl6aWxCR09sc0NtY0hQcWQ2b2tvczd0TS1XNHQ0NHh5bHh0d19yNEpiR01FWW9wZnQ1T2tqWDR3Mkg4UdIB6wFBVV95cUxQNUZvdHZSbHE1akFZUGg3cG5oWE5jSGhDZUZUR3p3YS12cS13UUdqTlZuRzhPQlktTV8wbFlMTFNTNmNsVGZZTnV2N2RMclg2dFFkdDhkUU1jWGFpcHdZTmpLX1BHZ2tlLUlRSWtOQWpHbnI4ek1tMF9LdWd3WnhqYzVXR0tJemxWMGsxRTVHSEZLM1piOTVsWkV1c3RxMFhLQTZ1ZkV3ZHVId1FOM3FiT1FUdTRpU0lEbjg1OWp1ODIzbkVheGpZMktkOXlrLVM5TWNnWDdEeGpsUnN0Znp4bHlnU1R3OUY2R29V?oc=5",
       "published": "Thu, 09 Jul 2026 07:00:00 GMT",
       "source": "Business Standard",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "TCS Share Price Today: Flat at ₹2,285 as Porsche MHP Deal Pop Fades - The Eastern Herald",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KeTA5QUJFTlFhejBDRmpCWkNDQWVydWtBOENxb2VySXg2b1djTWFkNG9LWVpUMHJ4UWF3dTRGRDBpMHNoaXVZRDlYeXRtQXVxRnpaek0tVzlOMGgzclhEMXVORzFVb0RDX200MnlDUWVxdVN3SENNT3pndzlmZVE?oc=5",
+      "published": "Tue, 25 Aug 2026 06:33:06 GMT",
+      "source": "The Eastern Herald",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -176,10 +176,10 @@
       "label": "neutral"
     },
     {
-      "title": "BSNL 4G: Tejas Networks gets ₹1,537 crore LoI from TCS for 18,685 sites - ET Telecom",
+      "title": "BSNL 4G: Tejas Networks gets ₹1,537 crore LoI from TCS for 18,685 sites - telecom.economictimes.indiatimes.com",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQVRIc3FpSFhlRFI3dUVNcnZ0Qy1oN1VwU1Jtd0NPRTJvM210aHlGVmF3NjdaS3J1eURBeDhEVGhQTTNDclhOLUZhTzZUUlk1UkRSM09EeHZWNTJwOHVZTmVERS11T0FxRzN0Q0xPTnBsdC00MTBsbHpEbVZHejlBMTZFdVljaUd3d3p5eTJaRmxfNFFsQXhMMGdYam92UjRqQ2N3a0o1bE9faDRINWlTRWhuNHRjMHFlMnZFRjJDbllhcTdkVkxQYS1vdU5Sd0duODAtWVdMWFRCcm1lOXfSAeMBQVVfeXFMUHhzRkRNYTByV0dwV2xJXzlONU8xR25vT2hiekZaZmFzeVFfc01kTFA2SGJfd3JoWmlYekFOQnYxZWN4cnRfbmRNcXBRT09kejUybE5qM012Rm9HR21kV1FtZk4yXzR3UWNwRzhaQUNtNUlqNGJqMjE0eTR5dFZKdWZYZF9fa2lZUGhzWXAzR2ozVTRZM3ZyZnQ3OVFSNC05NWNvWWR3TWxubTVDclktb0liTV83cVNpbDNyalpvYS1KelFRSzVPcW1BWFprSEhUMnJjNndkSGR1QUJsbWxxcl9GOUk?oc=5",
       "published": "Fri, 28 Aug 2026 02:14:11 GMT",
-      "source": "ET Telecom",
+      "source": "telecom.economictimes.indiatimes.com",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -192,18 +192,18 @@
       "label": "negative"
     },
     {
-      "title": "Bharti Airtel gains 26.8 lakh mobile users in July, Reliance Jio's wireless net adds at 24.4 lakh - ET Telecom",
+      "title": "Bharti Airtel gains 26.8 lakh mobile users in July, Reliance Jio's wireless net adds at 24.4 lakh - telecom.economictimes.indiatimes.com",
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWTI0blhBZDFNbVNiTm85V2l1YUE0X1hPZWh4bG5oQXZSVHNqZk5VOVlrMFplUFRIQ0dmVXMxWllrNENPWXJUN3hWVW5vZU9IYmZTOC05NTlPcWdoTS1BTHN4NVhBY21KaVhIbjcxLU5aUmxwU09kRnhRNWNuTVQ4VDUxT3VDcmpkSTdKSVZBcHBSd3hQTXJ1X2VJM1ZrNS1DaVpkN19qbHdzdmJBYzYzOXNrbG5KOEJFSzQtX1ZXWENseWZqenB5Y0RIOVlRa002c1RudEU4bjVrSEZJYnBMVjBTQmJTcTlwYWxYazRfSldTOWN3d1M00gH8AUFVX3lxTE43VjU2dmdrZDVyWnlQNXg3SzYwVlMxY1lab3MteTRhc2l4NkQxMEZXNUQ2SHJOeG5VT2otejlEVmNuODdzeHZNcHc4c1U3M3JYd2phbWdoRHA1UGpQRUUxczliTTFFYmlWcG1jTGxuV01wMG5NZXByQmllSzgyN1pyajNFWGxUM29KOWtvaERCRmZSR2gzaGVOWVZUSTc1VHEtbkhJRDV6S1E0dlhuWm1EN2pxaVN0bDNlekE2ZU5NSk1vUXBzdUQtVVJuaWFpM2Y0bDQ2eTl1bFNzdW1EZ085d1BwRHJnQ1BZNll6THMxSkdVaTNEY1poN3gySQ?oc=5",
       "published": "Sat, 29 Aug 2026 01:50:16 GMT",
-      "source": "ET Telecom",
+      "source": "telecom.economictimes.indiatimes.com",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Tata's TCE wants private sector to take the nuclear power baton from DAE - energy.economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTWY1TjFxaUxrNU5KM3ozeHQ2Q1dTb3ZmX21PUTRaSjd5SWNRX2hyWjJhOGpVRmktZEM1UEZGSi1hN2JiV05Sb3E2Q2NlRVczQkdVN1Q4VEowVmNtdHB3RnZ3QmoyY0g2ajdWTnpnWjJKa2Z0V0pMZVVrLV9xak1LVlgzclhETFZJOXVtLVpxbWhzODFwaVQtb2RoaFl3MFMxcW5fR2VnVnQ4TFdpYk1EY2dBNVlwb2xYZnB3bk9OSWk2TFBtT0VTN0RuVzJfM2VPbUHSAdcBQVVfeXFMTjVhcUpJakFmbFNPeUFldXBDUkt0Z1pway1WeVJyV2w4STVUVmg0QS1pcWdWMGtub0poNGFpd2tGSWJlY2xEU3FBRFkxVDR0NXMycjBMSVdINFkxQ1RQNFdJT2RBeDBMTG1UcUVSWHF0NjFnR0NMbmE3WFdjS1IwV1JSNEFiaEUwbDVsbUFzaW9wVlROTDM2OHlDMGNLa1hyc2M5ekJMYTFoaFpXZEJvZDdfblRnVUhLX2VndE9vVE5RSUxwLVhSOXBpU2c2Ri1tMmNlLWNtdVk?oc=5",
-      "published": "Mon, 31 Aug 2026 02:25:46 GMT",
-      "source": "energy.economictimes.indiatimes.com",
+      "title": "'I reject your sympathy': Father of girl left disabled by immigrant driver confronts lawmakers - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNTXp2cEVwdnZyTXBvSEVTZUh6Y3NoY0R2S2tKNzlEZEw3Vm1JSjhGNjlyWnhhalVodVpKMHhfTTNpVTU4QUhmRzhLajJLVWpVR0tmaWhzRHdyX1RlVndnQXB5ck1lQjFZdFZxcHJ3ZGotZXFseGhJZGNhV3lBSGJBNTBKNXduX3laT05DNHdqT1c0bS1vVTVrWndOMzhmUzZkaG13SU9zbDNGU2liaXlPb3J4T1BCSXJsTFZlaV9RQW03NE9IYmJXeTh4d2QzNERGSFFWTmJBTndxVTFjdlNrY3RucnZvMjFYR3ZNU1ZTOHd1RjRRZFdz?oc=5",
+      "published": "Tue, 01 Sep 2026 21:14:00 GMT",
+      "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
     }

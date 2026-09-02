@@ -2,7 +2,7 @@
   "yahoo": "MSFT",
   "symbol": "MSFT",
   "market": "US",
-  "crawledAt": 1788348613817,
+  "crawledAt": 1788359411767,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -89,10 +89,50 @@
       "label": "positive"
     },
     {
+      "title": "Microsoft's AI Datacenter Expansion: A Game Changer for the Stock? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMWN6UW5Icjhtd1R6SlZjb005ckttRDMzUmVBeGRIcjBqSGJZUE93NWRzT3RjU0x0ZUVkVDU4M1BOaEdXY3NVNDNvTGFCb0p1U2FVMkNNZk9GcDBPR2VPWXRjLTZPVk1DR29IZ2N3NTVJY1FPNm9RdG01aHkyUUlBLUI5M2FrbVNTcjVCQ2ZiYkZNMUw2SV9RMTVZY1dxV3JDaGVQMGU3TQ?oc=5",
+      "published": "Wed, 02 Sep 2026 13:54:00 GMT",
+      "source": "Yahoo Finance",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Prediction: Microsoft Stock Will Double on This Date - 24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM1VmTDl6eDdiSmZEdEpxTU5PQlFkSVNvd3NidUplVWo1bE9uaVY0cVlYMEdDaG84RWFSSTZuOFRXLWVielZnNEJGdFRTREVQelluWFl2bTdKRk5hWGlNbi1kZnM0QWdnVXFxN1o4aUw5cDBQVDJPTDhpRHl6WGxURG1haWREUllBNUVENTJNV0lxZjVjZktjOEthWQ?oc=5",
+      "published": "Tue, 01 Sep 2026 16:00:00 GMT",
+      "source": "24/7 Wall St.",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Microsoft (MSFT) Stock Boosted by AI Strategy and Analyst Upgrades - GuruFocus",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMDVZc3BvSFBFREFHX1dSYktzSC0zdjhkMHpTSFUxWTQ0SzVLUUFBaHFwa3hEWm5sMWNlNGU2Mks4elpTa1pNNm5oNWkyMllhWnFCSVhRYVV2X1I0SGFxc3BoYVFIbXYtZDV2N294SzVZZC1ieG1EdEhSOW5HaXhrekV3dmdteXNxX1NDTDJBY29qUzk5NnZGb3F4bE5qT3hVME56MFdn?oc=5",
+      "published": "Wed, 02 Sep 2026 07:10:02 GMT",
+      "source": "GuruFocus",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
       "title": "MSFT Stock Alert: Moonshot Could Give Microsoft Another AI Revenue Stream - Barchart.com",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc3I5dFl2aDhyRGpJSVBUSFhfUmdjVWFRTlQ4dDFPSGpaaUVjbW5JdmZDZEl5UnoxX2JVZ19hNmFSZTd4ZlBvcnZBcHdQZ2EwYnU4NGptbEFiWDVqTC1nTFVrWFh4aS12em0yRURyMUZ4S2N4MnNIN2U5MlROdTZBT1ozdDAwY016eTZUb3hTajlEUXJ2WlRzNGxHcTRidWo0ODZxVjU0Y3Y4VTcxMDZPOHp2WnIxWEk?oc=5",
       "published": "Fri, 28 Aug 2026 18:57:18 GMT",
       "source": "Barchart.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Microsoft (NASDAQ: MSFT) gives CAO 5,575-share grant vesting over five years - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbW5fU05ONm9EQXdoUlpleDVmdE03Y3VoNnNLczJGeFhxQjk0M1NUS0FSbjJEcGZvUWlzby1oemNfMHpDam9EMEx0WnIxQXp6VTI2ejBFUFlxeno3WGRDMWFMbEZEck16RUZjd3p4dFE3UlR2azlCWWFESkNYVWNvU2RXcE1jN0pxbXplQmVlbzkydVVPSG9lb0FlWERIV0R6LTFMM0xfZUNVOVZi?oc=5",
+      "published": "Tue, 01 Sep 2026 22:08:54 GMT",
+      "source": "Stock Titan",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "What's Going On With Microsoft Stock Wednesday? - Microsoft (NASDAQ:MSFT) - Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQc2luVFRSUVRDRkE0WGJCRnZUeG9rdDdJRGJtdDZmV01VSTZnclFSUTBPUzg1eGt2anZqYmhKcW5BOXE5dWUxZy1FX3U5MDhQWEdXbEoydUVwaHlGZ0dSbkF0bkRzZEg2bGdfaFRkQlBONkxKVEhoTjFWZXU3V2RJbzEtZTROaDV5RFhtX1plb1RhOHNLSzIwVnphYUlFb3lYOEtLWFk0c2NtTTkzV2VocTJuYUM?oc=5",
+      "published": "Wed, 02 Sep 2026 12:01:14 GMT",
+      "source": "Benzinga",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -105,110 +145,70 @@
       "label": "neutral"
     },
     {
-      "title": "Wall Street analyst sets Microsoft stock price target for next 12 months - Finbold",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRDNjVTBjcnFLSFFnYkhSQXlTWkpSeVU1b1NDSXZQem1wT3JTYWFYczJJaTkxXzA0VHkxTEE5T1Z1cElhUTdTWTNVVzFYYkNtbWlrNWZHX2pJRDUtVzF5WGtoWGgwTFhUOVhyQjh3SzRBT0RWRHZkSVIxOXBvVWdoMEY1X0JadGkzbXhZcTYzOURYMWpTWnZBQg?oc=5",
-      "published": "Mon, 31 Aug 2026 17:00:58 GMT",
-      "source": "Finbold",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Microsoft (MSFT) CCO gets 29,724 shares in award vest, 18,080 withheld for exercise price or taxes - Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ1FJSl9jN3BNTTlCSzgwMEJXRUQ2ME5PR3pwZ0pMbUstMzU3cTFacXNjdldodE9lU0FlbHRBUVoyZjJiYjNOSXd4M1JNb25TQWl6QXZpTi1QQXN1cFdxdGtqc1BPQ1RHc0oxUVhqaXRlbE9GcTFfM2FqUGEwVFRtZnlLbkFuNUZrSjd2c3prekYxUHdQVFFhX0ZfN3kzTV90dVVLcDdEbVBKX2hq?oc=5",
-      "published": "Tue, 01 Sep 2026 22:07:48 GMT",
-      "source": "Stock Titan",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "MSFT Stock Alert: Moonshot Could Give Microsoft Another AI Revenue Stream - webull.com",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81R1NreC1SMEI4SUYzeHZLTkVsVEVUOTRuNWl3MUFzdENJMWl0ZzhiUXQ2UjNGQnhSQWRvbVo4RkI0ZW82MFRqQUYwMGVUY29KVUx4LWc2OVY?oc=5",
-      "published": "Sat, 29 Aug 2026 11:20:42 GMT",
-      "source": "webull.com",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Microsoft (MSFT) Stock Looks Fully Valued Despite Strong AI Optimism - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTFJNNDJJLVNWM3p5OW5Gb0VRSWdSazFBeEhMWXdsTDlsOEVMZ0stZFVVc0M4MmlsX0JXOU9EX1ZsLWVLSm9uTFNWaFJaMEhnX09CNnMyV3piOFBlRmEtc1B1eGM1cy1mQWp5c2dLajNYd0Y1SHd5TnlXcklaanZoRk1MMEF2U2JfaFJZbkxpMmZWYWs2Zy01Z2tGQWpLQQ?oc=5",
-      "published": "Mon, 10 Aug 2026 07:00:00 GMT",
+      "title": "Microsoft's AI Datacenter Expansion: A Game Changer for the Stock?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/microsofts-ai-datacenter-expansion-game-135400088.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 13:54:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0.333,
       "label": "positive"
     },
     {
-      "title": "Market Concentration Risks: Microsoft (MSFT) and Nvidia (NVDA) D - GuruFocus",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQellXSDRXekNhSGJyY01PcjRaRFpvNmpNMHZURlEySkNiQ3ZNNWFwbm5tNjJyZnowX1gxcEY3UFV2WC1VeFBCUWNDSXNwTFZtUFFrREphd3hxb0ttOUhjRHpyV1dubXZvNzgyTVdtX1FZM3QtRHBsMkNJbHZ5aUg2VVVOYnY3N0UzNDJiSWJYSVFVdWlUSUVhRm5XV0c0U1p5QzR4OUVZSkZiQmk5Nk9XTnY3cDhJUQ?oc=5",
-      "published": "Mon, 31 Aug 2026 09:32:29 GMT",
-      "source": "GuruFocus",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Microsoft Signed a 20-Year AI Power Deal With Chevron. Is Power Becoming the New Chip Shortage?",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-signed-20-ai-power-105845426.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 10:58:45 +0000",
+      "title": "MANGOS ETFs: The Next Big AI Tech Investing Theme",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mangos-etfs-next-big-ai-140000152.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:00:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "‘Many jobs will disappear forever’: Bill Gates says AI could erase careers. Build a financial firewall before AI strikes",
-      "link": "https://finance.yahoo.com/technology/ai/articles/many-jobs-disappear-forever-bill-104500952.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 10:45:00 +0000",
+      "title": "Amazon Stock Could Surprise Investors Over the Next 12 Months",
+      "link": "https://247wallst.com/investing/2026/09/02/amazon-stock-could-surprise-investors-over-the-next-12-months/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 13:30:24 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Microsoft’s AI Capex Problem Just Got Harder for Bears to Defend",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-ai-capex-problem-just-102026905.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 10:20:26 +0000",
+      "title": "Sundar Pichai’s Credibility Crisis: The AI Model That Never Came",
+      "link": "https://247wallst.com/investing/2026/09/02/sundar-pichais-credibility-crisis-the-ai-model-that-never-came/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:15:40 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Forget Nebius. CoreWeave Has a New Competitor. And It's Not Another AI Cloud Company.",
-      "link": "https://www.fool.com/investing/2026/09/02/forget-nebius-coreweave-has-a-new-competitor-and-i/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 10:16:00 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "GitLab Stock Soars 21% After Earnings. It’s Still Not a Buy.",
-      "link": "https://finance.yahoo.com/m/ac219486-39eb-38fc-86a3-2631fe6761db/gitlab-stock-soars-21%25-after.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 09:52:00 +0000",
+      "title": "GitLab Stock Soars After Earnings. It’s Still Not a Buy, Analyst Says.",
+      "link": "https://finance.yahoo.com/m/ac219486-39eb-38fc-86a3-2631fe6761db/gitlab-stock-soars-after.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 13:56:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0.333,
       "label": "positive"
     },
     {
-      "title": "Bill Gates Won't Pick Crypto to Diversify Away From the Dollar, Calls It 'Pure Mania-Driven Asset' — Here's What the Billionaire Would Choose Instead",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/bill-gates-wont-pick-crypto-094611125.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 09:46:11 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Ranking the \"Magnificent Seven\" From Most to Least Attractive, Based on Future Cash Flow",
-      "link": "https://www.fool.com/investing/2026/09/02/ranking-magnificent-seven-most-to-least-attractive/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 09:26:00 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Palo Alto Earnings Reignite Debate Over Organic Growth, Acquisitions",
-      "link": "https://finance.yahoo.com/m/9013b1e1-7fd6-3c19-abd0-1f030eea3866/palo-alto-earnings-reignite.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 11:23:59 +0000",
+      "title": "4 Stocks to Buy Now to Ride the AI Data Center Spending Boom",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/4-stocks-buy-now-ride-135200954.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 13:52:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0.333,
       "label": "positive"
+    },
+    {
+      "title": "How CrowdStrike (CRWD) is Defending Against Evolving Threats",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-crwd-defending-against-evolving-141715106.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:17:15 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Stock Market Today: Dow Up On Surprise Jobs Data; Dell Tries To Break Out (Live Coverage)",
+      "link": "https://finance.yahoo.com/m/cfb2cdec-15e7-3189-8ed9-8dc34c530637/stock-market-today%3A-dow-up-on.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:16:50 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
     }
   ],
-  "sentiment": 0.07400000000000001,
+  "sentiment": 0.111,
   "errors": []
 }

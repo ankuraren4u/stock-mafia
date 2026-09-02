@@ -2,7 +2,7 @@
   "yahoo": "GOOGL",
   "symbol": "GOOGL",
   "market": "US",
-  "crawledAt": 1788348615702,
+  "crawledAt": 1788359413979,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -89,26 +89,10 @@
       "label": "positive"
     },
     {
-      "title": "GOOGL Stock Delivers Like The Leader, Priced Like The Laggard - Trefis",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUUlSVDJsTjRnYVVpZFBQcF8xT0Qwa3A0TXQ1UjkxZWNmbnIxVFh0Z3Rlc1JVOHFXTXM5d1VOVWtTTFZ5QU1HZXBXWjZPRk9sdWZuYnVNZ3NGaTNCa0p1YkEtWHpMQ0FFLTBTb2xTTVdlZkF5MnFrVGwyLXUxZkk3MWl3Vm5fSzVLYU9vYTJOZnQxM3J5dktoX3NqQVU0RWxYbEtIRXBaTDVqcWZnTG5VVWlOZnZ6WnZ6cGE4cDl6QQ?oc=5",
-      "published": "Tue, 01 Sep 2026 00:40:58 GMT",
-      "source": "Trefis",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Analyst predicts Alphabet stock could surge ove... - Pluang",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbklCX3JTa3VyZWQ3RlZhV0ZnWDFXeHJsSWVtYXJTTVA5WmFOeDFIOEZlMVlFU19VVkpHcW45ME5jbzhJNjZzeW81dnE5SDl1SFlSeFdhQVcwT2VuendHbnl5N0tzLWJHeG04aTlkT19lSXJlWm4wTWNNS1QwYi1xblo4dDJpT0s1ZmdrbkFreHAydw?oc=5",
-      "published": "Mon, 31 Aug 2026 17:16:52 GMT",
-      "source": "Pluang",
-      "sentiment": 0.333,
-      "label": "positive"
-    },
-    {
-      "title": "One Mag 7 Stock to Watch in the Second Half of 2026 For Solid Gains - 247wallst.com",
+      "title": "One Mag 7 Stock to Watch in the Second Half of 2026 For Solid Gains - 24/7 Wall St.",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcnpBSkJWZ2lSWEFaZ3VYM09RdTZXelJOMVB0YnVyM0c3TFNIMFRoMWpSWGhkQzlmeFRtYnFYQVNmMUxjVVJwQnZCUGF6U0pNUFljQ21VcUgwQ0RjbDJtZmZBX29neERCUHdYY3VIV3J1TjB1aTZ4LUZrSHI0NGJLOGpYR0lvQ1Y1Zm1tYldscXd4Y3pIY2FRVVJwQ1hTZjFUYldHLTRFX0NNN3ZPZDlFbA?oc=5",
       "published": "Mon, 31 Aug 2026 18:00:00 GMT",
-      "source": "247wallst.com",
+      "source": "24/7 Wall St.",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -117,6 +101,14 @@
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS1BneTJZajVaWkpYRnB6UjlyeXJ3eTFWcFRTT3E4ZVFJRTgwdkIwMnNpOEdtNUt3WTk0eG9vX09SR2xwX1JhN2JGcWpZUDUxci00OGd4MjlOenc5OWUwaUJyVFZienNJNHYwb1liQTNOOG1JWUlBRERDczhTQWZqZDZtbzZHRkpZeWlKMnhJdDdFVE5SbXgzRU5yb2hKYWxFYW9kTTRyV2ppRmQ3U2p2aGtmTHZQZDVXamNlTUlhaTZ3WDjSAcgBQVVfeXFMT3pFZ0lpVXFORHhNWVQzSmhuQVVPNDZ0TGVaZ2dNSFJjeE9VMjB4THd4UTY5cW9jdEhydE5ZRklEYTlZdFo0dDFDSll5MzdFSlBXeGZrZm51RlI3TkQtbkExc3l4SzBwNlMwYUJCdWVGeUZfNjRFOXJMd2NTQlNzT1NrbkFfRy1rSEpsZkxvWHNYaGRYM3ZwQ0Rhb3R5R1NENzJmVS1XRlhyR0tMN191SGpjaWRqNXBad3ZrY3Y4RVg0a3I4ZjBnWk0?oc=5",
       "published": "Mon, 31 Aug 2026 10:28:57 GMT",
       "source": "simplywall.st",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Alphabet Is Getting ‘Ambitious’ With AI. Don’t Get Ambitious With GOOGL Stock. - Barchart.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMlFIQUpkQWFzVUxhWWp1LV9NcnNaNi1CXzFaNGZuT3djM29sS1VDZ2JGZ051Sm9SWEEzYVh4WHM5TU4tYzl3U1ZrdHJOUkhfWXBFbEQ5bExsYnA1dy1wMXNkVXZ6X3NjOElSWWhKQ3BYaGVMUmd4ME1yc3FkemVRNUg4eDZsZDlvQk9LNmx0bGw1RzN2N01CTWJ3VGk1cUw4X25MMl9NWkNnbkZObHIzMjdCR2tSeTFX?oc=5",
+      "published": "Sat, 25 Jul 2026 07:00:00 GMT",
+      "source": "Barchart.com",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -145,70 +137,78 @@
       "label": "negative"
     },
     {
-      "title": "Tiger Global Cut Alphabet 45% and Opened an AMD Position. Is It Rotating From AI Platforms to AI Chips?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/tiger-global-cut-alphabet-45-110107456.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 11:01:07 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": -0.333,
-      "label": "negative"
+      "title": "Alphabet: Shares Sell Off on Artificial Intelligence Talent Exits; We See a Buying Opportunity - Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQjA5aHpOZTc4WmdnZ1FLTzByY0s1SUY2YVJNSDF3WTVBTklOTTRrZUtVakF2ZHVNZHdiYXVVMHdaSWhlUDVOdFRiNlozQmpKYTM1WWx5TFNmc0FqXzBzWGJlMkpJc1M4ZlhMaVR6OWN2cUJnQVhPeGdXYjN6aHFteHFLRGY3bTVSZzZHN0FCbUZPcXE0R3RaNnJDNHBjVlQycHhsVTBPWFh4dFhZSjhwODVBNXhoR0FzR2ZtNER4SmlWMF9sbVlkNm81UQ?oc=5",
+      "published": "Tue, 23 Jun 2026 07:00:00 GMT",
+      "source": "Morningstar",
+      "sentiment": 0,
+      "label": "neutral"
     },
     {
-      "title": "Jim Cramer: Hyperscalers ‘Wrecked Their Balance Sheets’, But Apple Carries Twice Alphabet’s Debt",
-      "link": "https://247wallst.com/investing/2026/09/02/jim-cramer-hyperscalers-wrecked-their-balance-sheets-but-apple-carries-twice-alphabets-debt/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 10:47:15 +0000",
+      "title": "Sundar Pichai’s Credibility Crisis: The AI Model That Never Came",
+      "link": "https://247wallst.com/investing/2026/09/02/sundar-pichais-credibility-crisis-the-ai-model-that-never-came/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:15:40 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "NIQ and Similarweb Advance Agentic Commerce Measurement for the AI Shopping Era",
-      "link": "https://finance.yahoo.com/technology/ai/articles/niq-similarweb-advance-agentic-commerce-104500222.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 10:45:00 +0000",
+      "title": "Warren Buffett's Successor, Greg Abel, Has Over 50% of Berkshire Hathaway's Portfolio Invested in These 3 Top Stocks",
+      "link": "https://www.fool.com/investing/2026/09/02/warren-buffetts-successor-greg-abel-has-over-50-of/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:05:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Meta and Google’s AI Returns Slide, Piper Sandler Says Amazon’s Capital Discipline Sets It Apart",
-      "link": "https://finance.yahoo.com/technology/ai/articles/meta-google-ai-returns-slide-102019503.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 10:20:19 +0000",
+      "title": "Jim Cramer Cheered Marvell’s $12 Billion Google Deal but the Stock Just Fell Nearly 10%",
+      "link": "https://247wallst.com/investing/2026/09/02/jim-cramer-cheered-marvells-12-billion-google-deal-but-the-stock-just-fell-nearly-10/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:00:42 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Marvell Beat and Raised Guidance. Why Its Google Deal Still Spooked Investors",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-beat-raised-guidance-why-102009844.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 10:20:09 +0000",
+      "title": "Marvell vs. Broadcom: One AI Stock Looks More Attractive Right Now",
+      "link": "https://247wallst.com/investing/2026/09/02/marvell-vs-broadcom-one-ai-stock-looks-more-attractive-right-now/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:00:21 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "MANGOS ETFs: The Next Big AI Tech Investing Theme",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mangos-etfs-next-big-ai-140000152.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:00:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Microsoft's AI Datacenter Expansion: A Game Changer for the Stock?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/microsofts-ai-datacenter-expansion-game-135400088.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 13:54:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0.333,
       "label": "positive"
     },
     {
-      "title": "Forget Nebius. CoreWeave Has a New Competitor. And It's Not Another AI Cloud Company.",
-      "link": "https://www.fool.com/investing/2026/09/02/forget-nebius-coreweave-has-a-new-competitor-and-i/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 10:16:00 +0000",
+      "title": "Eos Energy Shares Rise 12% Following West Virginia Solar and Storage Project Announcement",
+      "link": "https://investorshub.advfn.com/market-news/article/35507/eos-energy-shares-rise-12-following-west-virginia-solar-and-storage-project-announcement?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 13:53:34 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Lookout Integrates to Device Trust from Android Enterprise and Joins the Android Enterprise Partner Program",
-      "link": "https://finance.yahoo.com/technology/ai/articles/lookout-integrates-device-trust-android-100000743.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 10:00:00 +0000",
+      "title": "4 Stocks to Buy Now to Ride the AI Data Center Spending Boom",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/4-stocks-buy-now-ride-135200954.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 13:52:00 +0000",
       "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Ranking the \"Magnificent Seven\" From Most to Least Attractive, Based on Future Cash Flow",
-      "link": "https://www.fool.com/investing/2026/09/02/ranking-magnificent-seven-most-to-least-attractive/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 09:26:00 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
+      "sentiment": 0.333,
+      "label": "positive"
     }
   ],
-  "sentiment": 0.07405555555555556,
+  "sentiment": 0.09255555555555556,
   "errors": []
 }

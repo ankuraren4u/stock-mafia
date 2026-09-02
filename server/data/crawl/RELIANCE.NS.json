@@ -2,7 +2,7 @@
   "yahoo": "RELIANCE.NS",
   "symbol": "RELIANCE",
   "market": "IN",
-  "crawledAt": 1788348603588,
+  "crawledAt": 1788359404522,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -104,10 +104,10 @@
       "label": "negative"
     },
     {
-      "title": "IPO: Reliance Jio announces what may be India's biggest-ever share sale - BBC",
+      "title": "IPO: Reliance Jio announces what may be India's biggest-ever share sale - bbc.com",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnUkY4Vjh5Y1piRHVyMGg0cG1fX0lQam5jWWN0OFU4WUI3NGJDbU45T1dFXzFBR3VqV2xlNzdINlFyclhYN0wwb05jOUxsZGJRRkRvOHNfMlhxQQ?oc=5",
       "published": "Fri, 19 Jun 2026 07:00:00 GMT",
-      "source": "BBC",
+      "source": "bbc.com",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -160,9 +160,17 @@
       "label": "neutral"
     },
     {
-      "title": "Ujjivan Small Finance Bank CEO & MD Sanjeev Nautiyal steps down on health grounds - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeGRjX1o2bVVIZG9sOWZ1VEw0eTE1bnUzdXpDRlJMTGdwTHBDNDdKWE4wQVFwakNZdnFQVXlxWkZLZ2wyWFBTMVpyYlVEUGVFeXp1ZXV1MzVuX2hjTEpLdUZaR1ZLMkVYRlR1bDV1bnIwWGkxMTRsOU9MS3VCSXRsUVlKYU1PVWc?oc=5",
-      "published": "Tue, 01 Sep 2026 20:11:16 GMT",
+      "title": "Reliance Jio IPO: 7 risk factors investors should know as firm gets Sebi nod for Rs 37,000-crore issue - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdkF1UVVpWE96SXppNWpjd0hRdnhFUkdDTjVpVVJZWlptNXRIT2xFVEtmdTBsVGJBQ0dQYVV2eHlGdktWQnYyMEpOTmJLWmVYbERsMlJQbUtxOWV5c3RBNW9PbTdLdTFrVmJlT2dsTXZtcUhhTEZPU0lBWlVHdXNSdXFJcThEZ211UVNN?oc=5",
+      "published": "Sun, 30 Aug 2026 12:41:04 GMT",
+      "source": "The Economic Times",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Stocks in news: Reliance Industries, Wipro, Tata Motors, among 9 stocks that will be in focus today - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jZzcwUUExWUdoWUJLbW9pRUFveHdpV2NCVGhnWV9oNVhtckxUcWltdmxiNmdtb3ptZ2l1Vk1Rd20xdU95ajNnX2NNQXNtdjhYTWx2bVU2SUd0Rk1qOHpra3liTUZyaU1xMmc?oc=5",
+      "published": "Wed, 02 Sep 2026 02:33:00 GMT",
       "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
@@ -176,14 +184,6 @@
       "label": "neutral"
     },
     {
-      "title": "Reliance Jio IPO: 7 risk factors investors should know as firm gets Sebi nod for Rs 37,000-crore issue - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdkF1UVVpWE96SXppNWpjd0hRdnhFUkdDTjVpVVJZWlptNXRIT2xFVEtmdTBsVGJBQ0dQYVV2eHlGdktWQnYyMEpOTmJLWmVYbERsMlJQbUtxOWV5c3RBNW9PbTdLdTFrVmJlT2dsTXZtcUhhTEZPU0lBWlVHdXNSdXFJcThEZ211UVNN?oc=5",
-      "published": "Sun, 30 Aug 2026 12:41:04 GMT",
-      "source": "The Economic Times",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "Reliance Jio IPO: Google, Meta among 6 investors to retain stakes in Rs 37,700 crore offer - The Economic Times",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuNEdvUkFrR2VxSmljRXRsUmJCYXRkSHhuRV9oZTBMM3psbFJzdFZEa1NLWFY0bThDYzhjTV9qRGxUY2R6UGNuSFlxRjZXS0t6cEwtTEVVNzFacmxhVS1teEprM09lUk53?oc=5",
       "published": "Sun, 30 Aug 2026 06:48:32 GMT",
@@ -192,18 +192,18 @@
       "label": "neutral"
     },
     {
-      "title": "Quick commerce gains GMV, user share as ecommerce majors lose ground - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQldtZGpIMExuVVpuN3pENHZWRlM5ckpnNW5IcGREcmlHSGoyeC1WaENiSmlrbkxDSVUyT296bmRSWnJGc3pWbUtWUlhBSnp0MjVndFJhNFJwRVo1Wml4X3VsREhTQmNpN1NDTHhaSVk4N3VQVU9FOHZRWFpObHpkWQ?oc=5",
-      "published": "Fri, 28 Aug 2026 06:18:56 GMT",
-      "source": "The Economic Times",
+      "title": "Jio Platforms gets Sebi nod for $3.8-bn IPO, set to be India's biggest - telecom.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVHFoTU5IdElqOFZwZk10am9tZVB2bFJ2NG9EOUdNandJYmxlS3Z3RXhsYUgwM0FaaVlFdjhxblRoUVVWbTAyTG42V3ktdVg5U1dhNGpaNEJkNXJfVEpuajlsMDRvX0xyM3phRHlsMTVUeERwdVhOa19qOXJmUkFIbzVJbVNLSVVGOWVrUTBtTjk1bnRPNXhXQWt3X2lOa2dKZHUwZjIxWVRWN0tZMkVnMTRzZ3RrRkJtTDgzSExxMGFseU5LWVVfNzhVb3RZcUpjWHfSAdcBQVVfeXFMTlAyalFLRGtHVjRKY3haQ19JS0M4XzhQVHBVUkRERmlQcWFOMHVmSUZVcFNLaG05S2lNS053VFNpZWRlWUY2Q3NpcGZzR2lUSlozYV9sRV9kd1pTaXZXMVdRTXhMSV84aVFKYkh5dGVOaFlJYldGZmdCMGZvbW11V1FCY3dZeC1Cd2t3LTFyOXhISTlnZUhZb2pTTU5haENwMnFodl9YZVlkTXpWUzNQNVJKZVN4aHFOVndSclJMeldnLW5GaFVwcTk4eTlMUXRWVGxKX0VxVUk?oc=5",
+      "published": "Sat, 29 Aug 2026 01:57:08 GMT",
+      "source": "telecom.economictimes.indiatimes.com",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Jio Platforms gets Sebi nod for $3.8-bn IPO, set to be India's biggest - ET Telecom",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVHFoTU5IdElqOFZwZk10am9tZVB2bFJ2NG9EOUdNandJYmxlS3Z3RXhsYUgwM0FaaVlFdjhxblRoUVVWbTAyTG42V3ktdVg5U1dhNGpaNEJkNXJfVEpuajlsMDRvX0xyM3phRHlsMTVUeERwdVhOa19qOXJmUkFIbzVJbVNLSVVGOWVrUTBtTjk1bnRPNXhXQWt3X2lOa2dKZHUwZjIxWVRWN0tZMkVnMTRzZ3RrRkJtTDgzSExxMGFseU5LWVVfNzhVb3RZcUpjWHfSAdcBQVVfeXFMTlAyalFLRGtHVjRKY3haQ19JS0M4XzhQVHBVUkRERmlQcWFOMHVmSUZVcFNLaG05S2lNS053VFNpZWRlWUY2Q3NpcGZzR2lUSlozYV9sRV9kd1pTaXZXMVdRTXhMSV84aVFKYkh5dGVOaFlJYldGZmdCMGZvbW11V1FCY3dZeC1Cd2t3LTFyOXhISTlnZUhZb2pTTU5haENwMnFodl9YZVlkTXpWUzNQNVJKZVN4aHFOVndSclJMeldnLW5GaFVwcTk4eTlMUXRWVGxKX0VxVUk?oc=5",
-      "published": "Sat, 29 Aug 2026 01:57:08 GMT",
-      "source": "ET Telecom",
+      "title": "Jio Platforms gets Sebi nod for $3.8-bn IPO, set to be India's biggest - ETLegalWorld.com",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQjJhSUNleHo3Q2JycWNxUkU4N3NXRm5FbDRCVjNNci0tNl9UVkRISlktenBMd0lRd3NUZzEzOXM4V3M3SWdLZUdHQ1BScUxsZHpFcGZHYllOUnBzOGJmZE9SNUlEanFmX1VFT2NjRTZQdV92dmt6MGtESGdfelJqUGhaU0hkV2EyM1RKY1B2bW1QV0tvN3hQS2NONlRpNXlFMlpDUU85bmEybS1QcmN1UkRweWFOd0FJbzdzU0w3TFhxenlCMVNPMnRmeTlvYXpKZ1E3OHlaY1FEWGhi0gHiAUFVX3lxTE9PMFN6WWZsLTJLbTVCX0ZBbHRpT2pfV0JWSGhQRVE5MFU1QVNSdThPX0I1U3dHV0RQbE9Zb3JjZ1Q4ekRPZU5hX1RMQXItSUJabnMwWWVJZV90cHdNbS02S0F0WWpfVjNScHQ5SG13QU00REdTZS1CVC1penUzMHlnWmE0eUxyZndlVjk0OTMzazRGWFlWTUJnenVDLXV6NnlRZklwcHA1VVI4amQ4bG5fRTJNcjU3U3R1ZDJlRkktcWpYZFVUNlBQNTVKNkhGS0VONFp4SERxSjdqRVJadTVNWGc?oc=5",
+      "published": "Fri, 28 Aug 2026 17:26:28 GMT",
+      "source": "ETLegalWorld.com",
       "sentiment": 0,
       "label": "neutral"
     }

@@ -2,7 +2,7 @@
   "yahoo": "SBIN.NS",
   "symbol": "SBIN",
   "market": "IN",
-  "crawledAt": 1788348611016,
+  "crawledAt": 1788359409762,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -112,10 +112,26 @@
       "label": "neutral"
     },
     {
-      "title": "NSE's ₹30,000 crore IPO: SBI, its investment banking arm to offload 1% stake - Business Today",
+      "title": "NSE's ₹30,000 crore IPO: SBI, its investment banking arm to offload 1% stake - businesstoday.in",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWWl2Vmh4VGFfbHZ5U3IwU0NYM29wQk5od1ZSNXlVcGdYdzZZNU5ZdktCMm16amIwNmI1eHpleVhETTBnTFlZVXRuOGJnZzhSWTBaOE5vWWxIcjJYOHpRNWMtWlAzQVpORFI3SmlJUmNUNU8zOUUyalhlZGo1ZEw0aDdBWFdGOGhSMzd1RDN3bE9jYzlPdVRBQW55Tld2enVzVmFvTHY4RlpQdnZkVUg4eWxFYjV2cTVBeVNjM1l6YXBBamQ5X2FiSkkzemhod9IB0wFBVV95cUxONk1laUJFVFM0ak9VVEJBQ1k1VWExaVZ0enp4RjV0SEFQU3oydlJsNUxZZTJGSDlNVlVTN1FReDJkbTMyWHViQm96dS1LaUlVb0FNWTJRNEp6M2NUdFZxUkEyWXROY0ZTaVp5dHZ1MXlGWWdBWGxqd2RCYk5mcUhqaURSMXg5Y2s3U1VrLUNXbjFjU1hOakpaTHBqTEJ2cl9OcXR5bE5HcDNYclVLM2ZJZGFzTG5DNUM0S21oaXVJT2ttakFMVlJoWnFIdGRHY3JVQlcw?oc=5",
       "published": "Sun, 30 Aug 2026 09:47:46 GMT",
-      "source": "Business Today",
+      "source": "businesstoday.in",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "SBIN Forecast — Price Target — Prediction for 2027 - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YZktWd1pyaGVHa3hJUENIZzh3UGtTS2YzdUZib0E1TjQ1SGNNb1I0aF81RlA4elRrcGkwVEFJRXBFN1RLRDZZWmd6M1JQRFphUlN5aktQeVpyNGVxSVpSbURfU1NxZVQxYkVBVUJ2YjRJbi1wZUE?oc=5",
+      "published": "Thu, 25 Jun 2026 13:07:22 GMT",
+      "source": "TradingView",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "SBIN Share Price Today - State Bank Of India Stock Price Live NSE/BSE - Univest",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE96QURGcUdQWkp3ZndaS1NQbWRPbXlFU2dRMkhHYVl0cW1RUGNaTHlESTBiNnNXTGtucEdaMFBId2wza2IwdnUtTFhIRTd4T3I1Z19DaXQ1UHZ1eUhIcTBZY0h6amVFYlRySkk3R0d1UWVnamwzU3JV?oc=5",
+      "published": "Mon, 17 Aug 2026 12:51:15 GMT",
+      "source": "Univest",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -128,20 +144,12 @@
       "label": "negative"
     },
     {
-      "title": "SBI raises $500 mn via offshore bonds at 5.25% coupon; stock edges higher - Fortune India",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMWRMaVktMkl6Mzk5bU1KX1IxT2RZbWdwN3lTS1Y0N1pESDRSNmwxRzVldnJfZ3JvaWN2WG9HR3piRVp2X1VpSnZhSlhtUkMxZmlTX3J5OHo4RkZqNlFOUjlVM2dNcEhpT3paampMSC1ZOFVBMng0OG56dmVqYWx5YnFWQVRCc0E2U1o2YTN1WUZTRThBcEtfMmZTUFhlNFJ3ZDhVZzZEZGV5a2MtU1J1UWhvVdIBwAFBVV95cUxNYmlzeVVfR0RHTGJTMlJNMFdrR2gxOU12RkE2N3Z4WlFITzU1NUIta3VNa0lybmZJU1VvMkNnRlNXaWxWSGNyRjl4TjU2VDFoMFhESlVHa3hOZldBMjNYdVB5emZNa1FEWGZTZC11NUhVa0dJa3g4NHFIWHRBRkZWVkZFaGV2WUR6Qk9Nd0ExSVp4WXlWMFRoVEgwRzVsYTYzend0T0RQVk4yUk5BcVJzMGQwZ2FLa0RFMEE5OVlmUHE?oc=5",
-      "published": "Thu, 13 Aug 2026 07:00:00 GMT",
-      "source": "Fortune India",
-      "sentiment": 0.333,
-      "label": "positive"
-    },
-    {
-      "title": "Through 2 IPOs, SBI eyes record asset unlock. Why it could be ‘once-in-a-generation balance-sheet event’ - ThePrint",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLXBlb25tVkxqc1VaWTRlTnh1VWJMcy1uOVpQQ2kwTlpDak50LXk1VjVkV1VGZXlLY2trR1FvSzZvbmdnRUJ1VGVqQ3d5MjRwc3JYWlhIRE9NRWQyREFNcmlmVUNFdXY0WHBzaEJOaVdaNlFEdlFlYVJkcmJYYllhdHJqeTBrTG1zM1dPVzNYQUQyZEw3RWRaM1hHbmw1X1o3a0pWWW5sZXdoYlFJVEM3MlVtNWZ6UXpUaHhkTnVscVUwVWJJU0VYV3JYRlBaSXp2OVBj0gHYAUFVX3lxTE9VUHRCZ3pUdW9OVnhYeGZhaDZLRGlhYnA2RVNINjJ6QTVEZmFrM00zMFNXLU9UeE1oLUZ0QWRnQjhTUE5UYmFaWXNabk5tcm5iTlhjQl8xNnVYSk1EOFNSam9fZ2Iwb3dpWnZTRUo3ZWt3cHM4Vm9URUZfYWRQelY5ajJmZmR5elk4eHlSbGpiOXUtMGZZSU9QUW5Cd2lVV0ZEOHpsMEVUaEZ4UDJ1YWs5TVllRm5jMFExbTJ5UFBxWVA4RmhRemdNbGVHRmhfRzhDQURYM1dfSw?oc=5",
-      "published": "Fri, 22 May 2026 07:00:00 GMT",
-      "source": "ThePrint",
-      "sentiment": 0.333,
-      "label": "positive"
+      "title": "Top 20 Corporate Taxpayers in India: SBI, ONGC, ICICI Bank Top List in FY26 - cfo.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNV3pZMC1EMUowQzlXVUVyVFU2U0ctUlExeVk4V3lMNUpvbTEyMktCbmFEMW9zRzNPRDFMSWllYTgxbk9qVDVDSGNtN3JERDlTaWJIdGNFSTN4cmxnc1JuMUE5X0JUQ2dhcmNaSEVBUEtOVEd0UTBOcjFyLW9SZWI3RXNldzJzT3JvQWlNb0hubEZPSzMwd29COFdKTjRpN1BDR2tLeV84SjNwa1hXQThpbmdXUnpqdl9FWEpOSE9IdHV4Vno2YVpMRV90cDBMN20yTVFqcktSREpnYkViSDlsWlJTSdIB6AFBVV95cUxOMnhRNWxYTXBXaFl1emxEX2VyN241dEVYYnJKQi1mNmtjODI0bkpwcjZIMnBUWXo1cE1JV0g1LTBhWTNwQy0yb1Q3NWRvODlSU1doVS15emJEbDdFdmMyVW1WajdlNGFMeU1aR1BZaTQ1RzFxZGFqeXRMVVQwZDRDMTZuQWVtUlUtc3dhZzR0VXJNOTBVX2x0djk1dDg5QVVKaGFJa0czcEhWWXFkWlBzQk1jMHJTbE9IOVY1NzNsN2hTZktzclZGUjVuWDUxNGo0RFFJQ2NIdElYWlgxYmV6VXR0VWNZTmNj?oc=5",
+      "published": "Wed, 02 Sep 2026 10:37:49 GMT",
+      "source": "cfo.economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
     },
     {
       "title": "SBI retains 25% debit card market share in Jul'26; HDFC Bank continues to lead credit cards - ET BFSI",
@@ -176,6 +184,14 @@
       "label": "neutral"
     },
     {
+      "title": "Rwanda invites Indian investors to explore opportunities in critical minerals, healthcare, tourism and manuf.. - ET Manufacturing",
+      "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOdjhDeTRycU9QZzdwT2g5YWZzU0tqeTNjRDlwaG1ZejgwUXNWVlUwRkItNzdISVU1N3NOaEYtcnBvX2toUkUtY1BydHA4RW1DT1BpZ2JxVVhOZU5BRkdDenZlVm54dGUzUjZZYlh2azVQSksxMHFjbnd4SUlJX1lEYzZtQm1UcWNYaWxXaDh6eTdwSVp6TWJVOExISWhVOFZJQW9PeWp6Vnd3OEhNVFp2QW9IR1ZXbVgxNXpOZnd3LU5JWDRiWG93bnYtZk1QTlhWck84YzROc2pRWUZMSUdEdTZhTUpDSzBJbW56cFFjRnBYNVl0RTVyTUgwd083NmVTUXRxeDFEVUxhVWludU1meFh3ODR5YTkyVWpkYmxOb0RWSDRyN1dQMnFkVmpHRng2MnU4dkZGQXFKUi1WYUN0Y1c4X25jRUVOLV9VaTBrVmRKZHkx0gGeAkFVX3lxTE1ad3RvZXJ2NmpycE5XcG4zb1hRSGxxakRGbnk0RDdId212VldEbGtvd1FMTG43MFk0OFJNY2tMVm9FWnhjd01fTEV2MWJaSDJjaVZjZWtyVkh3UXdrZXdfaW80TUNXV29RckFVYUdtM0VvXzVLeHcxVWFMZzA4UlBWSjk3QnBLUjBSUkhfeHh3azVMYU9kVUg4WE80Ull4Z2tXOFQ3ZUl4Zy16Z29Gbk51MmRqekI2UTNFV2o1cGdfMXlfeUpCNlJsQWZkUFN0aFkzUW1NZVVzeDNySVU3azZlVG85VTJXRHdtRUVuNmtiUW1sYlRvVUNSMTBYbTM2b1FHTjRXeGlfUHM3T3hnNUkyS2FVeHJDNUYxdVZLWGc?oc=5",
+      "published": "Wed, 02 Sep 2026 12:20:25 GMT",
+      "source": "ET Manufacturing",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
       "title": "Stock markets close marginally lower amid higher oil prices, fresh US-Iran tensions - ET BFSI",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOT1A1c3pBTjI2S2FseGtPVkltemR0cmpLY19TcWI5eEJSMUpPei11cUwwLVpuSUl3M2QxZkd4RDBsRWdtVlhoazBjUU9JWUxnNlJIZmZKWmF4QUhCLXFPZ1FVVGNUUjdOdnRfZUQ4clptZk16R285OUM4UFZHTjVNc3lWYXFnNnpaa0NXYkhDY3d2YWxrcUhQNXBHcFF5Sjg2T2UxZlRZN2haTTctMUlwZE9OQmlURTVNa1NtMWh0bVBtczhvb2o4clpMdEJGQUhfQjdmUFRMNEVDWFpZS2V1aG10UENNOUZrYUdMSDc3NNIB9AFBVV95cUxOODlOSm1BY1I0a3BnVTR3SzB3aWZKRGJJUnpuYkI4bnF5UjEzRUVYZHBkdkJOR2xUSXl6dWZpZzRDb1gxY2VXcFU0WWRxZHhMZzNzUkdLcThnbi1qV2JtNFdWaUtQd0xaVGNzVlVEZHBFV3l6dUlZQzV5SFJtUVB2aEhTeGowYzY2M3JTeHZQMEx4UlRQZUZxVTBOdTJkNGJQenlHQ3pLazczaDdtMWNGaFdfdV9XU0ZXMUZ4cDNETnZOS3YzNmZSS3dnT2s0dEJoTWFESzBnUjNFUFpEZXM0VUJRVDQ4cTZpdEpEMnZBYlZTdl9y?oc=5",
       "published": "Tue, 01 Sep 2026 12:23:26 GMT",
@@ -190,24 +206,8 @@
       "source": "ETHRWorld.com",
       "sentiment": 0,
       "label": "neutral"
-    },
-    {
-      "title": "India’s growth beat suggests economy on cusp of investment boom - ET BFSI",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaEg0dDdwbmxIdWJ1a0p2QU1CbDNLMU5oMHhuQTlzNWFPak1LSHR2ZDd5Zi1FQU5RMFRaT1c5WVI0Vm5PLVRfcHR6WFhLMjRCRzhxanRwWFd2MmZZaE5FQnpSeHZuVEJiWFl5bEhnU2JjVVdmVWwxekpHcUdGOFpoZmJiM1ZVMnhyS2tSMW5uNnJnRVBrQTlLd0JlUFhfd1JmR1VzMnV5NDdQcmRIakJpM0RaMWdPSGZUOVluSUhCQXE?oc=5",
-      "published": "Tue, 01 Sep 2026 05:16:56 GMT",
-      "source": "ET BFSI",
-      "sentiment": 0.667,
-      "label": "positive"
-    },
-    {
-      "title": "SBI Share Price Today, SBI Stock Price Live NSE/BSE Updates - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUHJOSlgtZ2xNN3dSS1hBXzBCZVUyTmlhc1ZSd2RaSlpUSzhRbnVNSngycnJ2dkVYRi15X1dCNlpDU1lFWTQ5RC1pc2RfcGl1bkZqYVczMHJLek93NkhWc1hMYXFfVnBPblo5R3l3WVBDM0MwT2RkUXR1S2hjNFJJaFFBWXU2M2NReVhR?oc=5",
-      "published": "Fri, 24 Mar 2017 01:46:48 GMT",
-      "source": "The Economic Times",
-      "sentiment": 0,
-      "label": "neutral"
     }
   ],
-  "sentiment": 0.05555555555555555,
+  "sentiment": -0.018500000000000003,
   "errors": []
 }

@@ -2,7 +2,7 @@
   "yahoo": "META",
   "symbol": "META",
   "market": "US",
-  "crawledAt": 1788348617285,
+  "crawledAt": 1788359415773,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -81,6 +81,14 @@
       "label": "positive"
     },
     {
+      "title": "Great News for Meta Stock Investors - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2R0N3NYQnhNNGhfamFYNGw3Yy1GcjBxckZnSW1EN1pLWnJiU2xwckE0TEhCMjNpNTBLS1JoR3FQU2xuWDltWm1FRjFLa1ktS1hfZG83RE1RNll4ZDROMlo5R3BtWDc1YzhoX1pnNWhDYW90anNnT3RkYTAyQUl6YVlMeE0?oc=5",
+      "published": "Tue, 01 Sep 2026 16:00:00 GMT",
+      "source": "The Motley Fool",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
       "title": "Meta Stock And Founder Led Peers Built For Higher Rates - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRFpRc1VfSFdqdTNUdmNMeW5MTWkxY0Z5bm0wS3hUeC12THZZbF9EV2N0RVpPSVowYmF3dGhIUl9Fcm1GOVc3UTdQdHRtVndtalVhTFE2SE9WbU1JZjRxZkktVElHZVBXT1VOcU5EMWpXTDFhamhpbHhaeUljYWdjNzdBM2tjaTgxN0V5c1BIS0xFTXBwT1MyYg?oc=5",
       "published": "Sun, 30 Aug 2026 20:18:35 GMT",
@@ -97,6 +105,14 @@
       "label": "neutral"
     },
     {
+      "title": "The Social Media Trial Settlement Is A Major Win For Meta (NASDAQ:META) - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVDV5WjJ6S1lfQXdxSDFncklKakdsa3MwS2dRcXhyeFVEbzhkVVlHNWxtX0xhbF9WUldrOWJFMm5IUXdyOFFaMGR3V1JFM19aMldycXM2b3dFM3dtVE0waHpPS0RFQkFjZFZDNkNUU1dTZG5MTExWZzg3RGNOLWFCQTU5STRfeTdjVUtCbjJsQWJtZ1FHa3Uza3hVZHZaV2c?oc=5",
+      "published": "Wed, 02 Sep 2026 13:30:00 GMT",
+      "source": "Seeking Alpha",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
       "title": "Meta Stock Leads Founder Run Tech Names Worth A Closer Look - simplywall.st",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUWF6eVJJejY4NUxjRXVNSWZBOUhGaGZ5dkVfV1BkTFpOM2ZLU19ldTR3ZldzME9WNm11VWFpM0M5ZnJQdzV3UHpjR1MtdkdSQjIxUXFrdlc0QnBCSjZkWDRETDZWLXNzMkhFTk02UWt1a3JGbU5veERFZ1Z4TFhVallwbkNXOGYycnhIZDNQMUxCaHREMzlhY3djZlF4X2EyTjVRLXJVYk9sQl9KZFZiUUh6RXZYeXRhaDdxVlZjc0tMM2FlWDFPOdIBzgFBVV95cUxNY2VQMUs4dzhjbHZrN280NzluN1R0d1p4UUNJa3U1V05CWUEwN01iWFJIWVV2N3FiR0dGSlpPVTByeDRfRF96a1cyNzBVSVlaMC1Qc3NraXRmVTJIMEctN1Z4bjJsOXFkdnI4NVFzY3ZDWDlDMkhfYzdrd1VYSkdQWjV3Nk53ZkRMTnJnUmQ2TU1xdnhFd0ZqbEZDd0kweEpKUzgyWXJnZXpsVDlwMVk5WnpuWkVrQjRuUkM2V2hjcVU1eXdfWUVEeDgzVC1EQQ?oc=5",
       "published": "Mon, 31 Aug 2026 17:28:09 GMT",
@@ -105,10 +121,10 @@
       "label": "neutral"
     },
     {
-      "title": "Meta Stock Could Have 50% Upside. Here’s the Bull Case - 247wallst.com",
+      "title": "Meta Stock Could Have 50% Upside. Here’s the Bull Case - 24/7 Wall St.",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU1FY3U5bXhBSzg1bGVkaS1lZTI4WE9RWm1Cdm9WUGZtZUVBX1lSb1hQazN5QVItTFVoV1BneTNlTHNtX1N0VW9ySXN4N3UxWFNOTVJtQ2ZFdFpqUFByMkRLZzVrX2lGc0E2eGtpM3lZRnhGMTNWSU1JUllWSU9jTFZLMVF4Q3d0ekZBYVJvMTBYNVdKR0RGaWpnRQ?oc=5",
       "published": "Fri, 28 Aug 2026 13:00:00 GMT",
-      "source": "247wallst.com",
+      "source": "24/7 Wall St.",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -121,89 +137,73 @@
       "label": "positive"
     },
     {
-      "title": "Meta's Stock Looks Too Cheap, Analysts Say. Why It's Now Set up for a Google-style Rally. - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSmpDMmE4R3dUc1MyclJTaUxvMVRkVG9iZ2R3NGpwZ05FbDhiWmY0NTRwRVg3T3J4WmJYRlNPT3hfbDEzOFQtbXBTa0lISHdGUlpjeFdPTFJJZG1sb0tCV19Cd3dKNEJ6TkZOZzgweE5ZQURzRmhjWTY3VUpvMHB1eGFnR2VTeW1kVjNlYlBveE1TNGdG?oc=5",
-      "published": "Mon, 31 Aug 2026 19:15:48 GMT",
-      "source": "Moomoo",
+      "title": "Meta’s stock looks too cheap, analysts say. Why it’s now set up for a Google-style rally. - MarketWatch",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWXNPTVNNYmNadE5lR2RqcVZObDJyTkFvYzIyUjMtNlVuMk5kNE1oRFVVLS1PTk9ucFVnb0RTVnFuaUJDR3ZublIyNmpReVdwbmRKbUhWUHdjdU42d0xPMTJHXzAxZWxvTUhjOHdtRXVhUmFxeU5KQ2podTV0VldNcnM2djFZUUhtcXpYdU1BdTExUGtTUUlRT254MjVwSmJTam1odXZGT0MwNDFSSDFabm9pT3BGSDJMQ2FVSlQwYjJ1cXJTUnc?oc=5",
+      "published": "Mon, 31 Aug 2026 18:12:00 GMT",
+      "source": "MarketWatch",
       "sentiment": 0.333,
       "label": "positive"
     },
     {
-      "title": "Meta Is Catching Google in Ads. Which Stock Does Wall Street Favor? - beincrypto.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5OWUtsRHprWmptM0o5VHV4SlpfMG12WGMxS05UZmhhUzZ5VEM2UXUtYlJVUkJGUjRtWFV3cF9XN0NxLS1MX1BjREdSS2ZLaVE1Wklwc2Nlb0RuZUtoWE5vQUZZd2VlSzlJ?oc=5",
-      "published": "Tue, 01 Sep 2026 19:36:00 GMT",
-      "source": "beincrypto.com",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Bernstein reiterates Meta stock Outperform on AI ad strength - Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUHNDU2hiMUt5bEFKMmZ3Q2JLWkxqaEREUkpyU19PUUhqS01DNVZGRjBCcy1kYjBUbU1DWno0UVdtdnBzNkw4WmI2bG1ZazY2NDFyS0F6QmVsVGFWZHMtd1JZU1VCUUE1c3dIZ3B1bndwdzJUblZtTElDSndWX3l3UDlIcm9yZHc5ZWw1N0liQlNTMUpMVExiX3BIblktNmFyNGtOYV9wUU5QWU5ZdlpWLWxnd2x6NzF1OU81Mw?oc=5",
-      "published": "Tue, 01 Sep 2026 14:48:46 GMT",
-      "source": "Investing.com",
-      "sentiment": 0.333,
-      "label": "positive"
-    },
-    {
-      "title": "New stablecoin venture backed by 21 banks eyes 2027 debut",
-      "link": "https://www.electronicpaymentsinternational.com/news/new-stablecoin-venture-backed-by-21-banks-eyes-2027-debut/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 11:24:35 +0000",
+      "title": "Sundar Pichai’s Credibility Crisis: The AI Model That Never Came",
+      "link": "https://247wallst.com/investing/2026/09/02/sundar-pichais-credibility-crisis-the-ai-model-that-never-came/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:15:40 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "A Look Back at Investment Banking & Brokerage Stocks’ Q2 Earnings: Goldman Sachs (NYSE:GS) Vs The Rest Of The Pack",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/look-back-investment-banking-brokerage-110823771.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 11:08:23 +0000",
+      "title": "Form 8.3",
+      "link": "https://finance.yahoo.com/markets/options/articles/form-8-3-142500601.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:25:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Brookfield Quintupled Its AI Power Framework to $25 Billion. Bloom Gets the Opportunity, but Who Takes the Risk?",
-      "link": "https://finance.yahoo.com/technology/ai/articles/brookfield-quintupled-ai-power-framework-110505014.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 11:05:05 +0000",
+      "title": "What to expect over the next 12 months from S&P 500 returns",
+      "link": "https://finance.yahoo.com/video/expect-over-next-12-months-142105313.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:21:05 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Tiger Global Cut Alphabet 45% and Opened an AMD Position. Is It Rotating From AI Platforms to AI Chips?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/tiger-global-cut-alphabet-45-110107456.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 11:01:07 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": -0.333,
-      "label": "negative"
-    },
-    {
-      "title": "La Caisse invests alongside Brookfield in Altius, India's largest independent telecom tower platform",
-      "link": "https://finance.yahoo.com/technology/articles/la-caisse-invests-alongside-brookfield-110100318.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 11:01:00 +0000",
+      "title": "Kazera secures mining right for Sea Concession 2A in Northern Cape",
+      "link": "https://www.mining-technology.com/news/kazera-mining-right-sea-concession-2a/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:19:13 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "ŌURA to Appoint Jason Warnick, Leslie Kilgore, Miki Kuusi, and David Sze to Board of Directors",
-      "link": "https://finance.yahoo.com/healthcare/articles/ura-appoint-jason-warnick-leslie-110000285.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 11:00:00 +0000",
+      "title": "HTH's NII Increases 5.6% Y/Y in 1H26: Will the Uptrend Continue?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/hths-nii-increases-5-6-141700289.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:17:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "FactSet Schedules Fourth Quarter 2026 Earnings Call",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/factset-schedules-fourth-quarter-2026-110000138.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 11:00:00 +0000",
+      "title": "IBKR Sees 23% Y/Y Rise in Client DARTs in August 2026: What Drove It?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ibkr-sees-23-y-y-141600501.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:16:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Amex Gold Mining Completes Portal Construction and Commences Underground Ramp Development at Perron",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/amex-gold-mining-completes-portal-110000358.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 11:00:00 +0000",
+      "title": "Major Banks Make a Move Into Stablecoins: What Should Investors Watch?",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/major-banks-move-stablecoins-investors-141400253.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:14:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "The Covered-Call Fund Nobody Talks About Pays a 70-Year-Old $2,900 a Month: GPIX",
+      "link": "https://247wallst.com/personal-finance/2026/09/02/the-covered-call-fund-nobody-talks-about-pays-a-70-year-old-2900-a-month-gpix/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 14:13:48 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
