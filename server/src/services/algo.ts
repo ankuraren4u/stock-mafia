@@ -1,7 +1,7 @@
 import cron from "node-cron";
 import { US_STOCKS } from "../lib/universe.js";
 import { readStore, updateStore } from "../db/store.js";
-import { fetchChart } from "./market.js";
+import { fetchChart, fetchChartDirect, fetchQuote, fetchFundamentals, fetchProfile } from "./market.js";
 import { averageSentiment } from "./news.js";
 import { generateSignal } from "./signals.js";
 import { resolveInstrument } from "./tickers.js";
@@ -17,33 +17,56 @@ import { buildTickets, executeTicket, saveSuggestions } from "./tickets.js";
 export async function analyzeSymbol(query: string) {
   const stock = await resolveInstrument(query);
   let snap = readSnapshot(stock.yahoo);
-  const stale = !snap || Date.now() - snap.crawledAt > 25 * 60_000 || !snap.candles.length;
-  if (stale) snap = await crawlSymbol(stock.yahoo);
-  if (!snap.quote) throw new Error(`No price from crawler for ${stock.yahoo}`);
-  if (snap.profile.name) stock.name = snap.profile.name;
-  if (snap.profile.sector) stock.sector = snap.profile.sector;
-  const news = snap.news;
-  const sentiment = snap.sentiment || averageSentiment(news);
+  const stale = !snap || Date.now() - (snap.crawledAt || 0) > 25 * 60_000 || !snap.candles.length;
+  if (stale) {
+    try { snap = await crawlSymbol(stock.yahoo); } catch {}
+  }
+
+  // If still no quote, try direct fetch
+  let quote = snap?.quote ?? null;
+  if (!quote) {
+    try { quote = await fetchQuote(stock.yahoo); } catch {}
+  }
+
+  // If still no candles, try direct chart
+  let candles = snap?.candles ?? [];
+  if (!candles.length) {
+    try {
+      const direct = await fetchChartDirect(stock.yahoo, "6mo", "1d");
+      candles = direct.candles;
+    } catch {}
+  }
+
+  if (!quote) throw new Error(`No price data available for ${stock.yahoo}`);
+  if (snap?.profile?.name) stock.name = snap.profile.name;
+  if (snap?.profile?.sector) stock.sector = snap.profile.sector;
+
+  const news = snap?.news ?? [];
+  const sentiment = snap?.sentiment || averageSentiment(news);
+  const fundamentals = snap?.fundamentals ?? {};
+  const profile = snap?.profile ?? {};
+
   const signal = generateSignal({
-    candles: snap.candles,
+    candles,
     sentiment,
-    pe: typeof snap.fundamentals.pe === "number" ? snap.fundamentals.pe : null,
-    roe: typeof snap.fundamentals.roe === "number" ? snap.fundamentals.roe : null,
-    debtToEquity: typeof snap.fundamentals.debtToEquity === "number" ? snap.fundamentals.debtToEquity : null,
+    pe: typeof fundamentals.pe === "number" ? fundamentals.pe : null,
+    roe: typeof fundamentals.roe === "number" ? fundamentals.roe : null,
+    debtToEquity: typeof fundamentals.debtToEquity === "number" ? fundamentals.debtToEquity : null,
     news,
   });
+
   return {
     stock,
-    quote: snap.quote,
-    chart: { candles: snap.candles, meta: {} },
-    fundamentals: snap.fundamentals,
+    quote,
+    chart: { candles, meta: {} },
+    fundamentals,
     news,
     sentiment,
     signal,
-    profile: snap.profile,
-    sources: snap.sources,
-    crawledAt: snap.crawledAt,
-    crawlErrors: snap.errors,
+    profile,
+    sources: snap?.sources ?? { prices: [], news: [], fundamentals: [], other: [] },
+    crawledAt: snap?.crawledAt ?? 0,
+    crawlErrors: snap?.errors ?? [],
   };
 }
 
@@ -80,8 +103,8 @@ export async function runAlgoOnce() {
       const hits = evaluateStrategies({
         candles: chart.candles,
         sentiment,
-        pe: fundamentals.pe,
-        roe: fundamentals.roe,
+        pe: typeof fundamentals.pe === "number" ? fundamentals.pe : null,
+        roe: typeof fundamentals.roe === "number" ? fundamentals.roe : null,
         indexReturn20: indexCache.get(idxKey) ?? null,
       });
       const built = buildTickets({

@@ -1,0 +1,43 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: stockmafia-ingress
+  namespace: stockmafia
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/proxy-body-size: "10m"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "86400"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "86400"
+    nginx.ingress.kubernetes.io/websocket-services: "price"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - api.stockmafia.com
+      secretName: stockmafia-tls
+  rules:
+    - host: api.stockmafia.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: gateway
+                port:
+                  number: 80
+          - path: /ws
+            pathType: Prefix
+            backend:
+              service:
+                name: price
+                port:
+                  number: 8082
+          - path: /api/sse
+            pathType: Prefix
+            backend:
+              service:
+                name: gateway
+                port:
+                  number: 80

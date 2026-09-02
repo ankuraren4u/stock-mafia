@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: stockmafia
+  labels:
+    app.kubernetes.io/name: stockmafia
+    app.kubernetes.io/instance: stockmafia

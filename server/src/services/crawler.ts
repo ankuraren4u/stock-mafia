@@ -8,6 +8,7 @@ import { readStore } from "../db/store.js";
 import { resolveInstrument } from "./tickers.js";
 import {
   fetchChart,
+  fetchChartDirect,
   fetchFundamentals,
   fetchProfile,
   fetchQuote,
@@ -15,9 +16,10 @@ import {
   type ChartPayload,
   type Quote,
 } from "./market.js";
-import { averageSentiment, crawlNews, type NewsItem } from "./news.js";
+import { averageSentiment, crawlNews, scoreText, type NewsItem } from "./news.js";
 import { fetchStooqChart, quoteFromCandles } from "./crawler-stooq.js";
 import { fetchNseQuote } from "./crawler-nse.js";
+import { fetchMoneycontrolQuote } from "./crawler-moneycontrol.js";
 import {
   fetchFinnhubMetrics,
   fetchFinnhubNews,
@@ -49,7 +51,7 @@ interface CrawlerLog {
   running: boolean;
   lastError: string | null;
   snapshots: number;
-  recent: Array<{ time: number; yahoo: string; ok: boolean; sources: string[] }>;
+  recent: Array<{ time: number; yahoo: string; ok: boolean; sources: string[]; error?: string }>;
 }
 
 function ensureDir() {
@@ -107,104 +109,177 @@ export async function crawlSymbol(query: string): Promise<CrawlSnapshot> {
   const errors: string[] = [];
   const sources = { prices: [] as string[], news: [] as string[], fundamentals: [] as string[], other: [] as string[] };
 
-  let candles: ChartPayload["candles"] = [];
-  let quote: Quote | null = null;
+  // Read existing snapshot for candle accumulation
+  const existing = readSnapshot(stock.yahoo);
+  let candles: ChartPayload["candles"] = existing?.candles ?? [];
+  let quote: Quote | null = existing?.quote ?? null;
 
-  if (!yahooPaused()) {
+  // === PRICE DATA: Stooq first (works from LXC), Yahoo as bonus ===
+  if (candles.length < 30 && !yahooPaused()) {
+    try {
+      const stooq = await fetchStooqChart(stock.yahoo, stock.market);
+      if (stooq?.candles.length) {
+        // Merge with existing candles (accumulate history)
+        const existingTimes = new Set(candles.map((c) => c.time));
+        const newCandles = stooq.candles.filter((c) => !existingTimes.has(c.time));
+        candles = [...candles, ...newCandles].sort((a, b) => a.time - b.time);
+        // Keep last 2 years max
+        const cutoff = Date.now() - 730 * 86400000;
+        candles = candles.filter((c) => c.time >= cutoff);
+        sources.prices.push("Stooq");
+      }
+    } catch (err) {
+      errors.push(`stooq: ${err instanceof Error ? err.message : "fail"}`);
+    }
+  }
+
+  // Yahoo chart as bonus (if not paused and we need more data)
+  if (!yahooPaused() && candles.length < 100) {
     try {
       const chart = await fetchChart(stock.yahoo, "1y", "1d", "bg");
-      candles = chart.candles;
-      if (candles.length) sources.prices.push("Yahoo Finance");
+      if (chart.candles.length) {
+        const existingTimes = new Set(candles.map((c) => c.time));
+        const newCandles = chart.candles.filter((c) => !existingTimes.has(c.time));
+        candles = [...candles, ...newCandles].sort((a, b) => a.time - b.time);
+        if (!sources.prices.includes("Yahoo Finance")) sources.prices.push("Yahoo Finance");
+      }
     } catch (err) {
       errors.push(`yahoo-chart: ${err instanceof Error ? err.message : "fail"}`);
     }
   }
 
-  if (candles.length < 20) {
-    const stooq = await fetchStooqChart(stock.yahoo, stock.market);
-    if (stooq?.candles.length) {
-      candles = stooq.candles;
-      sources.prices.push("Stooq");
-    }
-  }
-
-  try {
-    quote = await fetchQuote(stock.yahoo);
-    if (!sources.prices.includes("Yahoo Finance")) sources.prices.push("Yahoo Finance");
-  } catch (err) {
-    errors.push(`yahoo-quote: ${err instanceof Error ? err.message : "fail"}`);
-  }
-
+  // === QUOTE: Try multiple sources ===
+  // NSE India for Indian stocks
   if (stock.market === "IN") {
-    const nse = await fetchNseQuote(stock.symbol);
-    if (nse?.price && quote) {
-      quote = { ...quote, ...nse, yahoo: stock.yahoo, currency: "INR" };
-      sources.prices.push("NSE India");
-    } else if (nse?.price) {
-      quote = {
-        symbol: stock.symbol,
-        yahoo: stock.yahoo,
-        price: nse.price,
-        change: nse.change ?? 0,
-        changePct: nse.changePct ?? 0,
-        previousClose: nse.previousClose ?? nse.price,
-        dayHigh: nse.dayHigh ?? null,
-        dayLow: nse.dayLow ?? null,
-        volume: null,
-        marketCap: null,
-        currency: "INR",
-      };
-      sources.prices.push("NSE India");
+    try {
+      const nse = await fetchNseQuote(stock.symbol);
+      if (nse?.price) {
+        quote = {
+          symbol: stock.symbol,
+          yahoo: stock.yahoo,
+          price: nse.price,
+          change: nse.change ?? 0,
+          changePct: nse.changePct ?? 0,
+          previousClose: nse.previousClose ?? nse.price,
+          dayHigh: nse.dayHigh ?? null,
+          dayLow: nse.dayLow ?? null,
+          volume: null,
+          marketCap: null,
+          currency: "INR",
+        };
+        sources.prices.push("NSE India");
+      }
+    } catch (err) {
+      errors.push(`nse: ${err instanceof Error ? err.message : "fail"}`);
     }
   }
 
-  if (stock.market === "US") {
-    const fh = await fetchFinnhubQuote(stock.symbol);
-    if (fh?.price) {
-      quote = {
-        symbol: stock.symbol,
-        yahoo: stock.yahoo,
-        price: fh.price,
-        change: fh.change,
-        changePct: fh.changePct,
-        previousClose: fh.previousClose,
-        dayHigh: fh.dayHigh,
-        dayLow: fh.dayLow,
-        volume: quote?.volume ?? null,
-        marketCap: quote?.marketCap ?? null,
-        currency: "USD",
-      };
-      sources.prices.push("Finnhub");
+  // Moneycontrol for Indian stocks
+  if (stock.market === "IN" && !quote) {
+    try {
+      const mc = await fetchMoneycontrolQuote(stock.yahoo);
+      if (mc) {
+        quote = mc;
+        sources.prices.push("Moneycontrol");
+      }
+    } catch (err) {
+      errors.push(`moneycontrol: ${err instanceof Error ? err.message : "fail"}`);
     }
   }
 
-  if (!quote && candles.length) {
-    quote = quoteFromCandles(stock.yahoo, candles, stock.currency);
-    if (!sources.prices.length) sources.prices.push("OHLC fallback");
+  // Finnhub for US stocks
+  if (stock.market === "US" && !quote) {
+    try {
+      const fh = await fetchFinnhubQuote(stock.symbol);
+      if (fh?.price) {
+        quote = {
+          symbol: stock.symbol,
+          yahoo: stock.yahoo,
+          price: fh.price,
+          change: fh.change,
+          changePct: fh.changePct,
+          previousClose: fh.previousClose,
+          dayHigh: fh.dayHigh,
+          dayLow: fh.dayLow,
+          volume: null,
+          marketCap: null,
+          currency: "USD",
+        };
+        sources.prices.push("Finnhub");
+      }
+    } catch (err) {
+      errors.push(`finnhub: ${err instanceof Error ? err.message : "fail"}`);
+    }
   }
 
-  let fundamentals: Record<string, number | string | null> = {};
-  try {
-    fundamentals = await fetchFundamentals(stock.yahoo);
-    sources.fundamentals.push("Yahoo quoteSummary");
-  } catch (err) {
-    errors.push(`yahoo-fund: ${err instanceof Error ? err.message : "fail"}`);
+  // Yahoo quote as last resort (if not paused)
+  if (!quote && !yahooPaused()) {
+    try {
+      quote = await fetchQuote(stock.yahoo);
+      if (quote) sources.prices.push("Yahoo Finance");
+    } catch (err) {
+      errors.push(`yahoo-quote: ${err instanceof Error ? err.message : "fail"}`);
+    }
   }
 
-  const fhMetrics = stock.market === "US" ? await fetchFinnhubMetrics(stock.symbol) : null;
-  if (fhMetrics) {
-    fundamentals = { ...fundamentals, ...Object.fromEntries(Object.entries(fhMetrics).filter(([, v]) => v != null)) };
-    sources.fundamentals.push("Finnhub metrics");
+  // Derive quote from candles if still no quote
+  if (!quote && candles.length >= 2) {
+    const last = candles[candles.length - 1];
+    const prev = candles[candles.length - 2];
+    quote = {
+      symbol: stock.symbol,
+      yahoo: stock.yahoo,
+      price: last.close,
+      change: last.close - prev.close,
+      changePct: prev.close ? ((last.close - prev.close) / prev.close) * 100 : 0,
+      previousClose: prev.close,
+      dayHigh: last.high,
+      dayLow: last.low,
+      volume: last.volume,
+      marketCap: null,
+      currency: stock.currency,
+    };
+    sources.prices.push("Candle derived");
   }
 
-  let profile: Record<string, string | null> = {};
-  try {
-    profile = await fetchProfile(stock.yahoo);
-    sources.other.push("Yahoo profile");
-  } catch {
-    profile = {};
+  // If still no quote, report clear error
+  if (!quote) {
+    const reason = errors.length > 0 ? errors[0] : "All data sources unavailable (rate limited or blocked)";
+    errors.push(`no-quote: ${reason}`);
   }
 
+  // === FUNDAMENTALS: Yahoo first, Finnhub fallback ===
+  let fundamentals: Record<string, number | string | null> = existing?.fundamentals ?? {};
+  if (Object.keys(fundamentals).length === 0 && !yahooPaused()) {
+    try {
+      fundamentals = await fetchFundamentals(stock.yahoo);
+      sources.fundamentals.push("Yahoo Finance");
+    } catch (err) {
+      errors.push(`yahoo-fund: ${err instanceof Error ? err.message : "fail"}`);
+    }
+  }
+
+  // Finnhub metrics as fallback for US stocks
+  if (stock.market === "US" && (!fundamentals.pe || !fundamentals.roe)) {
+    try {
+      const fhMetrics = await fetchFinnhubMetrics(stock.symbol);
+      if (fhMetrics) {
+        fundamentals = { ...fundamentals, ...Object.fromEntries(Object.entries(fhMetrics).filter(([, v]) => v != null)) };
+        if (!sources.fundamentals.includes("Finnhub")) sources.fundamentals.push("Finnhub metrics");
+      }
+    } catch {}
+  }
+
+  // === PROFILE ===
+  let profile: Record<string, string | null> = existing?.profile ?? {};
+  if (!profile.summary && !yahooPaused()) {
+    try {
+      profile = await fetchProfile(stock.yahoo);
+      sources.other.push("Yahoo profile");
+    } catch {}
+  }
+
+  // === NEWS ===
   const newsPack = await crawlNews({
     query: stock.name,
     yahoo: stock.yahoo,
@@ -214,19 +289,20 @@ export async function crawlSymbol(query: string): Promise<CrawlSnapshot> {
   let news = newsPack.items;
   sources.news.push(...newsPack.sources);
 
+  // Finnhub news for US stocks
   if (stock.market === "US") {
-    const extra = await fetchFinnhubNews(stock.symbol);
-    for (const n of extra) {
-      if (!n.title) continue;
-      news.push({
-        ...n,
-        sentiment: 0,
-        label: "neutral",
-      });
-    }
-    if (extra.length) sources.news.push("Finnhub company news");
+    try {
+      const extra = await fetchFinnhubNews(stock.symbol);
+      for (const n of extra) {
+        if (!n.title) continue;
+        const { sentiment, label } = scoreText(n.title);
+        news.push({ ...n, sentiment, label });
+      }
+      if (extra.length) sources.news.push("Finnhub company news");
+    } catch {}
   }
 
+  // Deduplicate news
   const seen = new Set<string>();
   news = news.filter((n) => {
     const k = n.title.toLowerCase().slice(0, 80);
@@ -254,27 +330,47 @@ export async function crawlSymbol(query: string): Promise<CrawlSnapshot> {
   writeLog({
     lastRun: Date.now(),
     lastError: errors[0] ?? null,
-    recent: [{ time: Date.now(), yahoo: stock.yahoo, ok: Boolean(quote), sources: [...sources.prices, ...sources.news.slice(0, 3)] }, ...log.recent].slice(0, 40),
+    recent: [{ time: Date.now(), yahoo: stock.yahoo, ok: Boolean(quote), sources: [...sources.prices, ...sources.news.slice(0, 3)], error: errors.length > 0 ? errors[0] : undefined }, ...log.recent].slice(0, 40),
   });
   return snap;
 }
 
 let crawling = false;
+let crawlQueue: string[] = [];
 
 async function runWatchlist() {
   writeLog({ running: true, lastError: null });
   try {
     const store = readStore();
-    const symbols = (store.watchlist.length ? store.watchlist : catalog().slice(0, 8).map((s) => s.yahoo)).slice(0, 14);
-    for (const symbol of symbols) {
-      try {
-        await crawlSymbol(symbol);
-      } catch (err) {
-        writeLog({ lastError: err instanceof Error ? err.message : "crawl failed" });
+    // Crawl watchlist first, then fill with universe stocks
+    const watchlistSymbols = store.watchlist.length ? store.watchlist : [];
+    const universeSymbols = catalog()
+      .filter((s) => !watchlistSymbols.includes(s.yahoo))
+      .map((s) => s.yahoo);
+    const allSymbols = [...watchlistSymbols, ...universeSymbols];
+    crawlQueue = allSymbols;
+
+    console.log(`[crawler] crawling ${allSymbols.length} stocks (${watchlistSymbols.length} watchlist + ${universeSymbols.length} universe)`);
+
+    // Crawl in batches of 8 with delay between batches
+    const BATCH_SIZE = 8;
+    const BATCH_DELAY_MS = 3000;
+    for (let i = 0; i < crawlQueue.length; i += BATCH_SIZE) {
+      const batch = crawlQueue.slice(i, i + BATCH_SIZE);
+      await Promise.allSettled(batch.map(async (symbol) => {
+        try {
+          await crawlSymbol(symbol);
+        } catch (err) {
+          writeLog({ lastError: err instanceof Error ? err.message : "crawl failed" });
+        }
+      }));
+      if (i + BATCH_SIZE < crawlQueue.length) {
+        await new Promise((r) => setTimeout(r, BATCH_DELAY_MS));
       }
     }
   } finally {
     crawling = false;
+    crawlQueue = [];
     writeLog({ running: false, lastRun: Date.now() });
   }
 }

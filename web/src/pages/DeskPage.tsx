@@ -1,59 +1,33 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Banner, EmptyState, Skeleton, Spinner } from "../components/Ui";
-import { api, cls, money, pct } from "../lib/api";
+import { Banner, Spinner } from "../components/Ui";
+import WatchlistAlerts from "../components/WatchlistAlerts";
+import SuggestionsFeed from "../components/SuggestionsFeed";
+import { api, cls, money } from "../lib/api";
 
-interface Session {
-  india: { open: boolean; clock: string; hours: string };
-  us: { open: boolean; clock: string; hours: string };
-  advice: string;
-}
-
-interface Idea {
-  yahoo: string;
-  symbol: string;
-  market: string;
-  price: number;
-  currency: string;
-  action: string;
-  score: number;
-  stop: number;
-  target: number;
-  reason: string;
-}
-
-interface Risk {
-  cash: number;
-  equity: number;
-  pnl: number;
-  cashPct: number;
-  warnings: string[];
-  heat: Array<{ symbol: string; weight: number; pnlPct: number; value: number }>;
-  sessions: Session;
-  alerts: Array<{
-    id: string;
-    yahoo: string;
-    direction: string;
-    price: number;
-    note: string;
-    last?: number;
-    fired: boolean;
-  }>;
-  journal: Array<{ id: string; time: number; symbol: string; thesis: string; side: string }>;
-}
+interface Session { india: { open: boolean; clock: string; hours: string }; us: { open: boolean; clock: string; hours: string }; advice: string; }
+interface Idea { yahoo: string; symbol: string; market: string; price: number; currency: string; action: string; score: number; stop: number; target: number; reason: string; }
+interface Risk { cash: number; equity: number; pnl: number; cashPct: number; warnings: string[]; heat: Array<{ symbol: string; weight: number; pnlPct: number; value: number }>; sessions: Session; alerts: Array<{ id: string; yahoo: string; direction: string; price: number; note: string; last?: number; fired: boolean }>; journal: Array<{ id: string; time: number; symbol: string; thesis: string; side: string }>; }
 
 export default function DeskPage() {
   const [risk, setRisk] = useState<Risk | null>(null);
   const [ideas, setIdeas] = useState<Idea[]>([]);
   const [error, setError] = useState("");
-  const [alertYahoo, setAlertYahoo] = useState("AAPL");
-  const [alertPrice, setAlertPrice] = useState("");
-  const [alertDir, setAlertDir] = useState<"above" | "below">("below");
+  const [msg, setMsg] = useState("");
+
+  // Quick trade state
+  const [tradeSymbol, setTradeSymbol] = useState("");
+  const [tradeSide, setTradeSide] = useState<"BUY" | "SELL">("BUY");
+  const [tradeQty, setTradeQty] = useState(1);
+  const [tradeNote, setTradeNote] = useState("");
+  const [tradeBusy, setTradeBusy] = useState(false);
 
   async function refresh() {
-    const [r, i] = await Promise.all([api<Risk>("/api/desk/risk"), api<{ ideas: Idea[] }>("/api/desk/ideas")]);
-    setRisk(r);
-    setIdeas(i.ideas);
+    const [r, i] = await Promise.all([
+      api<Risk>("/api/desk/risk"),
+      api<{ ideas: Idea[] }>("/api/desk/ideas"),
+    ]);
+    setRisk(r); setIdeas(i.ideas);
   }
 
   useEffect(() => {
@@ -62,192 +36,195 @@ export default function DeskPage() {
     return () => clearInterval(t);
   }, []);
 
-  async function saveAlert() {
-    await api("/api/desk/alerts", {
-      method: "POST",
-      body: JSON.stringify({
-        yahoo: alertYahoo,
-        direction: alertDir,
-        price: Number(alertPrice),
-        note: "desk",
-      }),
-    });
-    setAlertPrice("");
-    await refresh();
+  async function quickTrade() {
+    if (!tradeSymbol.trim()) return;
+    setTradeBusy(true);
+    setMsg("");
+    try {
+      // Always paper trade
+      await api("/api/paper/order", {
+        method: "POST",
+        body: JSON.stringify({
+          symbol: tradeSymbol.trim(),
+          side: tradeSide,
+          quantity: tradeQty,
+          note: tradeNote || `desk ${tradeSide.toLowerCase()}`,
+        }),
+      });
+      if (tradeNote.trim().length >= 5) {
+        await api("/api/desk/journal", {
+          method: "POST",
+          body: JSON.stringify({ yahoo: tradeSymbol.trim(), symbol: tradeSymbol.trim(), thesis: tradeNote, side: tradeSide }),
+        });
+      }
+      setMsg(`Paper ${tradeSide} recorded for ${tradeSymbol.trim()}.`);
+      setTradeSymbol("");
+      setTradeNote("");
+      await refresh();
+    } catch (err) {
+      setMsg(err instanceof Error ? err.message : "Trade failed");
+    }
+    setTradeBusy(false);
   }
 
   if (error) return <Banner kind="error">{error}</Banner>;
-  if (!risk) {
-    return (
-      <div className="card">
-        <Spinner label="Loading trade desk…" />
-        <Skeleton lines={6} />
-      </div>
-    );
-  }
+  if (!risk) return <div className="card"><Spinner label="Loading trade desk…" /></div>;
 
   return (
     <>
       <div className="topbar">
         <div>
-          <h2>Trade desk</h2>
-          <p>
-            Process over prediction: size from a stop, wait for a session, write why you are wrong. Nothing here is a
-            guarantee of profit.
-          </p>
+          <h2>Trade Desk</h2>
+          <p>Your daily command center — manual trade, algo suggestions, alerts, and portfolio overview.</p>
         </div>
       </div>
 
-      <div className="grid grid-2" style={{ marginBottom: 16 }}>
-        <div className="card">
-          <h3>India · NSE</h3>
-          <div className={cls("session-pill", risk.sessions.india.open ? "open" : "closed")}>
-            {risk.sessions.india.open ? "Open" : "Closed"}
+      {msg && <Banner kind={msg.toLowerCase().includes("fail") || msg.toLowerCase().includes("error") ? "error" : "info"}>{msg}</Banner>}
+
+      {/* Market Sessions */}
+      <div className="grid grid-2" style={{ marginBottom: 12 }}>
+        <div className="card" style={{ padding: "10px 14px" }}>
+          <div className="row" style={{ justifyContent: "space-between", alignItems: "center" }}>
+            <div>
+              <strong>🇮🇳 India NSE</strong>
+              <span className="muted" style={{ marginLeft: 8, fontSize: 12 }}>{risk.sessions.india.clock}</span>
+            </div>
+            <span className={cls("badge", risk.sessions.india.open ? "up" : "down")}>
+              {risk.sessions.india.open ? "OPEN" : "CLOSED"}
+            </span>
           </div>
-          <p className="mono">{risk.sessions.india.clock}</p>
-          <p className="muted">{risk.sessions.india.hours}</p>
         </div>
-        <div className="card">
-          <h3>United States</h3>
-          <div className={cls("session-pill", risk.sessions.us.open ? "open" : "closed")}>
-            {risk.sessions.us.open ? "Open" : "Closed"}
+        <div className="card" style={{ padding: "10px 14px" }}>
+          <div className="row" style={{ justifyContent: "space-between", alignItems: "center" }}>
+            <div>
+              <strong>🇺🇸 US Markets</strong>
+              <span className="muted" style={{ marginLeft: 8, fontSize: 12 }}>{risk.sessions.us.clock}</span>
+            </div>
+            <span className={cls("badge", risk.sessions.us.open ? "up" : "down")}>
+              {risk.sessions.us.open ? "OPEN" : "CLOSED"}
+            </span>
           </div>
-          <p className="mono">{risk.sessions.us.clock}</p>
-          <p className="muted">{risk.sessions.us.hours}</p>
-        </div>
-      </div>
-      <Banner kind="info">{risk.sessions.advice}</Banner>
-
-      <div className="grid grid-3" style={{ marginBottom: 16 }}>
-        <div className="card kpi">
-          <div className="label">Paper equity</div>
-          <div className="value">{money(risk.equity)}</div>
-        </div>
-        <div className="card kpi">
-          <div className="label">Cash buffer</div>
-          <div className="value">{risk.cashPct.toFixed(0)}%</div>
-        </div>
-        <div className="card kpi">
-          <div className="label">Open P&L</div>
-          <div className={cls("value", risk.pnl >= 0 ? "up" : "down")}>{money(risk.pnl)}</div>
         </div>
       </div>
 
-      {risk.warnings.length ? (
-        <Banner kind="error">{risk.warnings.join(" ")}</Banner>
-      ) : (
-        <Banner kind="ok">Book looks within basic risk rails (cash, concentration, names count).</Banner>
+      {/* Quick Trade */}
+      <div className="card" style={{ marginBottom: 12 }}>
+        <h3>Quick Trade</h3>
+        <p className="muted" style={{ marginBottom: 8, fontSize: 12 }}>
+          Paper trade any stock instantly. For Indian stocks with Kite connected, live orders are also available on the stock page.
+        </p>
+        <div className="row" style={{ gap: 6, alignItems: "center", flexWrap: "wrap" }}>
+          <input
+            value={tradeSymbol}
+            onChange={(e) => setTradeSymbol(e.target.value.toUpperCase())}
+            onKeyDown={(e) => { if (e.key === "Enter") void quickTrade(); }}
+            placeholder="Stock symbol (e.g. RELIANCE.NS)"
+            style={{ width: 200, padding: "6px 8px" }}
+          />
+          <select value={tradeSide} onChange={(e) => setTradeSide(e.target.value as "BUY" | "SELL")} style={{ padding: "6px 8px" }}>
+            <option value="BUY">BUY</option>
+            <option value="SELL">SELL</option>
+          </select>
+          <input
+            type="number" min={1} value={tradeQty}
+            onChange={(e) => setTradeQty(Number(e.target.value))}
+            style={{ width: 70, padding: "6px 8px" }}
+          />
+          <input
+            value={tradeNote}
+            onChange={(e) => setTradeNote(e.target.value)}
+            placeholder="Thesis (optional)"
+            style={{ flex: 1, minWidth: 150, padding: "6px 8px" }}
+          />
+          <button className="btn primary" disabled={tradeBusy || !tradeSymbol.trim()} onClick={() => void quickTrade()}>
+            {tradeBusy ? "Trading…" : `Paper ${tradeSide}`}
+          </button>
+        </div>
+      </div>
+
+      {/* Portfolio Quick Stats */}
+      <div className="grid grid-3" style={{ marginBottom: 12 }}>
+        <div className="card kpi" style={{ padding: 10 }}>
+          <p className="muted" style={{ fontSize: 11 }}>Portfolio Value</p>
+          <p className="mono" style={{ fontSize: 18 }}>{money(risk.equity)}</p>
+        </div>
+        <div className="card kpi" style={{ padding: 10 }}>
+          <p className="muted" style={{ fontSize: 11 }}>Cash Available</p>
+          <p className="mono" style={{ fontSize: 18 }}>{money(risk.cash)}</p>
+        </div>
+        <div className="card kpi" style={{ padding: 10 }}>
+          <p className="muted" style={{ fontSize: 11 }}>Open P&L</p>
+          <p className={cls("mono", risk.pnl >= 0 ? "up" : "down")} style={{ fontSize: 18 }}>{money(risk.pnl)}</p>
+        </div>
+      </div>
+
+      {risk.warnings.length > 0 && <Banner kind="error">{risk.warnings.join(" ")}</Banner>}
+
+      {/* Suggestions */}
+      <SuggestionsFeed />
+
+      {/* Watchlist Alerts */}
+      <WatchlistAlerts />
+
+      {/* Buy Ideas */}
+      {ideas.length > 0 && (
+        <div className="card" style={{ marginBottom: 12 }}>
+          <h3>Top Setups</h3>
+          <p className="muted" style={{ marginBottom: 8, fontSize: 12 }}>Watchlist stocks with strong signals — click to trade.</p>
+          <div style={{ overflowX: "auto" }}>
+            <table>
+              <thead><tr><th>Stock</th><th>Score</th><th>Price</th><th>Stop</th><th>Target</th><th>Action</th></tr></thead>
+              <tbody>
+                {ideas.slice(0, 8).map((idea) => (
+                  <tr key={idea.yahoo}>
+                    <td>
+                      <Link to={`/stock/${encodeURIComponent(idea.yahoo)}`}><strong>{idea.symbol}</strong></Link>
+                      <div className="muted" style={{ fontSize: 11 }}>{idea.market}</div>
+                    </td>
+                    <td className="mono">{idea.score}</td>
+                    <td className="mono">{money(idea.price, idea.currency)}</td>
+                    <td className="mono down">{money(idea.stop, idea.currency)}</td>
+                    <td className="mono up">{money(idea.target, idea.currency)}</td>
+                    <td><Link to={`/stock/${encodeURIComponent(idea.yahoo)}`} className="btn primary" style={{ fontSize: 11 }}>Trade</Link></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
       )}
 
-      <div className="card" style={{ marginBottom: 16 }}>
-        <h3>Buy ideas from snapshots</h3>
-        <p className="muted" style={{ marginTop: -8, marginBottom: 12 }}>
-          Watchlist names with score ≥ 58. Open a name to size with 2×ATR stop and 2R target.
-        </p>
-        {ideas.length === 0 ? (
-          <EmptyState title="No high-score names right now" body="Let the crawler refresh, or wait for better RSI/MACD confluence." />
-        ) : (
-          <table>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Score</th>
-                <th>Last</th>
-                <th>Invalid if</th>
-                <th>Target (2R)</th>
-              </tr>
-            </thead>
-            <tbody>
-              {ideas.map((idea) => (
-                <tr key={idea.yahoo}>
-                  <td>
-                    <Link to={`/stock/${encodeURIComponent(idea.yahoo)}`}>
-                      <strong>{idea.symbol}</strong>
-                    </Link>
-                    <div className="muted">{idea.market} · {idea.reason}</div>
-                  </td>
-                  <td className="mono">{idea.score}</td>
-                  <td className="mono">{money(idea.price, idea.currency)}</td>
-                  <td className="mono down">{money(idea.stop, idea.currency)}</td>
-                  <td className="mono up">{money(idea.target, idea.currency)}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        )}
-      </div>
-
-      <div className="grid grid-2">
-        <div className="card">
-          <h3>Concentration</h3>
-          {risk.heat.length === 0 ? (
-            <EmptyState title="No open paper names" body="Size the first ticket from a stock page using the plan quantity." />
-          ) : (
-            risk.heat
-              .sort((a, b) => b.weight - a.weight)
-              .map((h) => (
-                <div key={h.symbol} className="heat-row">
-                  <span>{h.symbol}</span>
-                  <span className="heat-bar">
-                    <span style={{ width: `${Math.min(h.weight, 100)}%` }} />
-                  </span>
-                  <span className="mono">{h.weight.toFixed(1)}%</span>
-                </div>
-              ))
-          )}
-        </div>
-        <div className="card">
-          <h3>Price alerts</h3>
-          <div className="row" style={{ marginBottom: 12 }}>
-            <input value={alertYahoo} onChange={(e) => setAlertYahoo(e.target.value.toUpperCase())} style={{ width: 110 }} />
-            <select value={alertDir} onChange={(e) => setAlertDir(e.target.value as "above" | "below")}>
-              <option value="below">hits stop / below</option>
-              <option value="above">hits target / above</option>
-            </select>
-            <input
-              type="number"
-              value={alertPrice}
-              onChange={(e) => setAlertPrice(e.target.value)}
-              placeholder="Price"
-              style={{ width: 100 }}
-            />
-            <button className="btn primary" disabled={!alertPrice} onClick={() => void saveAlert()}>
-              Watch
-            </button>
-          </div>
-          {risk.alerts.length === 0 ? <p className="muted">No alerts. Set a stop or target level you must not ignore.</p> : null}
-          {risk.alerts.map((a) => (
-            <div key={a.id} className={cls("alert-row", a.fired && "fired")}>
-              <div>
-                <strong>{a.yahoo}</strong> {a.direction} {a.price}
-                <div className="muted">Last {a.last ?? "—"} {a.fired ? "· triggered" : ""}</div>
-              </div>
-              <button className="btn ghost" onClick={() => void api(`/api/desk/alerts/${a.id}`, { method: "DELETE" }).then(refresh)}>
-                Clear
-              </button>
+      {/* Concentration */}
+      {risk.heat.length > 0 && (
+        <div className="card" style={{ marginBottom: 12 }}>
+          <h3>Position Sizes</h3>
+          <p className="muted" style={{ marginBottom: 8, fontSize: 12 }}>How much of your portfolio is in each stock.</p>
+          {risk.heat.sort((a, b) => b.weight - a.weight).map((h) => (
+            <div key={h.symbol} className="heat-row">
+              <Link to={`/stock/${encodeURIComponent(h.symbol)}`} style={{ fontSize: 12 }}>{h.symbol}</Link>
+              <span className="heat-bar"><span style={{ width: `${Math.min(h.weight, 100)}%` }} /></span>
+              <span className="mono" style={{ fontSize: 12 }}>{h.weight.toFixed(1)}%</span>
+              <span className={cls("mono", h.pnlPct >= 0 ? "up" : "down")} style={{ fontSize: 11 }}>{h.pnlPct > 0 ? "+" : ""}{h.pnlPct.toFixed(1)}%</span>
             </div>
           ))}
         </div>
-      </div>
+      )}
 
-      <div className="card" style={{ marginTop: 16 }}>
-        <h3>Trade journal</h3>
-        {risk.journal.length === 0 ? (
-          <p className="muted">After a paper buy, write the thesis on the stock page. Review losers first.</p>
-        ) : (
-          <table>
-            <tbody>
-              {risk.journal.slice(0, 12).map((j) => (
-                <tr key={j.id}>
-                  <td className="muted">{new Date(j.time).toLocaleString("en-IN")}</td>
-                  <td>{j.side} {j.symbol}</td>
-                  <td>{j.thesis}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        )}
-      </div>
+      {/* Recent Journal */}
+      {risk.journal.length > 0 && (
+        <div className="card">
+          <h3>Recent Journal</h3>
+          {risk.journal.slice(0, 5).map((j) => (
+            <div key={j.id} style={{ padding: "6px 0", borderBottom: "1px solid var(--line)" }}>
+              <div className="row" style={{ justifyContent: "space-between" }}>
+                <span><span className={cls("badge", j.side === "BUY" ? "up" : "down")}>{j.side}</span> <strong>{j.symbol}</strong></span>
+                <span className="muted" style={{ fontSize: 11 }}>{new Date(j.time).toLocaleDateString("en-IN")}</span>
+              </div>
+              <p className="muted" style={{ fontSize: 12, margin: "2px 0 0" }}>{j.thesis}</p>
+            </div>
+          ))}
+        </div>
+      )}
     </>
   );
 }

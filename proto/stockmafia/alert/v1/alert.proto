@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package stockmafia.alert.v1;
+
+import "common/v1/types.proto";
+
+option go_package = "github.com/stockmafia/trading-app/proto/stockmafia/alert/v1;alertv1";
+
+service AlertService {
+  rpc GetWatchlist(GetWatchlistRequest) returns (GetWatchlistResponse);
+  rpc GetAlerts(GetAlertsRequest) returns (GetAlertsResponse);
+}
+
+message GetWatchlistRequest {
+}
+
+message GetWatchlistResponse {
+  repeated stockmafia.common.v1.Stock stocks = 1;
+}
+
+message GetAlertsRequest {
+}
+
+message GetAlertsResponse {
+  repeated stockmafia.common.v1.Alert alerts = 1;
+}

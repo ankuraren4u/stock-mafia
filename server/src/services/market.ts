@@ -223,6 +223,41 @@ function quoteFromMeta(yahooSymbol: string, meta: Record<string, unknown>, candl
   };
 }
 
+export async function fetchChartDirect(yahooSymbol: string, range = "6mo", interval = "1d"): Promise<ChartPayload> {
+  const key = `direct|${yahooSymbol}|${range}|${interval}`;
+  const cached = chartCache.get(key);
+  if (cached && Date.now() - cached.at < CHART_TTL_MS) return cached.data;
+
+  const url = `https://query2.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
+    yahooSymbol,
+  )}?range=${range}&interval=${interval}&includePrePost=false`;
+  try {
+    const res = await fetchTimed(url, YAHOO_HEADERS, 10000);
+    if (!res.ok) throw new Error(`Chart fetch failed ${res.status}`);
+    const json = (await res.json()) as { chart?: { result?: Array<Record<string, unknown>> } };
+    const result = json?.chart?.result?.[0];
+    if (!result) throw new Error(`No chart data for ${yahooSymbol}`);
+    const timestamps = (result.timestamp as number[] | undefined) ?? [];
+    const quote = ((result.indicators as { quote?: Array<Record<string, number[]>> })?.quote?.[0]) ?? {};
+    const candles = timestamps
+      .map((t, i) => ({
+        time: t * 1000,
+        open: quote.open?.[i],
+        high: quote.high?.[i],
+        low: quote.low?.[i],
+        close: quote.close?.[i],
+        volume: quote.volume?.[i],
+      }))
+      .filter((c) => [c.open, c.high, c.low, c.close].every((v) => Number.isFinite(v))) as ChartPayload["candles"];
+    const data: ChartPayload = { candles, meta: (result.meta as Record<string, unknown>) ?? {} };
+    chartCache.set(key, { at: Date.now(), data });
+    return data;
+  } catch (err) {
+    if (cached) return cached.data;
+    throw err;
+  }
+}
+
 export async function fetchQuoteFromChartDirect(yahooSymbol: string): Promise<Quote | null> {
   const url = `https://query2.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
     yahooSymbol,
@@ -386,7 +421,7 @@ export async function fetchProfile(yahooSymbol: string) {
 }
 
 export async function fetchFundamentals(yahooSymbol: string) {
-  const modules = ["summaryDetail", "defaultKeyStatistics", "financialData", "earnings"].join(",");
+  const modules = ["summaryDetail", "defaultKeyStatistics", "financialData", "earnings", "incomeStatementHistory", "balanceSheetHistory"].join(",");
   const url = `https://query2.finance.yahoo.com/v10/finance/quoteSummary/${encodeURIComponent(
     yahooSymbol,
   )}?modules=${modules}`;
@@ -405,6 +440,25 @@ export async function fetchFundamentals(yahooSymbol: string) {
     earningsGrowth: null as number | null,
     targetMeanPrice: null as number | null,
     recommendation: null as string | null,
+    week52High: null as number | null,
+    week52Low: null as number | null,
+    revenue: null as number | null,
+    netIncome: null as number | null,
+    freeCashflow: null as number | null,
+    operatingMargins: null as number | null,
+    grossMargins: null as number | null,
+    bookValue: null as number | null,
+    priceToSales: null as number | null,
+    enterpriseValue: null as number | null,
+    pegRatio: null as number | null,
+    shortRatio: null as number | null,
+    heldPercentInsiders: null as number | null,
+    heldPercentInstitutions: null as number | null,
+    shortPercentOfFloat: null as number | null,
+    analystTargetPrice: null as number | null,
+    earningsQuarterlyGrowth: null as number | null,
+    revenuePerShare: null as number | null,
+    forwardEps: null as number | null,
   };
   try {
     const json = (await yahooGet(url, "bg")) as { quoteSummary?: { result?: Array<Record<string, unknown>> } };
@@ -412,6 +466,12 @@ export async function fetchFundamentals(yahooSymbol: string) {
     const sd = (r.summaryDetail ?? {}) as Record<string, { raw?: number }>;
     const ks = (r.defaultKeyStatistics ?? {}) as Record<string, { raw?: number }>;
     const fd = (r.financialData ?? {}) as Record<string, { raw?: number } | string>;
+    const income = (r.incomeStatementHistory ?? {}) as Record<string, unknown>;
+    const balance = (r.balanceSheetHistory ?? {}) as Record<string, unknown>;
+    const incomeStmtArr = (income.incomeStatementHistory ?? []) as Array<Record<string, { raw?: number }>>;
+    const balanceStmtArr = (balance.balanceSheetHistory ?? []) as Array<Record<string, { raw?: number }>>;
+    const incomeStmt = incomeStmtArr[0] ?? {};
+    const balanceStmt = balanceStmtArr[0] ?? {};
     return {
       pe: sd.trailingPE?.raw ?? ks.trailingPE?.raw ?? null,
       forwardPe: sd.forwardPE?.raw ?? ks.forwardPE?.raw ?? null,
@@ -427,6 +487,25 @@ export async function fetchFundamentals(yahooSymbol: string) {
       earningsGrowth: typeof fd.earningsGrowth === "object" ? fd.earningsGrowth.raw ?? null : null,
       targetMeanPrice: typeof fd.targetMeanPrice === "object" ? fd.targetMeanPrice.raw ?? null : null,
       recommendation: typeof fd.recommendationKey === "string" ? fd.recommendationKey : null,
+      week52High: sd.fiftyTwoWeekHigh?.raw ?? ks.fiftyTwoWeekHigh?.raw ?? null,
+      week52Low: sd.fiftyTwoWeekLow?.raw ?? ks.fiftyTwoWeekLow?.raw ?? null,
+      revenue: incomeStmt.totalRevenue?.raw ?? (typeof fd.totalRevenue === "object" ? fd.totalRevenue.raw ?? null : null),
+      netIncome: incomeStmt.netIncome?.raw ?? null,
+      freeCashflow: typeof fd.freeCashflow === "object" ? fd.freeCashflow.raw ?? null : null,
+      operatingMargins: typeof fd.operatingMargins === "object" ? fd.operatingMargins.raw ?? null : null,
+      grossMargins: typeof fd.grossMargins === "object" ? fd.grossMargins.raw ?? null : null,
+      bookValue: ks.bookValue?.raw ?? null,
+      priceToSales: ks.priceToSalesTrailing12Months?.raw ?? null,
+      enterpriseValue: ks.enterpriseValue?.raw ?? null,
+      pegRatio: ks.pegRatio?.raw ?? sd.pegRatio?.raw ?? null,
+      shortRatio: ks.shortRatio?.raw ?? null,
+      heldPercentInsiders: ks.heldPercentInsiders?.raw ?? null,
+      heldPercentInstitutions: ks.heldPercentInstitutions?.raw ?? null,
+      shortPercentOfFloat: ks.shortPercentOfFloat?.raw ?? null,
+      analystTargetPrice: typeof fd.targetMeanPrice === "object" ? fd.targetMeanPrice.raw ?? null : null,
+      earningsQuarterlyGrowth: typeof fd.earningsQuarterlyGrowth === "object" ? fd.earningsQuarterlyGrowth.raw ?? null : null,
+      revenuePerShare: ks.revenuePerShare?.raw ?? null,
+      forwardEps: ks.forwardEps?.raw ?? null,
     };
   } catch {
     return empty;

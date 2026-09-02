@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: stockmafia-config
+  namespace: stockmafia
+data:
+  DB_HOST: "mysql.stockmafia.svc.cluster.local"
+  DB_PORT: "3306"
+  DB_NAME: "stockmafia"
+  REDIS_ADDR: "redis.stockmafia.svc.cluster.local:6379"
+  CRAWLER_GRPC_ADDR: "crawler.stockmafia.svc.cluster.local:9001"
+  PRICE_GRPC_ADDR: "price.stockmafia.svc.cluster.local:9002"
+  ANALYTICS_GRPC_ADDR: "analytics.stockmafia.svc.cluster.local:9003"
+  ALERT_GRPC_ADDR: "alert.stockmafia.svc.cluster.local:9004"
+  PORTFOLIO_GRPC_ADDR: "portfolio.stockmafia.svc.cluster.local:9005"
+  ENVIRONMENT: "production"

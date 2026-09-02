@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package stockmafia.price.v1;
+
+import "common/v1/types.proto";
+
+option go_package = "github.com/stockmafia/trading-app/proto/stockmafia/price/v1;pricev1";
+
+service PriceService {
+  rpc GetQuotes(GetQuotesRequest) returns (GetQuotesResponse);
+  rpc GetStockDetail(GetStockDetailRequest) returns (GetStockDetailResponse);
+}
+
+message GetQuotesRequest {
+}
+
+message GetQuotesResponse {
+  repeated stockmafia.common.v1.Quote quotes = 1;
+}
+
+message GetStockDetailRequest {
+  string yahoo = 1;
+}
+
+message GetStockDetailResponse {
+  stockmafia.common.v1.Stock stock = 1;
+  stockmafia.common.v1.Quote quote = 2;
+  repeated stockmafia.common.v1.Candle candles = 3;
+  string fundamentals = 4;
+  string news = 5;
+}

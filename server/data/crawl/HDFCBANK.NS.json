@@ -2,7 +2,7 @@
   "yahoo": "HDFCBANK.NS",
   "symbol": "HDFCBANK",
   "market": "IN",
-  "crawledAt": 1788238807693,
+  "crawledAt": 1788327020310,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -25,13 +25,13 @@
   "quote": {
     "symbol": "HDFCBANK.NS",
     "yahoo": "HDFCBANK.NS",
-    "price": 709,
-    "change": 0,
-    "changePct": 0,
+    "price": 711.9,
+    "change": 2.9,
+    "changePct": 0.41,
     "previousClose": 709,
-    "dayHigh": null,
-    "dayLow": null,
-    "volume": null,
+    "dayHigh": 715.45,
+    "dayLow": 698.5,
+    "volume": 44417092,
     "marketCap": null,
     "currency": "INR"
   },
@@ -64,6 +64,14 @@
   },
   "news": [
     {
+      "title": "HDFC Bank Stock Puts Indian Private Banks Back On The Radar - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQV21pTm5zX0d5eTFQSmlNTzRsR2pKVGNYZHUzYk5vZEUwS0NKajNSMGI0ak9LUzVPVGk1RzNmQ0JxM2xQNG8wY1czTkdMTk5yRkQxRjdpVE9RU0VWWDBZSWVaZkt0NmQ2VjhhODBCNlRtR1Y4Rmo3YWRSRWlkanc4RTJqN1dWamR2dURSWkw3TlNiVTB2SWFGcVMtWEd3cHExdkEzQ2h1TElYX2k4RWFoVGRWeVRaTHJwY21LeEVmQnVvMVNXSDBHQ19HMFfSAdIBQVVfeXFMUGVOZDZZdGVaMDZiWjdyN0JWNTEtTUhKUFVXQXNwMkEwS1BSY2djTURpZDRLa25wUVRtemtQV2RobHZMMkNTcUsySWl3Ymd5dGhVUjNGRXpoSFl0V3FzTjFVenpTbFFTc05Bd2Qtcmx5azlRWmhuNC1RX1Z0NmZUSjdhX05fVnJDYU9fbGlTUDVDZFZWY2I3WlBXVHlxekRLbjBzWlkyaEc4ampQZkk2c0MxWmlVR21aam1iZGViWXJKdVlqTXkyZ1BpVzJfOTJGc0N3?oc=5",
+      "published": "Mon, 31 Aug 2026 08:17:24 GMT",
+      "source": "simplywall.st",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
       "title": "HDFC Bank shares decline 2% to 52-week low; what investors need to know - Upstox",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZHdIeDN6NUJJWW1JdjFudzJaTnFQV21ORDdJY2tWWmwwS3p1T1J1M0tSMEQ2NVRFbDFUWnQzdjJZSzAwQ2ZQUGFGT1B4NTRGX3lhT3JwQUpvOU42QWZrVXBHb0d2UWRYa3EwM2dXamFSTzV2emhKajRYRHRtWWFvTHZ0ZnU0bEFOX1gxVXZjV3NjR3FpUHVUV1ZuWmdZcUdTTW05RW1YdWFyYmNOOHlzbmloeHBxM0tRU1NXWA?oc=5",
       "published": "Thu, 27 Aug 2026 06:06:15 GMT",
@@ -72,18 +80,34 @@
       "label": "negative"
     },
     {
-      "title": "HDFC Bank Share Price Today, August 24, 2026: HDFCBANK Closes at ₹729 on NSE - The Eastern Herald",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSjVDRW5HMFlQLTc2SjZaZTdaN2FyUG9nWWozVjJXXzgzaTJxdVdHWXJ5OTBLTDVWdzFkQkU5cUVXNVhfUkltaURLRUNiaW42MGpjOHBIeFVMOWxiU1lYcEVObmJfMjRBalh4UEowNzF1QUVUcFlWR0diOHFYNUltaHo0V2VwSE0?oc=5",
-      "published": "Mon, 24 Aug 2026 17:56:30 GMT",
-      "source": "The Eastern Herald",
+      "title": "HDFC Bank Stock Declines Amidst Profit Booking: Key Support and Resistance Levels to Watch - Momentum Trade - vinanet.vn",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTUx2Q1JkS3VGc1J5VEpvS04zM1UzWUVmX05VLTF1QUR1d3BRWGFYaU41Q2w1QWxSc0Vsa1FQSEdJX1FaaWMtVk9GNVlnVVBPLUFENWswMDY2UXJrNklLZUJNUWdLVzVPZ3BPSXBfekhCMlY1NXBjcUNsT1ptbFZKbElnRDllZ2JwYjJ1X1VXQ3dVdnpVMTMyZ0pkdW9TbmxNdzZRS2FUcGQ1MnJwMGVKY1RiQnBlcE4tNlZZZ0h0OXZNWXdqWmlnOU9ubw?oc=5",
+      "published": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "source": "vinanet.vn",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "HDFC Bank shares decline most in 2 years: Do you want to buy this dip? Check this analyst's short-term target, stop loss - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNRjEybGxSeTB3MHN2MndfSlo0V3NYM25BaldhZFB6ZWdqNXEzOEZrSXNQUmtoTDNKRmJLcWZ4UEp0c09FbTZIQm9aYzRyS2hMaTVYX1FVSVBJY0tpN09oblJGV1J1TUNYcWdPS2MweE9iaV8zWTN1T1lsdVl5cGpqaGJYbEhERkdadUhxNXpvLUhTajU0ZHNFMTY4cjZQQXVpdnZfbVhuaTl3N3g5el83VGNLVnlYcHFjdTR4cERTNkF6MzJBdHkwS0FoLXJGbGJrMTA2dl9WRks3dDR3VmszcDhMbVNXNlhyUjRUVEVnNlVQWXFFVnlVQzZFeW5nNl9uZlM3Q0kyc2E3VzRO?oc=5",
-      "published": "Thu, 19 Mar 2026 07:00:00 GMT",
-      "source": "TradingView",
+      "title": "HDFC Bank Ltd. Share Price Today - HDFC Bank Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BTGxHaFJEVVNGVEU4ZGhmNkIxZDV1R0YySnVDRV9qX3BwQnZiRG1qVU1hTU4xTktkVW9uRHJFMUY1bTNUQ19NQUJKalFIRkhDR3V1bmRwaDR3WFluX29yekhEVTNZN3dsYUFxMUp2dDlSLUNEeGpBSXhOSQ?oc=5",
+      "published": "Sat, 03 Jan 2026 22:29:21 GMT",
+      "source": "CNBC TV18",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "HDFC Bank Ltd. Futures Price: Live NSE/BSE Futures Chart & Updates - HDFC Sky",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE84UXl0MVNiaFBWemZld0JTTy1qcE1GRV9IRjhJV3RDNVBQMUIwVGVlMTA1QV9EYk5ZbWJUSGV1U0hyVUVqZmQ0ZTczMENMWnM1dmow?oc=5",
+      "published": "Mon, 06 Apr 2026 19:54:04 GMT",
+      "source": "HDFC Sky",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "HDFC Bank in focus: RBI dismisses 'window dressing' worries; Rajiv Kumar says balance sheet remains 'pristine' - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOSGYzbmwxdWtCelByT3V4LWl3SjVFdDFYaDBERWZoNFI3U3o5MEJrdFlFWU1aRV9zb0ZDbkJqQmRBc0tDekJUa0hkd0RhWUNXcGFBcU55Vmk1THQ1SFNYc0IwcG53TUtDYU00Wm9YN2plZWRWNHF4S04yQy1qMXFOSXk0eEotbWRLV0lPcnY2ekdIWUNiblluVWtUbkVZRWFpRmdEN19RY0Q4MExmc0tTU0N0bm9KRXdvdGVyZWJuMi1sbS1SNXMyRVlQaEtLT2tRVlNSSnk1MFRTalU1S2NPTWgtOFlVVExIYTNMdkhKNEQzRkt2cWc?oc=5",
+      "published": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "source": "Upstox",
       "sentiment": -0.333,
       "label": "negative"
     },
@@ -96,58 +120,74 @@
       "label": "neutral"
     },
     {
-      "title": "HDFC Bank Analyst Review 2026: HDFCBANK at Rs 770 Buy or Hold? - Univest",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hRVhNcDlsTVRzcHNLOE5JcEUwMk8tZUhYQ3lSZFBJR2JBU3ZLN2pvRUVtMEpwX3hDMWM4Y3pfV29EelQ4Uld5WG5zOUhfcWdzQm5adEZjc0pSWFZZN1pVRE9tRDc?oc=5",
-      "published": "Fri, 15 May 2026 07:00:00 GMT",
-      "source": "Univest",
-      "sentiment": 0.333,
-      "label": "positive"
+      "title": "HDFC Bank: Why the stock can’t catch a break Just ~5% return for investors in 5 years, versus nearly 55% for the Nifty. Profits are still growing, but slower. NIMs and return ratios have fallen, CASA has weakened, governance overhangs persist and ICICI Bank - LinkedIn",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRHdUektkbUdfMjZfQzFiTmcyNHBncGJETm9yLWFWRWxCRXFOX2owY01lQmtCZDVWc1BoanY4ZUxZZ2N3TEgtZldUeEFhLWZHd3A0MlFKeXR4eFQ2eEpZeGVvZDVLejJ0amttVE9HLU4tbXlvbktBY2J2STZEQnc3YTg5cVllc2laUVBJSW5BZ05hX1Qxb2YzTQ?oc=5",
+      "published": "Mon, 03 Aug 2026 07:00:00 GMT",
+      "source": "LinkedIn",
+      "sentiment": -0.333,
+      "label": "negative"
     },
     {
-      "title": "HDFC Bank Stock Declines Amidst Profit Booking: Key Support and Resistance Levels to Watch - Momentum Trade - vinanet.vn",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTUx2Q1JkS3VGc1J5VEpvS04zM1UzWUVmX05VLTF1QUR1d3BRWGFYaU41Q2w1QWxSc0Vsa1FQSEdJX1FaaWMtVk9GNVlnVVBPLUFENWswMDY2UXJrNklLZUJNUWdLVzVPZ3BPSXBfekhCMlY1NXBjcUNsT1ptbFZKbElnRDllZ2JwYjJ1X1VXQ3dVdnpVMTMyZ0pkdW9TbmxNdzZRS2FUcGQ1MnJwMGVKY1RiQnBlcE4tNlZZZ0h0OXZNWXdqWmlnOU9ubw?oc=5",
-      "published": "Mon, 08 Jun 2026 07:00:00 GMT",
-      "source": "vinanet.vn",
+      "title": "HDFC Bank shares crash over 4% after Q1 results miss estimates, despite brokerages maintaining bullish... - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbk1uSENCdjZQMVRmLVJfUzU5bHlKbDhVOFdCeExISDJrOU1IOFZXMDU1bXVZbWpwRUVlOEpSZ2g2WWRmY3FTdWlBbXFUNjdPYm1UdnRnUkxNNV9vcnNNMjc4bjd0cXE0MDJkeWdldjZoQ0dHbThZT25Bazkyb0hfMDN4Y0ducjlMRGtmT05nODRxZ2p3ZmUwemJXYUl3bWgycnJKRlJyY1ZoaDdHbkZFX0J2SHYwcEVIVWJyNnN2dTl6dmltZEg2T2JiVGpWckxLVnM0WElJdXAyMGliaEVKLXJueVhUYXBKck1nRHZIbkE1U0RHU0hWc2JNM211QzRz0gGGAkFVX3lxTFBUSjVPMUk3di1rZlozOWpFa2MyN19lTWVtNWFyYTFJRnBXMVpyV3FqMHRocG9yWVRKS3A0ZmFITzJSN3U1akh2TTY1MDlTYU9xZlJJZ1pzUEJHYmEzdGM4N2cxZGltcGlNQi1pamp5ZXFGY25XVWRrR056SFlfa2I2a3NFemlZVTFHUm1vZExjRld0Tndyb2ZzUmZfMFhnei1jLVlocTZRdUhDUGlYUy1yYkhGR21kWVlIYVJ0SmIwbjFlS1ZfTWdHaWlySTQxQ19zRm84Rk50ejExczhIMm5GcE1uRjhOaTZOY2VPak1JQlI4SktjaFZpd2xUU1Y0cWsxdnpLbWc?oc=5",
+      "published": "Mon, 20 Jul 2026 07:00:00 GMT",
+      "source": "Moneycontrol.com",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "HDFC Bank stock plunges over 5% owing to investors concern on performance - The Hindu",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcjVfTlpnQm5yOFl3cjdWTjYxQnpObHpTVGIzcjNuakwyekhndEpiU21FOHNVdmNPVHFsV3k0V0RGYlhjWkJJQklXbnUycjV4UlI3bkZ2dk5USUJhekpmN0h6d2plcHR3b2NvNnk1RG5KOXhMZVVFWXZzOGZOeUVaYzFEQlUtXzk0M3pKMkU0NWgxZlBvdEFWdy1xVTMwZGx1aExJRVllQ2ZqQVdhalJ3MHJrZURUWk1NcEQ5TGh5T1B1c0ox0gHLAUFVX3lxTFA1Zk1Udy1VMjViNWNpY1RicXFXWjVZZ3hBWFRMal9xUHdPSS15RGFObVM5Sm9peHA3N0V0NzdyajlyYVJ6RE16ZG8yblVhSXhSVEVYdjdxU2ZEVDhmUzl4RE96Y3A4bEs5Y0Y1bVluU3VEU2ZHbl8taG8yLWk5ZVI1MkpzYVFaejRKOWU4bi1MZDF2Wi1IajRwWlY5RGNBalBxSUlXZkducW9IeVp6aUtrZzN5WmhuZldZNm4xWnVzSkxMcFAwNUNDWnNJ?oc=5",
+      "published": "Mon, 20 Jul 2026 07:00:00 GMT",
+      "source": "The Hindu",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "HDFC Bank (NYSE: HDB) executive exercises 51,800 options, holds 1.43M shares - Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWVlaMUwwUE9RVVZTbmxqM0JRclVMLUxBZFg5dG5ZekhjRXVTd2hPemdZTS1VQ1QxZ3M3alB3UVVMeDl4VEkyRW9tdmtRakV0TE15bFZnNUpLVllURm9yMTJXNkJkaTVKekQtWEl5NU5rajl1UEo2OHByMExxLXRmMGpBclBYX3hXb3ZUaDczaXNzY0hHOUg2QTJNUkk4NVJGRGdCZFBqR014UQ?oc=5",
-      "published": "Fri, 17 Apr 2026 07:00:00 GMT",
-      "source": "Stock Titan",
-      "sentiment": -0.333,
-      "label": "negative"
-    },
-    {
-      "title": "HDFC Bank Block Deal Worth ₹61.41 Crore Executed On NSE; Shares Hold Near Flat Levels - HDFC Sky",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX0ZnZ280UE9DVGFhQUE1M0UtLW5fUDQzajBQdmJwODRtNFlLektzcmNPMy1wSy1uMTFBRmx1MzVoOHlFWGhITVdwdW5CRW1JdGx2Qk41aFh4R2ZJTkI1YUlnLWY3bDkzS3hrTHYyUDdWMWt5VmhVQWdUUUUteFZKNDh4QmJQb2VGaGc?oc=5",
-      "published": "Thu, 05 Mar 2026 08:00:00 GMT",
-      "source": "HDFC Sky",
-      "sentiment": -0.333,
-      "label": "negative"
-    },
-    {
-      "title": "HDFC Bank shares jump 6% in 5 sessions; latest developments you need to know - Upstox",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTjhrcnJkZk04NDRsbFVjUkF6cHB0a1RDbEc4Qkp3VFViZzBaYWJFYVN4b1pfalF3ZEhTdG4xRXpDcEMycU02aXlEd0hld2NTNmdrTkZqZXdoNFZneWUtWkdwZGZNNlNvZlpLUnNQTm9meGhxX2N1aWVYUG5RbVc5LVhQNU51R0dEV3N0OFluMkFSVWR4V1hscGdyeDJZVTFIc055VEdxcjJOYWVKX2ViV0l6blhSUUxWTXgzZ28tTmRyeDVwejNRbkx1WEtPNTNKaHp4ZA?oc=5",
-      "published": "Tue, 16 Jun 2026 07:00:00 GMT",
-      "source": "Upstox",
+      "title": "HDFC Bank’s bonds fall to record low after CEO’s shock exit - bfsi.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUTB3MWlYXzROYlh2MnBkMVN6RE5SYUp0SEZPbzd6Tjk5M1I2ZGRKSFk0MWduaFN6REt1elU5REpoWWZfcWIzTzUwY3NEUHNidHk3bE96Qjd4R1lzVHBmZzlLLUxmempGQS1zSG1iWGNCYjljMV9MX0lUTVZBVXJXS2tjRWVBRlcwaUpRQmFERUU3UG5DRllfbkllNEpQQkRqTjFkb1d4TW5ydmlvWE9jWlFSanNNVE0tbGc?oc=5",
+      "published": "Tue, 01 Sep 2026 08:22:06 GMT",
+      "source": "bfsi.economictimes.indiatimes.com",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "HDFC Bank shares fall nearly 3% as SEBI likely reviewing ex-chairman's exit letter, Jefferies exits lender - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOS0cwQWNuQm9PbDBFNVUzYjRHMXFGMFhveFM2eWxBV3R3Und0OVhsMUxKWDJFNmN3YmRrNzl5RVdVWEVMd2hhSWZJZXlmQ2V1LTRNXzZYZXQ3VWtza2FVcjdhWlBqR0ZYOUlaNEczREpsU3VENTlvdS1vNzg5ZkQzZm5fSlFtQjBLaFJ2YUdqVkxWaWh6MTU0LVg2ZFRYNW1IbnFsNWk5ZjJaZDhGUEhPRVFQcEZoNmsyM3BVa3ZvNnJkdlpHRmVpUjFOY2dGOWw4Vktjd3NjQ0pXX0NYMG1IVzBRSTdFLXE1VWhrSkIxSEIyZGU1NjN4YmJabw?oc=5",
-      "published": "Thu, 26 Mar 2026 07:00:00 GMT",
-      "source": "TradingView",
-      "sentiment": -0.333,
-      "label": "negative"
+      "title": "HDFC Bank CEO Jagdishan’s refusal to overhaul bank fueled surprise exit as chairman pushed for changes - bfsi.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQMWt4dlZfWlMwSnhuUy0yVFV1UWVPQS1vRkw2N2NFWTlxT1Fxa05NMHpFUjEtZEVhNzNhVFZUU2lwdENjRDdab3lMWUlFYlRBQlYwWDVGeXZ2eGNOaW1EQy0yclg3VFN1aWg2YVU4YVBOUEpQRTRqVE5xdFpxeHZBbmlibnpObU1uX09abkdpdTQ5SVFXelYybVFnVmJtemZkQ0VlZkw3bGFRQ2xjUVRrNWhHYzBhajg5eVFfRENUS2lTMkp4ZXBpeXBIMWhrLWxPdVp0bTRQOVZSME5oVkppWUEyaW53Zkdtc3dCRmF1Y3p6dHdl0gH6AUFVX3lxTE5XWlFka2llQ3FTdWdjY3FaWGN6VUhGVXJCd05LTEh4bmRHZHIxRWQ3d2NoeTIzZHlnbzRfN0ZfRG5VY1A1MGU2dDNaNC1qZHJ2c3AxTFE4RUNSMFNuQmhranpESURrdE1CVndxTGQxZXhnTG00SEZLd0MwamdpZnMtZHVxZ29RazhvanQ3alkzZjN3NjBCWkdoU3NyZ0ZqT1dIZW81RWs4WkxuU2pDZ01IVU9Wc0dwSkd2R3Y0TURxeGlHNXFUb2dDcU1NOFdXREdqeGIxTF9zdDBaSDBIMkMxN2ZWNjNVWnBjQVdqQ1ZpZXE3YWZCY29sT3c?oc=5",
+      "published": "Tue, 01 Sep 2026 09:13:22 GMT",
+      "source": "bfsi.economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "HDFC Bank next CEO: Check bankers in the running for top job - ETHRWorld.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWWNyNUJYQXNadlFvb0JSVWtZZDV1SE1ZYWZtS1hqdEFISmZ0c0VrbDJnNkx2OENIM0thT1VBX2taY2RMem5xSnpsZjNMVlZseHBYVkM5dDlkTzRaZS1pOXBEM0NiUnFrRTNXaXk5Tmd4dEZnTWY1Umo1Q0V1SGZPekd1LVJsV3R5eVp3ejlMSExWR2NiMDhnUFVpOGJxcG5YTlFCWF9BMm42cGJHVkVCeXFXRExqYkIxaFJ5WHBqaVN5SEQ5cFE?oc=5",
+      "published": "Tue, 01 Sep 2026 09:54:56 GMT",
+      "source": "ETHRWorld.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "ICICI closes in on HDFC Bank's no.1 spot in Nifty as share show diverges - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOZFdoS19URklvTmlFS0tXbU9WS20tdDVUd2sycXlncDV4VUtwbEc5aTJhUy0wbTE2SmQ1anVUX0p4SXhsYS1Pc1NuczVHdkxXeXpEUld1MVl5WTRYM3VweG52ckMtTW5xRUxzdFRpUm9QT3loMVVYNy1keTlickR6TGo0UWZxSFVDanR4ekwtVnlvdlI2QVRQUTlSdGk4dnNTSTMyNXY3R2VOQTNFVmpKeENDT1NCOWJtQmw4M0hnc2lYYTNLODRESXRNcWFhT0szaVB0UTVjSlE2RzdUNWQyVk82eERPWVREd0VUREJVN2lfaVZndVZzZkpzOGFoWEIwaVMzX3dCYVE0ZUYyeGoweWo5Nmt2WWVCYlduLUJyUmxDalRvX3hPZ2lLT0tTbkpCVzk5dmlZd1JIWjhrTF9NQVhYVkVzMVU?oc=5",
+      "published": "Wed, 02 Sep 2026 01:02:50 GMT",
+      "source": "The Economic Times",
+      "sentiment": 0,
+      "label": "neutral"
     },
     {
       "title": "HDFC Bank leadership change: What awaits the new CEO - bfsi.economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZ0p4Vy1jTFppTjUycVVBOU9IZWVkU2FSR0R4TUE0endhdzNjc0FoUl9PSnlZdEVocE1DQzFmSDBjX2hvSEhhaWFUOFZ2TlAyZmxIMVVaMnhuRENlWFJmMElQNWx6OElXazlwVF9jdjd1RXNMTkNyVzlrWkd6NVpQUE1GaEZxemdGQUF6N1V0OExYVjJMWURIR2k1bnUxcWkxeVNIN2dyMk14N2w1cEFEMzdNQ2xWbHZkeVR3MzJKMWdXS2ZKQld4WnBvcUZPU2RmWXJFcDY4bEJnM3FZYXFnMEtQMFFSWFBicGJZ0gG3AUFVX3lxTE8wQmVtcDAzcWhmUXdIMGYxNTN5WFc5RXM1dzdUY0tfcGtJY2xnal90azlsbnVPVHp2S1RZM25aS1hoNjhYNWdJZWxyTW4yaFIwVmZhOUNwUFdkYU01bk1ueklEN21SSzRucnNlRnhlbUgxQWYxM1BHU2xsVEZwWVpuVFpDMVNwdzRkYzhkcXdNY2doaFlTMlNpRzFkQ3FOMUI2c0xyZFREY2o4aXlMRHhKV0xmcmliSQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONXppUnZsYXZRRzEwckhNX1h4U0ZnWTJ5ZnNEaDF6OEJVd0xyTEZsYWFCb05VdThRWGN2REZiOFpfQ216STV3YktDX3JQM3NXWEJEbEtBck91dm93T0NjQkcwYlFLUUJqSDVCZGRVc0hOczVXS05oc3ZUR3F4ME90OE9ORkJyQTNuNGRCUE4wU2szZ0ZkeDJOQ2VQVHdibllQYnU2dDdGWGRiZVU2eHJ0Y2hn0gG3AUFVX3lxTE8wQmVtcDAzcWhmUXdIMGYxNTN5WFc5RXM1dzdUY0tfcGtJY2xnal90azlsbnVPVHp2S1RZM25aS1hoNjhYNWdJZWxyTW4yaFIwVmZhOUNwUFdkYU01bk1ueklEN21SSzRucnNlRnhlbUgxQWYxM1BHU2xsVEZwWVpuVFpDMVNwdzRkYzhkcXdNY2doaFlTMlNpRzFkQ3FOMUI2c0xyZFREY2o4aXlMRHhKV0xmcmliSQ?oc=5",
       "published": "Tue, 01 Sep 2026 02:21:27 GMT",
       "source": "bfsi.economictimes.indiatimes.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "HDFC Bank’s bonds fall to record low after CEO’s shock exit - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPd0h4emczTXFJMDZCLU9qNEtITzdDY3hzRVFvclBsNTgwaUR5QnFleks2WmV1eDZWMG1MWkFvSDNjaEx2ckF4V2dndGhrRGZBRDdWWWV1NXkwd1pIOTJIRmRBRnhNbTFGNGNKVVhJX3RxdjU1UjNuSzgyTkQ4U1dHaGtlRUtKWWhHZGd3YWRsaEp2Y0hTbk96Rm1JRG9yZHFqeFRWaG5ka1Jjb2xFVV9QXzNIRUUwN3Jzd1hkRG96T1Azem96WlJwNmdPTFlaaXMxSjBqWmpHWC1sZFZrSjVNaVpGQW8xWXVNQ1MyMEtWNTVpYTV5UTFGcGY4TlNNTmZxa3pYRm9XTjA1V3N3OXJraGpaUndDZHhkUTJhbG9nNWZJYzBkbGNId214Z0zSAcgBQVVfeXFMTWhGeVRScGNUUlROREZUaHZqYmt0dWdiM09GZF94MVZIZENnRWxTeVBIMFhjaXRYWjFpMlQ1amx0djFqRHJ5OUFpc3A1Y0kzUHBDU3dvcmd2clF6NVNQenJCZmdvSVY1WjlETl90QjRUNmQzMWZuZjJnRnFwRVpxZllFb0JFMjlJLUxYODlwQnlQTGJhazYyNzA2YXdrQ2xwcUYyWUYzM2tiVXd5Zzd4Rk1IanRtZ0JXT09TLXhXdi1NWTNDdlZtbXI?oc=5",
+      "published": "Tue, 01 Sep 2026 07:54:04 GMT",
+      "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -166,48 +206,8 @@
       "source": "bfsi.economictimes.indiatimes.com",
       "sentiment": 0,
       "label": "neutral"
-    },
-    {
-      "title": "India's HDFC Bank falls to 30-month low as investors gauge leadership reset - bfsi.economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLVkyNWw4NXJtLURmM1ZCczhqUVhDNlFDQ05PMUxTVHRndWUtWFFiaTlhQ0FQdEtwVkpfYU5hLUs1SzAxR0sybjFscFBBaWVmSkJWcVhzbnNvcTl0WWNKd3ZEMXJsLVVsdDFRTDZVaWdOSHF1RUs2NzBtSlZOT0E2R010S3k3Q0hsYjZvSi1fakJtLXQ5TUU4VEtSX19xYWNwRTRjNU93dUZ0LU1pUWk3YVZHVHViUGlXUkJtZFFuNGRSREttNHhIelR0d1BwNGlH0gHWAUFVX3lxTE9uRVdqSWtXNkY0OFlRRGhYLW4zbDlKcjJwVWRRUzJ0MFc0ZUdIYXFPWVdVQlp4TzBncWJwLXlfazdsT0llMHExSDRRdU1FR2hWSmd5dXM1cktGWEh4S3lXUE1iOWR6d1VfVGZjWnItVGwwbVptNmhROEFndzExalFBOF9LRTJOdDNhNzN6Zzc0U0RZMlF0YWxsZ05RYjlMTlB6QjhIcU5qVWdRTlRDdDc4TU8zdFQ4ZWNiSWhaMWpsSlhITk02SDNUNl9yWllDYUkwRmc1NlE?oc=5",
-      "published": "Mon, 31 Aug 2026 10:46:16 GMT",
-      "source": "bfsi.economictimes.indiatimes.com",
-      "sentiment": -0.333,
-      "label": "negative"
-    },
-    {
-      "title": "Orderly leadership succession process key to sustaining stakeholder confidence in HDFC Bank: Moody's - bfsi.economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQenlLaWY5ZlNOSG95Qzh2RTRwY2Y4Tjc2SUVjVndnT3lxTGkyMjlYN0JpbkUzQnlsamMtRkNsMmZpaVhja2NETW5YTF9GQkVTbFkxaU5NeFlpUDBDSHNJU0stLVRJeGZHSm1YMVA0RUN3ckc5V3JGUUt1SHhHNXliNnlKUWRQcmFaaWFkbHJFU0FCNFlzeE1pbWlyOGxQaTBrVzhqSzlvc29OTEYzbFc5S2RueElDbldPOEtYa3E2VjhTaGpqSGxxZkJROG1iSVBnem9oZW5pZVJUS3kyTGRXcnFxQmJtNnR5ZmlFcWNnWVrSAfYBQVVfeXFMTTV4V0tlTjNuUnR1a2l2RjFpVExnX3hnamh6V1BxLTExYjFEdi1lZTVGRFphY2JoRk85b1kyNE1PQzFLcm5JWGFVU1JDalZyLWRoSGFneVFVdmhTVGVOcXpVemNlV1ZMampaa2tOWm5fT0dNNlJraVVEbzBIVEJraG82dEZabGQzamVJVFRhR1FTMWh6elNCZzRfR2VqSzJERE9hNnhRdTRPSkMtWUpsSDQ3Ynp5aFJqV2V0bEYzSDhnZFpMcUgxWnhtQVQtNU5qWkYzVFFkbDhKNmFvMm00R1RNc0hQb2g4VUlBc2Z2ckk5dmIyQ093?oc=5",
-      "published": "Mon, 31 Aug 2026 10:47:12 GMT",
-      "source": "bfsi.economictimes.indiatimes.com",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "India's HDFC Bank gains as focus turns to CEO succession - ET BrandEquity",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdTRGenlLVnNjSFZnRWlWRTQ2MWpCSlBHWWF3Y2Q5aG5EbHdTTTNIaVlsSndub3NBY0xwWGxaRFkwUno2WHRKN0NvaHU2ek5mZ043bDBtay00ekxFdVZsNWpsdlRrWUxZZmVtN2swNFE4eURqMy1UeUQ4c3Z2TFQyUFJIZkgyR2Vkei1TakZscmpWSjM5bVNrU2drOU1qTTVrRlFDSGpZaThISHpuMUUtTkl2eFdnNUlfaU9sWGVYUktkZTlTaXMtTERmaUZadUtUVWpR0gHYAUFVX3lxTFBYb2w5bV9LZ2ZNLUNlajZHZUlabmxsSmR6TUltVmkxY2xRZV9GRFQySTI3Ql9TWmVFSDZLcU94ZU5VN2JkQ0YwbVFReWM1ZDVubnFuc3JsMHFOdUVNQ3d5T0RYVmoxQnZVcTRfYXFYc3hZRUZtanB2bmZtNnZjd2pWZVJsVEUtQW83OWtfRHB4ZjZKcVpUOFM5dS1TZENXaUNiYThHU2RsNjlHYk5DTnZqVURvV1I2a0dnYUtIVzMxLTN5OHlSU1VUVi1sbkxSdW1SUmI1VGZlaQ?oc=5",
-      "published": "Mon, 31 Aug 2026 07:10:05 GMT",
-      "source": "ET BrandEquity",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "HDFC's search for a new CEO may go beyond its inner circle - economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPdzFmUV9lLWRnMG1lVGpoUnh2UWtYenhwNjlRTUp5T1pNYnpHNDh1YjlOZHBGRWhSeG96RFRCWGh5WjR3ZzhONDJRVDF2ZWxYcWF6cDRJemtrMmp0d0RISU84YnlKM3ptTzBUSGhpeTBwTnNQMkFtd280UDJybFhaMFY2TnNKUHNOa2hqcUxPY1FnZGZTUldGRDk3MUZlNmVMeUVvWG9veHQtenVBNVBaYWlrTDItOVhBTnpoSXpsWGlPc0t1S2dTR0xKRkZ3S2lrLVN2M0tzaW54WkFsYnd0RUI1bGwza0E5aTZKQ09CR0w4LWh1QWxRaW43OTlDekVpV1Y3V29RcXZQR1JsZDNaaWM4b2xnd2pYVDNDNVlLVXZLR1NOMEVxM1pOeGZOY18zbkpxWUpsWFB0Mldtdy1aaVotRVFHQdIB4gFBVV95cUxONXl5UWd4OFFQTHl0NHJxRVlfaVkxSURSUllrSUhjZ3NaeHZ1am56eGR4QXNDa3JVeXFjcllvTjhoYUR5YThOZzlEa0VKQzhMTmxMTkR6T2lBOTZhUTdYYXJYMzdQaXo3TzdIVm51SDBCdTZHU3FWSV9yYXlfeU1YVk1NQ09na0hNczVXN3I0NWlfeWNhVEFKSGZOZlRzOU5uN1dNMzVFUmZ1LXhqTFB5cnhSbTZTNGZ3djM4akF4OGhJVVl5SldYOEFMMnluUHhQTFZ2U2daV2Z2bWthWTl4amNR?oc=5",
-      "published": "Mon, 31 Aug 2026 19:57:42 GMT",
-      "source": "economictimes.indiatimes.com",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "India's HDFC Bank weighing deputy MD Bharucha, outsider for CEO, sources say - cfo.economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNWhVX19FMWttTHRBbHlsZXJLaGY1VDdobV9NakNkZ21GYmdXOXVtQnJ2RWphVUJTT1gyWTBTc0pvaEpyT2NiLS00WklaQWprdG9OMzB2MjdhdXNOSkxsQlNwMXA0a1BEWUJTeVJmaExzWnlObF9KSmNIUmMxd1d5eW9naHJiQmoxaDdSYXFXOXFReElxcmRJM1poSE00aUFnYTc5Z1FtSjZwUHJkVEJ1Yy1wMkdiS3I0b0NFc0J2cEZDTXJYVW0xTG9RYVpETjREVEFqUkNvTC13RXJvZ0dOZjFqONIB6AFBVV95cUxNLTl3blNPb3dEUDJJZzdnZURGZzZiX3V3SWhlS2FhSlQ3RTVDb29PR1ExNDB1bWp4b3VtTjBGMkkzY0JybTM2TnluUnVzaThpZjMtMTF4S014Uk0wV1E3STJJU1N2NF9PcDhnaVZDQkFHVkpDMkhTUjBRTlZIS3g1YmZibUx5bzMwXzh4cWdXQ3ZaMTVTM2FsLUEwY3hQVDd6ZFlTYTZrcjFMeGNHOEkxc1ZvZUIxdnZ2c1FFX0hrX240aU9Sc0IxVVFCZ3VsVlRVZmFLOWg1djJGRlRPcmNKZjNxOG5qQXBM?oc=5",
-      "published": "Mon, 31 Aug 2026 03:14:40 GMT",
-      "source": "cfo.economictimes.indiatimes.com",
-      "sentiment": 0,
-      "label": "neutral"
     }
   ],
-  "sentiment": -0.0925,
+  "sentiment": -0.07400000000000001,
   "errors": []
 }

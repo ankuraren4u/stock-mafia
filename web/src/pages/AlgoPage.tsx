@@ -1,244 +1,146 @@
 import { useEffect, useState } from "react";
-import { Banner, Skeleton, Spinner } from "../components/Ui";
+import { Link } from "react-router-dom";
+import { Banner, Spinner } from "../components/Ui";
 import { api, cls, money } from "../lib/api";
 
-interface StrategyMeta {
-  id: string;
-  name: string;
-  horizon: string;
-  whyNow: string;
-  logic: string;
-}
-
-interface Ticket {
-  id: string;
-  strategyName: string;
-  yahoo: string;
-  symbol: string;
-  market: string;
-  side: "BUY" | "SELL";
-  quantity: number;
-  entry: number;
-  stop: number;
-  target: number;
-  conviction: number;
-  thesis: string[];
-  liveOk: boolean;
-  status: string;
-  resultNote?: string;
-}
-
-interface DryReport {
-  strategyId: string;
-  name: string;
-  trades: number;
-  avgWinRate: number;
-  avgReturnPct: number;
-  avgDrawdownPct: number;
-}
-
-interface AlgoState {
-  enabled: boolean;
-  live: boolean;
-  autoPaper: boolean;
-  riskPct: number;
-  enabledStrategies: string[];
-  lastRun: number | null;
-  lastSuggestions: Ticket[];
-  dryRuns: DryReport[];
-  catalog: StrategyMeta[];
-}
-
-interface KiteStatus {
-  configured: boolean;
-  connected: boolean;
-  userId: string | null;
-  redirectUrl: string | null;
-}
+interface StrategyMeta { id: string; name: string; horizon: string; whyNow: string; logic: string; }
+interface Ticket { id: string; strategyName: string; yahoo: string; symbol: string; market: string; side: "BUY" | "SELL"; quantity: number; entry: number; stop: number; target: number; conviction: number; thesis: string[]; liveOk: boolean; status: string; resultNote?: string; }
+interface DryReport { strategyId: string; name: string; trades: number; avgWinRate: number; avgReturnPct: number; avgDrawdownPct: number; }
+interface AlgoState { enabled: boolean; live: boolean; autoPaper: boolean; riskPct: number; enabledStrategies: string[]; lastRun: number | null; lastSuggestions: Ticket[]; dryRuns: DryReport[]; catalog: StrategyMeta[]; }
 
 export default function AlgoPage() {
   const [algo, setAlgo] = useState<AlgoState | null>(null);
-  const [kite, setKite] = useState<KiteStatus | null>(null);
   const [msg, setMsg] = useState("");
   const [busy, setBusy] = useState("");
 
-  async function refresh() {
-    const [a, k] = await Promise.all([
-      api<AlgoState>("/api/algo"),
-      api<KiteStatus>("/api/kite/status"),
-    ]);
-    setAlgo(a);
-    setKite(k);
-  }
-
-  useEffect(() => {
-    void refresh().catch((err) => setMsg(err instanceof Error ? err.message : "Failed"));
-  }, []);
+  async function refresh() { setAlgo(await api<AlgoState>("/api/algo")); }
+  useEffect(() => { void refresh().catch((err) => setMsg(err instanceof Error ? err.message : "Failed")); }, []);
 
   async function save(patch: Partial<AlgoState>) {
     if (!algo) return;
-    const next = await api<AlgoState>("/api/algo", {
-      method: "POST",
-      body: JSON.stringify({ ...algo, ...patch }),
-    });
-    setAlgo(next);
-  }
-
-  async function toggleStrategy(id: string) {
-    if (!algo) return;
-    const enabled = algo.enabledStrategies.includes(id)
-      ? algo.enabledStrategies.filter((x) => x !== id)
-      : [...algo.enabledStrategies, id];
-    await save({ enabledStrategies: enabled });
-  }
-
-  async function connectKite() {
-    const { url } = await api<{ url: string }>("/api/kite/login-url");
-    window.location.href = url;
+    setAlgo(await api<AlgoState>("/api/algo", { method: "POST", body: JSON.stringify({ ...algo, ...patch }) }));
   }
 
   async function suggest() {
-    setBusy("Scanning watchlist for live setups…");
-    try {
-      const out = await api<{ suggestions: Ticket[] }>("/api/algo/suggest", { method: "POST" });
-      setMsg(`${out.suggestions.length} suggested tickets from current signals.`);
-      await refresh();
-    } catch (err) {
-      setMsg(err instanceof Error ? err.message : "Suggest failed");
-    } finally {
-      setBusy("");
-    }
+    setBusy("Scanning…");
+    try { await api("/api/algo/suggest", { method: "POST" }); await refresh(); setMsg("Done — see suggestions below."); }
+    catch (err) { setMsg(err instanceof Error ? err.message : "Failed"); }
+    setBusy("");
   }
 
-  async function dryRun() {
-    setBusy("Dry-running enabled algos on ~1 year of daily bars…");
-    try {
-      await api("/api/algo/dry-run", { method: "POST" });
-      setMsg("Dry run finished. Results are historical simulations, not a promise of future profit.");
-      await refresh();
-    } catch (err) {
-      setMsg(err instanceof Error ? err.message : "Dry run failed");
-    } finally {
-      setBusy("");
-    }
+  async function execute(ids: string[], mode: "paper") {
+    setBusy(`Paper executing ${ids.length} trade(s)…`);
+    try { await api("/api/algo/execute", { method: "POST", body: JSON.stringify({ ids, mode }) }); await refresh(); setMsg("Paper trades recorded."); }
+    catch (err) { setMsg(err instanceof Error ? err.message : "Failed"); }
+    setBusy("");
   }
 
-  async function execute(ids: string[], mode: "dry_run" | "paper" | "live") {
-    setBusy(`Executing ${ids.length} ticket(s) as ${mode}…`);
-    try {
-      const out = await api<{ error?: string }>("/api/algo/execute", {
-        method: "POST",
-        body: JSON.stringify({ ids, mode }),
-      });
-      setMsg(mode === "live" ? "Live orders sent to Kite where allowed." : "Done.");
-      void out;
-      await refresh();
-    } catch (err) {
-      setMsg(err instanceof Error ? err.message : "Execute failed");
-    } finally {
-      setBusy("");
-    }
-  }
+  if (!algo) return <div className="card"><Spinner label="Loading strategies…" /></div>;
 
-  if (!algo || !kite) {
-    return (
-      <div className="card">
-        <Spinner label="Loading strategies…" />
-        <Skeleton lines={6} />
-      </div>
-    );
-  }
-  const openTickets = algo.lastSuggestions.filter((t) => t.status === "open");
+  const open = algo.lastSuggestions.filter((t) => t.status === "open");
 
   return (
     <>
       <div className="topbar">
         <div>
           <h2>Strategies</h2>
-          <p>
-            Systematic setups used on liquid US and NSE names: trend pullbacks, breakouts, quality dips, relative
-            strength, and risk-off. No strategy is a guarantee of profit.
-          </p>
+          <p>13 systematic strategies scan your watchlist and suggest trades with entry, stop, and target.</p>
         </div>
       </div>
       {busy ? <Spinner label={busy} /> : null}
       {msg ? <Banner kind="info">{msg}</Banner> : null}
 
-      <div className="grid grid-2">
-        <div className="card">
-          <h3>Zerodha Kite (India live)</h3>
-          <p className="muted">
-            {kite.configured
-              ? kite.connected
-                ? `Connected${kite.userId ? ` as ${kite.userId}` : ""}.`
-                : "API keys set. Complete daily Kite login."
-              : "Set KITE_API_KEY / KITE_API_SECRET to execute NSE live."}
-          </p>
-          <button className="btn primary" disabled={!kite.configured} onClick={() => void connectKite()}>
-            Login with Zerodha
-          </button>
-        </div>
-        <div className="card">
-          <h3>Controls</h3>
-          <div className="row" style={{ marginBottom: 10 }}>
-            <button className="btn" onClick={() => void save({ enabled: !algo.enabled })}>
-              Scheduler {algo.enabled ? "on" : "off"}
+      {/* Quick Actions */}
+      <div className="card" style={{ marginBottom: 12 }}>
+        <div className="row" style={{ alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 10 }}>
+          <div className="row" style={{ gap: 6, alignItems: "center" }}>
+            <button className={cls("btn", algo.enabled ? "primary" : "")} onClick={() => void save({ enabled: !algo.enabled })}>
+              {algo.enabled ? "● Scanner ON" : "○ Scanner OFF"}
             </button>
-            <button className="btn" onClick={() => void save({ autoPaper: !algo.autoPaper })}>
-              Auto paper {algo.autoPaper ? "on" : "off"}
-            </button>
-            <button className={algo.live ? "btn danger" : "btn"} onClick={() => void save({ live: !algo.live })}>
-              Live gate {algo.live ? "ON" : "off"}
+            <button className={cls("btn", algo.autoPaper ? "primary" : "")} onClick={() => void save({ autoPaper: !algo.autoPaper })}>
+              Auto-paper {algo.autoPaper ? "ON" : "OFF"}
             </button>
           </div>
-          <div className="row">
-            <button className="btn primary" onClick={() => void suggest()}>
-              Suggest from signals
-            </button>
-            <button className="btn" onClick={() => void dryRun()}>
-              Dry run (1y)
-            </button>
-          </div>
-          <p className="muted">
-            Risk {algo.riskPct}% of paper cash per ticket · last run{" "}
-            {algo.lastRun ? new Date(algo.lastRun).toLocaleString("en-IN") : "never"}
-          </p>
-        </div>
-      </div>
-
-      <div className="card" style={{ marginTop: 16 }}>
-        <h3>Playbook</h3>
-        {algo.catalog.map((s) => (
-          <div key={s.id} className="playbook">
-            <div className="row" style={{ justifyContent: "space-between" }}>
-              <strong>{s.name}</strong>
-              <button className={algo.enabledStrategies.includes(s.id) ? "btn primary" : "btn"} onClick={() => void toggleStrategy(s.id)}>
-                {algo.enabledStrategies.includes(s.id) ? "Enabled" : "Off"}
+          <div className="row" style={{ gap: 6 }}>
+            <button className="btn primary" onClick={() => void suggest()} disabled={!!busy}>Scan Now</button>
+            {open.length > 0 && (
+              <button className="btn primary" onClick={() => void execute(open.map((t) => t.id), "paper")} disabled={!!busy}>
+                Paper Trade All ({open.length})
               </button>
-            </div>
-            <p className="muted">{s.whyNow}</p>
-            <p>
-              {s.logic} · {s.horizon}
-            </p>
+            )}
           </div>
-        ))}
+        </div>
+        <p className="muted" style={{ marginTop: 8, fontSize: 12 }}>
+          Risk {algo.riskPct}% per trade · Last scan: {algo.lastRun ? new Date(algo.lastRun).toLocaleString("en-IN") : "never"}
+        </p>
       </div>
 
-      <div className="card" style={{ marginTop: 16 }}>
-        <h3>Dry-run scoreboard</h3>
-        {algo.dryRuns.length === 0 ? (
-          <p className="muted">Run Dry run (1y) to replay each enabled algo on the watchlist. Past ≠ future.</p>
-        ) : (
+      {/* Suggested Trades */}
+      {open.length > 0 && (
+        <div style={{ marginBottom: 16 }}>
+          <h3 style={{ marginBottom: 8 }}>Suggested Trades ({open.length})</h3>
+          <p className="muted" style={{ marginBottom: 12, fontSize: 12 }}>Click "Paper Trade" to simulate, or go to the stock page for details.</p>
+          {open.map((t) => {
+            const ccy = t.market === "US" ? "USD" : "INR";
+            return (
+              <div key={t.id} className="card" style={{ marginBottom: 8, borderLeft: t.side === "BUY" ? "3px solid var(--green)" : "3px solid var(--red)" }}>
+                <div className="row" style={{ justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
+                  <div>
+                    <Link to={`/stock/${encodeURIComponent(t.yahoo)}`} style={{ fontWeight: 700, fontSize: 15 }}>{t.symbol}</Link>
+                    <span className="muted" style={{ marginLeft: 6, fontSize: 12 }}>{t.strategyName}</span>
+                    <span className={cls("badge", t.side === "BUY" ? "up" : "down")} style={{ marginLeft: 6 }}>{t.side}</span>
+                  </div>
+                  <div className="row" style={{ gap: 6 }}>
+                    <span className={cls("badge", t.conviction >= 70 ? "up" : "")}>{t.conviction}%</span>
+                    <button className="btn primary" onClick={() => void execute([t.id], "paper")} disabled={!!busy}>Paper Trade</button>
+                  </div>
+                </div>
+                <div className="row" style={{ gap: 12, fontSize: 12, marginBottom: 4 }}>
+                  <span>Entry <strong className="mono">{money(t.entry, ccy)}</strong></span>
+                  <span>Stop <strong className="mono down">{money(t.stop, ccy)}</strong></span>
+                  <span>Target <strong className="mono up">{money(t.target, ccy)}</strong></span>
+                  <span>Qty <strong className="mono">{t.quantity}</strong></span>
+                </div>
+                {t.thesis[0] && <p className="muted" style={{ fontSize: 12, margin: 0 }}>→ {t.thesis[0]}</p>}
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {!open.length && algo.lastSuggestions.length > 0 && (
+        <div className="card" style={{ marginBottom: 16 }}>
+          <p className="muted">All suggested trades have been executed. Click "Scan Now" to find new setups.</p>
+        </div>
+      )}
+
+      {/* Strategies */}
+      <div className="card" style={{ marginBottom: 16 }}>
+        <h3>Active Strategies ({algo.enabledStrategies.length}/{algo.catalog.length})</h3>
+        <p className="muted" style={{ marginBottom: 12 }}>Toggle strategies on/off. Each uses different technical patterns to find trades.</p>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: 8 }}>
+          {algo.catalog.map((s) => {
+            const on = algo.enabledStrategies.includes(s.id);
+            return (
+              <div key={s.id} style={{ padding: "8px 10px", border: `1px solid ${on ? "var(--accent)" : "var(--line)"}`, borderRadius: 8, cursor: "pointer", background: on ? "rgba(26,111,235,0.04)" : "transparent" }} onClick={() => void save({ enabledStrategies: on ? algo.enabledStrategies.filter((x) => x !== s.id) : [...algo.enabledStrategies, s.id] })}>
+                <div className="row" style={{ justifyContent: "space-between", alignItems: "center" }}>
+                  <strong style={{ fontSize: 13 }}>{s.name}</strong>
+                  <span className={cls("badge", on ? "up" : "")} style={{ fontSize: 10 }}>{on ? "ON" : "OFF"}</span>
+                </div>
+                <p className="muted" style={{ fontSize: 11, margin: "4px 0 0" }}>{s.logic}</p>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Dry Run Results */}
+      {algo.dryRuns.length > 0 && (
+        <div className="card">
+          <h3>Backtest Results</h3>
+          <p className="muted" style={{ marginBottom: 8, fontSize: 12 }}>Historical simulation on 1 year of data. Past ≠ future.</p>
           <table>
-            <thead>
-              <tr>
-                <th>Algo</th>
-                <th>Trades</th>
-                <th>Win rate</th>
-                <th>Avg simulated return</th>
-                <th>Avg max DD</th>
-              </tr>
-            </thead>
+            <thead><tr><th>Strategy</th><th>Trades</th><th>Win Rate</th><th>Avg Return</th><th>Max Drop</th></tr></thead>
             <tbody>
               {algo.dryRuns.map((r) => (
                 <tr key={r.strategyId}>
@@ -251,91 +153,8 @@ export default function AlgoPage() {
               ))}
             </tbody>
           </table>
-        )}
-      </div>
-
-      <div className="card" style={{ marginTop: 16 }}>
-        <div className="row" style={{ justifyContent: "space-between", marginBottom: 8 }}>
-          <h3 style={{ margin: 0 }}>Suggested transactions</h3>
-          <div className="row">
-            <button
-              className="btn"
-              disabled={!openTickets.length}
-              onClick={() => void execute(openTickets.map((t) => t.id), "dry_run")}
-            >
-              Dry-run all
-            </button>
-            <button
-              className="btn primary"
-              disabled={!openTickets.length}
-              onClick={() => void execute(openTickets.map((t) => t.id), "paper")}
-            >
-              Paper all
-            </button>
-          </div>
         </div>
-        {algo.lastSuggestions.length === 0 ? (
-          <p className="muted">Click Suggest from signals to build tickets with size, stop, and 2R target.</p>
-        ) : (
-          <table>
-            <thead>
-              <tr>
-                <th>Setup</th>
-                <th>Ticket</th>
-                <th>Qty</th>
-                <th>Stop / target</th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody>
-              {algo.lastSuggestions.map((t) => (
-                <tr key={t.id}>
-                  <td>
-                    <strong>{t.symbol}</strong> <span className="muted">{t.market}</span>
-                    <div className="muted">{t.strategyName} · conv {t.conviction}</div>
-                    <div className="muted">{t.thesis[0]}</div>
-                  </td>
-                  <td className={t.side === "BUY" ? "up" : "down"}>
-                    {t.side} @ {money(t.entry, t.market === "US" ? "USD" : "INR")}
-                    <div className="muted">{t.status}{t.resultNote ? ` · ${t.resultNote}` : ""}</div>
-                  </td>
-                  <td className="mono">{t.quantity}</td>
-                  <td className="mono">
-                    {money(t.stop, t.market === "US" ? "USD" : "INR")}
-                    <br />
-                    {money(t.target, t.market === "US" ? "USD" : "INR")}
-                  </td>
-                  <td>
-                    {t.status === "open" ? (
-                      <div className="row">
-                        <button className="btn" onClick={() => void execute([t.id], "dry_run")}>
-                          Dry
-                        </button>
-                        <button className="btn primary" onClick={() => void execute([t.id], "paper")}>
-                          Paper
-                        </button>
-                        <button
-                          className="btn danger"
-                          disabled={!t.liveOk || !algo.live}
-                          onClick={() => void execute([t.id], "live")}
-                        >
-                          Live
-                        </button>
-                      </div>
-                    ) : (
-                      <span className="muted">{t.status}</span>
-                    )}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        )}
-        <p className="muted" style={{ marginTop: 12 }}>
-          Live is NSE via Kite only, after the live gate is on. US names stay on dry-run / paper. Position size uses
-          2×ATR stops and {algo.riskPct}% of paper cash. This is not investment advice.
-        </p>
-      </div>
+      )}
     </>
   );
 }

@@ -1,0 +1,119 @@
+syntax = "proto3";
+
+package stockmafia.crawler.v1;
+
+import "common/v1/types.proto";
+
+option go_package = "github.com/stockmafia/trading-app/proto/stockmafia/crawler/v1;crawlerv1";
+
+service CrawlerService {
+  rpc GetCrawlStatus(CrawlStatusRequest) returns (CrawlStatusResponse);
+  rpc StartCrawl(StartCrawlRequest) returns (StartCrawlResponse);
+  rpc CrawlSymbol(CrawlSymbolRequest) returns (CrawlSymbolResponse);
+  rpc TriggerCrawl(TriggerCrawlRequest) returns (TriggerCrawlResponse);
+  rpc GetStocks(GetStocksRequest) returns (GetStocksResponse);
+  rpc GetStock(GetStockRequest) returns (GetStockResponse);
+  rpc GetCandles(GetCandlesRequest) returns (GetCandlesResponse);
+  rpc GetQuote(GetQuoteRequest) returns (GetQuoteResponse);
+  rpc GetQuotes(GetQuotesRequest) returns (GetQuotesResponse);
+}
+
+message CrawlStatusRequest {
+}
+
+message CrawlStatusResponse {
+  map<string, SourceStatus> sources = 1;
+  int32 active_workers = 2;
+  int32 queued_jobs = 3;
+}
+
+message SourceStatus {
+  string name = 1;
+  bool is_healthy = 2;
+  int32 requests_per_minute = 3;
+  int32 failure_count = 4;
+  int64 last_success = 5;
+  int64 last_failure = 6;
+  string circuit_breaker_state = 7;
+}
+
+message StartCrawlRequest {
+  string reason = 1;
+  bool full = 2;
+}
+
+message StartCrawlResponse {
+  string job_id = 1;
+  string status = 2;
+}
+
+message CrawlSymbolRequest {
+  string yahoo = 1;
+}
+
+message CrawlSymbolResponse {
+  string symbol = 1;
+  string status = 2;
+}
+
+message TriggerCrawlRequest {
+  repeated string symbols = 1;
+  string source = 2;
+  string interval = 3;
+}
+
+message TriggerCrawlResponse {
+  string job_id = 1;
+  string status = 2;
+}
+
+message GetStocksRequest {
+  string exchange = 1;
+  string sector = 2;
+  bool active_only = 3;
+  stockmafia.common.v1.PaginationRequest pagination = 4;
+}
+
+message GetStocksResponse {
+  repeated stockmafia.common.v1.Stock stocks = 1;
+  stockmafia.common.v1.PaginationResponse pagination = 2;
+}
+
+message GetStockRequest {
+  string symbol = 1;
+  string exchange = 2;
+}
+
+message GetStockResponse {
+  stockmafia.common.v1.Stock stock = 1;
+}
+
+message GetCandlesRequest {
+  string symbol = 1;
+  string interval = 2;
+  int64 start_time = 3;
+  int64 end_time = 4;
+  int32 limit = 5;
+}
+
+message GetCandlesResponse {
+  repeated stockmafia.common.v1.Candle candles = 1;
+}
+
+message GetQuoteRequest {
+  string symbol = 1;
+  string source = 2;
+}
+
+message GetQuoteResponse {
+  stockmafia.common.v1.Quote quote = 1;
+}
+
+message GetQuotesRequest {
+  repeated string symbols = 1;
+  string source = 2;
+}
+
+message GetQuotesResponse {
+  repeated stockmafia.common.v1.Quote quotes = 1;
+}

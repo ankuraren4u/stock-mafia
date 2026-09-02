@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Spinner } from "./Ui";
+import { useMarket } from "../hooks/useMarket";
 import { api, cls } from "../lib/api";
 
 interface Hit {
@@ -43,6 +44,7 @@ function highlight(text: string, q: string) {
 
 export default function TickerSearch() {
   const navigate = useNavigate();
+  const { market } = useMarket();
   const box = useRef<HTMLDivElement>(null);
   const [q, setQ] = useState("");
   const [hits, setHits] = useState<Hit[]>([]);
@@ -51,7 +53,7 @@ export default function TickerSearch() {
   const [searching, setSearching] = useState(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
-  const recents = useMemo(() => readRecents(), [open]);
+  const recents = useMemo(() => readRecents().filter((r) => r.market === market), [open, market]);
 
   useEffect(() => {
     if (q.trim().length < 1) {
@@ -62,7 +64,7 @@ export default function TickerSearch() {
     const ac = new AbortController();
     setSearching(true);
     const t = setTimeout(() => {
-      fetch(`/api/market/search?q=${encodeURIComponent(q.trim())}`, { signal: ac.signal })
+      fetch(`/api/market/search?q=${encodeURIComponent(q.trim())}&market=${market}`, { signal: ac.signal })
         .then((r) => r.json())
         .then((d: { results?: Hit[] }) => {
           setHits(d.results ?? []);
@@ -78,7 +80,7 @@ export default function TickerSearch() {
       clearTimeout(t);
       ac.abort();
     };
-  }, [q, recents]);
+  }, [q, recents, market]);
 
   useEffect(() => {
     function onDoc(e: MouseEvent) {
@@ -132,11 +134,15 @@ export default function TickerSearch() {
     }
   }
 
+  const placeholder = market === "IN"
+    ? "Search Indian stocks — RELIANCE, TCS, INFY…"
+    : "Search US stocks — AAPL, TSLA, UBER…";
+
   return (
     <div className="search" ref={box}>
       <input
         value={q}
-        placeholder="Type a name or ticker — AAPL, Reliance, Infosys…"
+        placeholder={placeholder}
         autoComplete="off"
         spellCheck={false}
         role="combobox"
@@ -157,7 +163,7 @@ export default function TickerSearch() {
           {!q.trim() && recents.length > 0 ? <div className="search-label">Recent</div> : null}
           {q.trim() && searching && hits.length === 0 ? <div className="search-empty">Matching tickers…</div> : null}
           {q.trim() && !searching && list.length === 0 ? (
-            <div className="search-empty">No matching stocks. Try AAPL, NVDA, or RELIANCE.</div>
+            <div className="search-empty">No matching stocks. Try {market === "IN" ? "RELIANCE, TCS, INFY" : "AAPL, NVDA, UBER"}.</div>
           ) : null}
           {list.map((h, i) => (
             <button

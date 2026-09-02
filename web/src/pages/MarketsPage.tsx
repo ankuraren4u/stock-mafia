@@ -1,159 +1,146 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import TickerSearch from "../components/TickerSearch";
-import { Banner, CallChip, EmptyState, Skeleton, Spinner } from "../components/Ui";
-import { api, cls, money, pct } from "../lib/api";
+import { Banner, EmptyState, Spinner } from "../components/Ui";
+import { WatchButton, AlertButton } from "../components/WatchAlert";
+import { useWebSocket } from "../hooks/useWebSocket";
+import { useMarket } from "../hooks/useMarket";
+import { api, cls, money } from "../lib/api";
 
 interface QuoteRow {
   symbol: string;
-  yahoo?: string;
-  name?: string;
-  sector?: string;
-  market?: "IN" | "US";
-  currency?: string;
+  yahoo: string;
+  name: string;
+  sector: string;
+  market: "IN" | "US";
+  currency: string;
   price: number;
   change: number;
   changePct: number;
   volume: number | null;
 }
 
-type MarketTab = "IN" | "US";
-type CallState = "idle" | "loading" | "ok" | "error" | "empty";
-
 export default function MarketsPage() {
-  const [market, setMarket] = useState<MarketTab>("US");
+  const { market } = useMarket();
   const [indices, setIndices] = useState<QuoteRow[]>([]);
   const [quotes, setQuotes] = useState<QuoteRow[]>([]);
-  const [indexState, setIndexState] = useState<CallState>("loading");
-  const [quoteState, setQuoteState] = useState<CallState>("loading");
-  const [indexError, setIndexError] = useState("");
-  const [quoteError, setQuoteError] = useState("");
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+
+  const yahooSymbols = [...indices, ...quotes].map((q) => q.yahoo).filter(Boolean);
+  const { prices: livePrices } = useWebSocket(yahooSymbols);
 
   useEffect(() => {
     let live = true;
-    setIndexState("loading");
-    setQuoteState("loading");
+    setLoading(true);
     setIndices([]);
     setQuotes([]);
+    setError("");
 
-    async function load() {
-      const idxP = api<{ quotes: QuoteRow[]; sources?: string[]; yahooPaused?: boolean }>(
-        `/api/market/indices?market=${market}`,
-      )
-        .then((d) => {
-          if (!live) return;
-          setIndices(d.quotes.filter((q) => q.price != null));
-          setIndexState(d.quotes.some((q) => q.price != null) ? "ok" : "empty");
-          setIndexError(d.yahooPaused ? "Yahoo is cooling down; using Stooq / NSE / cache." : "");
-        })
-        .catch((err) => {
-          if (!live) return;
-          setIndexState("error");
-          setIndexError(err instanceof Error ? err.message : "Indices failed");
-        });
+    const fetches: Promise<void>[] = [];
 
-      const qP = api<{ quotes: QuoteRow[]; yahooPaused?: boolean }>(`/api/market/quotes?market=${market}`)
-        .then((d) => {
-          if (!live) return;
-          setQuotes(d.quotes.filter((q) => q.price != null));
-          setQuoteState(d.quotes.some((q) => q.price != null) ? "ok" : "empty");
-          setQuoteError(d.yahooPaused ? "Yahoo is cooling down; using Stooq / Finnhub / NSE / cache." : "");
-        })
-        .catch((err) => {
-          if (!live) return;
-          setQuoteState("error");
-          setQuoteError(err instanceof Error ? err.message : "Quotes failed");
-        });
-
-      await Promise.allSettled([idxP, qP]);
+    if (market === "IN") {
+      fetches.push(
+        api<{ quotes: QuoteRow[] }>(`/api/market/indices?market=IN`)
+          .then((d) => { if (live) setIndices((prev) => [...prev, ...d.quotes.filter((q) => q.price != null)]); })
+          .catch(() => {}),
+        api<{ quotes: QuoteRow[] }>(`/api/market/quotes?market=IN`)
+          .then((d) => { if (live) setQuotes((prev) => [...prev, ...d.quotes.filter((q) => q.price != null)]); })
+          .catch(() => {}),
+      );
     }
 
-    void load();
-    const t = setInterval(() => void load(), 90000);
-    return () => {
-      live = false;
-      clearInterval(t);
-    };
-  }, [market]);
+    if (market === "US") {
+      fetches.push(
+        api<{ quotes: QuoteRow[] }>(`/api/market/indices?market=US`)
+          .then((d) => { if (live) setIndices((prev) => [...prev, ...d.quotes.filter((q) => q.price != null)]); })
+          .catch(() => {}),
+        api<{ quotes: QuoteRow[] }>(`/api/market/quotes?market=US`)
+          .then((d) => { if (live) setQuotes((prev) => [...prev, ...d.quotes.filter((q) => q.price != null)]); })
+          .catch(() => {}),
+      );
+    }
 
-  const currency = market === "US" ? "USD" : "INR";
+    Promise.allSettled(fetches).finally(() => { if (live) setLoading(false); });
+
+    return () => { live = false; };
+  }, [market]);
 
   return (
     <>
       <div className="topbar">
         <div>
-          <h2>{market === "US" ? "US markets" : "Indian markets"}</h2>
-          <p>Quotes, indices, and search. Watchlist data refreshes automatically in the background.</p>
-        </div>
-        <div className="seg">
-          <button className={market === "US" ? "btn primary" : "btn"} onClick={() => setMarket("US")}>
-            US
-          </button>
-          <button className={market === "IN" ? "btn primary" : "btn"} onClick={() => setMarket("IN")}>
-            India
-          </button>
+          <h2>{market === "IN" ? "Indian Markets" : market === "US" ? "US Markets" : "All Markets"}</h2>
+          <p>Live quotes for indices and tracked stocks.</p>
         </div>
       </div>
       <TickerSearch />
-      <div className="row" style={{ margin: "14px 0 4px" }}>
-        <CallChip label="Indices" state={indexState} />
-        <CallChip label="Universe" state={quoteState} />
-      </div>
-      {indexError ? <Banner kind="info">{indexError}</Banner> : null}
-      {quoteError ? <Banner kind="info">{quoteError}</Banner> : null}
 
-      <div className="index-strip">
-        {indexState === "loading" && indices.length === 0
-          ? [1, 2, 3, 4].map((i) => (
-              <div className="index-tile" key={i}>
-                <Skeleton lines={2} />
-              </div>
-            ))
-          : null}
-        {indices.map((i) => (
-          <div className={cls("index-tile", i.changePct >= 0 ? "up" : "down")} key={i.symbol}>
-            <div className="label">{i.symbol}</div>
-            <div className="value">{money(i.price, i.currency || currency)}</div>
-            <div className={cls("delta", i.changePct >= 0 ? "up" : "down")}>{pct(i.changePct)}</div>
-          </div>
-        ))}
-      </div>
-      {indexState === "empty" ? (
-        <EmptyState title="No index data" body="Yahoo may be rate-limiting. Wait a minute or open Crawler." />
-      ) : null}
+      {loading && <Spinner label="Fetching live prices…" />}
+      {error && <Banner kind="error">{error}</Banner>}
 
-      <div className="card sheet">
-        <h3>
-          {market === "US" ? "Liquid US names" : "NSE names"}
-          {quoteState === "loading" ? <Spinner label="Syncing…" /> : null}
-        </h3>
-        {quoteState === "loading" && quotes.length === 0 ? <Skeleton lines={8} /> : null}
-        {quoteState === "empty" || (quoteState === "error" && quotes.length === 0) ? (
-          <EmptyState
-            title="Quotes not loaded"
-            body={quoteError || "The quote batch returned nothing. Search a ticker or wait for the crawler."}
-          />
-        ) : null}
-        {quotes.length > 0 ? (
-          <div className="ticker-list">
-            {quotes.map((q) => (
-              <Link
-                key={q.yahoo || q.symbol}
-                className="ticker-row"
-                to={`/stock/${encodeURIComponent(q.yahoo || q.symbol)}`}
-              >
-                <span className="sym">{q.symbol}</span>
-                <span className="name">
-                  {q.name}
-                  {q.sector ? ` · ${q.sector}` : ""}
-                </span>
-                <span className="px">{money(q.price, q.currency || currency)}</span>
-                <span className={cls("chg", q.changePct >= 0 ? "up" : "down")}>{pct(q.changePct)}</span>
-              </Link>
-            ))}
+      {indices.length > 0 && (
+        <div className="card" style={{ marginBottom: 12 }}>
+          <h3>Indices</h3>
+          <div style={{ overflowX: "auto" }}>
+            <table>
+              <thead><tr><th>Index</th><th>Price</th><th>Change</th><th></th></tr></thead>
+              <tbody>
+                {indices.map((q) => {
+                  const live = livePrices.get(q.yahoo);
+                  const price = live?.price ?? q.price;
+                  const pct = live?.changePct ?? q.changePct;
+                  return (
+                    <tr key={q.yahoo}>
+                      <td><strong>{q.symbol}</strong> <span className="muted" style={{ fontSize: 11 }}>{q.name}</span></td>
+                      <td className="mono">{money(price, q.currency)}</td>
+                      <td className={cls("mono", pct >= 0 ? "up" : "down")}>{pct > 0 ? "+" : ""}{pct.toFixed(2)}%</td>
+                      <td className="muted" style={{ fontSize: 11 }}>{q.market}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </div>
-        ) : null}
-      </div>
+        </div>
+      )}
+
+      {quotes.length > 0 && (
+        <div className="card">
+          <h3>Tracked Stocks ({quotes.length})</h3>
+          <div style={{ overflowX: "auto" }}>
+            <table>
+              <thead><tr><th>Stock</th><th>Market</th><th>Price</th><th>Change</th><th></th></tr></thead>
+              <tbody>
+                {quotes.sort((a, b) => a.market.localeCompare(b.market) || a.symbol.localeCompare(b.symbol)).map((q) => {
+                  const live = livePrices.get(q.yahoo);
+                  const price = live?.price ?? q.price;
+                  const pctVal = live?.changePct ?? q.changePct;
+                  return (
+                    <tr key={q.yahoo}>
+                      <td>
+                        <Link to={`/stock/${encodeURIComponent(q.yahoo)}`}><strong>{q.symbol}</strong></Link>
+                        <div className="muted" style={{ fontSize: 11 }}>{q.name}</div>
+                      </td>
+                      <td className="muted">{q.market}</td>
+                      <td className="mono">{money(price, q.currency)}</td>
+                      <td className={cls("mono", pctVal >= 0 ? "up" : "down")}>{pctVal > 0 ? "+" : ""}{pctVal.toFixed(2)}%</td>
+                      <td className="row" style={{ gap: 4 }}>
+                        <WatchButton yahoo={q.yahoo} />
+                        <AlertButton yahoo={q.yahoo} />
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      {!loading && quotes.length === 0 && indices.length === 0 && (
+        <EmptyState title="No quotes loaded" body="Add stocks to your watchlist or run the crawler." />
+      )}
     </>
   );
 }

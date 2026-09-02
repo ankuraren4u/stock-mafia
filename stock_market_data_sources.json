@@ -1,0 +1,1762 @@
+{
+  "metadata": {
+    "title": "Complete Stock Market Data Sources Catalog",
+    "version": "1.0.0",
+    "last_updated": "2026-09-02",
+    "total_sources": 135,
+    "categories": 7
+  },
+  "categories": {
+    "1_real_time_price_feeds": {
+      "count": 30,
+      "sources": [
+        {
+          "name": "Yahoo Finance (yfinance)",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}",
+          "data_type": "price",
+          "rate_limit": "~2000 req/hr (soft)",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US", "IN", "Global"],
+          "reliability": 3,
+          "notes": "Unofficial, can break without notice. Dec 2025 broke for 48hrs."
+        },
+        {
+          "name": "Finnhub",
+          "url": "https://finnhub.io/api/v1/stock/candle",
+          "data_type": "price, fundamentals, news",
+          "rate_limit": "60 req/min (free)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "Best free tier for prototyping. 89ms median latency."
+        },
+        {
+          "name": "Alpha Vantage",
+          "url": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={symbol}&apikey={key}",
+          "data_type": "price, fundamentals, technicals",
+          "rate_limit": "5 req/min, 100/day (free); 75 req/min (premium)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "Free tier effectively unusable for portfolios. Returns passive-aggressive JSON when rate limited."
+        },
+        {
+          "name": "Polygon.io",
+          "url": "https://api.polygon.io/v2/aggs/ticker/{symbol}/range/1/day/{from}/{to}",
+          "data_type": "price, fundamentals, options",
+          "rate_limit": "5 req/min (free, delayed); unlimited (paid)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Free tier returns 2-year delayed data. $29/mo for real-time."
+        },
+        {
+          "name": "Twelve Data",
+          "url": "https://api.twelvedata.com/time_series?symbol={symbol}&apikey={key}",
+          "data_type": "price, fundamentals",
+          "rate_limit": "800 credits/day, 8/min (free); 8000/day (pro)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "Silently returns stale data after ~400 daily requests. No error notification."
+        },
+        {
+          "name": "Financial Modeling Prep (FMP)",
+          "url": "https://financialmodelingprep.com/api/v3/quote/{symbol}?apikey={key}",
+          "data_type": "price, fundamentals",
+          "rate_limit": "250 req/day (free); 300/min (premium)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "Good fundamentals data. Free tier decent for small projects."
+        },
+        {
+          "name": "IEX Cloud",
+          "url": "https://api.iex.cloud/v1/data/CORE/QUOTE/{symbol}?token={key}",
+          "data_type": "price, fundamentals, news",
+          "rate_limit": "50K core msg/month (free); varies by endpoint",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Direct IEX exchange data. Some endpoints cost 100 messages vs 1."
+        },
+        {
+          "name": "Tiingo",
+          "url": "https://api.tiingo.com/iex/{symbol}",
+          "data_type": "price, news",
+          "rate_limit": "1000 req/day (free)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Clean data model. WebSocket streaming available."
+        },
+        {
+          "name": "Quandl (Nasdaq Data Link)",
+          "url": "https://data.nasdaq.com/api/v3/datasets/{database}/{dataset}.json?api_key={key}",
+          "data_type": "price, fundamentals, alternative",
+          "rate_limit": "Unlimited (free, slow); premium varies",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "Great for alternative and macroeconomic datasets."
+        },
+        {
+          "name": "MarketStack",
+          "url": "http://api.marketstack.com/v1/eod?access_key={key}&symbols={symbol}",
+          "data_type": "price",
+          "rate_limit": "100 req/month (free); 10K+ (paid)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "Free tier only 100 req/month. No intraday on free tier."
+        },
+        {
+          "name": "Stooq",
+          "url": "https://stooq.com/q/d/l/?s={symbol}&d1={from}&d2={to}&i=d",
+          "data_type": "price",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "Good for bulk historical downloads. CSV format."
+        },
+        {
+          "name": "NSE India (Direct)",
+          "url": "https://www.nseindia.com/api/marketStatus",
+          "data_type": "price, market status",
+          "rate_limit": "Aggressive bot detection",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 2,
+          "notes": "Requires cookie warmup. Blocks automated requests frequently."
+        },
+        {
+          "name": "BSE India (Direct)",
+          "url": "https://api.bseindia.com/BseIndiaAPI/api/GetStockPrice/bseEP",
+          "data_type": "price, market data",
+          "rate_limit": "Rate limiting active",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 3,
+          "notes": "REST API. Rate limits may apply."
+        },
+        {
+          "name": "Zerodha Kite Connect",
+          "url": "https://api.kite.trade/instruments/quote/NSE:{symbol}",
+          "data_type": "price, orders, portfolio",
+          "rate_limit": "10 req/sec",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["IN"],
+          "reliability": 5,
+          "notes": "Brokerage API. ₹2000/month. Real-time data + execution."
+        },
+        {
+          "name": "Upstox API",
+          "url": "https://api.upstox.com/v2/market-quote/quotes?instrument_key=NSE_EQ|{symbol}",
+          "data_type": "price, orders",
+          "rate_limit": "10 req/sec",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["IN"],
+          "reliability": 4,
+          "notes": "Brokerage API. Free with account. Real-time NSE/BSE."
+        },
+        {
+          "name": "Angel One (SmartAPI)",
+          "url": "https://apiconnect.angelone.in/rest/secure/angelbroking/order/v1/getAllQuotes",
+          "data_type": "price, orders",
+          "rate_limit": "10 req/sec",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["IN"],
+          "reliability": 4,
+          "notes": "Brokerage API. Free with account."
+        },
+        {
+          "name": "ICICI Direct API",
+          "url": "https://api.icicidirect.com/api/v1/marketdata",
+          "data_type": "price, orders",
+          "rate_limit": "Varies",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["IN"],
+          "reliability": 4,
+          "notes": "Brokerage API. Requires ICICI account."
+        },
+        {
+          "name": "Groww API",
+          "url": "https://groww.in/v1/api/charting_service/v2/chart/exchange/NSE/segment/CASH/{symbol}",
+          "data_type": "price",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 3,
+          "notes": "Internal API. May change without notice."
+        },
+        {
+          "name": "Moneycontrol API",
+          "url": "https://priceapi.moneycontrol.com/pricefeed/notapinote/equitycash/{symbol}",
+          "data_type": "price, fundamentals, news",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 3,
+          "notes": "Internal API. Comprehensive Indian market data."
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/{symbol}/",
+          "data_type": "price, fundamentals, screeners",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 3,
+          "notes": "Web scraping required. Great screeners and technical analysis."
+        },
+        {
+          "name": "Tickertape",
+          "url": "https://www.tickertape.in/stocks/{symbol}",
+          "data_type": "price, fundamentals, screeners",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 3,
+          "notes": "Screener and financial data platform."
+        },
+        {
+          "name": "Screener.in",
+          "url": "https://www.screener.in/company/{symbol}/",
+          "data_type": "fundamentals, financials",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 3,
+          "notes": "Excellent for Indian company financials and ratios."
+        },
+        {
+          "name": "Downstox API",
+          "url": "https://downstox.com/api/stocks/{symbol}",
+          "data_type": "price, fundamentals",
+          "rate_limit": "No published guarantee",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 4,
+          "notes": "Free, unauthenticated, read-only JSON endpoints."
+        },
+        {
+          "name": "Alpaca Markets",
+          "url": "https://data.alpaca.markets/v2/stocks/{symbol}/bars",
+          "data_type": "price",
+          "rate_limit": "200 req/min (free)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Free IEX feed. Paid SIP feed available. Good for algo trading."
+        },
+        {
+          "name": "TD Ameritrade/Schwab",
+          "url": "https://api.tdameritrade.com/v1/marketdata/{symbol}/quotes",
+          "data_type": "price, options, fundamentals",
+          "rate_limit": "120 req/min",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 5,
+          "notes": "Brokerage API. Free with account. Comprehensive data."
+        },
+        {
+          "name": "Interactive Brokers TWS",
+          "url": "Local gateway (TWS/IB Gateway)",
+          "data_type": "price, options, futures, forex",
+          "rate_limit": "50 messages/sec",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 5,
+          "notes": "Professional-grade. Requires software installation. Market data subscriptions."
+        },
+        {
+          "name": "TradingView (unofficial)",
+          "url": "https://scanner.tradingview.com/america/scan",
+          "data_type": "price, screener",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "Internal API. Great for screening and charting data."
+        },
+        {
+          "name": "Nasdaq Data Link (formerly Quandl)",
+          "url": "https://data.nasdaq.com/api/v3/datasets/WIKI/{symbol}.json",
+          "data_type": "price, fundamentals",
+          "rate_limit": "Unlimited (free)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "WIKI dataset deprecated. Use other databases on platform."
+        },
+        {
+          "name": "EOD Historical Data",
+          "url": "https://eodhd.com/api/eod/{symbol}?api_token={key}",
+          "data_type": "price, fundamentals, insider",
+          "rate_limit": "20 req/day (free); varies (paid)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "IN", "Global"],
+          "reliability": 4,
+          "notes": "Good global coverage. Insider transactions API."
+        }
+      ]
+    },
+    "2_historical_data": {
+      "count": 25,
+      "sources": [
+        {
+          "name": "Yahoo Finance Historical",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=5y",
+          "data_type": "historical price",
+          "rate_limit": "~2000 req/hr",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "yfinance library. Returns adjusted closes. Can break anytime."
+        },
+        {
+          "name": "Stooq",
+          "url": "https://stooq.com/q/d/l/?s={symbol}&d1=20000101&d2=20260101&i=d",
+          "data_type": "historical price",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "CSV downloads. Good for bulk historical data."
+        },
+        {
+          "name": "Finnhub Historical",
+          "url": "https://finnhub.io/api/v1/stock/candle?symbol={symbol}&resolution=D&from={unix_from}&to={unix_to}",
+          "data_type": "historical price",
+          "rate_limit": "60 req/min (free)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "1 year daily data on free tier."
+        },
+        {
+          "name": "Alpha Vantage Historical",
+          "url": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol={symbol}&outputsize=full&apikey={key}",
+          "data_type": "historical price",
+          "rate_limit": "5 req/min (free)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "20 years of daily data. Slow free tier."
+        },
+        {
+          "name": "Polygon.io Historical",
+          "url": "https://api.polygon.io/v2/aggs/ticker/{symbol}/range/1/day/{from}/{to}",
+          "data_type": "historical price",
+          "rate_limit": "5 req/min (free, delayed 2yr)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "5+ years historical on paid tiers."
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/equities/{symbol}-historical-data",
+          "data_type": "historical price, news",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US", "IN", "Global"],
+          "reliability": 3,
+          "notes": "Web scraping required. Comprehensive global data."
+        },
+        {
+          "name": "TradingView",
+          "url": "https://www.tradingview.com/symbols/{symbol}/",
+          "data_type": "historical price, charts",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US", "IN", "Global"],
+          "reliability": 4,
+          "notes": "Excellent charting. API access limited."
+        },
+        {
+          "name": "Google Finance",
+          "url": "https://www.google.com/finance/quote/{symbol}:{exchange}",
+          "data_type": "price, news",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "No official API. Web scraping required."
+        },
+        {
+          "name": "StockCharts",
+          "url": "https://stockcharts.com/freecharts/",
+          "data_type": "historical price, technicals",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Good for technical analysis. Paid for advanced features."
+        },
+        {
+          "name": "BigCharts (MarketWatch)",
+          "url": "https://bigcharts.marketwatch.com/quickchart/quickchart.asp",
+          "data_type": "historical price",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Basic charting. Historical data available."
+        },
+        {
+          "name": "Netdania",
+          "url": "https://www.netdania.com/products/live-streaming-currency-rates",
+          "data_type": "price, forex",
+          "rate_limit": "Varies by plan",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["Global"],
+          "reliability": 4,
+          "notes": "Strong forex coverage. API available."
+        },
+        {
+          "name": "FXStreet",
+          "url": "https://www.fxstreet.com/rates-charts",
+          "data_type": "price, forex, news",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["Global"],
+          "reliability": 3,
+          "notes": "Forex focused. Calendar and news."
+        },
+        {
+          "name": "DailyFX",
+          "url": "https://www.dailyfx.com/market-data",
+          "data_type": "price, forex, news",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["Global"],
+          "reliability": 3,
+          "notes": "Forex and commodities focused."
+        },
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/investing/stock/{symbol}",
+          "data_type": "price, news, fundamentals",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Good for news and basic data."
+        },
+        {
+          "name": "Wall Street Journal (WSJ)",
+          "url": "https://www.wsj.com/market-data/quotes/{symbol}",
+          "data_type": "price, news, fundamentals",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 5,
+          "notes": "Premium financial news. Limited free data."
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/quote/{symbol}:{exchange}",
+          "data_type": "price, news, fundamentals",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 5,
+          "notes": "Terminal required for full data. Bloomberg API available."
+        },
+        {
+          "name": "Reuters (Refinitiv)",
+          "url": "https://www.reuters.com/markets/companies/{symbol}",
+          "data_type": "price, news, fundamentals",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 5,
+          "notes": "Professional data. Eikon/Refinitiv platform."
+        },
+        {
+          "name": "Financial Times (FT)",
+          "url": "https://markets.ft.com/data/equities",
+          "data_type": "price, news",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 5,
+          "notes": "Premium financial data."
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/quotes/{symbol}",
+          "data_type": "price, news",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "News and basic quotes."
+        },
+        {
+          "name": "Seeking Alpha",
+          "url": "https://seekingalpha.com/symbol/{symbol}",
+          "data_type": "price, analysis, news",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Crowd-sourced analysis. Premium for full data."
+        },
+        {
+          "name": "Motley Fool",
+          "url": "https://www.fool.com/quote/{symbol}",
+          "data_type": "price, analysis, news",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Investment analysis and recommendations."
+        },
+        {
+          "name": "Kiplinger",
+          "url": "https://www.kiplinger.com/investing/stocks",
+          "data_type": "price, analysis",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Personal finance focused."
+        },
+        {
+          "name": "Barron's",
+          "url": "https://www.barrons.com/market-data",
+          "data_type": "price, analysis, fundamentals",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 5,
+          "notes": "WSJ's financial weekly."
+        },
+        {
+          "name": "NSE Historical (via nselib)",
+          "url": "https://www.nseindia.com/api/historical/cm/equity?symbol={symbol}&from={from}&to={to}",
+          "data_type": "historical price, derivatives",
+          "rate_limit": "Aggressive bot detection",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 3,
+          "notes": "Use nselib Python library. Cookie warmup required."
+        },
+        {
+          "name": "BSE Historical (via bseindia lib)",
+          "url": "https://www.bseindia.com/download/Archive/Scrp/BC_1.zip",
+          "data_type": "historical price",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 3,
+          "notes": "Use bseindia Python library. Bhav copy downloads."
+        }
+      ]
+    },
+    "3_fundamentals": {
+      "count": 20,
+      "sources": [
+        {
+          "name": "Yahoo Finance Fundamentals",
+          "url": "https://query1.finance.yahoo.com/v10/finance/quoteSummary/{symbol}?modules=financialData,defaultKeyStatistics,balanceSheetHistory,incomeStatementHistory,cashflowStatementHistory",
+          "data_type": "fundamentals, financials",
+          "rate_limit": "~2000 req/hr",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "Unofficial. Comprehensive but unstable."
+        },
+        {
+          "name": "Finnhub Fundamentals",
+          "url": "https://finnhub.io/api/v1/stock/metric?symbol={symbol}&metric=all&token={key}",
+          "data_type": "fundamentals, financials",
+          "rate_limit": "60 req/min (free)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Basic fundamentals on free tier. Full on paid."
+        },
+        {
+          "name": "Financial Modeling Prep",
+          "url": "https://financialmodelingprep.com/api/v3/income-statement/{symbol}?apikey={key}",
+          "data_type": "fundamentals, financials",
+          "rate_limit": "250 req/day (free)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "Income statement, balance sheet, cash flow."
+        },
+        {
+          "name": "IEX Cloud Fundamentals",
+          "url": "https://api.iex.cloud/v1/data/CORE/FINANCIALS/{symbol}?token={key}",
+          "data_type": "fundamentals",
+          "rate_limit": "50K msg/month",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "IEX exchange data."
+        },
+        {
+          "name": "Alpha Vantage Fundamentals",
+          "url": "https://www.alphavantage.co/query?function=OVERVIEW&symbol={symbol}&apikey={key}",
+          "data_type": "fundamentals",
+          "rate_limit": "5 req/min (free)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Free tier too slow for bulk analysis."
+        },
+        {
+          "name": "Morningstar",
+          "url": "https://developer.morningstar.com/direct-web-services/documentation/",
+          "data_type": "fundamentals, ratings, financials",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 5,
+          "notes": "Industry standard for fund analysis. Professional API."
+        },
+        {
+          "name": "S&P Global Market Intelligence",
+          "url": "https://www.spglobal.com/market-intelligence/en/solutions/products/fundamental-data",
+          "data_type": "fundamentals, financials, ESG",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 5,
+          "notes": "Premium institutional data."
+        },
+        {
+          "name": "Moody's Analytics",
+          "url": "https://www.moodysanalytics.com/solutions/data",
+          "data_type": "fundamentals, credit, risk",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 5,
+          "notes": "Credit and risk analysis."
+        },
+        {
+          "name": "Fitch Solutions",
+          "url": "https://www.fitchsolutions.com/",
+          "data_type": "fundamentals, credit, country risk",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 5,
+          "notes": "Credit ratings and research."
+        },
+        {
+          "name": "CB Insights",
+          "url": "https://www.cbinsights.com/what-we-offer/api/",
+          "data_type": "private company data, venture, M&A",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "Private company and startup data. AI-powered insights."
+        },
+        {
+          "name": "PitchBook",
+          "url": "https://pitchbook.com/",
+          "data_type": "private market data, M&A, VC/PE",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 5,
+          "notes": "Comprehensive private market intelligence."
+        },
+        {
+          "name": "Crunchbase",
+          "url": "https://www.crunchbase.com/",
+          "data_type": "company data, funding, acquisitions",
+          "rate_limit": "Limited (free); API available (paid)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "Startup and company data. Limited free access."
+        },
+        {
+          "name": "AngelList (Wellfound)",
+          "url": "https://wellfound.com/",
+          "data_type": "startup data, jobs",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "Startup ecosystem data."
+        },
+        {
+          "name": "Screener.in",
+          "url": "https://www.screener.in/company/{symbol}/consolidated/",
+          "data_type": "Indian company financials",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 4,
+          "notes": "Excellent for Indian company analysis. Ratios, peer comparison."
+        },
+        {
+          "name": "Trendlyne Fundamentals",
+          "url": "https://trendlyne.com/equity/{symbol}/",
+          "data_type": "Indian company fundamentals",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 3,
+          "notes": "Comprehensive Indian market fundamentals."
+        },
+        {
+          "name": "Tijori Finance",
+          "url": "https://tijorifinance.com/stock/{symbol}/",
+          "data_type": "Indian company financials",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 3,
+          "notes": "Indian company financial data and analysis."
+        },
+        {
+          "name": "Trendlyne Peer Comparison",
+          "url": "https://trendlyne.com/equity/{symbol}/peers/",
+          "data_type": "peer analysis",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 3,
+          "notes": "Industry peer comparison for Indian stocks."
+        },
+        {
+          "name": "Finbox",
+          "url": "https://finbox.com/",
+          "data_type": "fundamentals, valuation",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Intrinsic value and financial modeling."
+        },
+        {
+          "name": "Macrotrends",
+          "url": "https://www.macrotrends.net/stocks/charts/{symbol}",
+          "data_type": "historical fundamentals",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Long-term historical financial data. Charts."
+        },
+        {
+          "name": "Gurufocus",
+          "url": "https://www.gurufocus.com/term/{metric}/{symbol}",
+          "data_type": "fundamentals, valuation",
+          "rate_limit": "Limited free; paid for full",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Value investing metrics and screeners."
+        }
+      ]
+    },
+    "4_news_and_sentiment": {
+      "count": 22,
+      "sources": [
+        {
+          "name": "Google News",
+          "url": "https://news.google.com/search?q={query}",
+          "data_type": "news",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "Aggregator. Web scraping for bulk data."
+        },
+        {
+          "name": "Yahoo Finance News",
+          "url": "https://query1.finance.yahoo.com/v1/finance/search?q={symbol}",
+          "data_type": "news",
+          "rate_limit": "~2000 req/hr",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "News feed for stocks."
+        },
+        {
+          "name": "Finnhub News",
+          "url": "https://finnhub.io/api/v1/company-news?symbol={symbol}&from={date}&to={date}&token={key}",
+          "data_type": "news",
+          "rate_limit": "60 req/min",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Company-specific news aggregation."
+        },
+        {
+          "name": "Reuters News",
+          "url": "https://www.reuters.com/business/finance/",
+          "data_type": "news",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 5,
+          "notes": "Wire service. Premium API available."
+        },
+        {
+          "name": "Bloomberg News",
+          "url": "https://www.bloomberg.com/markets",
+          "data_type": "news",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 5,
+          "notes": "Premium financial news. Terminal required."
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/world-markets/",
+          "data_type": "news",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Major financial news network."
+        },
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/{symbol}",
+          "data_type": "news",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Dow Jones property."
+        },
+        {
+          "name": "Seeking Alpha",
+          "url": "https://seekingalpha.com/symbol/{symbol}/news",
+          "data_type": "news, analysis",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Crowd-sourced analysis. SA News API available."
+        },
+        {
+          "name": "Benzinga",
+          "url": "https://www.benzinga.com/apis/",
+          "data_type": "news, sentiment",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Real-time news API. Sentiment data."
+        },
+        {
+          "name": "TheStreet",
+          "url": "https://www.thestreet.com/quote/{symbol}",
+          "data_type": "news, analysis",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Jim Cramer's platform."
+        },
+        {
+          "name": "ZeroHedge",
+          "url": "https://www.zerohedge.com/",
+          "data_type": "news, sentiment",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 2,
+          "notes": "Alternative/contrarian financial news."
+        },
+        {
+          "name": "StockTwits",
+          "url": "https://api.stocktwits.com/api/2/streams/symbol/{symbol}.json",
+          "data_type": "sentiment, social",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Social sentiment for stocks. Bull/bear indicators."
+        },
+        {
+          "name": "Reddit (r/wallstreetbets, r/stocks)",
+          "url": "https://www.reddit.com/r/wallstreetbets/",
+          "data_type": "sentiment, social",
+          "rate_limit": "60 req/min (API)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "IN"],
+          "reliability": 2,
+          "notes": "Noisy. Requires heavy filtering. Bot detection needed."
+        },
+        {
+          "name": "Twitter/X",
+          "url": "https://api.twitter.com/2/tweets/search/recent?query={query}",
+          "data_type": "sentiment, social",
+          "rate_limit": "300 req/15min",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "Real-time sentiment. Academic API available."
+        },
+        {
+          "name": "Discord",
+          "url": "Various servers",
+          "data_type": "sentiment, social",
+          "rate_limit": "50 req/sec (bot)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "IN"],
+          "reliability": 2,
+          "notes": "Trading communities. API for bots available."
+        },
+        {
+          "name": "Telegram",
+          "url": "Various channels",
+          "data_type": "sentiment, social",
+          "rate_limit": "30 msg/sec",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "IN"],
+          "reliability": 2,
+          "notes": "Trading signal channels. Bot API available."
+        },
+        {
+          "name": "Finnhub Sentiment",
+          "url": "https://finnhub.io/api/v1/stock/recommendation?symbol={symbol}",
+          "data_type": "sentiment, analyst",
+          "rate_limit": "60 req/min",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Analyst recommendations and sentiment."
+        },
+        {
+          "name": "InvestorPlace",
+          "url": "https://investorplace.com/",
+          "data_type": "news, analysis",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Investment news and analysis."
+        },
+        {
+          "name": "24/7 Wall St",
+          "url": "https://247wallst.com/",
+          "data_type": "news, analysis",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Financial news and analysis."
+        },
+        {
+          "name": "Alpha Vantage News",
+          "url": "https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers={symbol}&apikey={key}",
+          "data_type": "news, sentiment",
+          "rate_limit": "5 req/min (free)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "News sentiment analysis built-in."
+        },
+        {
+          "name": "NewsAPI",
+          "url": "https://newsapi.org/v2/everything?q={query}&apiKey={key}",
+          "data_type": "news",
+          "rate_limit": "100 req/day (free); 500 (developer)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "News aggregation API. Good for custom news feeds."
+        },
+        {
+          "name": "Economic Times Markets",
+          "url": "https://economictimes.indiatimes.com/markets",
+          "data_type": "news, Indian markets",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 3,
+          "notes": "Indian financial news. Comprehensive market coverage."
+        }
+      ]
+    },
+    "5_insider_trading": {
+      "count": 15,
+      "sources": [
+        {
+          "name": "SEC EDGAR",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=4&dateb=&owner=include&count=40",
+          "data_type": "insider trading, filings",
+          "rate_limit": "10 req/sec",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 5,
+          "notes": "Official SEC source. Forms 3, 4, 5, 13F, 13D/G."
+        },
+        {
+          "name": "SEC EDGAR Bulk Data",
+          "url": "https://www.sec.gov/data-research/sec-markets-data/insider-transactions-data-sets",
+          "data_type": "insider trading bulk",
+          "rate_limit": "Bulk download",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 5,
+          "notes": "Quarterly ZIP files. Historical back to 2000."
+        },
+        {
+          "name": "OpenInsider",
+          "url": "http://openinsider.com/",
+          "data_type": "insider trading, screening",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Free screener. No official API. HTML scraping."
+        },
+        {
+          "name": "InsiderMonkey",
+          "url": "https://www.insidermonkey.com/",
+          "data_type": "insider trading, hedge fund",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Insider and hedge fund data."
+        },
+        {
+          "name": "MarketBeat Insider Trades",
+          "url": "https://www.marketbeat.com/insider-trades/",
+          "data_type": "insider trading",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Free insider trade tracker. Email alerts available."
+        },
+        {
+          "name": "Securities.io",
+          "url": "https://www.securities.io/insider-trading/",
+          "data_type": "insider trading",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Insider trading data and analysis."
+        },
+        {
+          "name": "Finsider",
+          "url": "https://finsider.io/",
+          "data_type": "SEC filings, insider trading",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Clean JSON API for SEC data. Developer-friendly."
+        },
+        {
+          "name": "EdgarKit",
+          "url": "https://api.edgarkit.com/v1/filings",
+          "data_type": "SEC filings, insider trading",
+          "rate_limit": "1000 req/month (free); $19/mo+",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "JSON API for SEC filings. Webhooks on paid tiers."
+        },
+        {
+          "name": "InsiderTrades.us",
+          "url": "https://www.insidertrades.us/",
+          "data_type": "insider trading",
+          "rate_limit": "1000 req/month (free); $79/mo",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Real-time Form 3, 4, 5. Node.js and Python SDKs."
+        },
+        {
+          "name": "SecApi.ai",
+          "url": "https://secapi.ai/apis/insiders",
+          "data_type": "insider trading, SEC filings",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Form 4, 144, board, compensation data."
+        },
+        {
+          "name": "EODHD Insider Transactions",
+          "url": "https://eodhd.com/api/sec-filings/{symbol}/form4",
+          "data_type": "insider trading",
+          "rate_limit": "Varies by plan",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "SEC Form 4 data. History back to 2000."
+        },
+        {
+          "name": "Nasdaq Insider Activity",
+          "url": "https://www.nasdaq.com/market-activity/stocks/{symbol}/insider-activity",
+          "data_type": "insider trading",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Official Nasdaq insider data."
+        },
+        {
+          "name": "FINRA",
+          "url": "https://www.finra.org/finra-data/browse-catalog/equity-options/short-interest",
+          "data_type": "short interest, insider",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 5,
+          "notes": "Official regulatory data."
+        },
+        {
+          "name": "SEC Form 13F Filings",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=13F&dateb=&owner=include&count=40",
+          "data_type": "institutional holdings",
+          "rate_limit": "10 req/sec",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 5,
+          "notes": "Quarterly institutional holdings. Hedge fund transparency."
+        },
+        {
+          "name": "OpenInsider MCP Server",
+          "url": "https://www.npmjs.com/package/openinsider-mcp",
+          "data_type": "insider trading, SEC, FINRA",
+          "rate_limit": "Varies",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "MCP server with 16 tools. Form 4, 8-K, 13D, short data."
+        }
+      ]
+    },
+    "6_options_data": {
+      "count": 15,
+      "sources": [
+        {
+          "name": "CBOE DataShop",
+          "url": "https://datashop.cboe.com/",
+          "data_type": "options, chains, Greeks",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 5,
+          "notes": "Exchange-direct OPRA data. Tick-by-tick. Institutional."
+        },
+        {
+          "name": "CBOE All Access API",
+          "url": "https://datashop.cboe.com/cboe-all-access-api",
+          "data_type": "options, equities, indices",
+          "rate_limit": "Subscription-based",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 5,
+          "notes": "Complete CBOE data suite. Real-time and historical."
+        },
+        {
+          "name": "OCC (Options Clearing Corp)",
+          "url": "https://www.theocc.com/market-data/",
+          "data_type": "options, market stats",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 5,
+          "notes": "Official options clearing data. Market statistics."
+        },
+        {
+          "name": "Yahoo Finance Options",
+          "url": "https://query1.finance.yahoo.com/v7/finance/options/{symbol}",
+          "data_type": "options chains",
+          "rate_limit": "~2000 req/hr",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Delayed 15-20 min. Unofficial API."
+        },
+        {
+          "name": "Finnhub Options",
+          "url": "https://finnhub.io/api/v1/stock/option-chain?symbol={symbol}&resolution=D",
+          "data_type": "options chains",
+          "rate_limit": "60 req/min",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Options chain data with resolution."
+        },
+        {
+          "name": "Barchart Options",
+          "url": "https://ondemand.websol.barchart.com/getEquityOptions.json",
+          "data_type": "options chains, Greeks, IV",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Comprehensive options data. Futures and equities."
+        },
+        {
+          "name": "MarketChameleon",
+          "url": "https://marketchameleon.com/",
+          "data_type": "options, IV rank, chains",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Best free-tier options tool. IV percentile, earnings vol."
+        },
+        {
+          "name": "Tradier",
+          "url": "https://api.tradier.com/v1/markets/options/chains?symbol={symbol}",
+          "data_type": "options chains, Greeks",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Brokerage API. Real-time options. Good for bots."
+        },
+        {
+          "name": "Polygon.io Options",
+          "url": "https://api.polygon.io/v3/reference/options/contracts",
+          "data_type": "options chains, Greeks",
+          "rate_limit": "5 req/min (free, delayed)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "WebSocket streaming available."
+        },
+        {
+          "name": "IEX Cloud Options",
+          "url": "https://api.iex.cloud/v1/data/CORE/QUOTE/{symbol}?token={key}",
+          "data_type": "options",
+          "rate_limit": "50K msg/month",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Options available in higher tiers."
+        },
+        {
+          "name": "OptionsProfitCalculator",
+          "url": "https://www.optionsprofitcalculator.com/",
+          "data_type": "options pricing, P&L",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Free options P&L calculator. No API."
+        },
+        {
+          "name": "Optionslam",
+          "url": "https://www.optionslam.com/",
+          "data_type": "options earnings, IV",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Earnings-focused options data."
+        },
+        {
+          "name": "Optionistics",
+          "url": "https://www.optionistics.com/",
+          "data_type": "options chains, IV",
+          "rate_limit": "Limited free",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Delayed chains with graphical history."
+        },
+        {
+          "name": "NSE Options Chain",
+          "url": "https://www.nseindia.com/api/option-chain-indices?symbol={symbol}",
+          "data_type": "options chains (India)",
+          "rate_limit": "Aggressive bot detection",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["IN"],
+          "reliability": 3,
+          "notes": "Indian index and stock options. Cookie warmup required."
+        },
+        {
+          "name": "OptionsDX",
+          "url": "https://optionsdx.com/",
+          "data_type": "historical options data",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "EOD historical options data for backtesting."
+        }
+      ]
+    },
+    "7_alternative_data": {
+      "count": 22,
+      "sources": [
+        {
+          "name": "Orbital Insight",
+          "url": "https://orbitalinsight.com/",
+          "data_type": "satellite imagery, geospatial",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "Parking lot counts, oil storage, supply chain."
+        },
+        {
+          "name": "Planet Labs",
+          "url": "https://www.planet.com/",
+          "data_type": "satellite imagery",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "Daily satellite imagery. 3-5m resolution."
+        },
+        {
+          "name": "Sentinel Hub (Copernicus)",
+          "url": "https://www.sentinel-hub.com/",
+          "data_type": "satellite imagery",
+          "rate_limit": "Free tier available",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["Global"],
+          "reliability": 4,
+          "notes": "EU Sentinel satellites. Free tier. 10m resolution."
+        },
+        {
+          "name": "Descartes Labs",
+          "url": "https://descarteslabs.com/",
+          "data_type": "geospatial analytics",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "Geospatial AI for commodities and agriculture."
+        },
+        {
+          "name": "StockTwits",
+          "url": "https://api.stocktwits.com/api/2/streams/symbol/{symbol}.json",
+          "data_type": "social sentiment",
+          "rate_limit": "Undocumented",
+          "auth_required": false,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 3,
+          "notes": "Retail investor sentiment. Bull/bear indicators."
+        },
+        {
+          "name": "Reddit (WSB, r/stocks, r/investing)",
+          "url": "https://www.reddit.com/r/wallstreetbets/",
+          "data_type": "social sentiment",
+          "rate_limit": "60 req/min (API)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "IN"],
+          "reliability": 2,
+          "notes": "High noise. Bot filtering required."
+        },
+        {
+          "name": "Twitter/X",
+          "url": "https://api.twitter.com/2/tweets/search/recent?query={query}",
+          "data_type": "social sentiment",
+          "rate_limit": "300 req/15min",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "Real-time market sentiment."
+        },
+        {
+          "name": "Sensor Tower",
+          "url": "https://sensortower.com/",
+          "data_type": "app downloads, mobile",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "App store intelligence. Download estimates."
+        },
+        {
+          "name": "data.ai (formerly App Annie)",
+          "url": "https://www.data.ai/",
+          "data_type": "app downloads, mobile",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "Mobile app market data."
+        },
+        {
+          "name": "SimilarWeb",
+          "url": "https://www.similarweb.com/",
+          "data_type": "web traffic",
+          "rate_limit": "Limited free; API (paid)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US", "Global"],
+          "reliability": 3,
+          "notes": "Website traffic estimates. API available."
+        },
+        {
+          "name": "Alexa (Amazon)",
+          "url": "https://www.amazon.com/aw/ls/102-7263909-2033608",
+          "data_type": "web traffic",
+          "rate_limit": "Discontinued",
+          "auth_required": false,
+          "free_tier": false,
+          "coverage": ["Global"],
+          "reliability": 0,
+          "notes": "DEPRECATED May 2022. Use SimilarWeb."
+        },
+        {
+          "name": "Second Measure",
+          "url": "https://secondmeasure.com/",
+          "data_type": "credit card transactions",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Consumer transaction data. Anonymized panel."
+        },
+        {
+          "name": "Earnest Research",
+          "url": "https://earnestresearch.com/",
+          "data_type": "consumer transactions",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Transaction data from card panels."
+        },
+        {
+          "name": "YipitData",
+          "url": "https://www.yipitdata.com/",
+          "data_type": "alternative data, transactions",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "Subscription, transaction, web traffic data."
+        },
+        {
+          "name": "Thinknum",
+          "url": "https://www.thinknum.com/",
+          "data_type": "web scraping, alternative",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "Web-scraped alternative datasets."
+        },
+        {
+          "name": "ImportGenius",
+          "url": "https://www.importgenius.com/",
+          "data_type": "supply chain, import/export",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "Shipping and import/export data."
+        },
+        {
+          "name": "DTN (Weather)",
+          "url": "https://www.dtn.com/",
+          "data_type": "weather, agricultural",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 4,
+          "notes": "Weather data for agriculture and energy."
+        },
+        {
+          "name": "FRED (Federal Reserve)",
+          "url": "https://fred.stlouisfed.org/",
+          "data_type": "economic indicators",
+          "rate_limit": "120 req/min (API key)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 5,
+          "notes": "800K+ economic time series. Free API."
+        },
+        {
+          "name": "BEA (Bureau of Economic Analysis)",
+          "url": "https://www.bea.gov/data",
+          "data_type": "economic indicators, GDP",
+          "rate_limit": "API available",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 5,
+          "notes": "Official US economic data."
+        },
+        {
+          "name": "BLS (Bureau of Labor Statistics)",
+          "url": "https://www.bls.gov/data/",
+          "data_type": "employment, CPI",
+          "rate_limit": "25 req/beat (API)",
+          "auth_required": true,
+          "free_tier": true,
+          "coverage": ["US"],
+          "reliability": 5,
+          "notes": "Official US employment and inflation data."
+        },
+        {
+          "name": "AlphaSense",
+          "url": "https://www.alpha-sense.com/solutions/alternative-data/",
+          "data_type": "expert transcripts, sentiment",
+          "rate_limit": "Enterprise pricing",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US", "Global"],
+          "reliability": 5,
+          "notes": "NLP-powered sentiment on expert calls and filings."
+        },
+        {
+          "name": "Orats",
+          "url": "https://orats.com/",
+          "data_type": "options analytics, historical",
+          "rate_limit": "Paywall",
+          "auth_required": true,
+          "free_tier": false,
+          "coverage": ["US"],
+          "reliability": 4,
+          "notes": "Historical options data and derived analytics."
+        }
+      ]
+    }
+  },
+  "indian_market_libraries": [
+    {
+      "name": "nselib",
+      "url": "https://github.com/RuchiTanmay/nselib",
+      "language": "Python",
+      "data_type": "NSE India comprehensive",
+      "features": ["Capital Market", "Derivatives", "Indices", "Debt", "Corporate Filings", "Market Activity"]
+    },
+    {
+      "name": "bseindia",
+      "url": "https://github.com/RuchiTanmay/bseindia",
+      "language": "Python",
+      "data_type": "BSE India comprehensive",
+      "features": ["Equity", "Derivatives", "Historical Data", "Bhavcopy", "Corporate Actions"]
+    },
+    {
+      "name": "jugaad-data",
+      "url": "https://github.com/dharmesh-b/jugaad-data",
+      "language": "Python",
+      "data_type": "NSE/RBI",
+      "features": ["Stocks", "Derivatives", "Index", "RBI Rates"]
+    },
+    {
+      "name": "aynse",
+      "url": "https://github.com/sudotman/aynse",
+      "language": "Python",
+      "data_type": "NSE India",
+      "features": ["Historical", "Live Quotes", "Option Chains", "Bhavcopy"]
+    },
+    {
+      "name": "financeindia",
+      "url": "https://github.com/sandeep-jaiswar/financeindia",
+      "language": "Python (Rust core)",
+      "data_type": "NSE India",
+      "features": ["42+ endpoints", "High Performance", "MCX Support"]
+    },
+    {
+      "name": "nsefeed",
+      "url": "https://github.com/shubhamnayak1708/nsefeed",
+      "language": "Python",
+      "data_type": "NSE India historical",
+      "features": ["yfinance-style API", "CSV-based", "Caching"]
+    },
+    {
+      "name": "nse-bse-api",
+      "url": "https://github.com/bshada/nse-bse-api",
+      "language": "TypeScript",
+      "data_type": "NSE + BSE",
+      "features": ["Unified API", "Real-time", "Option Chains", "Corporate Actions"]
+    }
+  ],
+  "unified_libraries": [
+    {
+      "name": "market-feed",
+      "url": "https://github.com/piyushgupta344/market-feed",
+      "language": "TypeScript",
+      "providers": ["Yahoo Finance", "Alpha Vantage", "Polygon.io", "Finnhub", "Twelve Data", "Tiingo"],
+      "features": ["Caching", "Fallback", "WebSocket", "React hooks", "Indicators", "Backtest"]
+    },
+    {
+      "name": "yfinance",
+      "url": "https://github.com/ranaroussi/yfinance",
+      "language": "Python",
+      "providers": ["Yahoo Finance"],
+      "features": ["Ticker", "Download", "Screener", "WebSocket"]
+    }
+  ],
+  "pricing_summary": {
+    "free_tier": [
+      {"name": "Finnhub", "limit": "60 req/min", "best_for": "Prototyping"},
+      {"name": "Twelve Data", "limit": "800 credits/day", "best_for": "Small portfolios"},
+      {"name": "FMP", "limit": "250 req/day", "best_for": "Fundamentals"},
+      {"name": "IEX Cloud", "limit": "50K msg/month", "best_for": "US stocks"},
+      {"name": "Tiingo", "limit": "1000 req/day", "best_for": "Price + news"}
+    ],
+    "paid_budget": [
+      {"name": "Polygon.io Starter", "price": "$29/mo", "features": "Real-time, no rate limits"},
+      {"name": "Finnhub Pro", "price": "$60/mo", "features": "300 req/min + fundamentals"},
+      {"name": "Twelve Data Pro", "price": "$49/mo", "features": "8000 credits/day"},
+      {"name": "Alpha Vantage Premium", "price": "$50/mo", "features": "75 req/min"}
+    ],
+    "institutional": [
+      {"name": "Bloomberg Terminal", "price": "$24,000/yr"},
+      {"name": "Refinitiv Eikon", "price": "$22,000/yr"},
+      {"name": "S&P Global", "price": "Custom"},
+      {"name": "CBOE DataShop", "price": "Custom"}
+    ]
+  }
+}

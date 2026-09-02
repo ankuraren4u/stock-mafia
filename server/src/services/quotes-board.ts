@@ -5,6 +5,9 @@ import { fetchNseIndices, fetchNseQuote } from "./crawler-nse.js";
 import { fetchFinnhubQuote } from "./crawler-finnhub.js";
 import { fetchNasdaqQuote } from "./crawler-nasdaq.js";
 import { fetchCnbcQuote } from "./crawler-cnbc.js";
+import { fetchMarketWatchQuote } from "./crawler-marketwatch.js";
+import { fetchAlphaVantageQuote, alphaVantageEnabled } from "./crawler-alphavantage.js";
+import { fetchMoneycontrolQuote } from "./crawler-moneycontrol.js";
 
 function withTimeout<T>(promise: Promise<T>, ms: number, fallback: T): Promise<T> {
   return new Promise((resolve) => {
@@ -144,6 +147,19 @@ export async function loadBoardQuotes(yahooSymbols: string[], market: Market) {
           }
         },
       ),
+      mapPool(
+        missing().filter((s) => s.endsWith(".NS")),
+        3,
+        async (yahoo) => {
+          if (got.has(yahoo)) return;
+          const mc = await withTimeout(fetchMoneycontrolQuote(yahoo), 4000, null);
+          if (mc) {
+            got.set(yahoo, mc);
+            rememberQuote(mc);
+            sources.add("Moneycontrol");
+          }
+        },
+      ),
     );
   }
 
@@ -160,6 +176,37 @@ export async function loadBoardQuotes(yahooSymbols: string[], market: Market) {
             got.set(yahoo, q);
             rememberQuote(q);
             sources.add("Finnhub");
+          }
+        },
+      ),
+      mapPool(
+        missing().filter((s) => !s.startsWith("^")),
+        3,
+        async (yahoo) => {
+          if (got.has(yahoo)) return;
+          const mw = await withTimeout(fetchMarketWatchQuote(yahoo, "USD"), 4000, null);
+          if (mw) {
+            got.set(yahoo, mw);
+            rememberQuote(mw);
+            sources.add("MarketWatch");
+          }
+        },
+      ),
+    );
+  }
+
+  if (alphaVantageEnabled()) {
+    fillers.push(
+      mapPool(
+        missing().filter((s) => !s.startsWith("^")),
+        2,
+        async (yahoo) => {
+          if (got.has(yahoo)) return;
+          const av = await withTimeout(fetchAlphaVantageQuote(yahoo, market === "IN" ? "INR" : "USD"), 5000, null);
+          if (av) {
+            got.set(yahoo, av);
+            rememberQuote(av);
+            sources.add("Alpha Vantage");
           }
         },
       ),

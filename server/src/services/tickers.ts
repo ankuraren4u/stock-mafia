@@ -1,4 +1,4 @@
-import { catalog, classifyMarket, findInCatalog, type Instrument, type Market } from "../lib/universe.js";
+import { catalog, classifyMarket, findInCatalog, INDICES, type Instrument, type Market } from "../lib/universe.js";
 import { readStore, updateStore } from "../db/store.js";
 import {
   bumpTickerHit,

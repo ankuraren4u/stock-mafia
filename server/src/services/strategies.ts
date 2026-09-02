@@ -1,10 +1,16 @@
 import {
+  adx,
   atr,
   bollinger,
   ema,
+  fibonacciLevels,
+  ichimoku,
   lastNumber,
   macd,
   rsi,
+  stochastic,
+  supertrend,
+  vwap,
   type Candle,
 } from "../lib/indicators.js";
 import type { Instrument } from "../lib/universe.js";
@@ -77,6 +83,48 @@ export const STRATEGY_CATALOG: StrategyMeta[] = [
     horizon: "defensive 1–10 sessions",
     whyNow: "When the benchmark has dropped hard over 20 sessions, systematic books cut beta instead of averaging down.",
     logic: "Index 20-day return ≤ −6% or RSI > 78 with negative news — suggest trim/sell.",
+  },
+  {
+    id: "vwap-bounce",
+    name: "VWAP mean reversion",
+    horizon: "intraday 1–5 sessions",
+    whyNow: "Institutional algos use VWAP as a fair-value anchor; mean reversion to VWAP works well in liquid names during normal volatility.",
+    logic: "Price deviates >2% below VWAP with RSI <38 and ADX <25 — fade the move back to VWAP.",
+  },
+  {
+    id: "supertrend-flip",
+    name: "Supertrend reversal",
+    horizon: "swing 5–15 sessions",
+    whyNow: "Supertrend captures trend direction cleanly; a flip combined with volume confirms regime change for breakout entries.",
+    logic: "Supertrend flips from sell to buy with volume expansion and ADX > 20.",
+  },
+  {
+    id: "ichimoku-breakout",
+    name: "Ichimoku cloud breakout",
+    horizon: "swing 10–30 sessions",
+    whyNow: "Ichimoku gives multi-layered support/resistance; a cloud breakout with all five lines aligned is a strong trend signal.",
+    logic: "Price above cloud, tenkan > kijun, chikou above price, and cloud is green (senkou A > B).",
+  },
+  {
+    id: "adx-trend",
+    name: "ADX trend strength",
+    horizon: "swing 5–20 sessions",
+    whyNow: "ADX above 25 indicates a strong trend; buying dips within strong trends captures continuation moves.",
+    logic: "ADX > 25 with +DI > -DI, price above EMA 20, and RSI 40–60.",
+  },
+  {
+    id: "fibonacci-retrace",
+    name: "Fibonacci pullback",
+    horizon: "swing 5–20 sessions",
+    whyNow: "Institutional buy programs cluster at Fibonacci levels; 38.2% and 61.8% retracements are the most reliable in liquid markets.",
+    logic: "Price at 38.2% or 61.8% Fibonacci retracement with RSI < 45 and uptrend above EMA 50.",
+  },
+  {
+    id: "stochastic-snap",
+    name: "Stochastic oversold bounce",
+    horizon: "tactical 2–8 sessions",
+    whyNow: "Stochastic %K below 15 with a bullish crossover in names with positive sentiment produces reliable short-term bounces.",
+    logic: "Stochastic %K < 15 with %K crossing above %D and sentiment not negative.",
   },
 ];
 
@@ -192,6 +240,126 @@ export function evaluateStrategies(ctx: StrategyContext, atIndex?: number): Stra
           : "Overbought with negative news — trim / take profit",
       ],
     });
+  }
+
+  // VWAP bounce strategy
+  const vwapSeries = vwap(candles);
+  const vwapNow = lastNumber(vwapSeries);
+  if (vwapNow != null && rsiNow != null) {
+    const vwapDev = (close - vwapNow) / vwapNow;
+    if (vwapDev < -0.02 && rsiNow < 38 && !marketDump) {
+      hits.push({
+        strategyId: "vwap-bounce",
+        side: "BUY",
+        conviction: 65,
+        thesis: [
+          `Price ${(vwapDev * 100).toFixed(1)}% below VWAP — institutional fair value anchor`,
+          `RSI ${rsiNow.toFixed(1)} confirms short-term oversold condition`,
+        ],
+      });
+    }
+  }
+
+  // Supertrend flip
+  const stSeries = supertrend(candles, 10, 3);
+  const stNow = lastNumber(stSeries);
+  const stPrev = stSeries.length > 2 ? stSeries[stSeries.length - 3] : null;
+  if (stNow != null && stPrev != null && close > stNow && vols[i] > avgVol * 1.3) {
+    const prevClose = candles[i - 1]?.close ?? close;
+    const prevBelow = stPrev != null && prevClose <= stPrev;
+    if (prevBelow) {
+      hits.push({
+        strategyId: "supertrend-flip",
+        side: "BUY",
+        conviction: 72,
+        thesis: [
+          "Supertrend flipped from sell to buy",
+          "Volume expansion confirms regime change",
+        ],
+      });
+    }
+  }
+
+  // Ichimoku cloud breakout
+  const ich = ichimoku(candles);
+  const tenkanNow = ich.tenkan[candles.length - 1];
+  const kijunNow = ich.kijun[candles.length - 1];
+  const senkouANow = ich.senkouA[candles.length - 1];
+  const senkouBNow = ich.senkouB[candles.length - 1];
+  const chikouNow = ich.chikou[candles.length - 27];
+  if (tenkanNow != null && kijunNow != null && senkouANow != null && senkouBNow != null) {
+    const aboveCloud = close > Math.max(senkouANow, senkouBNow);
+    const tkCross = tenkanNow > kijunNow;
+    const chikouBull = chikouNow != null && chikouNow > candles[candles.length - 27]?.close;
+    const cloudGreen = senkouANow > senkouBNow;
+    if (aboveCloud && tkCross && chikouBull && cloudGreen && !marketDump) {
+      hits.push({
+        strategyId: "ichimoku-breakout",
+        side: "BUY",
+        conviction: 77,
+        thesis: [
+          "Price above Ichimoku cloud with bullish tenkan-kijun cross",
+          "All five lines aligned — strong trend confirmation",
+        ],
+      });
+    }
+  }
+
+  // ADX trend strength
+  const adxSeries = adx(candles, 14);
+  const adxNow = lastNumber(adxSeries.adx);
+  const plusDiNow = lastNumber(adxSeries.plusDi);
+  const minusDiNow = lastNumber(adxSeries.minusDi);
+  if (adxNow != null && plusDiNow != null && minusDiNow != null && adxNow > 25 && plusDiNow > minusDiNow && e20 != null && close > e20 && rsiNow != null && rsiNow >= 40 && rsiNow <= 60 && !marketDump) {
+    hits.push({
+      strategyId: "adx-trend",
+      side: "BUY",
+      conviction: 73,
+      thesis: [
+        `ADX ${adxNow.toFixed(1)} with +DI above -DI — strong uptrend`,
+        "Price above EMA 20 with neutral RSI — continuation entry",
+      ],
+    });
+  }
+
+  // Fibonacci retracement
+  const fib = fibonacciLevels(candles, 120);
+  if (fib && e50 != null && close > e50 && rsiNow != null && !marketDump) {
+    const fib382 = fib.levels[0.382];
+    const fib618 = fib.levels[0.618];
+    const nearFib382 = fib382 != null && Math.abs(close - fib382) / fib382 < 0.015;
+    const nearFib618 = fib618 != null && Math.abs(close - fib618) / fib618 < 0.015;
+    if ((nearFib382 || nearFib618) && rsiNow < 45) {
+      hits.push({
+        strategyId: "fibonacci-retrace",
+        side: "BUY",
+        conviction: 69,
+        thesis: [
+          `Price near Fibonacci ${nearFib382 ? "38.2%" : "61.8%"} retracement`,
+          "Uptrend intact above EMA 50 with RSI pullback",
+        ],
+      });
+    }
+  }
+
+  // Stochastic oversold bounce
+  const stoch = stochastic(candles, 14, 3);
+  const stochK = lastNumber(stoch.k);
+  const stochD = lastNumber(stoch.d);
+  const stochKPrev = stoch.k.length > 2 ? stoch.k[stoch.k.length - 3] : null;
+  const stochDPrev = stoch.d.length > 2 ? stoch.d[stoch.d.length - 3] : null;
+  if (stochK != null && stochD != null && stochKPrev != null && stochDPrev != null) {
+    if (stochK < 15 && stochK > stochD && stochKPrev <= stochDPrev && ctx.sentiment > -0.15 && !marketDump) {
+      hits.push({
+        strategyId: "stochastic-snap",
+        side: "BUY",
+        conviction: 66,
+        thesis: [
+          `Stochastic %K ${stochK.toFixed(1)} oversold with bullish crossover`,
+          "Sentiment not negative — short-term bounce expected",
+        ],
+      });
+    }
   }
 
   return hits;

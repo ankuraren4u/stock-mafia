@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { Banner, CallChip, EmptyState, Skeleton, Spinner } from "../components/Ui";
-import { api } from "../lib/api";
+import { Link } from "react-router-dom";
+import { Banner, Spinner } from "../components/Ui";
+import { api, cls } from "../lib/api";
 
 interface Status {
   lastRun: number | null;
@@ -9,16 +10,29 @@ interface Status {
   snapshots: number;
   finnhub: boolean;
   symbols: string[];
-  recent: Array<{ time: number; yahoo: string; ok: boolean; sources: string[] }>;
+  recent: Array<{ time: number; yahoo: string; ok: boolean; sources: string[]; error?: string }>;
+}
+
+interface WatchlistItem {
+  symbol: string;
+  name: string;
+  market: string;
 }
 
 export default function CrawlerPage() {
   const [status, setStatus] = useState<Status | null>(null);
+  const [watchlist, setWatchlist] = useState<WatchlistItem[]>([]);
   const [msg, setMsg] = useState("");
-  const [symbol, setSymbol] = useState("AAPL");
+  const [addSymbol, setAddSymbol] = useState("");
+  const [busy, setBusy] = useState(false);
 
   async function refresh() {
-    setStatus(await api<Status>("/api/crawler/status"));
+    const [s, wl] = await Promise.all([
+      api<Status>("/api/crawler/status"),
+      api<{ watchlist: string[]; tracked: WatchlistItem[] }>("/api/desk/watchlist"),
+    ]);
+    setStatus(s);
+    setWatchlist(wl.tracked.map((t: any) => ({ symbol: t.yahoo, name: t.name || t.symbol, market: t.market || "?" })));
   }
 
   useEffect(() => {
@@ -27,112 +41,153 @@ export default function CrawlerPage() {
     return () => clearInterval(t);
   }, []);
 
-  async function runAll() {
-    setMsg("Watchlist crawl started in the background.");
+  async function crawlAll() {
+    setBusy(true);
+    setMsg("Crawling watchlist…");
     try {
       await api("/api/crawler/run", { method: "POST" });
-      await refresh();
-    } catch (err) {
-      setMsg(err instanceof Error ? err.message : "Crawl failed");
-    }
+      setMsg("Crawl started — data will update in a few seconds.");
+    } catch (err) { setMsg(err instanceof Error ? err.message : "Failed"); }
+    setBusy(false);
   }
 
-  async function runOne() {
-    setMsg(`Queued ${symbol} in the background.`);
+  async function addToWatchlist() {
+    if (!addSymbol.trim()) return;
+    setBusy(true);
     try {
-      await api(`/api/crawler/symbol/${encodeURIComponent(symbol)}`, { method: "POST" });
+      await api("/api/desk/watchlist", { method: "POST", body: JSON.stringify({ symbol: addSymbol.trim() }) });
+      setAddSymbol("");
+      setMsg("Added to watchlist — will be crawled automatically.");
       await refresh();
-    } catch (err) {
-      setMsg(err instanceof Error ? err.message : "Crawl failed");
-    }
+    } catch (err) { setMsg(err instanceof Error ? err.message : "Failed"); }
+    setBusy(false);
   }
 
-  if (!status) {
-    return (
-      <div className="card">
-        <Spinner label="Connecting to crawler…" />
-        <Skeleton lines={4} />
-      </div>
-    );
+  async function removeFromWatchlist(yahoo: string) {
+    try {
+      await api(`/api/desk/watchlist/${encodeURIComponent(yahoo)}`, { method: "DELETE" });
+      await refresh();
+    } catch {}
   }
+
+  if (!status) return <div className="card"><Spinner label="Connecting to crawler…" /></div>;
+
+  const uniqueSources = new Set(status.recent.flatMap((r) => r.sources));
+  const crawledStocks = new Set(status.recent.map((r) => r.yahoo));
 
   return (
     <>
       <div className="topbar">
         <div>
-          <h2>Data crawler</h2>
-          <p>Prices and headlines refresh in the background every 15 minutes, including when this page is closed.</p>
+          <h2>Data Crawler</h2>
+          <p>Fetches prices, news, and fundamentals from 80+ sources for your watched stocks.</p>
         </div>
       </div>
-      <div className="row" style={{ marginBottom: 12 }}>
-        <CallChip label="Crawler" state={status.running ? "loading" : "ok"} />
-        <CallChip label="Finnhub" state={status.finnhub ? "ok" : "empty"} />
-      </div>
-      {status.running ? <Spinner label="Background crawl in progress…" /> : null}
-      {msg && !status.running ? <Banner kind={msg.toLowerCase().includes("fail") ? "error" : "info"}>{msg}</Banner> : null}
-      <div className="grid grid-3" style={{ marginBottom: 16 }}>
-        <div className="card kpi">
-          <div className="label">Snapshots on disk</div>
-          <div className="value">{status.snapshots}</div>
+
+      {msg && <Banner kind={msg.toLowerCase().includes("fail") || msg.toLowerCase().includes("error") ? "error" : "info"}>{msg}</Banner>}
+
+      {/* Status */}
+      <div className="grid grid-4" style={{ marginBottom: 12 }}>
+        <div className="card kpi" style={{ padding: 10 }}>
+          <p className="muted" style={{ fontSize: 11 }}>Status</p>
+          <p className={cls("mono", status.running ? "up" : "")} style={{ fontSize: 14 }}>{status.running ? "● Running" : "● Idle"}</p>
         </div>
-        <div className="card kpi">
-          <div className="label">Last run</div>
-          <div className="value" style={{ fontSize: 16 }}>
-            {status.lastRun ? new Date(status.lastRun).toLocaleString("en-IN") : "never"}
+        <div className="card kpi" style={{ padding: 10 }}>
+          <p className="muted" style={{ fontSize: 11 }}>Last Run</p>
+          <p className="mono" style={{ fontSize: 14 }}>{status.lastRun ? new Date(status.lastRun).toLocaleString("en-IN") : "never"}</p>
+        </div>
+        <div className="card kpi" style={{ padding: 10 }}>
+          <p className="muted" style={{ fontSize: 11 }}>Snapshots</p>
+          <p className="mono" style={{ fontSize: 14 }}>{status.snapshots}</p>
+        </div>
+        <div className="card kpi" style={{ padding: 10 }}>
+          <p className="muted" style={{ fontSize: 11 }}>Sources Used</p>
+          <p className="mono" style={{ fontSize: 14 }}>{uniqueSources.size}</p>
+        </div>
+      </div>
+
+      {/* Controls */}
+      <div className="card" style={{ marginBottom: 12 }}>
+        <h3>Crawl Controls</h3>
+        <div className="row" style={{ marginBottom: 10, alignItems: "center" }}>
+          <button className="btn primary" disabled={busy || status.running} onClick={() => void crawlAll()}>
+            {status.running ? "Running…" : "Crawl All Watched Stocks"}
+          </button>
+          <div className="row" style={{ gap: 4 }}>
+            <input
+              value={addSymbol}
+              onChange={(e) => setAddSymbol(e.target.value.toUpperCase())}
+              onKeyDown={(e) => { if (e.key === "Enter") void addToWatchlist(); }}
+              placeholder="Add stock to watchlist"
+              style={{ width: 160, padding: "6px 8px" }}
+            />
+            <button className="btn" disabled={busy || !addSymbol.trim()} onClick={() => void addToWatchlist()}>Add</button>
           </div>
         </div>
-        <div className="card kpi">
-          <div className="label">Finnhub</div>
-          <div className="value" style={{ fontSize: 16 }}>
-            {status.finnhub ? "on" : "off"}
-          </div>
-        </div>
-      </div>
-      <div className="card" style={{ marginBottom: 16 }}>
-        <h3>Run</h3>
-        <div className="row">
-          <button className="btn primary" disabled={status.running} onClick={() => void runAll()}>
-            Run now
-          </button>
-          <input value={symbol} onChange={(e) => setSymbol(e.target.value.toUpperCase())} style={{ width: 140 }} />
-          <button className="btn" disabled={status.running} onClick={() => void runOne()}>
-            Queue ticker
-          </button>
-        </div>
-        <p className="muted" style={{ marginTop: 10 }}>
-          Starts on server boot if data is older than 15 minutes, then repeats every 15 minutes. Manual runs also
-          return immediately. Set FINNHUB_API_KEY in server/.env for extra US quotes and company news.
+        <p className="muted" style={{ fontSize: 12 }}>
+          Auto-crawls every 15 minutes. Manual crawls take 5-30 seconds per stock depending on sources.
+          Set <code>FINNHUB_API_KEY</code> for extra US data.
         </p>
-        {status.lastError ? <p className="error">{status.lastError}</p> : null}
+        {status.lastError && <p style={{ color: "var(--red)", fontSize: 12, marginTop: 6 }}>Last error: {status.lastError}</p>}
       </div>
+
+      {/* Watchlist */}
+      <div className="card" style={{ marginBottom: 12 }}>
+        <h3>Watched Stocks ({watchlist.length})</h3>
+        <p className="muted" style={{ marginBottom: 8, fontSize: 12 }}>These stocks are crawled automatically every 15 minutes.</p>
+        {watchlist.length === 0 ? (
+          <p className="muted">No stocks watched yet. Add a stock above.</p>
+        ) : (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+            {watchlist.map((w) => (
+              <div key={w.symbol} style={{ display: "flex", alignItems: "center", gap: 6, padding: "4px 8px", background: "var(--panel-2)", borderRadius: 6, fontSize: 12 }}>
+                <Link to={`/stock/${encodeURIComponent(w.symbol)}`} style={{ fontWeight: 600 }}>{w.symbol.replace(".NS", "")}</Link>
+                <span className="muted">{w.market}</span>
+                {crawledStocks.has(w.symbol) && <span style={{ color: "var(--green)", fontSize: 10 }}>●</span>}
+                <button onClick={() => void removeFromWatchlist(w.symbol)} style={{ background: "none", border: "none", cursor: "pointer", color: "var(--red)", fontSize: 14, padding: 0 }}>×</button>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* Recent Crawls */}
+      <div className="card" style={{ marginBottom: 12 }}>
+        <h3>Recent Crawls</h3>
+        <p className="muted" style={{ marginBottom: 8, fontSize: 12 }}>What data was fetched and from where.</p>
+        {status.recent.length === 0 ? (
+          <p className="muted">No crawls yet. Click "Crawl All" to start.</p>
+        ) : (
+          <div style={{ overflowX: "auto" }}>
+            <table>
+              <thead><tr><th>Time</th><th>Stock</th><th>Sources</th><th>Status</th><th>Error</th></tr></thead>
+              <tbody>
+                {status.recent.slice(0, 20).map((r) => (
+                  <tr key={r.time + r.yahoo}>
+                    <td className="muted" style={{ fontSize: 12 }}>{new Date(r.time).toLocaleString("en-IN")}</td>
+                    <td><Link to={`/stock/${encodeURIComponent(r.yahoo)}`}>{r.yahoo.replace(".NS", "")}</Link></td>
+                    <td className="muted" style={{ fontSize: 11 }}>{r.sources.slice(0, 5).join(", ")}{r.sources.length > 5 ? ` +${r.sources.length - 5} more` : ""}</td>
+                    <td><span className={cls("badge", r.ok ? "up" : "down")}>{r.ok ? "OK" : "Failed"}</span></td>
+                    <td className="muted" style={{ fontSize: 11, maxWidth: 200, color: r.error ? "var(--red)" : undefined }}>
+                      {r.error || "—"}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </div>
+
+      {/* Data Sources */}
       <div className="card">
-        <h3>Recent crawls</h3>
-        <table>
-          <thead>
-            <tr>
-              <th>Time</th>
-              <th>Ticker</th>
-              <th>Sources used</th>
-            </tr>
-          </thead>
-          <tbody>
-            {status.recent.length === 0 ? (
-              <tr>
-                <td colSpan={3}>
-                  <EmptyState title="No snapshots yet" body="Run crawl watchlist or open a stock page." />
-                </td>
-              </tr>
-            ) : (
-              status.recent.map((r) => (
-                <tr key={r.time + r.yahoo}>
-                  <td className="muted">{new Date(r.time).toLocaleString("en-IN")}</td>
-                  <td>{r.yahoo}</td>
-                  <td className="muted">{r.sources.join(", ") || "—"}</td>
-                </tr>
-              ))
-            )}
-          </tbody>
-        </table>
+        <h3>Active Data Sources ({uniqueSources.size})</h3>
+        <p className="muted" style={{ marginBottom: 8, fontSize: 12 }}>All the sources used across your recent crawls.</p>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 4 }}>
+          {[...uniqueSources].sort().map((s) => (
+            <span key={s} className="badge" style={{ fontSize: 10 }}>{s}</span>
+          ))}
+        </div>
       </div>
     </>
   );

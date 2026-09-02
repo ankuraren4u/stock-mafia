@@ -2,7 +2,7 @@
   "yahoo": "TCS.NS",
   "symbol": "TCS",
   "market": "IN",
-  "crawledAt": 1788238805945,
+  "crawledAt": 1788327015857,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -25,13 +25,13 @@
   "quote": {
     "symbol": "TCS.NS",
     "yahoo": "TCS.NS",
-    "price": 2399.3,
-    "change": 0,
-    "changePct": 0,
+    "price": 2369,
+    "change": -30.3,
+    "changePct": -1.26,
     "previousClose": 2399.3,
-    "dayHigh": null,
-    "dayLow": null,
-    "volume": null,
+    "dayHigh": 2372,
+    "dayLow": 2325,
+    "volume": 2678034,
     "marketCap": null,
     "currency": "INR"
   },
@@ -72,20 +72,12 @@
       "label": "neutral"
     },
     {
-      "title": "Bonus & Dividend Stocks To Watch: TCS, Tata Consumer, PAE & More Go Ex-Date Today May 25; Check Full list - goodreturns.in",
+      "title": "Bonus & Dividend Stocks To Watch: TCS, Tata Consumer, PAE & More Go Ex-Date Today May 25; Check Full list - Goodreturns",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMFBlLWRDOVRVeHFYSEg5R2tkU1hfT2J5b3FkaG5qd3VVdlZfVkw1NzE1Y2JBaHpTZWdCSWdFQmRjNk9mVlhoQlBaaEpsdFhhWmJIT2NYTHE5SWRYa3hSOHBnSlkxZDJrTThsUE9SWF9YNFVyNUZYN0VIWUNITUgyYV9IUWJMNmpXdVAyRjN4bThLUUZrd2dLcGF0WlQ0cE5BZDB1MFp2MWRVcVBHZVI1SURtYkVhQUlCTksxTkNRU0ZNMTh6T0xyRU0xaDBNZDBuU3FPcFh6c0xoU21Jc1lQb2Y2cw?oc=5",
       "published": "Mon, 31 Aug 2026 13:32:55 GMT",
-      "source": "goodreturns.in",
+      "source": "Goodreturns",
       "sentiment": 0,
       "label": "neutral"
-    },
-    {
-      "title": "TCS stock falls after MHP acquisition: Brokerages bearish; Citi, HSBC flag integration risks, falling... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQb2taUG1nV0pIelpuakpRVFhSNHRnT2JKVm9PNC1YX0hfUFh5aE1yMFMyRm9LYnFyVHo1VEsxaGZmcnFpbFNNZklfOXRGUF9pM2k0bjRYY212UXZpa05XV19FUnBIMGR3YXZtWlphaGMzUElUNjE5Z0owQzU5MGctNXlZZEIxNkx4d1VsWW95LTF0UkRDOVI2R1V5eE8ydTF6bkYzazJET2J0d1M4M1ZYaFdfdzhOclFRcHJKVTdjQjRKMGZ3MkdITnJWd3d6cVRQMUYyWXJIWHdZN28wNDBYYTRvZFIxbHBYakFLejk5X3BDeXdFYURzaWJ4T2JrclVF0gGGAkFVX3lxTFA3TWdILVpGZEJZVHg0QmZSaXFEYkctYzVaeEtoWlI0a05ubnk4UzU4Q0tsQVZOdHFZam10OVpKaGw4emNZdm5EYzVsdEVDZHNTZVFHWEJCbVk1S1R1OFBVQ0l0UkVnR2ZTQW93ZTN4QnI4a212azlsbzhWRzlfWTc1djZKWDNXVGNBUFM0QVpudktiVzNJMEpwSG5nbGs1TnZkMkc3NDQ3N2pwU3p0aG1OeG53eF9RMDQzRk1Cam1JdFRsWkhEZUotaXR6aDcybGRtdDY2a0w4ZTkyNm5MYlhjWHhiTjhiazAyWDNyRS1KYWpUMXowZHBhUUxLZjktd0xCbTFoT1E?oc=5",
-      "published": "Tue, 25 Aug 2026 03:26:25 GMT",
-      "source": "Moneycontrol.com",
-      "sentiment": -0.667,
-      "label": "negative"
     },
     {
       "title": "TCS Shares up 6%. Infosys up 3%. Why IT companies are up today? - India Infoline",
@@ -120,10 +112,10 @@
       "label": "neutral"
     },
     {
-      "title": "Weekly Recap: N. Chandrasekaran to step down and Rs 12/31 dividends - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQb0RRRTNBaE5veGg2bXpWdGRQS19JVTl3OWFsZm1VSWxRbi1qRk5KaGxzWnBGX01sMWRkOFFyb29tQTdnUWJmc1E1bWdPbmZBMXBiVFcxeVpBb1R2OWtERGxQY1VfUFZJeWxfNzJoYjJMU3gtb2F1S3VPaDh6Slc0QXkzcy1xZ25fM2dRVTc3WklsLTNNZmZHWVR1TjF0cmUzNTJMWlp1dWFsa1NtelpvXzRxZ053WmJkV2JjLWhrSDlVZ3FKRmc?oc=5",
-      "published": "Sun, 16 Aug 2026 07:00:00 GMT",
-      "source": "TradingView",
+      "title": "Tata Consultancy Services shares rise 2.35% in today's session - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNb3ZPS0RZNDFwRGhCLUpRZS1ZMi14T0pta3h5dkYwYUphWjlwM0NoS1hvSDQxdld1MWVMNXFnSlZTQU1VZUwwQjBTR3JIMHM3Vnl6TGJ5ZXZsTDk3enAtVk90UFdUTHhKRFVXVDZ0aTVXYXZLZEw5ZzkydXlIY0YwZXl4al9PWVVzRXo0eTUwMzRJMnp2VmpmdkRNZk5WZ3lEWWJfLXl4NTlvVThxdmFRenpYNnE4OFdtbWx0UXJQX1B5SmFtX3NCdFJZUFUxaE9aMWJOM0Jn0gHbAUFVX3lxTE9Na2xqVzJ5REtHTVFpeENEZW05bHN6bGROd3VBRmI4WWxhU2JJRElUVW92c19iQmlQd2JlMFRibk83WERMNnFsZ193MnRaYWQ1WGNyVUFsUkhaSlBMYm41OEhFMzB2SEF5ZGVQOFV6eU9mLTdvdTdHLVI3a3ppaUYyWTNpRUZHMTJZUmxyWGpMTHVuOGQyeGVCY2FEZHJMaDNWV2lvRGd0MzVUMUFDZnI0T2xxSW1YZ3Z1VVpCZ0Y0amcyQUF1NHItb09ybC15ekpsMFJSenlZZzItSQ?oc=5",
+      "published": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "source": "Moneycontrol.com",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -136,10 +128,18 @@
       "label": "neutral"
     },
     {
-      "title": "TCS Share Price Today, August 24, 2026: Tata Consultancy Closes at ₹2,284 - The Eastern Herald",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zY1JGaDVpVl9WQy1xN1JwWWxadDAwX3RrcWJtRnp6QXVjNWNNbjBmc01oTS1lZHNZWXp0SXhRWV81MTZHbUhZdS1PMEtuamQ0Z0JPM1pkWGluZGlfbkZYVWlLNEI3ZHVVLV9BZGRDUWZOOXdKQ1hWNXNtdTU0Wk0?oc=5",
-      "published": "Mon, 24 Aug 2026 14:59:31 GMT",
-      "source": "The Eastern Herald",
+      "title": "IT shares crash after three-day rally, TCS nosedives 8 per cent - The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZldUTmlCaFhwNGFCTGl4Sy1sa1ZmUWxzQU9uOXNkNEtZMnMwUWRTUGxxT0x4SWZxeWV5QjF0aFNnZDJUOFRuNlo0TzU4SnVsN3pFaHlyRmJGd0JvNFZ4dlpXMjVna3VHMDNqUlc2b2VfM3p3NUFoMjFQajJBXzRHQW5yNTVlczFBRUtxS0tza25ieXF3X3BSckVDaGNWN3RGS1d2MHR4ZUVIZlY1TGZpblotbm5YeUHSAcQBQVVfeXFMTjZTNFVJSm9LWUJreDdycHp1bm5veExTRFpoTVVBZGJiQnliQVdNUlp3SklQVU5RcjNmT1RIbW5PbVI3Q2hVOXpUMEF1X1RyaGFNdmw4dlM0bnU0RTRvbGg3YlJHcUtEbUdvN3ZhWkFGTkZuV3gwcWhaOGVrVTl0QWpTVFZOb1VvUWZPX1FQdjhJUGFiQXJ0d3lyVFl0OGVvRUd0WmgwYm9KekhJbloyVTVWSWRrdG8wWTFYYWN1aVpmNFM2cQ?oc=5",
+      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "source": "The New Indian Express",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Stocks to Watch Today: TCS, GE Shipping, Afcons Infra, Hindustan Copper, Shankesh Jewellers, Sunshine... - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOaHctQXM1ZDJ2QmVtSFZadWNlbmxpR2wtVmhNRFdKek1Ub3h6Z0pjUEFZUWRMa19FOFRqc2E2dWpvZWdBWDZ6cHF4WW0tOVhWZkxDSmVpbFJfdnpHZTZOUEZlalQtZW16eV8xQzN1UmNIWWpVVG4waXdBNmlxcHROQmEwT2RGV0lXc3lZOEduWk1idGxaT2t6WG84N0ZSOEFqOFRCNDVUX0w3UE90MEZ0R2xLSTdBeWZ4bS11aEhiekh4bjhNb3dZN1ZZNUFJaEItRmg3X3RSVDVBVk1HWDF4WVRtQ0NmUnRPUUN5QlZlRTZZTDA0ZC1rV2cycWFIWGRkUElvU3dhM2hIZTBEemk1cExoOFBlekJNM3ZES01tQjFmdTlDaUFaZ3MwSjI0Wmlw0gG2AkFVX3lxTFBLNk1fcndCOVNwOVU0WE5QYnlRcUd5VHk0SDY2ZldycUZ5VmtkbFlrb19NbVc4MmdCZEFBZlZlTEl1eG9oRnhqLVRqUDQzTzNtOG5ueWlvVk9fUUFPNWgxNnFXNFQ1VXVmamtDSWxiSkpSOUg4NHhkM2tKQVE4TzhNTFNlZ0g4MGRZUG1mMmo2MWRGMDR0M3BOOElVaDBrY3pObEZMS2Z6SGFiSllOZ1JGV3hfZGVyakRZcldkU1BqcGFrWkIzZTRpWDAyNUcwZHY5ZlpsNXhqeEdWR1c2Ym5FYVYzX2RTbnIwY25jUjRaVGIwWndsdXZHcGxfSnpPcDJ0REhHR2taX0FLU2ZNWlk3UDJLVE55cTFpM05KUkwwU3dYeTA5eFlVc1kwUFN4MGI1UzdrYXc?oc=5",
+      "published": "Mon, 24 Aug 2026 20:27:37 GMT",
+      "source": "Moneycontrol.com",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -152,10 +152,26 @@
       "label": "neutral"
     },
     {
-      "title": "IPO rush continues: 7 issues to raise over Rs 1,400 crore this week - economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQN3BIc3RSTTJrcU1sRW1DbGh2bjIwS3NlYzhCa05QYUJyZENidEVGMk5Fd0FFZ0FTM1FuUnowazl1WENkRHI4RFZjTWRubEo2TktSdHBGQzZpc3FZS2lfbVpvbDVxekNrZm13a3dsR2ZRdEpfWWVLZkk5b1dTTXBTRQ?oc=5",
-      "published": "Sat, 29 Aug 2026 07:49:09 GMT",
-      "source": "economictimes.indiatimes.com",
+      "title": "Business News Live, Share Market News - Read Latest Finance News, IPO, Mutual Funds News - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdUlVMXFtdEhSc2xCRXhFdjA1WU5FdGVMQkdRT29sMGJRdTlEeVI5WlZHYXlhMWQ4UURWUjk1WUNUT2VPc2p3c1Q5MGQ3ejlpVVJ5X0h4VnAycEM0X25rX1hqUkYwOVBobUxjSWduM2FfQmN3d1RBVk0ybjhaMF9nNW1wcy10bUdaQ0pRLWNxWQ?oc=5",
+      "published": "Tue, 01 Sep 2026 04:12:11 GMT",
+      "source": "The Economic Times",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Wall Street Week Ahead: Jobs report, Broadcom results pose next hurdles for stock market rally - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeEtzLUZvSGd2aTh6WlU0Z1ZTUGVyRWtHX1ltc2RfZUhzMTZqWDltdXo5ek5JV3ZoWGsxd01YSl9oUnVjOTBsQ2RYZHBnNWFPQmgwU1dtTWgzSFNTa1ZPaUVFbHkzWUNZSkNGMEpNcG90NHFjUnpvdmx2VHlMQnBoWWswRUEtbE9JVXc?oc=5",
+      "published": "Tue, 01 Sep 2026 05:07:45 GMT",
+      "source": "The Economic Times",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Tata Consultancy Services Share Price Today Live Updates: Tata Consultancy Services Sees Minor Dip in Pri - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMirgNBVV95cUxOUHh2S0hXVkRhOUpFR21JMUJDZ1JQVUNhWktyUFdidkgyTkpLc0xYWVdidndORDA0M18tTk8wdzNJRU5tbG1nSGZ2VmNHdnZ0cGhraWpnTFJXTE4wRjJwZ1JDYURaVk0wQnlDYmpRMUZPRjFhaEFxN2VpcWcydEdfeDVac1lNMF9jTmh4SllDekthdFFTa01VZHVfVjVkMTNpeWs3dktiLVk2dzl3aWoyUmRNaV9Dc3dhcUcxMEE2amV1X2kwS3NqMVFYTUFobTR6T3dfakVNbFRCSTVqOV9CcWl5Sk1NNmRVb1VnQkhkcnBob1ZOczFYUXA5NVp1UkRvejBrOWFXSGdUcHlnTlAzUEVLazRUcTJTdExfd2JrNE11WmNYWlFyZWJxT0lUTGphMzhBNEZrWmJKTFpqbE9KY0lFZkYweUVhWURMVlQ5TGEzZnVIaGJZc0RFcWFENEkyYmkxYXpIbGV2M2tMNDA4R2pXenRrYmM1ZUVYVVJXNnMxeXNqQ185V3R0UlVXcklZWi1heExrSkx0bW9Yem90UmY5bjFYWVdUamFqaEhB0gGnA0FVX3lxTFBYcnFKRFVwZnFWd25UY3RDUU55RGg0SVRVWXZFZy1rT0ZEUkxiMFpXS1JsOHVMSmh3V21lcW5YSWF1bmdtMUdIalotT0ItTlNFMXUzNXNMcHhvcmtIdTFhcWlkY1NLUlJoeV9pYmNIZC1FM3l3NGtoclBFd3V5VXFPSGNYVHhlS3pTZTh1MmdZWS1vbHIxNC1fc3A2aXN2c0pIUEpiT3czZFBha0NDSkpnbDhDVVBTU0FkWTdZV3NIRzZzQnhlZm1aTGhGZkh3NVgzNFpZZ0dSa1lpV3VSM3pxWU1STnFRbkhZUzNEcjRuRHkzZWlDejM0OUdpbHJLT3NiTDRqMV9yQUNpWkh0Z1c2YmM3SUp3UVdOYnVQNDRkUk11ODVoZ3NNQ3YwaGt4Uk5BQmp5UXdBLXFLTUN4T243V1dwbmpyanN6a25aT0tJSXZCbjFQMnNfRnppaGRKZHg0a1pqdUszd1ppRkM4dkRfXzRyRlE2VWM1X1hpb1psa1VhUVNHTUt5dUFaeXBhWnh2NV9kUnpvYWtzQV9LM3ZReGRkQ2lFTQ?oc=5",
+      "published": "Wed, 06 Mar 2024 08:00:00 GMT",
+      "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -168,28 +184,12 @@
       "label": "neutral"
     },
     {
-      "title": "Sensex rises 330 points, Nifty closes above 24,150 as IT rally helps market snap 2-day losing streak. What’s ahead? - economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02WTVCX2VvLTUxX1NPeXpaaUJhcW5MT0dmc0RCSkRpUjZjN3o4M2g3Q2xCa1puVnN6Rnlad2ZHR0lQbWpjZ3d3MG9MN0p0MjFEdXNGRlpoTjR0MU5kSnU0S0hlRk1kX3c1NklJVGJqQ3FvY1YtSDExX3Y1dw?oc=5",
-      "published": "Sat, 29 Aug 2026 07:47:11 GMT",
-      "source": "economictimes.indiatimes.com",
-      "sentiment": 0.333,
-      "label": "positive"
-    },
-    {
-      "title": "7 of top 10 firms shed Rs 1.13 lakh cr in m-cap; Airtel, Reliance worst hit - economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQQnZ0cXFGVWpxajZ3azh6YlVqdDlzQ2Vya2k0dVFxbU15ME1ReHRmOTM0NFhEQ3gtOVp4SnVSYjRPMEZTTG5KRlBCQkF4MmdPN21KaGdULUZtV1pLcVVmT1dyejZOWThLMnV5N3pmRkVZS2wyUnIxT0UyZXByRm5WT0JaTXJwUDVUU1JnWjBURWk4dEFIRDQ2d19UN2FqTW1UWEdmZm9yRGFuTXNlNXhCN2dqRXJOQmtJMTcybFJuNmJHQ0V3WGpoVkJLdE9UZmNzS2hEMXVNMktVbmwzbVYyMHFlNTNYNFFTME9UYtIB5gFBVV95cUxQY0MwZ0JYQ0QtMndGTlRXSjlKdkV6VUxGRkYxZ0UtLVNXTzNGbndid0dGQm1jMVFERDVGUVRUQ1VkWEhNMkhRbVZiRzlyMmhjMzl5bDRtS042eFRPNFU5UXQ4bXVCWGw1bC1Qb3VuZXBKdEZVRmw4bzg5bm9GeDZfd1phOUlELV9ZOXRkbDFKWkpYY3ZEV1pmNFNUa3hWTklzcHgwS2NOQzU5cnB2M3A5aWFaNFR4R0JoSGNNLTNpVFB1c2VVS2xzd05VRE9ScEMtbFhSNUZrM0pvbDFtYUh1OVctbUxiUQ?oc=5",
-      "published": "Sun, 30 Aug 2026 05:51:00 GMT",
-      "source": "economictimes.indiatimes.com",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Bharti Airtel gains 26.8 lakh mobile users in July, Reliance Jio's wireless net adds at 24.4 lakh - ET Telecom",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWTI0blhBZDFNbVNiTm85V2l1YUE0X1hPZWh4bG5oQXZSVHNqZk5VOVlrMFplUFRIQ0dmVXMxWllrNENPWXJUN3hWVW5vZU9IYmZTOC05NTlPcWdoTS1BTHN4NVhBY21KaVhIbjcxLU5aUmxwU09kRnhRNWNuTVQ4VDUxT3VDcmpkSTdKSVZBcHBSd3hQTXJ1X2VJM1ZrNS1DaVpkN19qbHdzdmJBYzYzOXNrbG5KOEJFSzQtX1ZXWENseWZqenB5Y0RIOVlRa002c1RudEU4bjVrSEZJYnBMVjBTQmJTcTlwYWxYazRfSldTOWN3d1M00gH8AUFVX3lxTE43VjU2dmdrZDVyWnlQNXg3SzYwVlMxY1lab3MteTRhc2l4NkQxMEZXNUQ2SHJOeG5VT2otejlEVmNuODdzeHZNcHc4c1U3M3JYd2phbWdoRHA1UGpQRUUxczliTTFFYmlWcG1jTGxuV01wMG5NZXByQmllSzgyN1pyajNFWGxUM29KOWtvaERCRmZSR2gzaGVOWVZUSTc1VHEtbkhJRDV6S1E0dlhuWm1EN2pxaVN0bDNlekE2ZU5NSk1vUXBzdUQtVVJuaWFpM2Y0bDQ2eTl1bFNzdW1EZ085d1BwRHJnQ1BZNll6THMxSkdVaTNEY1poN3gySQ?oc=5",
-      "published": "Sat, 29 Aug 2026 01:50:16 GMT",
-      "source": "ET Telecom",
-      "sentiment": 0,
-      "label": "neutral"
+      "title": "₹49 lakh crore market-cap wipeout! Are Nifty’s fallen giants bargains or value traps? - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1tYmV5QWQ5azJqSmdIb0FfRWNWcjJtTHVIV1FOMWp1Vmw2R1BTbVB5NVVTWFRrTkF0bldncmhUcHROSnJ2cmRycGE4YTZNNF95Z0xWYWxLZFpzdnFtN1A1QXNIaWhldEJleFVJVGJGWkFKYkU1ZHJzREdwMlc?oc=5",
+      "published": "Sun, 30 Aug 2026 00:33:29 GMT",
+      "source": "The Economic Times",
+      "sentiment": -0.333,
+      "label": "negative"
     },
     {
       "title": "Tata's TCE wants private sector to take the nuclear power baton from DAE - ET EnergyWorld",
@@ -200,14 +200,14 @@
       "label": "neutral"
     },
     {
-      "title": "DSP Financial Services Sectoral Debt Fund - Direct Plan Fund info - economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRGdXQ1I0N2F3Qmo3VEgxRV9BMFE5U3dFbDlUWFNMbWNHcnNraHRRajlqYTFoZWhJTWZVNFB3elZraTkwVXFxNXBkZHNiMW8yenpGZUJtc2tyOFpDNGRLVmRYOWJXMU1lQ21mX0lsdXNNby1RUlNiRzJSZXI3YU9YNkI3emh3aFRMVERDb080aWtMcVZwbzNoWGRONEhNbUg1dkZBdnBFMDQxYmpmQ1JnSVJuNzhnbkRvUTlWbjl0MUJNVkFN?oc=5",
-      "published": "Tue, 01 Sep 2026 04:13:32 GMT",
-      "source": "economictimes.indiatimes.com",
+      "title": "World Leaders pose for group photo at SCO summit in Bishkek, Kyrgyzstan - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSkFnaDFwTFhoZ2NTU2hnYU5ZbHQ5cERnSUNBY19IdWlrNzRjUDlkUl94TWkzUkxaLUtFS0FnSXk3MmhBQ1dtMGtFOXJJS05zYXBDX21aV0NyeEFxQ2hobHNGcjJ3RWxUQnhBSm8yM1NuMDhldWhRdlJVV2g0SnUwbkg5WktUb2VqbjVNUzBhaTQ0aGJkSzR1b0d1MHM3Y0JkYzFFeXVORGFHRnRBVmF1d1BRaFY4NjJLR09hOHptemxkT0hHSXNPSWtmanl3T04tRERCQmJJeE1kUVk?oc=5",
+      "published": "Tue, 01 Sep 2026 06:02:00 GMT",
+      "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
     }
   ],
-  "sentiment": -0.03705555555555556,
+  "sentiment": -0.018500000000000003,
   "errors": []
 }

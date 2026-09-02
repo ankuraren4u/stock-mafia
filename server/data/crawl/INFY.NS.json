@@ -2,7 +2,7 @@
   "yahoo": "INFY.NS",
   "symbol": "INFY",
   "market": "IN",
-  "crawledAt": 1788238806828,
+  "crawledAt": 1788327018695,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -25,13 +25,13 @@
   "quote": {
     "symbol": "INFY.NS",
     "yahoo": "INFY.NS",
-    "price": 1133.8,
-    "change": 0,
-    "changePct": 0,
+    "price": 1156,
+    "change": 22.2,
+    "changePct": 1.96,
     "previousClose": 1133.8,
-    "dayHigh": null,
-    "dayLow": null,
-    "volume": null,
+    "dayHigh": 1156,
+    "dayLow": 1125.6,
+    "volume": 13516123,
     "marketCap": null,
     "currency": "INR"
   },
@@ -120,14 +120,6 @@
       "label": "negative"
     },
     {
-      "title": "Infosys Ltd. Share Price Today - Infosys Ltd. Stock Price Live NSE/BSE - CNBC TV18",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2V1U1ZktaS0l6MzBNR3g0aFBIYXh5SnVaN2w0Mnptdi1yWlB1bFZnU01sZFpEaFJudnJ1LVZfWUxfZFctR0VqMHcxU0ZhNktNNHhTVnRhQ0R6YWFzV1VLNkZQaUx2aElMQ1dUbUhDNDk3Rnoz?oc=5",
-      "published": "Sat, 03 Jan 2026 06:42:33 GMT",
-      "source": "CNBC TV18",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "Infosys, OFSS, Coforge shares rally up to 4%; all 10 Nifty IT index stocks rise - Business Today",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWGZuOTRscF9MdHZua1B6TXUtajh5QldMRkFCZG1NRGZQX0lHaS1PWHdxSEhWXzM4MGdzVjdsdU84a3c2aVBMY0dDVzJ6QldLWEpqYVVwb1VxVEtWTGJoNUctNGRkQ09ETFlWWjB4QWd5ZlRzMElES2d6UjY4alY1RnkwMVJaWFFEQkdIWDBPMkpUTGNfWUpDWHFqUjFwbU9Pa1R6Z0xRMVRtdEhWU0pOcUF1eEFTY3VNZ3o3cmU5U2RvTlZfdW1FM3EyUFo1TXVMSC05OGpCTmVfRWfSAeABQVVfeXFMTkFXZTZDSnFaNDNuNWdVRHE5V0ctdll1RTV3Q0pYYnhKVUlqTkExV0pnWDJJbTN6TE9URF96Skt2RnBPVWVLeThpNllSdFd4YWx3NUF4Ym44b1N0Rl9sTDVjcjBwR09iVDZDTGtBT3g4QUVOeE5xdnFUWHhqMXk5b0tfdVVGYVlVVnV2aU1oV0xVdUNock9pX2piamhZMkpkMkpNNjc3bWw2QngtLUwxS2Nuc0E0SXlWZHFQdG1FRnNqblBYVGg1R1JGREdPYzR5U3pwaHhtRHhlVE9YM2I5c2k?oc=5",
       "published": "Mon, 27 Jul 2026 07:00:00 GMT",
@@ -136,10 +128,34 @@
       "label": "positive"
     },
     {
-      "title": "Infosys shares plummet 7% after Q4 results; what did analysts say? - Upstox",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYV9jbHBKMXhRLUNIcnQ0V01oVDlJb2VqLTNDZFhnSWYycEczNjVoM1paQmdnUnpjMERLdDBITDV6dzB4VkhCVmdpTHM4RzZzbTJNNzdWWDRkcmRNcmN0WUU1czh3REx0ZnUxZk5vQlBiY0lFWmVKUm80TDZTd2YzcFk2ZHE2MzAyaFc2aVZNQmVyY1Q1Ty1fV2x5X0N1aFdqYzVlNGMyQThST2xBd1lWVGxJcE81S2xnMi01MlJUemhiSGkwVGc?oc=5",
-      "published": "Fri, 24 Apr 2026 07:00:00 GMT",
-      "source": "Upstox",
+      "title": "Infosys Stock Falls To 52-Week Low: What Next To Do With INFY? - Watcher Guru",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRm1yNHhzOXF3OEhSQzdhQ01IY3ZfZG5XWWZyckxPT0ZKWFdJYm4zYS0tQU1Wdk9uQlRRaHBta1dQclZvUHdST1l2NE5SNkdHNktDNVNFVXJuSU5HY2U1UkRuZWw5WElJRkhiblpSMTFrZndYbWlVeGp2QjhGWkR2dlByZzVJVXJUVmpuY2xtNA?oc=5",
+      "published": "Mon, 16 Mar 2026 07:00:00 GMT",
+      "source": "Watcher Guru",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "What does Infosys ADR stock rally on the NYSE mean for Infosys shares on the NSE, BSE? - Livemint",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR0JqR2hnN1laLUlsSTUwQTRkRHV0bi1fSDVnZG9WTXlUTGRFYW9aOWI4X2s3azdhZEpLVnhMVFk4Ym5NeXd5aGNRRE9vMDFwRjh5MjZGZDNUUXh1dEdBZUFpU0dsSTQ1S093dDdvSU1LbEtCcGhOd1REdEtHcVhLYWh0RmI1OEktUFNCYVhyanZmVWJKOUJVRk9NOWFkMWF1R09FUVJTUzRFeEtZS0JmX3pIb3hpb2c2TjBzSkVuMENPNnAyWmlIcmlXZEc4OVNxeVdPVlpKd1PSAd4BQVVfeXFMTkxSSmR4UXIzVVNsRC04bmJCNERRYVBtWUREcDJUamRqcW5MclZqcTRnMF9ybTJ2UDNyNFlZcGNhQmpub2JON1dybjl6N3plNEhRZ2d4SDB0M3JPU09BU0xrU05uNG5VN1Z3RWRUdWNaWXFqNjF5OTl1Ym5KVThKdVg3SVhhY1QwVmVvYkJaSnpYeHdaaGZZTEhVQ1lzLWg2YVljRnVXc190aG1reTQ5RGZWZV9JZU1KTEZGbXdXYnJQUUI1Y0hRd0stYk9XbE1HYWtiWjRrLW8yWDAzUS13?oc=5",
+      "published": "Sat, 20 Dec 2025 08:00:00 GMT",
+      "source": "Livemint",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Infosys Stocks Live Updates: Infosys Stock Price Drops 0.68% Today, Beta Indicates Low Volatility - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOTHdUZkhaNlhyem1hNW9ZUG5hZ0ZpaHNxbEJMcFdaSlB1Mlc4OWEtX2JzdENmTnpNSk9xaDMzUEJoalVDWUl4aTc3Q0tmVWxVYXI4WmFXTWRjNWVWVF9Sd1ZvUlZ3YzZCSlMyRnRHaVlGS3JUVElYLXVjeG1VZ0xIOXZ0LXd6WFduRlVQbERFTzY2bEcweGcyZ255RXB0TGxaaWlSSExRZ0dKMmZKamc0NTkxckg0MWE1cXZybVAwakdmVzNTbnI3RU1sckd1X2dRd2VvRFNQd29scHFmN0pqOVJiY2V5YnJyUlNkZ0hGWkpOWVpwRk5sUEdRSklNX01FeV80a0dsVi1EWHh5dGZpV0NybHhkQWRxdDFSU2cxaGZJcnpjWVhfemdnT0YybS0xWnUwQmxKTzlEM0stNURvblNuZTVTVWVjUEFN0gHEAkFVX3lxTE51c0xYaEJRaFNHcVhzdEFRdWRBSFhPa19hd0VOc3VBZFV3Q2EzbVg1d25LdUt6N2taN3NxSDhlSW9QRkJsMzVBTHQybGJkY00xaUtlN1E4U2tlQ2pmS2FRN1Fobkt6QzlWNUVjZ2V4cDFKNUxKbjlqLUZCTk91U0dlWjBxblJIZHc4U2doQUJNRjBQX0ZUa0NMQW5tZnRLTUxsUTdGM1ZPTHRFTkx2MGFLZFVta2F6NjNKV3Q1MHNVZXNfaVVSa1lJeTkyWTEwTEJvRFZoTWVIWGFmdE9iUmdVTG5HR0xPelRpOThDTXExdEw3OVNkc1g5Q2NZaUtYcjY1SXNaSTk3WjNWcWQyZThhMWxXOHJGbFp5aFdBQ3FpSVAxUklxb25EMjh0TXZTalVWbTNkb0dZb214R0FQZGtYdGdmYw?oc=5",
+      "published": "Fri, 10 Nov 2023 08:00:00 GMT",
+      "source": "The Economic Times",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "Breakouts Updates: Infosys Stock Breaks Resistance Level, Shows Positive Momentum - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNbC1MNkZnNUlybEM0UHZ5b1ZJOHFVRzEtcHRnNVZWQm1IRXJiQ1VWbXJ3c1hoU3QwZDJnZko5aTZ2cnFUbHhNdVYzcWlWQzhRbUJpRzdkbDBMaFF0TlZ6ZkVhT05VN3pBeXBXZWZHbFdBUkcxNTZtNE92OE9XSVpab01yUEotdGZiR1U5MTYyYmlvRVU2YWFyTjJ2Rlg4ZkdYeEFsSGxlNjJIUnFHSXVWUmJFWXI2eFRZTHNLeGRQVDdHOVJBLXR3LXRFbmpmdFlqTVByZ2l2c0hWNzMtcGdaY0U0cUM1ei1MRElNZUhIelNhQ2R0bnhfVF82a2d2c0VlRFg2eUV2TnQyTExIUnAtRm5fbVAxNUZQSWFZcjBJRFZYUXFsd3ZZWTJPVGtFeEh2RzhrZFVFc9IBsAJBVV95cUxPb1dQdnVja3Npd1VSdEhXTGNLMTNJdW9HbUpkZ1JMUUtHMW5BQXVDaVpnQXR3QkVDbmdjNkNSN3R6cjRsekdJLWJmZTNhdG9PNHJCaGFWNmMzcHlTS0FFZXFVY0JXdjVLdUlEZ2Z3QzVHZTlVQm42bDZMQ0JsQzViTGtHSzBaa2w1Tm5GWmpFQjhPNVVrLW5MVTNFRERyV1Jydi0yckN4eU0wWXo5X2gybnBwY0RXOXNwXzJ0d2RIZnVtNXpxOWVkWC1MczhpejBSZVBsY2lyMWlqX1dYb3gxU2w5cUtQWlJGanl1RjVwNTk1aWYzVDdiRHQ3cFNUaE0xQU1sWWtLWnpHN3RHcy1yNDZIZ2pZaXEwQ21RMzRSVUtscldQUjFreFA0MnpHc3M3?oc=5",
+      "published": "Thu, 16 Nov 2023 08:00:00 GMT",
+      "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -152,34 +168,34 @@
       "label": "neutral"
     },
     {
-      "title": "Business News Live, Share Market News - Read Latest Finance News, IPO, Mutual Funds News - economictimes.indiatimes.com",
+      "title": "Business News Live, Share Market News - Read Latest Finance News, IPO, Mutual Funds News - The Economic Times",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DMkZteWdocVpCa2hqNDhzTnpveG54RVlWei1la3Vpa2YtdVFtUFkzZ0RfNHlqZGdZUFhjcWlfb1FYU3dlTnR6SG96SGg2RDFkN0lyRExnbkNhWWZvM1lJSHZMNW96dlJiSGFNQ0xlZUV1SlN1UndqYzFB?oc=5",
       "published": "Mon, 31 Aug 2026 08:53:29 GMT",
-      "source": "economictimes.indiatimes.com",
+      "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Infosys Public Services CEO Lax Gopisetty unreachable after devastating Nepal floods - economictimes.indiatimes.com",
+      "title": "Infosys Public Services CEO Lax Gopisetty unreachable after devastating Nepal floods - The Economic Times",
       "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQY2dmNG9vZmQ3Um8zTzBUc3F0RkJqX0E1SG0xbWRQcGJ0M0NaTmpPZTFZY2xVb2NfVjlwZmhTWlN1Smt4eHpuNkZPMHZKcjJuTE9mWC0yRnh2dzVmREtJYWZHSFNHaHp0anVKcFlIRTN6dERqN21Fck9FWU00RDRYVDh1TWtBQ2x6S2EyXzhRNVVuU2hidnN5RlVRYkxNakIwazNCdU9TeFJUQ2Z0ZWRYZ19FSVhacVNyXzlEbGZIbWVQaHhGeWJEZjFDd1RrZklfWVd3NDdlUnBYU2VoaWIxVThCUU9pQ3pjNG1YQWZ4NmxpTGVSR0YwZVNzNzJwSVl1clRhamh2ZXZCU2huRFhHbHhKS29PcFRxVDlHMzFrVkF6ME10NEgwNEQ2bXRuZElQY3R6cWMwc2M1bmdJeG1JU1hKZU1DVzBuNHRFLdIB6AFBVV95cUxOUWJka25DMEJHY2FaUkNnZGZSeXEwMmM1SFliQlFsaVpTalAtdkpYTU1BSWJGbGd6NF9KeTZmenhrSHdRUUpVem9YbENPN1FmNjFZbERfb0MzdEdvck1NaDlLel9nUzRvd2g3OGxGVEFnbkphckRBWnN5REg4QlhqZmt1LUtqcEhHa3FiUnl1ZmNJaFJicFFsdnktQWUzVnFrd0tjV0dJZWFaYTQ4bi1nbWJyLUh2eWU2QVRtRFJQZjJyekFKOWFBSl9UMF84ZGVXc3hfSjNsU2lFcjc0WnpWUWMteWM4WFhr?oc=5",
       "published": "Sat, 29 Aug 2026 02:22:19 GMT",
-      "source": "economictimes.indiatimes.com",
+      "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Infosys Stocks Live Updates: Infosys Closes at Rs 1472.25 with 3.14% Weekly Return - economictimes.indiatimes.com",
+      "title": "Infosys Stocks Live Updates: Infosys Closes at Rs 1472.25 with 3.14% Weekly Return - The Economic Times",
       "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQUmI3am5jSkhsMFFJd2t4cm1kNko0NDVoZV9ieldBMnQ0dlNTQXlGQXNibUhGN0RkVHcwN2tlVTBfQ1RLaTRyTXBrS0NrUFdnLUxpem9rZnBrNi05SzNTcWJQODNMaVBWVkVvcnJhY0pFVzY5R1RKVzBOTkdVVWNLS2xfOWp4alpudGlEM3RLU25GWF9rY2NINTZKaEo2MV9KTXVFRXlCcC1sRndxNm9NaVFXMnM2ZGY4N1plM01NX3VhdG91cHFSSWNNQ0E5VFZPbndnUF81Rk91TnRXbG12RnBGU0pRVlI1ZUxkRldGY21WbG01NV8xUzI1cDdxY2FfdzgyWnhRRGZkTksxUWlnNGhIVnktYlYtS2ZPekNXZWtSX1k2N1dGTEtnWGpld04zWThWd1BHWlPSAbICQVVfeXFMTmwwdzNLSTB1ZU5CdVlvSldaMkpJM2ozWENZUmJ1VHM5aTE2ZEhGaUhzQUpoaHAyVlFUQkNNVkE2bHhLZGxNc3hVbHp0bHV4MGpvcS1KMUJkUkhDS253RjI5Smp3ZTVmYVB1SkI2Y2Z1eXJPdEhwRmo4Tmd3R2xHaDdtd3hNNmtvMVF0SVk4cnZYQ0RDZ3R2b0Q0NTZWb3NFLVNEMlAxNTUtZGZqSHI3cElIZVBQQmlGR3BSbnFjRUItYWhiajUxUUpGaElYWHhfV2EtMk1yMUcwMWtFQ0YtVXV4SkdQWjdsdURiYmNBbnZjZGpHUWJVZ29QcEF2VWI1SHRpZ2RCSEo2dDNXbTNpMnZMam14Rk14ajlhZWdxNk81V3U2eGpsSXAxWjNjYkExR2hn?oc=5",
       "published": "Fri, 07 Jun 2024 07:00:00 GMT",
-      "source": "economictimes.indiatimes.com",
+      "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Infosys quarterly profit rises 21.4% to Rs 2,875 crore, beats estimates - economictimes.indiatimes.com",
+      "title": "Infosys quarterly profit rises 21.4% to Rs 2,875 crore, beats estimates - The Economic Times",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNHNEMGhMMXhyWVF4amxnUm5mQ3NHdVBiZGVDYk9UeG1wUUVaTzA5Vi10V2lTOXY2b0poWlQ2V0hhNEE3ZEF3b3QwMmE5X2RhRExQZnd1SkpieFR2SDhwb2VjbElHQmxHNlZzY1ZRUFN1MWRDVzZBd2R1RlVZa3ZKQ1RFeVVpY0hrZmc3SjVrUExiV2lJeXNIeUZsYTN3UEEyVnhjaF9NZ1JNVnNTbHlfa19BQmNLdnFCcmluNzBhNEo1bk56VlZHMXRMalIxdzk5NEZQM3R0SGh5a012SFkzTnRMQnhQaUNYcUdnXw?oc=5",
       "published": "Fri, 10 Jan 2014 08:00:00 GMT",
-      "source": "economictimes.indiatimes.com",
+      "source": "The Economic Times",
       "sentiment": 0.667,
       "label": "positive"
     },
@@ -190,24 +206,8 @@
       "source": "travel.economictimes.indiatimes.com",
       "sentiment": 0,
       "label": "neutral"
-    },
-    {
-      "title": "Infosys Q4 Results: Profit zooms 30% YoY to Rs 7,969 cr; co pegs FY25 revenue growth at 1-3% - economictimes.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOUHdiVGJKeTQxa1dUYzliMWlETFZhTW8zajFhbVNNT2NjeklfcndpMnhrWTViVEFHMFRkcmtxMXdRYTNmUHM3ZUlEZ1lsTEl3a3A1ZzBXWm5CM3o0ZUlCNlptMHg0N2JtV3NHeVBleUdkMWFCNUpIaEp4TUtLRWo5LVhZcGlGdmtmZllCb3NQVjBGWTkyYVp5NlN3dlEzWllDcDVjMmtaUE1lQ2lzUGo0dGd3M3IxY3VEaEo0enZBaEk1Y2xZQlNudzdKb19ac28yLTVNcUplYW81Uy1DN1J3eHVnbzdjR0xXWmpEelZrZ9IB6AFBVV95cUxNSFcydnhSTEhldU1ISkNyRTVZUFZob2R0ZldSckhFOE1RS013R3lwbmZaY1prelhIVk9zYnptWWpyY2tOY2p0UkFCWWpTc0ZPRUk2eHlhNzlIX2w4RjFLbHVNWHE0aE9qVjNaMnV4X0ZNeXRtZUdFRkRjMWY4Vy10LXFpdGdyMy14N2hBQ0NoeV9sd1piNVZVSDBadzNFQXZXVEdEc2dtNTdMbTIzS0Y0SFZZcXlpbEQwS2tTQ0l3MkFpa0RTak9JejFtY2FEMzh4eGdBYXBMVXpab2JTNi1KLUh0TV9ZN190?oc=5",
-      "published": "Thu, 18 Apr 2024 07:00:00 GMT",
-      "source": "economictimes.indiatimes.com",
-      "sentiment": 0.667,
-      "label": "positive"
-    },
-    {
-      "title": "Page 87 of 15 - Page 87 of 115 - Page 87 - News from ETBureau - ET Manufacturing",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOHVjNkhXaEVQMjl6RUdFWTQzVjkybXAwSGZOTDdRRi13MHk2U2U1amtoSGU5Zm91YXlTazUwMF96azU4MHZPczlFV2hjWmR1RVQzaUo4WlRBQWRkd1AtRnY1bHlRa2RBVHZtYzRKNnJnY0tyVHN0b3MwTHRYUUxrb2R3YTE?oc=5",
-      "published": "Sat, 29 Aug 2026 16:14:09 GMT",
-      "source": "ET Manufacturing",
-      "sentiment": 0,
-      "label": "neutral"
     }
   ],
-  "sentiment": 0.05561111111111112,
+  "sentiment": 0.000055555555555555606,
   "errors": []
 }

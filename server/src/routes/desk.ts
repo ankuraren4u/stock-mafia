@@ -8,6 +8,8 @@ import {
   snapshotIdeas,
   tradePlan,
 } from "../services/desk.js";
+import { readStore, updateStore } from "../db/store.js";
+import { resolveInstrument } from "../services/tickers.js";
 
 export const deskRouter = Router();
 
@@ -30,6 +32,11 @@ deskRouter.get("/plan/:symbol", async (req, res) => {
   } catch (err) {
     res.status(400).json({ error: err instanceof Error ? err.message : "plan failed" });
   }
+});
+
+deskRouter.get("/alerts", (_req, res) => {
+  const store = readStore();
+  res.json({ alerts: store.alerts ?? [] });
 });
 
 deskRouter.post("/alerts", (req, res) => {
@@ -62,5 +69,49 @@ deskRouter.post("/journal", (req, res) => {
     res.json({ ok: true, entry: row });
   } catch (err) {
     res.status(400).json({ error: err instanceof Error ? err.message : "journal failed" });
+  }
+});
+
+deskRouter.get("/watchlist", (_req, res) => {
+  const store = readStore();
+  res.json({ watchlist: store.watchlist ?? [], tracked: store.tracked ?? [] });
+});
+
+deskRouter.post("/watchlist", async (req, res) => {
+  try {
+    const query = String(req.body?.symbol ?? req.body?.yahoo ?? "");
+    if (!query) return res.status(400).json({ error: "symbol required" });
+    const instrument = await resolveInstrument(query);
+    updateStore((store) => {
+      if (!store.watchlist.includes(instrument.yahoo)) store.watchlist.push(instrument.yahoo);
+      const exists = store.tracked.find((t) => t.yahoo === instrument.yahoo);
+      if (!exists) store.tracked.push(instrument);
+    });
+    res.json({ ok: true, symbol: instrument.yahoo, name: instrument.name });
+  } catch (err) {
+    res.status(400).json({ error: err instanceof Error ? err.message : "watch failed" });
+  }
+});
+
+deskRouter.delete("/watchlist/:symbol", (req, res) => {
+  const yahoo = decodeURIComponent(req.params.symbol).toUpperCase();
+  updateStore((store) => {
+    store.watchlist = store.watchlist.filter((s) => s.toUpperCase() !== yahoo);
+    store.tracked = store.tracked.filter((t) => t.yahoo.toUpperCase() !== yahoo);
+  });
+  res.json({ ok: true });
+});
+
+deskRouter.post("/alert", (req, res) => {
+  try {
+    const row = addAlert({
+      yahoo: String(req.body?.yahoo ?? "").toUpperCase(),
+      direction: req.body?.direction === "below" ? "below" : "above",
+      price: Number(req.body?.price),
+      note: String(req.body?.note ?? "manual"),
+    });
+    res.json({ ok: true, alert: row });
+  } catch (err) {
+    res.status(400).json({ error: err instanceof Error ? err.message : "alert failed" });
   }
 });

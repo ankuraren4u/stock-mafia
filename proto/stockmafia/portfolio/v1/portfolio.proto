@@ -1,0 +1,94 @@
+syntax = "proto3";
+
+package stockmafia.portfolio.v1;
+
+import "common/v1/types.proto";
+
+option go_package = "github.com/stockmafia/trading-app/proto/stockmafia/portfolio/v1;portfoliov1";
+
+service PortfolioService {
+  rpc GetPortfolio(GetPortfolioRequest) returns (GetPortfolioResponse);
+  rpc PlaceOrder(PlaceOrderRequest) returns (PlaceOrderResponse);
+  rpc AddJournalEntry(AddJournalEntryRequest) returns (AddJournalEntryResponse);
+  rpc PaperTrade(PaperTradeRequest) returns (PaperTradeResponse);
+  rpc GetOrders(GetOrdersRequest) returns (GetOrdersResponse);
+  rpc GetPositions(GetPositionsRequest) returns (GetPositionsResponse);
+}
+
+message GetPortfolioRequest {
+  string mode = 1;
+  string user_id = 2;
+  bool is_paper = 3;
+}
+
+message GetPortfolioResponse {
+  double total_value = 1;
+  double cash = 2;
+  double invested = 3;
+  double pnl = 4;
+  double pnl_percent = 5;
+  repeated stockmafia.common.v1.Position positions = 6;
+}
+
+message PlaceOrderRequest {
+  string yahoo = 1;
+  string side = 2;
+  int32 quantity = 3;
+  double price = 4;
+  string mode = 5;
+  string note = 6;
+}
+
+message PlaceOrderResponse {
+  stockmafia.common.v1.Order order = 1;
+  string message = 2;
+}
+
+message AddJournalEntryRequest {
+  string yahoo = 1;
+  string symbol = 2;
+  string thesis = 3;
+  string side = 4;
+}
+
+message AddJournalEntryResponse {
+  string id = 1;
+  string message = 2;
+}
+
+message PaperTradeRequest {
+  string user_id = 1;
+  string symbol = 2;
+  string side = 3;
+  double quantity = 4;
+  double price = 5;
+  bool is_paper = 6;
+}
+
+message PaperTradeResponse {
+  stockmafia.common.v1.Position position = 1;
+  string message = 2;
+}
+
+message GetOrdersRequest {
+  string user_id = 1;
+  string status = 2;
+  bool is_paper = 3;
+  stockmafia.common.v1.PaginationRequest pagination = 4;
+}
+
+message GetOrdersResponse {
+  repeated stockmafia.common.v1.Order orders = 1;
+  stockmafia.common.v1.PaginationResponse pagination = 2;
+}
+
+message GetPositionsRequest {
+  string user_id = 1;
+  bool is_paper = 2;
+}
+
+message GetPositionsResponse {
+  repeated stockmafia.common.v1.Position positions = 1;
+  double total_pnl = 2;
+  double total_investment = 3;
+}

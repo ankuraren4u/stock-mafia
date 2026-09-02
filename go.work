@@ -1,0 +1,22 @@
+go 1.22.7
+
+use (
+	./pkg/database
+	./pkg/health
+	./pkg/kafka
+	./pkg/logging
+	./pkg/proxy
+	./pkg/redis
+	./proto/stockmafia/alert
+	./proto/stockmafia/analytics
+	./proto/stockmafia/common
+	./proto/stockmafia/crawler
+	./proto/stockmafia/portfolio
+	./proto/stockmafia/price
+	./services/alert
+	./services/analytics
+	./services/crawler
+	./services/gateway
+	./services/portfolio
+	./services/price
+)
