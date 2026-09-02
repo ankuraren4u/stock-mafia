@@ -2,7 +2,7 @@
   "yahoo": "MSFT",
   "symbol": "MSFT",
   "market": "US",
-  "crawledAt": 1788327026506,
+  "crawledAt": 1788348613817,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -65,22 +65,6 @@
   },
   "news": [
     {
-      "title": "Prediction: Microsoft Stock Will Double on This Date - 247wallst.com",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM1VmTDl6eDdiSmZEdEpxTU5PQlFkSVNvd3NidUplVWo1bE9uaVY0cVlYMEdDaG84RWFSSTZuOFRXLWVielZnNEJGdFRTREVQelluWFl2bTdKRk5hWGlNbi1kZnM0QWdnVXFxN1o4aUw5cDBQVDJPTDhpRHl6WGxURG1haWREUllBNUVENTJNV0lxZjVjZktjOEthWQ?oc=5",
-      "published": "Tue, 01 Sep 2026 16:00:00 GMT",
-      "source": "247wallst.com",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Microsoft (MSFT) Stock Trades Fair On Cash Flow But Cheap On Earnings - simplywall.st",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdlRmMDJBOUZWYllOSjgtMUU2S00yMUxJOVhtQXlkQ2hablc1a2NYSklqSnpNaUd1M2tJUi1XVUY1N3lDakdkdUV5YmZMaVNCSVRmZXpuMTVsRXhSTFdacXJpTHVlNGxfT09jeEpTM2t5dllnN3p5TGEwOE95ZGIyVnc3cFVxR0ZYbEdCS2xwMzJ6VXpsOG1BN1RxR3IzTWpMdE04X0JHajBPdHdubG9SU2dWcGZtUFN0RHRIN3FFQ0JVU2I3QmU5aUZLeTnSAcwBQVVfeXFMTnZUZjAyQTlGVmJZTko4LTFFNktNMjFMSTlYbUF5ZENoWm5XNWtjWEpJakp6TWlHdTNrSVItV1VGNTd5Q2pHZHVFeWJmTGlTQklUZmV6bjE1bEV4UkxXWnFyaUx1ZTRsX09PY3hKUzNreXZZZzd6eUxhMDhPeWRiMlZ3N3BVcUdGWGxHQktscDMyelV6bDhtQTdUcUdyM01qTHRNOF9CR2owT3R3bmxvUlNnVnBmbVBTdER0SDdxRUNCVVNiN0JlOWlGS3k5?oc=5",
-      "published": "Tue, 01 Sep 2026 12:34:45 GMT",
-      "source": "simplywall.st",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "Microsoft Stock: 6 Straight Green Days, Up 6.7% - Trefis",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRWJ6VmVPUE1ORnhGVlhPQlktT1o4QktmZEFnNm1pa25RY1RvNUluTWhxRVZaaTFzcllzM3hoUTZ0dENHSzRGN1NTQURjY1pLODN1ZDRwSTVTeTFqQ2lVX1ozNm03c29PMTZoS3JveUo3VTFOTFNuY2ZwcUNkNDZaYVoxNVdDZDFteTJaRVBpYkpPcVA3NGVqMkJuTDJZQndUZElhWUlzd20?oc=5",
       "published": "Mon, 31 Aug 2026 09:30:43 GMT",
@@ -89,10 +73,10 @@
       "label": "neutral"
     },
     {
-      "title": "Microsoft: Why This Is The Hyperscaler Pick In My Recommended Stock Portfolio (MSFT) - Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOWhEeGhZVENRdFpBNm5mVkJIR2trVGJxS01xSW5GNnUtMjhKeHM1bC1qM280OTNwaVJrbDl2blRzallhUHhNc3R1Y2FKTmVlU0VrZHlmVURxNmlYa1lDZmVreUpIczU1LTViOGFtb3NhMHlYcVZMQUtrUzloLWlkUUFBbE1mTVBFNTFrX25icngtQ0pTcmxxUVNhc2tfZ1UtLUQ4cGZnazMzemNOT0ZESlg1VEQyMElK?oc=5",
-      "published": "Tue, 01 Sep 2026 18:30:36 GMT",
-      "source": "Seeking Alpha",
+      "title": "Microsoft (MSFT) Stock Trades Fair On Cash Flow But Cheap On Earnings - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWVBSWmFlX1dyV1U2M0JlTnVkalNvOEIzemhyRHAtbER4ZlBQWk5DODJHQzFsNTQwVkdpQUFCbThQZkJBUWVoWHp1UkRMNml5M1k1Y3VCRXM0NzFhTHllYldVdkV1NkFCaHhRS3Z3SjFScUJyY0pkelFkT0JxaXdob0xjT25aSXhFWjlidGJDV25RSDROOUVUdG03SDM1TEc5YmZtMXYxcHNPOGk0OVlSZ25ob1pLYndlVHhRaW96bjNLd3kyb1h30gHMAUFVX3lxTE52VGYwMkE5RlZiWU5KOC0xRTZLTTIxTEk5WG1BeWRDaFpuVzVrY1hKSWpKek1pR3Uza0lSLVdVRjU3eUNqR2R1RXliZkxpU0JJVGZlem4xNWxFeFJMV1pxcmlMdWU0bF9PT2N4SlMza3l2WWc3enlMYTA4T3lkYjJWdzdwVXFHRlhsR0JLbHAzMnpVemw4bUE3VHFHcjNNakx0TThfQkdqME90d25sb1JTZ1ZwZm1QU3REdEg3cUVDQlVTYjdCZTlpRkt5OQ?oc=5",
+      "published": "Tue, 01 Sep 2026 12:34:44 GMT",
+      "source": "simplywall.st",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -113,10 +97,26 @@
       "label": "neutral"
     },
     {
+      "title": "Prediction: Microsoft Stock Will Double on This Date - AOL.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPemtWODJVRnVHTUJGTXBSNDhMbDRKR21FOVl2SGVnODNhcmpxTmdJYUU0a0VNclBTY3FnZ3NHbEJuTXhrT3hTNHRVNnoySkVaMXhUeTJSc1l6Q28tb0tkVV9jWkdqT3doR21aaTNqQlRYcTEyYVZ4R1JRbU9lTU5zQkMxWnFDaW5JdWc?oc=5",
+      "published": "Tue, 01 Sep 2026 16:00:37 GMT",
+      "source": "AOL.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
       "title": "Wall Street analyst sets Microsoft stock price target for next 12 months - Finbold",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRDNjVTBjcnFLSFFnYkhSQXlTWkpSeVU1b1NDSXZQem1wT3JTYWFYczJJaTkxXzA0VHkxTEE5T1Z1cElhUTdTWTNVVzFYYkNtbWlrNWZHX2pJRDUtVzF5WGtoWGgwTFhUOVhyQjh3SzRBT0RWRHZkSVIxOXBvVWdoMEY1X0JadGkzbXhZcTYzOURYMWpTWnZBQg?oc=5",
       "published": "Mon, 31 Aug 2026 17:00:58 GMT",
       "source": "Finbold",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Microsoft (MSFT) CCO gets 29,724 shares in award vest, 18,080 withheld for exercise price or taxes - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ1FJSl9jN3BNTTlCSzgwMEJXRUQ2ME5PR3pwZ0pMbUstMzU3cTFacXNjdldodE9lU0FlbHRBUVoyZjJiYjNOSXd4M1JNb25TQWl6QXZpTi1QQXN1cFdxdGtqc1BPQ1RHc0oxUVhqaXRlbE9GcTFfM2FqUGEwVFRtZnlLbkFuNUZrSjd2c3prekYxUHdQVFFhX0ZfN3kzTV90dVVLcDdEbVBKX2hq?oc=5",
+      "published": "Tue, 01 Sep 2026 22:07:48 GMT",
+      "source": "Stock Titan",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -145,70 +145,70 @@
       "label": "neutral"
     },
     {
-      "title": "Dow Jones Futures: Dell, Credo, Palo Alto Are Earnings Movers Late; Oil Prices Keep Rising",
-      "link": "https://finance.yahoo.com/m/3c8f786a-671c-3fb9-bb03-81fc8be4d3f0/dow-jones-futures%3A-dell%2C.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 05:23:49 +0000",
+      "title": "Microsoft Signed a 20-Year AI Power Deal With Chevron. Is Power Becoming the New Chip Shortage?",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-signed-20-ai-power-105845426.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:58:45 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "GitLab Inc (GTLB) (Q2 2027) Earnings Call Highlights: Record Bookings and Flex Momentum Drive ...",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/gitlab-inc-gtlb-q2-2027-050056382.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 05:00:56 +0000",
+      "title": "‘Many jobs will disappear forever’: Bill Gates says AI could erase careers. Build a financial firewall before AI strikes",
+      "link": "https://finance.yahoo.com/technology/ai/articles/many-jobs-disappear-forever-bill-104500952.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:45:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Microsoft’s AI Capex Problem Just Got Harder for Bears to Defend",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-ai-capex-problem-just-102026905.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:20:26 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Forget Nebius. CoreWeave Has a New Competitor. And It's Not Another AI Cloud Company.",
+      "link": "https://www.fool.com/investing/2026/09/02/forget-nebius-coreweave-has-a-new-competitor-and-i/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:16:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "GitLab Stock Soars 21% After Earnings. It’s Still Not a Buy.",
+      "link": "https://finance.yahoo.com/m/ac219486-39eb-38fc-86a3-2631fe6761db/gitlab-stock-soars-21%25-after.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 09:52:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0.333,
       "label": "positive"
     },
     {
-      "title": "MongoDB Inc (MDB) (Q2 2027) Earnings Call Highlights: Record Revenue Growth and AI Momentum ...",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mongodb-inc-mdb-q2-2027-050035769.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 05:00:35 +0000",
+      "title": "Bill Gates Won't Pick Crypto to Diversify Away From the Dollar, Calls It 'Pure Mania-Driven Asset' — Here's What the Billionaire Would Choose Instead",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bill-gates-wont-pick-crypto-094611125.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 09:46:11 +0000",
       "source": "Yahoo Finance",
-      "sentiment": 0.667,
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Ranking the \"Magnificent Seven\" From Most to Least Attractive, Based on Future Cash Flow",
+      "link": "https://www.fool.com/investing/2026/09/02/ranking-magnificent-seven-most-to-least-attractive/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 09:26:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Palo Alto Earnings Reignite Debate Over Organic Growth, Acquisitions",
+      "link": "https://finance.yahoo.com/m/9013b1e1-7fd6-3c19-abd0-1f030eea3866/palo-alto-earnings-reignite.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:23:59 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0.333,
       "label": "positive"
-    },
-    {
-      "title": "NBIS, IREN, CRWV At Risk? OpenAI Co-Founder Warns AI Agents Could Turn Neoclouds Into Cybersecurity Targets — Palo Alto CEO Offers Fix",
-      "link": "https://stocktwits.com/news-articles/markets/equity/nbis-iren-crwv-at-risk-open-ai-co-founder-warns-ai-agents-could-turn-neoclouds-into-cybersecurity-targets-palo-alto-ceo-offers-fix/cZsAW0KRJuJ?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:55:25 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Appian Congratulates 2026 APJ Partner Award Winners for Driving Customer Impact Through Process Automation and AI",
-      "link": "https://finance.yahoo.com/technology/ai/articles/appian-congratulates-2026-apj-partner-044000772.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:40:00 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Zscaler Earnings: What To Look For From ZS",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/zscaler-earnings-look-zs-042057395.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:20:57 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Samsara (IOT) To Report Earnings Tomorrow: Here Is What To Expect",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/samsara-iot-report-earnings-tomorrow-034057882.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 03:40:57 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "CoreWeave's Interest Expense Hit $640 Million Last Quarter, 2.4 Times What It Was a Year Ago",
-      "link": "https://www.fool.com/investing/2026/09/01/coreweave-s-interest-expense-hit-usd640-million-last-quarter-2-4-times-what-it-was-a-year-ago/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 02:36:01 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
     }
   ],
-  "sentiment": 0.09255555555555556,
+  "sentiment": 0.07400000000000001,
   "errors": []
 }

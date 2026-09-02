@@ -2,7 +2,7 @@
   "yahoo": "INFY.NS",
   "symbol": "INFY",
   "market": "IN",
-  "crawledAt": 1788327018695,
+  "crawledAt": 1788348605507,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -80,10 +80,10 @@
       "label": "neutral"
     },
     {
-      "title": "Infosys (NSE:INFY) Shares Gain 3.7% Despite Guidance Cut, Lifted by Sector Rebalancing - TechStock²",
+      "title": "Infosys (NSE:INFY) Shares Gain 3.7% Despite Guidance Cut, Lifted by Sector Rebalancing - ts2.tech",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLTdPa3VfVEVFZG8yMG1HZFU5WHhoeTBtNXdEVFNlRjRKbFZsT3AwTzlxQWdkYnEzNlNXQUZlaWwxZUhLSGxYV0FDeTNQZ0JPNk1iLXlucXFUUC1TNEJWVXRhM240dmlxR0VnRk14Q2FWSHEwM0tNRlpQVVFDN3dBT3hDSFVOSmQ0WV9Wby1ZU29VV2Q1d0hYRF9zbTNrUjdIcUpjdw?oc=5",
       "published": "Mon, 27 Jul 2026 07:00:00 GMT",
-      "source": "TechStock²",
+      "source": "ts2.tech",
       "sentiment": -0.333,
       "label": "negative"
     },

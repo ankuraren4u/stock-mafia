@@ -2,7 +2,7 @@
   "yahoo": "RELIANCE.NS",
   "symbol": "RELIANCE",
   "market": "IN",
-  "crawledAt": 1788327007454,
+  "crawledAt": 1788348603588,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -96,20 +96,20 @@
       "label": "neutral"
     },
     {
-      "title": "Reliance Share Price Today, August 25, 2026: ₹1,301 in Morning Trade - The Eastern Herald",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUmZpLUt4RHlQZnlZV2pIdFBIb1U4N0dHQVh6bmxxS1lnSlAxSTRwYnU4UWxOMjBzbWVYaDRmRmhFUkVIcWE5SFgxWWY5MW91WjNqaFNXYTlkQ3pNLVA0d2NyT2w1SUR1d2ZFY01kMUdCRllkMnhscDZ3aWpvMUVDX2J4VUg3Zw?oc=5",
-      "published": "Tue, 25 Aug 2026 07:13:35 GMT",
-      "source": "The Eastern Herald",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "Reliance Industries Shares Remain Under Pressure After SEBI Administrative Warning Over Alleged Insider Trading - India Infoline",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMHgweUwtZVdnQm5JdkFKTmwtWGxDZHZuWTlERjlfVURqY2dmcElGeEQzdXpvbFVDUTY2ZkF4TUhCWGhNUmZQMHRNWnJJR3o3X2lIajM5UTEtN3V5eWNRRlhxNVZ6WnNNZHRzQXU5bTBfZDlfUk5CaFpxa0s5dHRGaHkwV0M0VEt4MWd3MzZPS1dKLTluSEZEVUJjc2dRVy1Xb3ZNVVUySk9OVnlFbEo0TFl4Q3lzWnBYajlWQTk4QkpfOVg5U1YxWThtMW5kQjFNXzg3YV83QVhnT3dfMHg3OGVTdEJadkFMdTBQZg?oc=5",
       "published": "Wed, 08 Jul 2026 07:00:00 GMT",
       "source": "India Infoline",
       "sentiment": -0.333,
       "label": "negative"
+    },
+    {
+      "title": "IPO: Reliance Jio announces what may be India's biggest-ever share sale - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnUkY4Vjh5Y1piRHVyMGg0cG1fX0lQam5jWWN0OFU4WUI3NGJDbU45T1dFXzFBR3VqV2xlNzdINlFyclhYN0wwb05jOUxsZGJRRkRvOHNfMlhxQQ?oc=5",
+      "published": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "source": "BBC",
+      "sentiment": 0,
+      "label": "neutral"
     },
     {
       "title": "Reliance Industries share price rises 2.5% despite stock market crash. Do you own? - Livemint",
@@ -128,9 +128,9 @@
       "label": "neutral"
     },
     {
-      "title": "RIL AGM strategy: How to trade Reliance shares amid hopes of big-bang announcements from Mukesh Ambani - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOa1hDUm5KaG9JVUpWOGhpalVxZ2lEaW5IeUhvR2luR0o0cnh2bmhKOVFwaWNkOXl0UkJwYXU3eG85NGp6bGRsR2NpaExuRGI5azZJbnlQSk9aM2RnTDA2ZVRtVUFEeG1XNjBoNC0tUk5YZzFaUjUxUkg1b0pDZDFIQ0V6V0xzclFFYlJ0WTl5UFJnQ1JQSFFsM3Y0MDhxM012dE83dUk2Z0Y1anpaYUEteDZfazdhY3VWOFRsQzdOczl2bnVoRG9RM1VTV3Q2eFRDbzRiNkR3UlkxOGhTMUxiSE11NkRwZEFKaTBOZmV1M3dkekxvQTlj0gH8AUFVX3lxTE9mSXJKUGFIZG1PdGxjR01hcUFhdUd4eW1pM0kta2xZcVhmZ3lmZ0dvc2Q1WTNXLUJWUFpqTTFHOE1rMzAwNUJIXy1CZXJ2elREVFFraFRMcUlueENNLXVodDBweXZUUVJmVjhUNkp1RkFNaFU1S09Edy1DU0VYN1dMS01NaldIM1JjREhFT3VMWTBZOXJValJ3N3dLaTIyNnRRbXRrUFNXWDA0Q05MUFlzUVUwekVSdEpYSkNsZFR3WmdMN2pxMEdDWFA1dkdPM3NucVNaSmt4dDdNWUpvcEZqUnBnWlFUNU5TUGQ5Mkt6WkRWczJZSGh5SkFGbA?oc=5",
-      "published": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "title": "Reliance Industries shares jump 2% ahead of Mukesh Ambani-led company’s Q1 earnings. How to trade stock to - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOS2NEX05ndFZmcEJsemUtOVQxZzA0Q2I3Z0NibHRLRW9wbXBrcFFBR2JsNFVpaXF0MS0xN2JEbE1qa0Nibjc5d1RucEpkeXN1VnVCMFcyNVFhSFNuLXFtR0Ftb1ZaV203NUQtZFJlWlRWNUVrUGFNLUozRTFfTWFld0l5ZFBMeXpNeDFEN3MtNWZnMkNkbDJWTlJpaGxGdzRGQm5zcmRBd3hJNXhKN2FiN25GZ2UxR3JnTGdxcWlxVlpoLThlNVRnYXl4TXFyVVdfRnRjWHVxQTFBY0lhMFo1LVZDOG1SQlFrUXJzc0tsamxveEtaN19j0gH8AUFVX3lxTFB0ckhnbUdnNTVvZzFHQUkyRV94aG9QTGZabzg1UjNXbzc4TmowS2dTb0ZTby1uRVVPUzVpdkZMV21yeEJwVW5ib3hybzB3RDlmRmZGUVpkQWJHQ0d0Vk54QmpGd1pyU09NOUVQUjljbVl1N1YwbGFuNTIybWhaSDhvSjdNX0xBZC1jbkp4NDBSWVppaEdVU2hBdjZFUlM0cEdTOGJ2Qy1MbUF0Qlg1M1FGaVN3amI5VmE0b3lwSEs2dUFTblVHeVROVFpQSHVnbFlWejJNb2FTbU81bUtxMFlfc3FoSXNVZW92SHo5LXpRVVdEakdLMjRsR0c1Ug?oc=5",
+      "published": "Fri, 17 Jul 2026 07:00:00 GMT",
       "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
@@ -144,14 +144,6 @@
       "label": "positive"
     },
     {
-      "title": "Sintex Industries: NCLAT upholds clean slate principle, rejects shareholder's plea for compensation - ETLegalWorld.com",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPa09KQU9iVlgyUHZncjMtbjhMdVBMQTJxX2UtalNuOHU3YzBKVDFRWng5R2dxa0EwMHV6RS16OTNzVjNtWmM4eENfa3ZZTENSR0xVN1VRb1V0LTE1S2FZeW9LVXpjRGhkWlk1b21yeDVGaEZPeHlmOG10bUEzOGdEUUQ4X1MyZ1RuUk9YNV9qS1A2RVVmc2VrRk5Za3I3NnJuaUNqRjRzLTBlQThJRGpxLXdKWXYybVR1Ml9oRGwtb0ZGbzI5TkIwY0xYbW1jdFlxWGp0S18yQ3RlRlZjcG0xamZjQWNwaHVFd1BrMDlnRE5TRkdvNlZKYtIB_gFBVV95cUxQVXBSelJ6ZDRvT0RQQjV5VHZsUmI0UXl3SzNSZHVqd18tdnJZZEdSbVkxdzhvOVpsaEcyOFRiVXc4cW9tZUUzcUN3NDA4ak1YNUJaUzIwanhqRGxieS1qV3dkYTR6NzZnU3lPVWswWWxMQXVTS1Y3LURDdmc2MlFIQnNKYzU4Rm15M1BYUVRIeWVlWk5uclg3WG1TX3RlUmxOajdJQU16dFpjUmZqZlZ0RlVTejdwQlFBODU5U2VhWEozUFhHSHZWb09ZV0NXWk9HQnl3c05PUHhZbnV4WllJY1RaaENsWTBBSklKUFF1WGdjQXZsVGhJMWo3dklHdw?oc=5",
-      "published": "Sun, 30 Aug 2026 18:32:47 GMT",
-      "source": "ETLegalWorld.com",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "Reliance weighs aluminium push as Adani advances Odisha expansion - rajasthan.economictimes.indiatimes.com",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdWpVRmdBRG1iMnNUSTE5OEFCS0Exa2lqeldlNEc2MEQyN2NOVlRNdDBtTXJGSkdTZUhLRG5ORXd2bXE4czIwNWdVb09HVF82enZSSl9pckFxcmQ1WndwM1lWOFIza2hsVXFiaTNOMW9NTTg0RGF4OGF3RXNNdzVaTzFZcVF5NEdEaXhVNldNQjd6N2lPTEJsTlk0cVN5anlVbzNBcmFuMXZNUHBCdkFVQU1sTUxBTkhjMmVKcEVPYW5SdTF4THJLaDBtWDJkX2xK0gHUAUFVX3lxTE5MVEZLOG5qcDNlcU9VYm5hblNNdjRuLVhpcWI2MlR2RE9aeHN0ZloxS00wcV90VGJ6Zy1fOUVrTWRuMkNDLTlZWEQ0UnhiQnIxZVJGUTFhYXZmVDNLdVg1Wkw2Y1VjdEMxNkxWbjlKRU5WV0Zva0RzTFJDajJMZVZhV0hEdnlIeFpLS0NoelVDSVFDSFdlMWdteGEtUVZNcnBGREFtcVdSSEphaGZETGY0YUVVSUctS1BDYWFFZ1pPZTVlcnJzYU5zVFlTQWJjbDZhZ1p2?oc=5",
       "published": "Wed, 26 Aug 2026 07:00:00 GMT",
@@ -160,9 +152,25 @@
       "label": "positive"
     },
     {
+      "title": "Ambani's Reliance enters India's crowded ice cream market with 10-cent products - ET Retail",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNWDdxaTZacU93VlMydWw4aEZwSl9jdk5hSngxOThVM2lVVDhvSExxU3ZETFgwSkhjc0NNWlVlQ2p3Vl80N3pmLUIwZzZsQkwtTDJjNVFSSUdYT2Zhcm83UkJIR0c1Rjg4LVFwXzd3ZzhndWNCdFJSeFNUbERoZXNGelp2TUUtY3JzM1c0MGxYVzRrenNPQl95Z05OY3dndVp3WFc5UnRWRm0yWEl6TDJUOTZscTlHNkZsVEZPWTR4SWgzOExhcjJGWWlzMTNwbC1FXzZhNXpHaC1ndXlOR01FX2JUNkg5VzNsM3R1RGJucFIzX3BLdWNvak9pQ2RNcHpqY0YwSjdnWEFwMnh0ei1hZldmUTg1SzNG?oc=5",
+      "published": "Wed, 02 Sep 2026 03:30:29 GMT",
+      "source": "ET Retail",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
       "title": "Ujjivan Small Finance Bank CEO & MD Sanjeev Nautiyal steps down on health grounds - The Economic Times",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeGRjX1o2bVVIZG9sOWZ1VEw0eTE1bnUzdXpDRlJMTGdwTHBDNDdKWE4wQVFwakNZdnFQVXlxWkZLZ2wyWFBTMVpyYlVEUGVFeXp1ZXV1MzVuX2hjTEpLdUZaR1ZLMkVYRlR1bDV1bnIwWGkxMTRsOU9MS3VCSXRsUVlKYU1PVWc?oc=5",
       "published": "Tue, 01 Sep 2026 20:11:16 GMT",
+      "source": "The Economic Times",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Ambani's Reliance enters ice cream market with launch of Bombay Creamery - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ER0JuamExemh0clI5NF9yOElPWTNBWnlGckZqUWQ1aHZJcVZlT0ltT2Z4aVU3YzlmbkVzZDFRTnpHUWhqQjh3RlJuN1QxOHpSVDM1TXc5UUJuYXRhNVk1eWZ3Qjh2b3llTERoSlN3?oc=5",
+      "published": "Wed, 02 Sep 2026 05:32:50 GMT",
       "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
@@ -184,15 +192,7 @@
       "label": "neutral"
     },
     {
-      "title": "Jio Platforms gets Sebi nod for $3.8-bn IPO, set to be India's biggest - ET Telecom",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVHFoTU5IdElqOFZwZk10am9tZVB2bFJ2NG9EOUdNandJYmxlS3Z3RXhsYUgwM0FaaVlFdjhxblRoUVVWbTAyTG42V3ktdVg5U1dhNGpaNEJkNXJfVEpuajlsMDRvX0xyM3phRHlsMTVUeERwdVhOa19qOXJmUkFIbzVJbVNLSVVGOWVrUTBtTjk1bnRPNXhXQWt3X2lOa2dKZHUwZjIxWVRWN0tZMkVnMTRzZ3RrRkJtTDgzSExxMGFseU5LWVVfNzhVb3RZcUpjWHfSAdcBQVVfeXFMTlAyalFLRGtHVjRKY3haQ19JS0M4XzhQVHBVUkRERmlQcWFOMHVmSUZVcFNLaG05S2lNS053VFNpZWRlWUY2Q3NpcGZzR2lUSlozYV9sRV9kd1pTaXZXMVdRTXhMSV84aVFKYkh5dGVOaFlJYldGZmdCMGZvbW11V1FCY3dZeC1Cd2t3LTFyOXhISTlnZUhZb2pTTU5haENwMnFodl9YZVlkTXpWUzNQNVJKZVN4aHFOVndSclJMeldnLW5GaFVwcTk4eTlMUXRWVGxKX0VxVUk?oc=5",
-      "published": "Sat, 29 Aug 2026 01:57:08 GMT",
-      "source": "ET Telecom",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Jio BlackRock AMC launches regular mutual fund plans available via distributors - The Economic Times",
+      "title": "Quick commerce gains GMV, user share as ecommerce majors lose ground - The Economic Times",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQldtZGpIMExuVVpuN3pENHZWRlM5ckpnNW5IcGREcmlHSGoyeC1WaENiSmlrbkxDSVUyT296bmRSWnJGc3pWbUtWUlhBSnp0MjVndFJhNFJwRVo1Wml4X3VsREhTQmNpN1NDTHhaSVk4N3VQVU9FOHZRWFpObHpkWQ?oc=5",
       "published": "Fri, 28 Aug 2026 06:18:56 GMT",
       "source": "The Economic Times",
@@ -200,10 +200,10 @@
       "label": "neutral"
     },
     {
-      "title": "Jio Platforms gets Sebi nod for $3.8-bn IPO, set to be India's biggest - ETLegalWorld.com",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQjJhSUNleHo3Q2JycWNxUkU4N3NXRm5FbDRCVjNNci0tNl9UVkRISlktenBMd0lRd3NUZzEzOXM4V3M3SWdLZUdHQ1BScUxsZHpFcGZHYllOUnBzOGJmZE9SNUlEanFmX1VFT2NjRTZQdV92dmt6MGtESGdfelJqUGhaU0hkV2EyM1RKY1B2bW1QV0tvN3hQS2NONlRpNXlFMlpDUU85bmEybS1QcmN1UkRweWFOd0FJbzdzU0w3TFhxenlCMVNPMnRmeTlvYXpKZ1E3OHlaY1FEWGhi0gHiAUFVX3lxTE9PMFN6WWZsLTJLbTVCX0ZBbHRpT2pfV0JWSGhQRVE5MFU1QVNSdThPX0I1U3dHV0RQbE9Zb3JjZ1Q4ekRPZU5hX1RMQXItSUJabnMwWWVJZV90cHdNbS02S0F0WWpfVjNScHQ5SG13QU00REdTZS1CVC1penUzMHlnWmE0eUxyZndlVjk0OTMzazRGWFlWTUJnenVDLXV6NnlRZklwcHA1VVI4amQ4bG5fRTJNcjU3U3R1ZDJlRkktcWpYZFVUNlBQNTVKNkhGS0VONFp4SERxSjdqRVJadTVNWGc?oc=5",
-      "published": "Fri, 28 Aug 2026 17:26:28 GMT",
-      "source": "ETLegalWorld.com",
+      "title": "Jio Platforms gets Sebi nod for $3.8-bn IPO, set to be India's biggest - ET Telecom",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVHFoTU5IdElqOFZwZk10am9tZVB2bFJ2NG9EOUdNandJYmxlS3Z3RXhsYUgwM0FaaVlFdjhxblRoUVVWbTAyTG42V3ktdVg5U1dhNGpaNEJkNXJfVEpuajlsMDRvX0xyM3phRHlsMTVUeERwdVhOa19qOXJmUkFIbzVJbVNLSVVGOWVrUTBtTjk1bnRPNXhXQWt3X2lOa2dKZHUwZjIxWVRWN0tZMkVnMTRzZ3RrRkJtTDgzSExxMGFseU5LWVVfNzhVb3RZcUpjWHfSAdcBQVVfeXFMTlAyalFLRGtHVjRKY3haQ19JS0M4XzhQVHBVUkRERmlQcWFOMHVmSUZVcFNLaG05S2lNS053VFNpZWRlWUY2Q3NpcGZzR2lUSlozYV9sRV9kd1pTaXZXMVdRTXhMSV84aVFKYkh5dGVOaFlJYldGZmdCMGZvbW11V1FCY3dZeC1Cd2t3LTFyOXhISTlnZUhZb2pTTU5haENwMnFodl9YZVlkTXpWUzNQNVJKZVN4aHFOVndSclJMeldnLW5GaFVwcTk4eTlMUXRWVGxKX0VxVUk?oc=5",
+      "published": "Sat, 29 Aug 2026 01:57:08 GMT",
+      "source": "ET Telecom",
       "sentiment": 0,
       "label": "neutral"
     }

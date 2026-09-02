@@ -2,7 +2,7 @@
   "yahoo": "TCS.NS",
   "symbol": "TCS",
   "market": "IN",
-  "crawledAt": 1788327015857,
+  "crawledAt": 1788348604788,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -64,9 +64,9 @@
   },
   "news": [
     {
-      "title": "TCS Share Price August 31, 2026: Down 1.79% to Rs 3,812.40 - The Eastern Herald",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWaVdwZUtuT1gxS1lTMEUycF9nbjJQemtLUjJOSUJlM2p4RmE2VXRDazJiVHljYzVEZkVSbDV0S0JtNGdJZnpVNkFjVHBWbll4MjgzNjJXWjR2T1M1ZlBaaUFualBKaXdh?oc=5",
-      "published": "Tue, 01 Sep 2026 00:15:53 GMT",
+      "title": "TCS Share Price August 31, 2026: Down 2.08% to ₹3,157.80 - The Eastern Herald",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjTG9SYXY2TTNpaTZ4dENjSXpmaVRDY2NLdXJYTFBhclpOVVZGMUtEWFF0by16LVNqb005MlVBLVU1Sm1hTTM1Q3A4NVVvWlBCdmwySTFsRHZKYTM1bUFScExGYlNiVGZWZ3RRUVVzWmhIVXpoQmhN?oc=5",
+      "published": "Tue, 01 Sep 2026 01:17:48 GMT",
       "source": "The Eastern Herald",
       "sentiment": 0,
       "label": "neutral"
@@ -104,20 +104,20 @@
       "label": "negative"
     },
     {
-      "title": "TCS, Tata Motors PV, Tata Steel shares slide up to 6% as N Chandrasekaran steps down; key details - Upstox",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWDM5NjN1OTIwMm1tc3ZNMmJZcS1OUVlZbDJybEVRdmpnb0VUSWFXRDNCbkI5UVM5SVpqMW5sV3pmRGZQeThWTmU2eUVUd1ZMUThIWUtFT3lMaE9vZFpjRTJDQVpYOGlYWXBGR2FvcVBxaF9qelBqcnBCWDc3a2dzd2dBVkJ4ZWk1a1NLMGRFS3kwQ0F4OElab0dXMzhESGs2UFEtZVlFS0FPX3FtVzgtR05FbzdnaUxJUlBxYmxwbkZETXNoM2NQZV91czBsdzdENVBkUUUxNjAydEE?oc=5",
-      "published": "Wed, 12 Aug 2026 07:00:00 GMT",
-      "source": "Upstox",
-      "sentiment": 0,
-      "label": "neutral"
+      "title": "TCS shares slide to 6-year low after 9% crash; what lies ahead? - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN2FyYWNLeXRoMzlYOVFBRFJwX09FOWp6Wkg3empjUVF0LU9XMUV4ZmVjTTFTRE02cldUMzBqVFlaMlE2dGI2bktqWlU4ajlydFJoRnUtLUlOVXQteDJsYy1rNFptTUVGQmZfY1hfWUk2UlpIdXkxdjBFU3RrdUdGd0NZaXBxS2VMcWsySmF2N3RZZEU5SERLV0JWeXdydEVXSEJmeU92RS1lVi1UTzdVU0piRTg4SUFKdUhXTWlRZkV2N0nSAcgBQVVfeXFMT2luUXA5V1NKemRrTjc1RnEyZ1JKTkYtTDVING93RXlFcTVMSU5GbWZNU252SVRrTk9VdUp4aEhNdlM3VW1wbUVoUXI2MlJ4TjkwWC1ZN3NPQ0NucDdDUXhDUG55MjEwWjNhQ2RsZ1F2ZWh0VjEwa3FsV3FPWTgtUDJPYUN5dlBTNFluQnQ0NTdPR2tCRHNHdjhXc3pxY0JBZS01TnJ5X2FhUFU3c2U0bUpLTDl3UEdiRDFvTGRXMEp3TUY5dGs5Tmg?oc=5",
+      "published": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "source": "Moneycontrol.com",
+      "sentiment": -0.333,
+      "label": "negative"
     },
     {
-      "title": "Tata Consultancy Services shares rise 2.35% in today's session - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNb3ZPS0RZNDFwRGhCLUpRZS1ZMi14T0pta3h5dkYwYUphWjlwM0NoS1hvSDQxdld1MWVMNXFnSlZTQU1VZUwwQjBTR3JIMHM3Vnl6TGJ5ZXZsTDk3enAtVk90UFdUTHhKRFVXVDZ0aTVXYXZLZEw5ZzkydXlIY0YwZXl4al9PWVVzRXo0eTUwMzRJMnp2VmpmdkRNZk5WZ3lEWWJfLXl4NTlvVThxdmFRenpYNnE4OFdtbWx0UXJQX1B5SmFtX3NCdFJZUFUxaE9aMWJOM0Jn0gHbAUFVX3lxTE9Na2xqVzJ5REtHTVFpeENEZW05bHN6bGROd3VBRmI4WWxhU2JJRElUVW92c19iQmlQd2JlMFRibk83WERMNnFsZ193MnRaYWQ1WGNyVUFsUkhaSlBMYm41OEhFMzB2SEF5ZGVQOFV6eU9mLTdvdTdHLVI3a3ppaUYyWTNpRUZHMTJZUmxyWGpMTHVuOGQyeGVCY2FEZHJMaDNWV2lvRGd0MzVUMUFDZnI0T2xxSW1YZ3Z1VVpCZ0Y0amcyQUF1NHItb09ybC15ekpsMFJSenlZZzItSQ?oc=5",
-      "published": "Fri, 17 Jul 2026 07:00:00 GMT",
-      "source": "Moneycontrol.com",
-      "sentiment": 0,
-      "label": "neutral"
+      "title": "TCS surges 12% in five sessions as IT stocks roar back after Q1 reset - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeVFmVUpOY0poeVdOanY0RlpNMGVqUUZyUFZWVXZyQXEzTEVURG41cC1HbXJVMHJvQkFvOW9sY0dJZGQyNEpBMXFsUXc4SUtBQmoxeXZwN2xIajgwWHV6RGJPUS1RMnhvMEx3Q0I5YzBjRGRDREhSYkpqMXd4Mk9wUVZ4SHJTR0JJMkNyV2JWWUZsOWhoTUtGVGhYQ2VqV052NHFDNG51WURsRHd4ekFLVlU5QjdGQy1kX19ydjdPODI0Z3V3cVE?oc=5",
+      "published": "Wed, 29 Jul 2026 07:00:00 GMT",
+      "source": "Upstox",
+      "sentiment": 0.333,
+      "label": "positive"
     },
     {
       "title": "Tata Consultancy Services Shares Climb 4% As Q1 Earnings Exceed Estimates - HDFC Sky",
@@ -136,16 +136,16 @@
       "label": "neutral"
     },
     {
-      "title": "Stocks to Watch Today: TCS, GE Shipping, Afcons Infra, Hindustan Copper, Shankesh Jewellers, Sunshine... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOaHctQXM1ZDJ2QmVtSFZadWNlbmxpR2wtVmhNRFdKek1Ub3h6Z0pjUEFZUWRMa19FOFRqc2E2dWpvZWdBWDZ6cHF4WW0tOVhWZkxDSmVpbFJfdnpHZTZOUEZlalQtZW16eV8xQzN1UmNIWWpVVG4waXdBNmlxcHROQmEwT2RGV0lXc3lZOEduWk1idGxaT2t6WG84N0ZSOEFqOFRCNDVUX0w3UE90MEZ0R2xLSTdBeWZ4bS11aEhiekh4bjhNb3dZN1ZZNUFJaEItRmg3X3RSVDVBVk1HWDF4WVRtQ0NmUnRPUUN5QlZlRTZZTDA0ZC1rV2cycWFIWGRkUElvU3dhM2hIZTBEemk1cExoOFBlekJNM3ZES01tQjFmdTlDaUFaZ3MwSjI0Wmlw0gG2AkFVX3lxTFBLNk1fcndCOVNwOVU0WE5QYnlRcUd5VHk0SDY2ZldycUZ5VmtkbFlrb19NbVc4MmdCZEFBZlZlTEl1eG9oRnhqLVRqUDQzTzNtOG5ueWlvVk9fUUFPNWgxNnFXNFQ1VXVmamtDSWxiSkpSOUg4NHhkM2tKQVE4TzhNTFNlZ0g4MGRZUG1mMmo2MWRGMDR0M3BOOElVaDBrY3pObEZMS2Z6SGFiSllOZ1JGV3hfZGVyakRZcldkU1BqcGFrWkIzZTRpWDAyNUcwZHY5ZlpsNXhqeEdWR1c2Ym5FYVYzX2RTbnIwY25jUjRaVGIwWndsdXZHcGxfSnpPcDJ0REhHR2taX0FLU2ZNWlk3UDJLVE55cTFpM05KUkwwU3dYeTA5eFlVc1kwUFN4MGI1UzdrYXc?oc=5",
-      "published": "Mon, 24 Aug 2026 20:27:37 GMT",
-      "source": "Moneycontrol.com",
+      "title": "Tata Consultancy Services shares rise 2.35% in today's session - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObzZTQVRnMDFDQVdlWFZTZFp2VTJyb1JsVFNUaXd5ZVFkWHk1S2F2UmxsQ2JhMW1TM0M4SXI3cFNGTERacElIZW5hNWhDWU1yQkpQT181MXdybjZXZjFReEh6c1dkZnd5eWJULU5kbGEwaUR3aFRzUTMzMmcxZmFsUjVCVWhaZjQ3ckkxYXRxZXZoNnprYmdiTktsMnZYOVN4NGFzMXNVSElQWGhDTXVaSmFwel9ZVG5WeVZuc1lqdXhmQQ?oc=5",
+      "published": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "source": "TradingView",
       "sentiment": 0,
       "label": "neutral"
     },
     {
       "title": "TCS workplace surveillance controversy: How far can boss legally monitor employees? - ETHRWorld.com",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOVFiNDJBOHI3N3cwUkVlMDVXaFpXQlpQU2M2NV9ydU5oSl9Tdmo2aHlCelRvcEtobHRPa1hxMTc2SDF6aFBIcXJIUjByTm11dG1mREhya3pQQm1kTl9NelNPeHBpUk04MkNkbWM5YU5RR2ZUeDI2bHNJVUdTR3hCQ1RUTHVVRS1NcHdlLThZVDBsSEJ3cGFiOGVSbVNLcHducWdhV1libWppYkJWWENpdzZFQlN1SExFV0RiVU1kUHBHTVRJWmx5SU0tcmZwSGMzQnVhbVI4clU1UWdpVVR6aWNWa9IB4wFBVV95cUxOOVFiNDJBOHI3N3cwUkVlMDVXaFpXQlpQU2M2NV9ydU5oSl9Tdmo2aHlCelRvcEtobHRPa1hxMTc2SDF6aFBIcXJIUjByTm11dG1mREhya3pQQm1kTl9NelNPeHBpUk04MkNkbWM5YU5RR2ZUeDI2bHNJVUdTR3hCQ1RUTHVVRS1NcHdlLThZVDBsSEJ3cGFiOGVSbVNLcHducWdhV1libWppYkJWWENpdzZFQlN1SExFV0RiVU1kUHBHTVRJWmx5SU0tcmZwSGMzQnVhbVI4clU1UWdpVVR6aWNWaw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWnhhcm40YjZ2Wk5TSkxNeEFTOFlPMkoyeWcxelBtV2lacUl4SVpic2ZXcU1aN0VMcG1xNlVPa05mcXNfcDV1SkxfS2dKeHFTWEJuZk5PbE5xa1o2YWF2ajNLeTBuNDdXTV9fZ1RaY1FnZVJQaTZXcXZjbUYweVEyUEFzS293OEVYcVE4X0NFb3VjOURFRmttamY5WFJwQ2hyVF9oUkVMTUxJazNVaHVld2Zwc2FoZDU0VVNoNVJFaW1uSTRXUzQySzZma0lxZ05lNS1BNWxGSmZZSmNfNlHSAeMBQVVfeXFMTjlRYjQyQThyNzd3MFJFZTA1V2haV0JaUFNjNjVfcnVOaEpfU3ZqNmh5QnpUb3BLaGx0T2tYcTE3NkgxemhQSHFySFIwck5tdXRtZkRIcmt6UEJtZE5fTXpTT3hwaVJNODJDZG1jOWFOUUdmVHgyNmxzSVVHU0d4QkNUVEx1VUUtTXB3ZS04WVQwbEhCd3BhYjhlUm1TS3B3bnFnYVdZYm1qaWJCVlhDaXc2RUJTdUhMRVdEYlVNZFBwR01USVpseUlNLXJmcEhjM0J1YW1SOHJVNVFnaVVUemljVms?oc=5",
       "published": "Mon, 31 Aug 2026 01:30:00 GMT",
       "source": "ETHRWorld.com",
       "sentiment": 0,
@@ -192,18 +192,18 @@
       "label": "negative"
     },
     {
-      "title": "Tata's TCE wants private sector to take the nuclear power baton from DAE - ET EnergyWorld",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTWY1TjFxaUxrNU5KM3ozeHQ2Q1dTb3ZmX21PUTRaSjd5SWNRX2hyWjJhOGpVRmktZEM1UEZGSi1hN2JiV05Sb3E2Q2NlRVczQkdVN1Q4VEowVmNtdHB3RnZ3QmoyY0g2ajdWTnpnWjJKa2Z0V0pMZVVrLV9xak1LVlgzclhETFZJOXVtLVpxbWhzODFwaVQtb2RoaFl3MFMxcW5fR2VnVnQ4TFdpYk1EY2dBNVlwb2xYZnB3bk9OSWk2TFBtT0VTN0RuVzJfM2VPbUHSAdcBQVVfeXFMTjVhcUpJakFmbFNPeUFldXBDUkt0Z1pway1WeVJyV2w4STVUVmg0QS1pcWdWMGtub0poNGFpd2tGSWJlY2xEU3FBRFkxVDR0NXMycjBMSVdINFkxQ1RQNFdJT2RBeDBMTG1UcUVSWHF0NjFnR0NMbmE3WFdjS1IwV1JSNEFiaEUwbDVsbUFzaW9wVlROTDM2OHlDMGNLa1hyc2M5ekJMYTFoaFpXZEJvZDdfblRnVUhLX2VndE9vVE5RSUxwLVhSOXBpU2c2Ri1tMmNlLWNtdVk?oc=5",
-      "published": "Mon, 31 Aug 2026 02:25:46 GMT",
-      "source": "ET EnergyWorld",
+      "title": "Bharti Airtel gains 26.8 lakh mobile users in July, Reliance Jio's wireless net adds at 24.4 lakh - ET Telecom",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWTI0blhBZDFNbVNiTm85V2l1YUE0X1hPZWh4bG5oQXZSVHNqZk5VOVlrMFplUFRIQ0dmVXMxWllrNENPWXJUN3hWVW5vZU9IYmZTOC05NTlPcWdoTS1BTHN4NVhBY21KaVhIbjcxLU5aUmxwU09kRnhRNWNuTVQ4VDUxT3VDcmpkSTdKSVZBcHBSd3hQTXJ1X2VJM1ZrNS1DaVpkN19qbHdzdmJBYzYzOXNrbG5KOEJFSzQtX1ZXWENseWZqenB5Y0RIOVlRa002c1RudEU4bjVrSEZJYnBMVjBTQmJTcTlwYWxYazRfSldTOWN3d1M00gH8AUFVX3lxTE43VjU2dmdrZDVyWnlQNXg3SzYwVlMxY1lab3MteTRhc2l4NkQxMEZXNUQ2SHJOeG5VT2otejlEVmNuODdzeHZNcHc4c1U3M3JYd2phbWdoRHA1UGpQRUUxczliTTFFYmlWcG1jTGxuV01wMG5NZXByQmllSzgyN1pyajNFWGxUM29KOWtvaERCRmZSR2gzaGVOWVZUSTc1VHEtbkhJRDV6S1E0dlhuWm1EN2pxaVN0bDNlekE2ZU5NSk1vUXBzdUQtVVJuaWFpM2Y0bDQ2eTl1bFNzdW1EZ085d1BwRHJnQ1BZNll6THMxSkdVaTNEY1poN3gySQ?oc=5",
+      "published": "Sat, 29 Aug 2026 01:50:16 GMT",
+      "source": "ET Telecom",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "World Leaders pose for group photo at SCO summit in Bishkek, Kyrgyzstan - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSkFnaDFwTFhoZ2NTU2hnYU5ZbHQ5cERnSUNBY19IdWlrNzRjUDlkUl94TWkzUkxaLUtFS0FnSXk3MmhBQ1dtMGtFOXJJS05zYXBDX21aV0NyeEFxQ2hobHNGcjJ3RWxUQnhBSm8yM1NuMDhldWhRdlJVV2g0SnUwbkg5WktUb2VqbjVNUzBhaTQ0aGJkSzR1b0d1MHM3Y0JkYzFFeXVORGFHRnRBVmF1d1BRaFY4NjJLR09hOHptemxkT0hHSXNPSWtmanl3T04tRERCQmJJeE1kUVk?oc=5",
-      "published": "Tue, 01 Sep 2026 06:02:00 GMT",
-      "source": "The Economic Times",
+      "title": "Tata's TCE wants private sector to take the nuclear power baton from DAE - energy.economictimes.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTWY1TjFxaUxrNU5KM3ozeHQ2Q1dTb3ZmX21PUTRaSjd5SWNRX2hyWjJhOGpVRmktZEM1UEZGSi1hN2JiV05Sb3E2Q2NlRVczQkdVN1Q4VEowVmNtdHB3RnZ3QmoyY0g2ajdWTnpnWjJKa2Z0V0pMZVVrLV9xak1LVlgzclhETFZJOXVtLVpxbWhzODFwaVQtb2RoaFl3MFMxcW5fR2VnVnQ4TFdpYk1EY2dBNVlwb2xYZnB3bk9OSWk2TFBtT0VTN0RuVzJfM2VPbUHSAdcBQVVfeXFMTjVhcUpJakFmbFNPeUFldXBDUkt0Z1pway1WeVJyV2w4STVUVmg0QS1pcWdWMGtub0poNGFpd2tGSWJlY2xEU3FBRFkxVDR0NXMycjBMSVdINFkxQ1RQNFdJT2RBeDBMTG1UcUVSWHF0NjFnR0NMbmE3WFdjS1IwV1JSNEFiaEUwbDVsbUFzaW9wVlROTDM2OHlDMGNLa1hyc2M5ekJMYTFoaFpXZEJvZDdfblRnVUhLX2VndE9vVE5RSUxwLVhSOXBpU2c2Ri1tMmNlLWNtdVk?oc=5",
+      "published": "Mon, 31 Aug 2026 02:25:46 GMT",
+      "source": "energy.economictimes.indiatimes.com",
       "sentiment": 0,
       "label": "neutral"
     }

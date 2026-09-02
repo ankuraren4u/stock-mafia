@@ -2,7 +2,7 @@
   "yahoo": "AMZN",
   "symbol": "AMZN",
   "market": "US",
-  "crawledAt": 1788327029186,
+  "crawledAt": 1788348616694,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -65,14 +65,6 @@
   },
   "news": [
     {
-      "title": "Amazon Stock Extends Losses After FTC Lawsuit Over Ad Practices - Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUDZwVUpsY25wdGMtSGZCZXc4bmp2eE5raktyLTNHWGh2bnVCcERVT0hwMVFzT2ktLTk4bFpqLXh4aUF5a3Q0ektCZGhIMU1nZE1hdnRCVVQyMDVKb2hCVjJhLXAyR0xEazFvMjRjdzRLT3Z1NHRpdHJpTGdWMF84TTRhY1NxZGIwWmZBSnctYVdVeUJ3azhTag?oc=5",
-      "published": "Tue, 01 Sep 2026 16:27:00 GMT",
-      "source": "Investor's Business Daily",
-      "sentiment": -0.667,
-      "label": "negative"
-    },
-    {
       "title": "Why Amazon (AMZN) Stock Is Up Today - Quiver Quantitative",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBNOEYweGh5cXRMU3ZCS0R4YnNDVFJ5N211d2lXYWdzdjFBWFlib2FZNHlzUVQ2Q2c3cjktWnktajM2MU5uSExDVGNZUGppcURWdTFLbDFBQkc0UXo5MUZIN1lsaXRmVUNzYlBtQkZyYUFJRUZkZFZ5N2xScmo?oc=5",
       "published": "Fri, 28 Aug 2026 15:34:00 GMT",
@@ -81,26 +73,34 @@
       "label": "neutral"
     },
     {
-      "title": "AMZN Stock: Citi Calls Amazon Pullback A ‘Buying Opportunity’ After $20B FTC Ad Lawsuit - Stocktwits",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWGt4TlZ5d1lOQkRHRHowQ3kzOXZneEttR2Fsa216X1lXdk9iemxfdXVSM0RWWEYwN0hjdUZsS1Vuc05tUG1iMW1ZNU9XclV0cGFEaHM3T0VDUnpLb3RKT1F5N2hNN2RmUHNPMGdYanZTWnFfQUFaWUtnU2JnSmR4UmZfNk5NN3c4WVZkOXZiTVB2aFhLVUJwY2FxT1FUVXRTSWZJcHRQcnRRay12LUR4dC0xMURZbm9GOW9KbnpJdTZLcGFiQmh2T1diUWdjVVFw?oc=5",
-      "published": "Tue, 01 Sep 2026 11:51:00 GMT",
-      "source": "Stocktwits",
-      "sentiment": 0,
-      "label": "neutral"
+      "title": "Is This the Single Best Reason to Buy Amazon Stock Right Now? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUGFZRFpmSDdVMW1FQlJYMWE2bFctVzl6bFBsY1dKbFA3WkpIZjdxUy1aaXBvc19LLURqQjdrcTl5cWhLbXExNERuR24wZS00dHFkbjJRYkpwNENCVzUtal9adVNhYjl2RTNLMkRXX2gwNi1maThQXzlsQzhWS0pYREFjdkJvY2gwS1RzUFlnbVI1Tzd5aF9rU2dB?oc=5",
+      "published": "Sun, 30 Aug 2026 11:25:00 GMT",
+      "source": "Yahoo Finance",
+      "sentiment": 0.333,
+      "label": "positive"
     },
     {
-      "title": "Amazon (AMZN): Buy, Sell, or Hold Post Q2 Earnings? - Yahoo Finance Australia",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hSkVVaERsdG1mcVR4b0JibHlzdjVtRUhNUUtrdHpmeHFYZFk1bmZYWm5Jd0RzUEdFVnMySjJCRFI3YjNKUWRzMGE0Q1RYdEE5R183VTBROTA5dFRBaHotUlNmT25Xb2JQb0lBQmxReEJXWFFlYW12Ykhqdm14OGs?oc=5",
-      "published": "Tue, 01 Sep 2026 14:10:20 GMT",
-      "source": "Yahoo Finance Australia",
-      "sentiment": 0,
-      "label": "neutral"
+      "title": "Amazon.com, Inc. $AMZN Stock Holdings Boosted by ABN Amro Investment Solutions - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONDFzZEJnT0hiRHhxTUpJcmoyMTh4N01DNUdTdDllTkVxM19La3FNcDNWVFFfdVpLUHJLbktTMmx0bXZ0a2lqMEhZT1Z6aFhiWnVGeHpSRHpJVHc0Zm1EOUs0NXZTWEJ2N0ExZnhEbVlNZnQ5QWtlM1EzRXRrRFJqYkttVTQyTE1WWUFIRXdXS2xvcTNoTm9peUFfdTJhQldYVGF2cVlLNU41anFoZmdTOEd3RmVjS0FMcTFyVmNDWEZJNWhvZ2ZqcTR0ekNWOVJB?oc=5",
+      "published": "Wed, 02 Sep 2026 07:09:35 GMT",
+      "source": "MarketBeat",
+      "sentiment": 0.333,
+      "label": "positive"
     },
     {
       "title": "Amazon Still Holds A Massive Upside Potential (NASDAQ:AMZN) - Seeking Alpha",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeFpVSEZmRDAyU0Z2Q3MzLTcwRXZuR0hUSEYwNFVjY0JWMDVtdXhhYnNubndaT0E2Y3RlS0p2NWx1VUZ5Zy14UXA0MUtWLVZDaDhZenJpZXVsTkthYllxeHo3eE5VQ0lZdy1Yb2ZRM1UyYUZFTTRlYVhOSXdXMlc3WVpQUU44Vy1oM284OA?oc=5",
       "published": "Fri, 28 Aug 2026 14:31:30 GMT",
       "source": "Seeking Alpha",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "AMZN Stock Jumps — Amazon Announces Multibillion-Dollar Data Center Expansion In Missouri - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQV2l3WU13SDAwOUxIem5BUHRZQkRkVi10TnU5UzJJVE0xMHhmSF83WXdST3NzWGg0Tlh1X2tzZE9fMzQtNkNrVmhMSlBwWlh3LVFzTExDSjQ5X19rSUxVa2Y0eWFHSGEtNmhGMjhFV0tHUXlfdG4yR0NhcVJ4V0YxcW5FTTRtaUctOTFTSE9pbjNlN1YzQXg0UjdpYUgtbWJobGZSdXVtam1ENDhEQzNCSDQzVnNvQkFHZ29uS09GaE1HUlc2a0VCTG5Rb0Q?oc=5",
+      "published": "Sun, 30 Aug 2026 20:54:34 GMT",
+      "source": "Stocktwits",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -113,102 +113,102 @@
       "label": "positive"
     },
     {
-      "title": "Amazon (AMZN) Stock Could Be 39% Undervalued After Chip Push - simplywall.st",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdFNPcmplOHpCRjRYUmZpbjR3TEdmcjRxQnhiTTRQT2ROeWRFTzJMNkVTT2twcFZtWHF3NWkxMm1SeGxacUhGWDlUa2N3VEVmd1E2ZDBkRXVtNnp0RVlFMTEzMk1MSXYyYVdCTzh2YThvT0NLYW9fdnQ1VjlfX3VtY1ZNUDdqd0lpYmJyLUtoZWR6SmRBWkZ4Y3JGeURGcWFVX09wUHpOdU92TlFJN3BwXzBxb3RwUGRhMzE4ZGFBWUzSAcYBQVVfeXFMUEJiTkhrWDh5SkRnbFdmbUdEUUNVWHBzUkpYS05BNjB1ZDZsVnRhT2RvNzBfWHFVdVlyYUV5TjBxT3hTN3B0N3hsOVM0NFZfdmc5cUZEZEo0SExXejdIamtYZzM5c2hwQnd5Yzh4X2ZLMEtNUTR0cVhUR0lCVXpKVGtUN2xYMFF1LVRjMFRlRzdrODNkYXAzSF95Mlpac1c1aTdLSHpJOWp3WE1kcFZ3SnVrR1BUMXZ0OXRXY1BxdlBaOGQyVmx3?oc=5",
-      "published": "Tue, 25 Aug 2026 11:32:16 GMT",
-      "source": "simplywall.st",
+      "title": "Is Amazon Stock’s Peak Margin About To Crack? - Trefis",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSmJUTkZ4MjU5Xy1oNE4xaFo3VnBiRDF5Q1pXTEdhOFFaOVYyT0Q3T2ZVcFIyTnQ5MEVob2MxVzA2bDdtVG44VVJyNVZPajdYRG51QlRqY3NWUlpEZzNnbUdzenJ2U240TDJrTXVZT0hjRFUyMDNkM1pjV1V4UmZxd0ZDU3lfTXVuQUVfbzhmalZhNnNKeWVobXFwNzVlb0lHbVFvT185bw?oc=5",
+      "published": "Fri, 28 Aug 2026 15:46:07 GMT",
+      "source": "Trefis",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Amazon.com, Inc. $AMZN Stock Position Increased by Lavelle Capital LP - MarketBeat",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOY3VseGd6MHh0MEo1ZkNyU1dwa19aeUVIZnZHaUV1MFRJZlRNei1ndklWZ19pQmpTREhUcEpRYmtHNElmajBpdWFmOGRHMDU1bkNWRmdCOC0tX1JjZzNKeUVPckRPT3pVRUk2ZFJSS0NMeVR6M1NZWTVtMjdnd1NFUnVfZWFtaWZTaVZBUGowQWw3RE5kWXFEaEpzekFOV3FaM2NoZDIxMXVhNEg2ZzhpN1JDNmZjZ0U0azNiVHVCVWwybWVh?oc=5",
-      "published": "Tue, 01 Sep 2026 08:41:10 GMT",
-      "source": "MarketBeat",
-      "sentiment": 0.333,
-      "label": "positive"
+      "title": "FTC reportedly suing Amazon over ad practices, shares fall - Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa1Fndk1GMFhob3VUMG9teFVYRE5SRDg5blZYR2dwQ1d2Xy1uOC1MMWlZNlcyYlVMLTNhUUxyZFk3VUFUdTR2NmVtSmRlZmVwbGJaOTdhODFkbVJTM0FXSFdQRTliVFNMZHp1eDhHVWtxVVhBQ1FIakptR09vem9UcU9DLTBTeE45NE40ci13TjQwQXJSeldTY3Z5Mkd3cEthVzJTRWZRdWNEdVlWbUEyUDdiSFk?oc=5",
+      "published": "Mon, 31 Aug 2026 18:15:27 GMT",
+      "source": "Investing.com",
+      "sentiment": -0.333,
+      "label": "negative"
     },
     {
-      "title": "Wall Street sets Amazon stock price for next 12 months - Finbold",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdnpWZjFoU09TdU9sTTg1eTdIVS1WdXphcExjMmhqbWFCWG9LY1dVamt4QkxmZHJyMHlMTGk1OXdXOWY0ZjFiaUtVYVFqc0dDWENEXzZvVlNWcnU3OXRNVzR6ZnRZMTlEUnRpeldrR25BVHREWDEzbHkwYkhCMEpfUWI5QQ?oc=5",
-      "published": "Tue, 01 Sep 2026 10:04:43 GMT",
-      "source": "Finbold",
+      "title": "Amazon’s Stock Could Hit $500 by End of 2027. Why AWS Revenue Is the Key. - Barron's",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LOGU0SG9wME5XTTFVbFU5VXotS1pWRUg2dnVFZ3JZY3AwSmROVFkzRXF0TjBDUExqdEVTalZKU1hsVzZOYVZwQUpTckFpTWtzbWZwTEFiYUM0ZGdqeWZLOXJwTXVOcjhlQzhIa010ZDRtVjlNLU1CaA?oc=5",
+      "published": "Mon, 17 Aug 2026 07:00:00 GMT",
+      "source": "Barron's",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Amazon (AMZN) Stock Price Today September 1, 2026: Down to $259.77 - Pintu",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcnhNNmdOV1JhcmFRTUVsZHNRMFBSOWZQZFBDMHplSk1STXF2NFk1Y1YtZmJySTIxY2JHMndSb0w1THhmZ2pnSUVWOTh6YlFCZUU3Y3ZJTGJnSHRwZmxzaGQ1RmluQzBCUTQ3aFRUWlo4c2dyLVFaQWhWMWE1TnVnLUNZQnVmOVhH?oc=5",
-      "published": "Tue, 01 Sep 2026 09:58:02 GMT",
-      "source": "Pintu",
-      "sentiment": 0,
-      "label": "neutral"
+      "title": "AMZN Stock Declines After FTC Accuses Amazon of Secretly Inflating Ad Prices by $20 Billion: Agency Chair Says Advertisers Were 'Misled' Into Paying Significantly More - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQdHM2SlBYSzFjLWZ5ejE2Q2prTnFzM2VDdUFhcGNoR2pDWmpTaWxhS0RDR3lSQkRaN2hEX0N3UkN4Z2x4bE5hV09iWmpuUVFXNUxmQ2xSbUota19OUkwzdEtkUE5LTm0tZlBZd3BfUnd0SlExaklWb3Fmem96QVR3djl0UEFUQkMtYW90MlhhYUpoeFNpaUlpRTF5LWFJekFfQnJRY3EyWFJnVWNFRldhWk1ZZE4tNFA3RkhwM1gyRHA2LUhXWEdULUI5Rjd6bzJ0cXgyajNkVXVNeUNTN0t1TGR3RG1GTmpiWFhFbzdjYUEwQldHUjZTZUFJYXZSN1E1V3JPbWoweVpSclZNUnpvRS1JYzZHRnVIT0lYZEVqb2MxR3dvd0M5NUxXd0FuVFhob2J3ang0MmFmNWsweTg5VXhLdVc?oc=5",
+      "published": "Tue, 01 Sep 2026 09:46:56 GMT",
+      "source": "TradingView",
+      "sentiment": -0.333,
+      "label": "negative"
     },
     {
-      "title": "The 3 Best Artificial Intelligence (AI) Stocks for September",
-      "link": "https://www.fool.com/investing/2026/09/01/the-3-best-artificial-intelligence-ai-stocks-for-s/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 01:27:00 +0000",
+      "title": "Amazon stock just entered the danger zone",
+      "link": "https://finance.yahoo.com/markets/stocks/article/amazon-stock-just-entered-the-danger-zone-104050035.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:40:50 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Why The Trade Desk Stock Lost 24% in August",
-      "link": "https://www.fool.com/investing/2026/09/02/why-the-trade-desk-stock-lost-24-in-august/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:35:00 +0000",
+      "title": "Billionaire Philippe Laffont Increased Micron 19-Fold and Added 49% to Amazon. Is This One Giant AI Demand Bet?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/billionaire-philippe-laffont-increased-micron-105607340.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:56:07 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Billionaire David Tepper just dumped a red-hot AI stock",
-      "link": "https://www.thestreet.com/investing/billionaire-david-tepper-just-dumped-a-red-hot-ai-stock?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:03:00 +0000",
+      "title": "YouTube Shopping adds online retailer Amazon as affiliate partner – report",
+      "link": "https://www.retail-insight-network.com/news/youtube-shopping-amazon-as-affiliate-partner/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:55:17 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Tesla Stopped Reporting Solar Numbers 10 Quarters Ago. Now the Solar Roof Is Gone, Too.",
-      "link": "https://www.fool.com/investing/2026/09/02/tesla-stopped-reporting-solar-numbers-10-quarters-ago-now-the-solar-roof-is-gone-too/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 05:01:01 +0000",
+      "title": "Global Personal Luxury Goods Market to Reach $737.38 Billion by 2030 as Digital Commerce and Affluent Consumer Demand Accelerate - Featuring Profiles of LVMH, Kering and Richemont Among Other Key Players",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/global-personal-luxury-goods-market-112000854.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:20:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Pacifica Hotels Signs Franchise Agreement with Marriott International to Open Westin Hokkaido Furano Resort",
-      "link": "https://finance.yahoo.com/real-estate/articles/pacifica-hotels-signs-franchise-agreement-043000966.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:30:00 +0000",
+      "title": "2026 Complement Inhibitors Market Analysis Report (2nd Edition) Featuring Amgen, CSL Behring, Innovent Biologics, Novartis, Regeneron, Roche, Sanofi, Takeda, UCB",
+      "link": "https://finance.yahoo.com/healthcare/articles/2026-complement-inhibitors-market-analysis-111700039.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:17:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Agoda Named Official Travel Partner of Eurovision's Inaugural Asian Edition",
-      "link": "https://finance.yahoo.com/media-advertising/articles/agoda-named-official-travel-partner-041500848.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:15:00 +0000",
+      "title": "A Look Back at General Industrial Machinery Stocks’ Q2 Earnings: Albany (NYSE:AIN) Vs The Rest Of The Pack",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/look-back-general-industrial-machinery-111623740.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:16:23 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Tesla Could Make Robotaxis 60x Bigger, Cathie Wood’s ARK Says — But Gary Black Thinks Uber Will Win The Race",
-      "link": "https://stocktwits.com/news-articles/markets/equity/tesla-robotaxis-60x-bigger-cathie-wood-ark-gary-black-uber-win/cZsAQgyRJu4?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 03:37:12 +0000",
+      "title": "G-III (NASDAQ:GIII) Misses Q2 CY2026 Sales Expectations, Stock Drops",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/g-iii-nasdaq-giii-misses-111149310.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:11:49 +0000",
       "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
+      "sentiment": -0.667,
+      "label": "negative"
     },
     {
-      "title": "The failed Honda-Nissan merger just got a second life",
-      "link": "https://www.thestreet.com/automotive/failed-honda-nissan-merger-just-got-second-life?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 03:33:00 +0000",
+      "title": "How G-III’s Experience With Donna Karan Will Shape Marc Jacobs as It Enters a New Era",
+      "link": "https://wwd.com/business-news/financial/giii-marc-jacobs-new-era-q2-2026-earnings-1239177799/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:10:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     }
   ],
-  "sentiment": -0.000055555555555555606,
+  "sentiment": -0.01855555555555555,
   "errors": []
 }

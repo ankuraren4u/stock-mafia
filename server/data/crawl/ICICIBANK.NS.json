@@ -2,7 +2,7 @@
   "yahoo": "ICICIBANK.NS",
   "symbol": "ICICIBANK",
   "market": "IN",
-  "crawledAt": 1788327021760,
+  "crawledAt": 1788348609718,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -72,14 +72,6 @@
       "label": "negative"
     },
     {
-      "title": "ICICI Bank Share Price Today, August 25, 2026: ₹1,413 in Morning Trade - The Eastern Herald",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdjAzU2xpanpPbGxkbFVPb2Jfd1p0S1YxNUFuUEJyQ0xjNDRaaDJNcFV3eVlhbXhkR3E1dnJ2VU5uN2F4NVFEeFY5ekpHWUVKclBfeFdrREk4b19aWlZJX1VWYjdOc1UtX2I1eU8xU0E4eXZBWFJ3T0lFYVZpTVNqSnRtR0VIOFps?oc=5",
-      "published": "Tue, 25 Aug 2026 07:08:32 GMT",
-      "source": "The Eastern Herald",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "Why Is ICICI Bank Share Price Falling? Key Reasons 2026 - Univest",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBGeDR4bFF5Tm1lSXd4dkR3TGRRQW1XaWl6bkVUNUMzbE01eHNwUGdkNUc0ME9iclZ4cXBMbHlWZ05nd0tiRWVEc01XOVVmcGRGSjNBQjR0RmZ3cTJnbVJadGVLejl2TEJlOU4tRUpjYw?oc=5",
       "published": "Sat, 25 Apr 2026 07:00:00 GMT",
@@ -136,18 +128,26 @@
       "label": "positive"
     },
     {
-      "title": "ICICI Bank fixes August 3 as record date for dividend of ₹12/share; check AGM schedule - Upstox",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOHNOQzByUGtnSEludy11SEkySHJWTWQ1b05YcWpteFgyTXBtM3lUQ3Z0RzI2a2VzamVXQWdsODRSeWszZlZNNzFPZ19TT044Tm9PRnNBTEp3N25xbjB4TWdhX2lZXzBXd2J0RUN3ZjRYWkVkZEhLVmdfYWlFcmdZbnBZZ2lRaS1PVjJUTG0xYzJMS2RLai1iRnRpQnNxSVlEU2pDX2pZQThxN3E2c0UwY3Y2SldYWXJ0TnFodDhac01CMU4tY2NOMHpfZGNrMjNFNGpHN3FHYTBGbDg?oc=5",
-      "published": "Mon, 29 Jun 2026 07:00:00 GMT",
+      "title": "Stocks to buy today: Analyst recommends ICICI Bank and one other stock - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOM0tLb0hkN3BUUmtsYk1QVE9DUU1Yb1lzZVNPVHUyazVTNnFIdGMyUVVteHl1REVqX2lhUkg5ZG95Rk5UM3hvOHNlLUtERGRJRG5YT2VRT3YxNFYtVGpTSjl6VXp1Q3lYbWJPZmRlRHlMNWg1VHZFUXpIMzk3b2oydFhEQjNvUnFUYi03NEY3N1IwdndqTXZwNVFsVm53ZERTalFUTTRsT2g0dUJwVTJtdjF1eGUzWVVrOGV1YkhCREpBTDBnRlZNUjJza3RXMW9pLXEtWlRKcmvSAd4BQVVfeXFMT19Pb0pTTTVvNTBHejNxTGZGX2MyUzhaY2h5ZmRvQnRMclRRRDVxdzNUMDNVRko5UG1LQWlhS1dOU3pMRGJ6QlhVUXNoUnltb1NtQWRUYWNVTFhsdVd1cnNtekhPdlJ0NHZzZ0M2cG1jRWJGdlVfSzI2VVZSZmJDUWtFbHY4Q0hrZHI1Ym1ZYndOTnRBWVlPRV9hUTYwRHNHdWkwN191ckYxS0lKYmE3aDdNLVZ6SlBMNlB0LTlOLTZsWWFaQjdZdVltMlBoMEUwUWlHU2pVYVdHLXpWcjRB?oc=5",
+      "published": "Mon, 13 Oct 2025 07:00:00 GMT",
+      "source": "Business Standard",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "ICICI Bank Q4 results: Net profit jumps over 8% YoY to ₹13,701 crore; NII rises 1.9%; ₹12/share dividend declared - Upstox",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQOWk5N2w3dV90WWtkZEIycTNWV2I3aVlVaWhUT2x0S0F6QXJxWGRhZXlTRjZSTkhxVmRVSHFZd2NLdjFKVFkzVU5WaE9qUjcwWWNURDc1dGJjcHJvUE96OHJ2c2RqLWpGU1VpSWRDTjBMZ29FWVU3S1k2TFVRZnpSU2ZkSndnMEdXb0xtdlZmdXp0UThuR2JUN1luTkxDXzVYRnBvcHdMVllBSk5OMEQ2TnZFSXpiQ01fNjZ3QW9jQXU0Q2JtT1ZFUl9UQjloYjZ6YWpMWnlaTkNmYWhaSzlNMHVDVWlFQzc3U3JWVVJDMHUyN2l5UWQ4VGxsemU?oc=5",
+      "published": "Sat, 18 Apr 2026 07:00:00 GMT",
       "source": "Upstox",
       "sentiment": 0.333,
       "label": "positive"
     },
     {
-      "title": "India's ICICI Bank mobilises $17.9 billion under RBI foreign currency deposit scheme - bfsi.economictimes.indiatimes.com",
+      "title": "India's ICICI Bank mobilises $17.9 billion under RBI foreign currency deposit scheme - ET BFSI",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMkg4RE1tWl9qSEtfOVM1NzRmRnB3MTV4ME5mYmhoNnNrTWhfOXlWZ2RKWGs2OHJjS2JGTHRRQXUzOTN6clNfVERlUXhtaWhvTW5PZVY3SlRkcHdBQlhrRVRJUTI2d2dpRUVUQXdPT1RMdHdzX2M2ZFdoeU1NdkhicElTQlNESFZOTS1hdVhJa3pXdTZQU2k1Vk1BSUhEeEx0S3MzTTA4M1ZMQ0poZkVUYTVraEdJYWhJSl9SRDhReEI1QmlLY2lVTjk1T29fTnlwM1JzbElQME9iLUXSAeABQVVfeXFMUEFHYV8zOVRVZEFTSGoyLTVDUWZFS1p4ZkJZcHpLMGd5Y0tfekd5WVBramZCSVdkX0hTTFdlY1ZwU2lOZlZ1Mm9sMXNnNDNmSHFzbWdkWDZ3Mms1ZUVaaDA1OV9rUzMyZXB4bkY4VDVVVzY2VkVVV3VIcWRRYWJ4c3lyYjd2d3djeG51WVNlR2otX1o4aEZmWFN4Y3Y1YmF6c051em9NYXA5OVdSVHRBRWNwY3g1aVYza2ZPaG5jeW44Qnp6WGRucXp2T0lWa2RWSVBSOWJmU1FNSmRLTG14X2E?oc=5",
       "published": "Wed, 02 Sep 2026 03:50:57 GMT",
-      "source": "bfsi.economictimes.indiatimes.com",
+      "source": "ET BFSI",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -168,10 +168,10 @@
       "label": "neutral"
     },
     {
-      "title": "Strong tax revenue offers fiscal cushion, but 4.3% deficit target faces risks: ICICI Bank - bfsi.economictimes.indiatimes.com",
+      "title": "Strong tax revenue offers fiscal cushion, but 4.3% deficit target faces risks: ICICI Bank - ET BFSI",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOU2lHVW5PNWhUckxtdl84WG54UktyYXp0YUxvSTVTTE5VZ3dRZl9xMGptTzdCMWpLNVJkbUttQk4za0RDWHdweFAwUmtxMnh1V3MtMlRNRWtINGJLdk1fWFozcWhlZ2FrOTlDRXo3Znl4SGV5TkFBZ1J6Rnp1MnpuaEJMbEItblNGRFpTUm5lSTNiNUZrOGdIaUZSOGp1V1FOSEVGWGQ4YXRFLTdrdDRCZWNsQXZUWHAyMjZWSThkQVpXN050X3R5YktudDFpc3czU0ctNWRNMzlzYXZNNlc4d9IB5gFBVV95cUxNTmZrYXhxZGpSLU1Zd0d2MGRuV2tFZHpQVWJmM2U2ZDBocnNTSjZUMlh4SlFZWWJqWG55ZGYyb3Mwb0w0dVhqUlV0ZWp3M24yaDdHc2RmQ3N6NmJrU2lHSW10d0I3UXBJZFo2SVFHaFVYQ3NTTTZZU1BOVnZQTGNHWndDRWpYUmZsTC1WNVEwc0Rra3pPMmZJSkotVkFPR2h5cXFXNzI0S3FhalREdVljVkhUUkV5clBydkIwTjVpSTdHMnNJT3oyVUpXeVhBbDFNRFNJTWhFbTB3d1lwODJtOVJ1WHdIdw?oc=5",
       "published": "Tue, 01 Sep 2026 08:29:54 GMT",
-      "source": "bfsi.economictimes.indiatimes.com",
+      "source": "ET BFSI",
       "sentiment": 0.333,
       "label": "positive"
     },
@@ -184,30 +184,30 @@
       "label": "neutral"
     },
     {
-      "title": "NBBL's Bharat Connect forex transactions cross Rs 100 million in four months - bfsi.economictimes.indiatimes.com",
+      "title": "NBBL's Bharat Connect forex transactions cross Rs 100 million in four months - ET BFSI",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZXVEWnA0czlQbG4xaldBUGVjZXk3NURvaEVGTjNQbXpGVWFxamNabjA4VnNLWmZGMm9VY292Wk1OVWM5VEZsYlpmb1Y5cjFsUExOWHc5VWNYNkZVN090dGh3eW1GMjgtc0ZNYXJGRnJuU0Iwam1tcHZNNDliWjh6RDdVYTlhUXRlNFBOSlgwVEhrWHFHN2N3elF6WXNDT21sRDdpUlpSSUVhVzZWWUpCQjlxYkZHeEd0bHphdEhiN19ucDFqdXk4eTlWb3FsTGxVNnfSAdcBQVVfeXFMTVk0Y2hEM2l4WWpJdEdieG43cndrcHA0VGw2Q1c1a0VsSFUzTmdUeW1PbGl6c1VWc2psTklwN2pmSUhoYUR5QmlreGdRX1Y1YnJoMTJmUlhnUUNiaVVpWkJDRDZCeWhHWWZBeFhib3BadkplRGRtcEJ0MEZuWWs1MlhMZmRFUjZfME9Ec0JEdlZ5MUZ1Y19LNmJ4N3NCTGZKWUZ1Ump1VnBGb3U3d1hQN25UNERpOFZqd05maFdpSjY3cGdoMU1sRDhTQU1MQ2pjbnhyYVJ1RWM?oc=5",
       "published": "Mon, 31 Aug 2026 06:40:50 GMT",
-      "source": "bfsi.economictimes.indiatimes.com",
+      "source": "ET BFSI",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Mayuri Nikumbh returns to Elephant as chief design officer - ET BrandEquity",
+      "title": "Mayuri Nikumbh returns to Elephant as chief design officer - brandequity.economictimes.indiatimes.com",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdXRxWmx2UnBROVlPLWx3WUZabm5wZVZPb0JBUTJEQ2pqejRfeUJ5WllZUG85Y052TWRJeHAyZXVXOHUzM3hzc1EycVJKLVJHaHpnWEZITkNEc05KbnBYdlZIU1NvYmFiaWFzelpUcTRLOWhvQllueTl4aG9WS1plVHhIRXlGX1hBd3NrdjFXUm9WaHN2VEdfU2ZteUhjYlFMYmp5VE9rRGhySFhwY2ZUTVZvYXRhRmZIekJtN3VKVGVsV0xLc0szY2NYeEZXQjEzanBNTno0VdIB3AFBVV95cUxQVEtlZU1jelVvNGRUcndfNmRqTVliWVdwblFBQzJGbkhoRnkxU2xoSXJDZTNCYktvQlJfcFAwamh2eEpFM1FFdFpDRnFBb3ZlakN3TTRGLV9VZ1NtQkFyZmtZTkxTVWc2QllES0JPbUp3QTVxdHRCSDN1SEZ4aExCRXhsU25MWGpkNGludkpFWE5zNUhfNXIxQXkxaHFONUJScDBWZTFydzh6cGhoYUhKTWRHSUJwWFBmVTZmZUp3Q0ZrYzlIWXMxT1JPOG5RSDAtUjVVX0FCcFdCYmFJ?oc=5",
       "published": "Mon, 31 Aug 2026 12:39:38 GMT",
-      "source": "ET BrandEquity",
+      "source": "brandequity.economictimes.indiatimes.com",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Central govt employees’ bonus calculator: NC-JCM seeks ceiling hike from Rs 7,000 to Rs 21,000 ahead of Dussehra; how much bonus employees can get - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxNVVFjbjg1ZG50QVpfakQyQW83Y1I4SjFKaXcxU0xvd2prbHozTHN2d1VqVTdEa2NvZTd1T0FVUUYxY0QyT3d3SGR5YTRUOE50M1VvMkpFUHJMV3k2X0RUYzFZSWtxSWJEbVpNRFlYM2wxY0QzNnJyODZKYm1SLTRPZkVYYUVnLVF3TnNXMk4tTkl3RHgxdXJpMHduUnZpVDhwc085MlFpVk8talBpVTN0XzJyUG00eDBQQWlZUHZZRllORVhZV095QkVYVmpkY1p6aVdEdWNGNUpoRm5JXzlKaDI5bVI5aGltNjNmTzZLOFA2cW9TbTRIZlhfMlJCZ1hNV2NMWHQ1NmJKTV9FYTJ6cTRXeHktSzdISzJwanl2MHhrSmU0aWhxNi1zYVd4dTlZQTNrVlYybTV0b0pWS2hwQ2tXNzM4Y09MUnA3NWZvajJnMkJuNUNBUVEwV3h1enA0YzFfNnNsaG54ay14c2t3SDN5a2xMZnhteVZtVGpzYzNsNmZnWUh4SjVVNTRyOV9B?oc=5",
-      "published": "Mon, 31 Aug 2026 11:21:30 GMT",
+      "title": "2026 multibagger Welspun Corp shares in focus after signing MoU for pipe manufacturing in Jordan - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNYjc5NGs4WllPMVF1RGVjREp4SS1DS2hLUGo1Sm1KSDhEOW1kMlZaQkQzNXMwSFFHaFNWTktCYWxFazMtbTdmSGZ3MFExeWhnT3hXY1B4LVhTR182UndZN2ZsaXpBc0pNY1ppeDk0R0sxTmJkdk1vX1ViWWtXeVFrTkhJbkZ4NThDdkRxMm5DazNxRDhRVi05bjBBYXpvZExFbktvaFZLUWw3cUhnS0hrY29UZ1NkYjczODRXdWFRdmRvYkFMZFZzVkZtVGNLTXIyVXhXTHRlSFVfazlIdXFsSDRIbVV2elNhTFlMZC1sSmZHWF9VUkJVdDFockNmNmV4bW1wYkZUMnA3NmPSAYQCQVVfeXFMTUtraTdOclI4ei1YN096THZQTXpfY2dlQ1JTd2wxdVZYV2dqY3lIeUlBS2lwU0hkWGY4RjhfQ1pKMjhPY2lKdGxkUkd4bGJwbUpqbFVkb0VGdFk4S3BIM3hGeURtMXdwUVZLRHJyRlRldnltWXh3UTJrTHc0VEotMU1uRDBUZ0U3QzdpcWhia21Rb0lsYUdQQjBFZmpkUWU4SWFySFdteXF0bXBDZ3JTdVNEbHprWlp4SmRsNU9oYlJjSmVkdXBseEpyVnV2anM0ZldKZ3N4b1FDM1dOckVjV2tITFBlRFJKNzgtZmhwLURfNHo2Zzk3OGROWWpNS1ptMDB6aUc?oc=5",
+      "published": "Wed, 02 Sep 2026 03:48:13 GMT",
       "source": "The Economic Times",
       "sentiment": 0,
       "label": "neutral"
     }
   ],
-  "sentiment": 0.07405555555555556,
+  "sentiment": 0.09255555555555556,
   "errors": []
 }

@@ -2,7 +2,7 @@
   "yahoo": "GOOGL",
   "symbol": "GOOGL",
   "market": "US",
-  "crawledAt": 1788327028296,
+  "crawledAt": 1788348615702,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -65,12 +65,12 @@
   },
   "news": [
     {
-      "title": "Alphabet stock has tanked recently because of a 'brain drain' - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVWxjT0hZSldUem1wd1VNSTgtVF92cTZ1a19YU053UVBHaHpUZGxCUE8tMF8xaE85TUVZeUhvODM3cTF5bWc0MmNRaGZlcG1tcXFsbFdpLWJlOEk1cWJNR003OFJTeXJ0Y29EZFZOdGl4N29kbDdiaGVhdWNqN1hnRFNUWFZwSGN6RkE3QnFqUFpzTTdfNGs5VGxac0ljTk5yT2lMUnJpSkUtamZoUzZqYldDc0NIUGtqbVBYMnFpRjE?oc=5",
-      "published": "Tue, 01 Sep 2026 10:22:19 GMT",
+      "title": "Alphabet Stock: 3 Reasons to Buy Before It Hits a New All-Time High - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcGpFZzNIWW9DekVNN2hNUjBZNzNRNlgxblRlRm1JdlRsZ0EtMzhpOG5OZDBOLWtPa1NKTjcwcmx4VHlDd0Y2Q2JuTWN4YmVWX0t4UUM5TlZVWlBrR2VsVnAwVG0tRmtjbHJPZmJKb19WOG4tMkVrRkNOaE8tNGs4ZGs4TkhBcDJIQ3gzRWxTVUE0bVhkVXc3Uw?oc=5",
+      "published": "Sat, 29 Aug 2026 17:30:02 GMT",
       "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
+      "sentiment": 0.667,
+      "label": "positive"
     },
     {
       "title": "Alphabet (GOOGL) Stock Price Forecast 2026: Cloud Hit $20B But FCF Collapsed — Buy or Short? - TradingKey",
@@ -89,27 +89,19 @@
       "label": "positive"
     },
     {
-      "title": "Is Wall Street Underestimating Alphabet Stock's Potential? - Trefis",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUlRNdDlpYmJhamdfcEZMTndXV0oxVmNTc2dZSzVYSnNSMTFiUF94djhVVm84TmZiUG5Hal9oaHZOWm5mTG91c2JtY1lvWjN2eVVILUpJUVBQOVhhSjM1aWFONFdNb1dMQTM3VFc2bTZDdUJycVVoNS1fTHVSRHRqNjM5bUZwRXdvLUh4aXBBOG9DUDRQNU9PelhVdkVndV9idXY1MDRhSkFjb19WT0ozLTRQUC1IdUQwY29hbUdWWjhMZ3FhcHlpeg?oc=5",
-      "published": "Thu, 27 Aug 2026 07:00:00 GMT",
+      "title": "GOOGL Stock Delivers Like The Leader, Priced Like The Laggard - Trefis",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUUlSVDJsTjRnYVVpZFBQcF8xT0Qwa3A0TXQ1UjkxZWNmbnIxVFh0Z3Rlc1JVOHFXTXM5d1VOVWtTTFZ5QU1HZXBXWjZPRk9sdWZuYnVNZ3NGaTNCa0p1YkEtWHpMQ0FFLTBTb2xTTVdlZkF5MnFrVGwyLXUxZkk3MWl3Vm5fSzVLYU9vYTJOZnQxM3J5dktoX3NqQVU0RWxYbEtIRXBaTDVqcWZnTG5VVWlOZnZ6WnZ6cGE4cDl6QQ?oc=5",
+      "published": "Tue, 01 Sep 2026 00:40:58 GMT",
       "source": "Trefis",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Analyst predicts Alphabet stock could surge ove... - pluang.com",
+      "title": "Analyst predicts Alphabet stock could surge ove... - Pluang",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbklCX3JTa3VyZWQ3RlZhV0ZnWDFXeHJsSWVtYXJTTVA5WmFOeDFIOEZlMVlFU19VVkpHcW45ME5jbzhJNjZzeW81dnE5SDl1SFlSeFdhQVcwT2VuendHbnl5N0tzLWJHeG04aTlkT19lSXJlWm4wTWNNS1QwYi1xblo4dDJpT0s1ZmdrbkFreHAydw?oc=5",
       "published": "Mon, 31 Aug 2026 17:16:52 GMT",
-      "source": "pluang.com",
+      "source": "Pluang",
       "sentiment": 0.333,
-      "label": "positive"
-    },
-    {
-      "title": "Alphabet Stock: 3 Reasons to Buy Before It Hits a New All-Time High - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcGpFZzNIWW9DekVNN2hNUjBZNzNRNlgxblRlRm1JdlRsZ0EtMzhpOG5OZDBOLWtPa1NKTjcwcmx4VHlDd0Y2Q2JuTWN4YmVWX0t4UUM5TlZVWlBrR2VsVnAwVG0tRmtjbHJPZmJKb19WOG4tMkVrRkNOaE8tNGs4ZGs4TkhBcDJIQ3gzRWxTVUE0bVhkVXc3Uw?oc=5",
-      "published": "Sat, 29 Aug 2026 17:30:02 GMT",
-      "source": "Yahoo Finance",
-      "sentiment": 0.667,
       "label": "positive"
     },
     {
@@ -129,86 +121,94 @@
       "label": "neutral"
     },
     {
-      "title": "Google Stock Sputters, But These Catalysts Could Spark A Rebound - Investor's Business Daily",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQW5vMUtQUDV4eUJHOUV2Q1FicFd4OGpJYkg0YkUxclhZRVJtM2s1Q0VLTUpxR0h3QXFRNVRWQnY3ZE14aU9zb0syd3VUTjFSOXJPTDdONDNSYTNHdURpMHk3a3dYa1hBT0xQLVdLNE1UWXAySkhRbENScXZWckkzV0RqVVBsZ29ZcjgyQWplMmNLaVc4OUZWbWYwQTY2NE50UkVtYXVmblpkWDBhRkNQem0xNEI1YmFZMU5Ta1NVdHB0MG5nUUdzZ2wtNHZwRmpBVTlWdjBVUQ?oc=5",
-      "published": "Mon, 10 Aug 2026 07:00:00 GMT",
-      "source": "Investor's Business Daily",
+      "title": "After Earnings, Is Alphabet Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcU5wZDBReEdfVHpvZjFKZmQweDlydlFIR2txV0JYV2RscEFFWlZjWldQalg2MF9xWUNFbHNzSmNRaC1PN2JFNDh1OWE4U2lFRkVpbmQzLWhVelJqOUVQdFdLc2hKem5DUUpTdUNGVE5ZUXJQN3dSclIzcnA3X0RPOXhzME4xLXgyUGZFRzdJbkN6TzdJbVI3WUVCbzFTdWZUcjMtM3lGQQ?oc=5",
+      "published": "Tue, 04 Aug 2026 07:00:00 GMT",
+      "source": "Morningstar",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "GOOGL Stock Delivers Like The Leader, Priced Like The Laggard - Trefis",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUUlSVDJsTjRnYVVpZFBQcF8xT0Qwa3A0TXQ1UjkxZWNmbnIxVFh0Z3Rlc1JVOHFXTXM5d1VOVWtTTFZ5QU1HZXBXWjZPRk9sdWZuYnVNZ3NGaTNCa0p1YkEtWHpMQ0FFLTBTb2xTTVdlZkF5MnFrVGwyLXUxZkk3MWl3Vm5fSzVLYU9vYTJOZnQxM3J5dktoX3NqQVU0RWxYbEtIRXBaTDVqcWZnTG5VVWlOZnZ6WnZ6cGE4cDl6QQ?oc=5",
-      "published": "Tue, 01 Sep 2026 00:40:58 GMT",
-      "source": "Trefis",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Are you willing to pay $2,000 for an iPhone? These customers may.",
-      "link": "https://finance.yahoo.com/video/willing-pay-2-000-iphone-203311978.html?.tsrc=rss",
-      "published": "Tue, 01 Sep 2026 20:33:11 +0000",
+      "title": "Alphabet (GOOGL) Stock May Be 20% Undervalued Following AI Bond Sale - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLUl1enV6Q0N3T1pKcG5FLVQ4SExSVlVDTkZ1VWZUc1VydTdEWGxDYlhlMTI5bGhMSXhRVUJKdFZYel96dnVobUJiLTBlZG5fZ1BwTERIa2kyYTltZDNuYlA2dGFGdzlFZk14eDVGSkFpX0lWclNVN0k1R3JWRWRsUUJRZkxVQjRsbjB5eTBLSHBEVkxHaU0w?oc=5",
+      "published": "Tue, 11 Aug 2026 07:00:00 GMT",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Broadcom Looks for a Reset with Third-Quarter Earnings",
-      "link": "https://finance.yahoo.com/m/58a6f508-b17a-37c1-90fd-729e1cd92db3/broadcom-looks-for-a-reset.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 05:00:00 +0000",
+      "title": "Alphabet (GOOGL) Faces FTC Lawsuit Risk As AI Departures And Delays Mount - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObFNod0JjcXlqc3Y0MGJ5cnF1QVkxS2NVZnJ4ajZHd1lJOVRWWm1hOW5UR01LeFh0M19aUHI4eGV2bWx6LXdHbmZ2SlhNcVFONEhtT2Rqc1JocU01dHZ0bmdpNDJNWWN3UV9Dd0ZTUTFJREliLUxPWk40WnZhajV2MjZkOUlPTm45Y1FoY1B4dzR2SkdoUDFCbnhzUl94QTFRQWtLMXp1Q2lhSkduemhQb095aUxYdEpBUlY5VmJDcmROdEnSAcgBQVVfeXFMTkFFTW1Kbi1SQ1B6YnpuOERKMzFQaFpzQlNaSUtubENTSkt0ekw3bWFtWmpJcktMTlU4NkFnQW5GWHZ5VjNONGRzTHotLXJjbWp1ZHVmTHVnelJ4alhSUlM0Q0ZCcGNWUWFPYW1jQW82YThBLUVjZDdEelRmNkd3UC0ycFBZMnJHOThRdWZ4Qm9mUXZkZWtScl9mcDh1RVkyUUdCMjJncEVfVWlNTi1FZHFJbGxIYWFSb3dnem1jREc1UXJDZGtyamo?oc=5",
+      "published": "Sun, 30 Aug 2026 08:31:45 GMT",
+      "source": "simplywall.st",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "Tiger Global Cut Alphabet 45% and Opened an AMD Position. Is It Rotating From AI Platforms to AI Chips?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tiger-global-cut-alphabet-45-110107456.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:01:07 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "Jim Cramer: Hyperscalers ‘Wrecked Their Balance Sheets’, But Apple Carries Twice Alphabet’s Debt",
+      "link": "https://247wallst.com/investing/2026/09/02/jim-cramer-hyperscalers-wrecked-their-balance-sheets-but-apple-carries-twice-alphabets-debt/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:47:15 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Why The Trade Desk Stock Lost 24% in August",
-      "link": "https://www.fool.com/investing/2026/09/02/why-the-trade-desk-stock-lost-24-in-august/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:35:00 +0000",
+      "title": "NIQ and Similarweb Advance Agentic Commerce Measurement for the AI Shopping Era",
+      "link": "https://finance.yahoo.com/technology/ai/articles/niq-similarweb-advance-agentic-commerce-104500222.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:45:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Billionaire David Tepper just dumped a red-hot AI stock",
-      "link": "https://www.thestreet.com/investing/billionaire-david-tepper-just-dumped-a-red-hot-ai-stock?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:03:00 +0000",
+      "title": "Meta and Google’s AI Returns Slide, Piper Sandler Says Amazon’s Capital Discipline Sets It Apart",
+      "link": "https://finance.yahoo.com/technology/ai/articles/meta-google-ai-returns-slide-102019503.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:20:19 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Why Fervo Energy Stock Skyrocketed Today",
-      "link": "https://www.fool.com/investing/2026/09/01/why-fervo-energy-stock-skyrocketed-today/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 01:45:23 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Strategy's CEO Says Bitcoin Buys Come Down to Capital Costs, Not Price",
-      "link": "https://beincrypto.com/strategy-phong-le-bitcoin-buying-logic/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 01:39:51 +0000",
+      "title": "Marvell Beat and Raised Guidance. Why Its Google Deal Still Spooked Investors",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-beat-raised-guidance-why-102009844.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:20:09 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0.333,
       "label": "positive"
     },
     {
-      "title": "Fervo Energy (FRVO) Bags New Power Deal, Soars 28%; Hedge Fund Interest Climbs",
-      "link": "https://finance.yahoo.com/energy/articles/fervo-energy-frvo-bags-power-004015387.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 00:40:15 +0000",
+      "title": "Forget Nebius. CoreWeave Has a New Competitor. And It's Not Another AI Cloud Company.",
+      "link": "https://www.fool.com/investing/2026/09/02/forget-nebius-coreweave-has-a-new-competitor-and-i/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:16:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Not Nvidia. Not OpenAI. This Artificial Intelligence (AI) Stock Will Be the Ultimate Winner.",
-      "link": "https://www.fool.com/investing/2026/09/01/not-nvidia-not-openai-this-artificial-intelligence/?.tsrc=rss",
-      "published": "Tue, 01 Sep 2026 23:14:00 +0000",
+      "title": "Lookout Integrates to Device Trust from Android Enterprise and Joins the Android Enterprise Partner Program",
+      "link": "https://finance.yahoo.com/technology/ai/articles/lookout-integrates-device-trust-android-100000743.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:00:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Ranking the \"Magnificent Seven\" From Most to Least Attractive, Based on Future Cash Flow",
+      "link": "https://www.fool.com/investing/2026/09/02/ranking-magnificent-seven-most-to-least-attractive/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 09:26:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     }
   ],
-  "sentiment": 0.11105555555555556,
+  "sentiment": 0.07405555555555556,
   "errors": []
 }

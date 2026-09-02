@@ -2,7 +2,7 @@
   "yahoo": "AAPL",
   "symbol": "AAPL",
   "market": "US",
-  "crawledAt": 1788327024876,
+  "crawledAt": 1788348612614,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -81,20 +81,20 @@
       "label": "neutral"
     },
     {
-      "title": "Why Is Apple Stock Up Today? - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUXBCWHl6REluU2Y3VW85YkhhM2N0UnEzdjYtX191Sm9mSEpoUkQwOE1iZ3RoQXBtME9JUU55aG95WW95OUl2aTMtT1VRN0NOa3hmemk0THVheWZxM0U0d2JFRDJNUVYzZl83R0V4ZjdoVW5PVE41VGY2OERFSjdmY1gxS0R5NWF3YkNCT3EzTQ?oc=5",
-      "published": "Tue, 01 Sep 2026 18:03:28 GMT",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "How Much Upside Can AAPL Stock’s Growth Deliver? - Trefis",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQXA0MTlsc29SNHlhRzh2ZU0tWnI3aXJHUnBtd0FRT0hrMkNfWWZpYkFKLVFOT1BROG14OVVXTWtNMzVCdFNzT0pnOEp3UXB6YjY0WVhOQ2lPNFZ4SC1Ia0VxYVlGbERSM1JQb2FUSU1WcFVidEMxamdNUHBURjJpYnIzWEhIeXQwR0h1M0FBYkhkX1I3RmNJYUtubzROQ0E1MGROZGJkV1QwcEU?oc=5",
       "published": "Fri, 28 Aug 2026 21:53:32 GMT",
       "source": "Trefis",
       "sentiment": 0.333,
       "label": "positive"
+    },
+    {
+      "title": "Why Is Apple Stock Up Today? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUXBCWHl6REluU2Y3VW85YkhhM2N0UnEzdjYtX191Sm9mSEpoUkQwOE1iZ3RoQXBtME9JUU55aG95WW95OUl2aTMtT1VRN0NOa3hmemk0THVheWZxM0U0d2JFRDJNUVYzZl83R0V4ZjdoVW5PVE41VGY2OERFSjdmY1gxS0R5NWF3YkNCT3EzTQ?oc=5",
+      "published": "Tue, 01 Sep 2026 18:03:28 GMT",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
     },
     {
       "title": "US Stock Market Moves | Apple (AAPL.US) Rises Nearly 2% as Tennas Takes Over as CEO; First Foldable iPhone Set for Release - Moomoo",
@@ -105,10 +105,18 @@
       "label": "neutral"
     },
     {
-      "title": "Apple (AAPL) Stock Could Be 28% Overvalued On Fresh AI Mac Launches - simplywall.st",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWmR6SmotZG0tYS1IalNEM3RDY3VBYjQ2SFZ6ZE5Db3YybU5YU3V4V01CRXZGaFRraGN4S0lzN2VvaWxWWjVLLThraE15THY3Z3VNd0xRSE14SWQ0Q0NKU3oxWnhrbUlKUUNfQklPSWVZSF92dDhRWFI4ZmFHLUQzNXRKX2JhaXFNX0I4RlBWS05SNGJoZmxLY1dPYTZteEh1eHkzOXZobV9HeXFXcUhHWWZPdUNUbmVDU20zLW5YWDVkUdIBwgFBVV95cUxQWmR6SmotZG0tYS1IalNEM3RDY3VBYjQ2SFZ6ZE5Db3YybU5YU3V4V01CRXZGaFRraGN4S0lzN2VvaWxWWjVLLThraE15THY3Z3VNd0xRSE14SWQ0Q0NKU3oxWnhrbUlKUUNfQklPSWVZSF92dDhRWFI4ZmFHLUQzNXRKX2JhaXFNX0I4RlBWS05SNGJoZmxLY1dPYTZteEh1eHkzOXZobV9HeXFXcUhHWWZPdUNUbmVDU20zLW5YWDVkUQ?oc=5",
-      "published": "Wed, 02 Sep 2026 01:36:53 GMT",
-      "source": "simplywall.st",
+      "title": "Dear Apple Stock Fans, Mark Your Calendars for September 1 - Barchart.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNS2FHQm54S1JLRkRiZVkyYlJDM19UdWExdmFIdHRyVFI4Q0JpZHBGXzdZUFEzaVR5c21wc3kzTGs0WHBGckROaTJEOTNYbVdMNTNFeUhZVVhxMlo2aVRvYXhiR3FxLVV5TC03UW51R0tJMWFDSll5dTZkXzdyNG5mODBvVWFleEp4dWszckF5cTZCT0x5VnN4WV9vRTZpLWRIaWFj?oc=5",
+      "published": "Tue, 01 Sep 2026 14:38:39 GMT",
+      "source": "Barchart.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Apple at $320: Here’s Who Should Hold Their Shares - 247wallst.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdFBaOGRDREJ4eUdZckQ5ZHhCTkNqWHAzanA0UTFXMS1JVkxqcmRpSVZkbnN0WUprbUhVelJGeHU0aTRuNk9lVXNVTk55UENTSXlHTW5PWnZ5NnVjbGFZZFNfVmp0SnhEalN6WFNMVWItYThRMVVfT3FxdlloUmJkOXJMaUlVcnU1SkpXbVBsUVYyUXBfbFE?oc=5",
+      "published": "Mon, 31 Aug 2026 15:45:00 GMT",
+      "source": "247wallst.com",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -129,18 +137,50 @@
       "label": "positive"
     },
     {
-      "title": "Apple at $320: Here’s Who Should Hold Their Shares - 247wallst.com",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdFBaOGRDREJ4eUdZckQ5ZHhCTkNqWHAzanA0UTFXMS1JVkxqcmRpSVZkbnN0WUprbUhVelJGeHU0aTRuNk9lVXNVTk55UENTSXlHTW5PWnZ5NnVjbGFZZFNfVmp0SnhEalN6WFNMVWItYThRMVVfT3FxdlloUmJkOXJMaUlVcnU1SkpXbVBsUVYyUXBfbFE?oc=5",
-      "published": "Mon, 31 Aug 2026 15:45:00 GMT",
-      "source": "247wallst.com",
+      "title": "AAPL Stock Heads For Worst Single-Day Fall In Over A Year — Wall Street Warns Apple’s AI Supply Chain Headwinds Are Far From Over - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQM0NVeHRMVUhYQzcxTHE1RWR4c1BlOXZLa3VxYjZSNmhYci1ZamtvNGRDalktNlhmM1kwOE5IMmZUR05hWXMtb2lEUnN3S1BZNFE4c2s5emM4NGVnMlRXaFpQWm52S3haY191RW1KSEVwUGNJVTJEVmk1cnZhQmV1eE9VM1MwLXQ2c2pqeC1wZ1YyYnFMUmg2MFZ3Ri1aU21jN3F2aTI1S0ZhYTIzOGJXVDdxNzdBZ2FBc2JTOG9zMFZUMWJRbjdlWTYyWVRDMDlnUDVsN3hIOXNyM3lKaEQ4?oc=5",
+      "published": "Mon, 31 Aug 2026 15:51:24 GMT",
+      "source": "Stocktwits",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "Apple rallies as John Ternus takes the helm — how to protect the stock for almost nothing: Alpha Options Playbook",
+      "link": "https://finance.yahoo.com/markets/options/article/apple-rallies-as-john-ternus-takes-the-helm--how-to-protect-the-stock-for-almost-nothing-alpha-options-playbook-100000403.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:00:00 +0000",
+      "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Stock-heavy pay package for Apple (AAPL) CEO ties equity grants to shareholder returns - Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOTNjUDhwODBSQk5ab1Vtbm1vMnVXRzRBSUpMTTM2VDBOX3d6cTF4QjJ5UUllUkJrZHh4eWNvQUdJblA3ekhxYnh3UVZaTHg2ZmpWSkUwelZrMEdvNVZ5UjAtc2daeU1ndXd4REhiaEpIZkthbFpzYzFMeDBHZ0U3MlFza2NEWFZ5Y1VZTm9HTy05eUF6dERJNXVtSFNfLXJDLVNfRUZrUGtQNlBDOFYyNEVsSWNJT05SVzZFMA?oc=5",
-      "published": "Tue, 01 Sep 2026 22:31:07 GMT",
-      "source": "Stock Titan",
+      "title": "Apple Begins the John Ternus Era — Can Gadgets Still Save Apple in the AI Age?",
+      "link": "https://247wallst.com/investing/2026/09/02/apple-begins-the-john-ternus-era-can-gadgets-still-save-apple-in-the-ai-age/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:14:08 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Jim Cramer: Hyperscalers ‘Wrecked Their Balance Sheets’, But Apple Carries Twice Alphabet’s Debt",
+      "link": "https://247wallst.com/investing/2026/09/02/jim-cramer-hyperscalers-wrecked-their-balance-sheets-but-apple-carries-twice-alphabets-debt/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:47:15 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "With Tim Cook's Era Ending, Is Apple Stock a Buy Under John Ternus?",
+      "link": "https://www.fool.com/investing/2026/09/02/with-tim-cooks-era-ending-is-apple-stock-a-buy-und/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:35:00 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Company News for Sep 2, 2026",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/company-news-sep-2-2026-101000354.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 10:10:00 +0000",
+      "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -153,60 +193,20 @@
       "label": "neutral"
     },
     {
-      "title": "Tim Cook's Exit Mirrors Jeff Bezos' Amazon Move — Real Test For New Apple CEO John Ternus Starts Now",
-      "link": "https://finance.yahoo.com/technology/articles/tim-cooks-exit-mirrors-jeff-023109823.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 02:31:09 +0000",
+      "title": "Nvidia Just Returned a Record $26 Billion to Shareholders After Increasing Its Dividend by 2,400%. I Predict Another Massive Dividend Increase.",
+      "link": "https://www.fool.com/investing/2026/09/02/nvidia-just-returned-a-record-26-billion-to-shareh/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 08:20:00 +0000",
       "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
+      "sentiment": 0.333,
+      "label": "positive"
     },
     {
-      "title": "Apple CEO John Ternus started Tuesday. His $55 million award starts next year",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-ceo-john-ternus-started-014507096.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 01:45:07 +0000",
+      "title": "Dow Jones Futures Fall After Oil Prices Slam Market; Dell, Credo, Palo Alto Are Earnings Movers",
+      "link": "https://finance.yahoo.com/m/3c8f786a-671c-3fb9-bb03-81fc8be4d3f0/dow-jones-futures-fall-after.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:20:59 +0000",
       "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Dow Jones Futures: Dell, Credo, Palo Alto Are Earnings Movers Late; Oil Prices Keep Rising",
-      "link": "https://finance.yahoo.com/m/3c8f786a-671c-3fb9-bb03-81fc8be4d3f0/dow-jones-futures%3A-dell%2C.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 05:23:49 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus",
-      "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-flat/cZsAInURJMx?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 00:01:07 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "GPRO Stock Heads For Best Week Ever: GoPro Targets A Bigger Future Beyond Cameras In Defense And AI – 'Starman Optical Has The Resources'",
-      "link": "https://stocktwits.com/news-articles/markets/equity/gpro-stock-heads-for-best-week-ever-go-pro-targets-a-bigger-future-beyond-cameras-in-defense-and-ai-starman-optical-has-the-resources/cZsAgnGRJue?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:23:34 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Zepp Health Q2 Earnings Call Highlights",
-      "link": "https://www.marketbeat.com/instant-alerts/transcript-zepp-health-q2-earnings-call-highlights-2026-09-01/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 03:02:01 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Stocks making the biggest moves midday: Palo Alto Networks, Fervo Energy, Chevron, Apple & more - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTENTdjhxZzBBeTlBOE9rY2xDaE1qSUQ2YjBhNk8wR2QxcXVKaEc2Y2NpYTRQMXZNUU1Gbi1FRV9keTNfYkc1T3VsWmJRVWhFQnhkaF80V1ZzWjdPaENTOGtvcUk3Y0t2U0IzNU5BZjVvWjA5alVKZGt2enFEVmVmSkY3ZEhwNTNTT2NncUYxNm1GXy1yWG95T3FB?oc=5",
-      "published": "Tue, 01 Sep 2026 17:26:25 GMT",
-      "source": "CNBC",
-      "sentiment": 0,
-      "label": "neutral"
+      "sentiment": -0.333,
+      "label": "negative"
     }
   ],
   "sentiment": 0.018500000000000003,

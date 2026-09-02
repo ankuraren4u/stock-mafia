@@ -2,7 +2,7 @@
   "yahoo": "META",
   "symbol": "META",
   "market": "US",
-  "crawledAt": 1788327030141,
+  "crawledAt": 1788348617285,
   "sources": {
     "prices": [
       "Yahoo Finance"
@@ -65,20 +65,20 @@
   },
   "news": [
     {
-      "title": "Great News for Meta Stock Investors - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT2R0N3NYQnhNNGhfamFYNGw3Yy1GcjBxckZnSW1EN1pLWnJiU2xwckE0TEhCMjNpNTBLS1JoR3FQU2xuWDltWm1FRjFLa1ktS1hfZG83RE1RNll4ZDROMlo5R3BtWDc1YzhoX1pnNWhDYW90anNnT3RkYTAyQUl6YVlMeE0?oc=5",
-      "published": "Tue, 01 Sep 2026 16:00:00 GMT",
-      "source": "The Motley Fool",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
       "title": "Meta Vs. Google: Analyst Says AI Boost Puts Facebook Parent On Track For Ad Crown - Investor's Business Daily",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWlYxcXlmekJtSVE0bmhWRXhneDN4VGpjMFkwSUxFRHhmdUVOWnQ0RUxaQTZMWmxVZC16WDNxdHg4WVZsaEV2bmtxbGpncU10TDJxVl9yODRxRkowTUtQRDNWdC0waW9UVGlQUFQ4TEdXSzlROWc2NmsxU1RoX3ZCalJxUFh3LWhjZ24wTVJKQnVVYUU?oc=5",
       "published": "Mon, 31 Aug 2026 14:42:00 GMT",
       "source": "Investor's Business Daily",
       "sentiment": 0,
       "label": "neutral"
+    },
+    {
+      "title": "Prediction: Meta Stock Reclaims Its All-Time High Before 2029. - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORzI0VzhHT0hFVnAzay14cTNkX0p2VERPQi1HQzlKanhUUmJJWTR1ZXY1ckpZNzJOand0djIwbW1NWWczWFNnWG1YM1N0U1BCRHd2Yi1xaHRmMS1JT1k1RFgydm1xZk1oMzF3OG5WVkNDSW8tSGtDUm1WZG5KcF9haHRUNjV1Q01IdXBEeXF3S2pMRnFhUE5SNkNyUDRUQ1hZa0EyWjVn?oc=5",
+      "published": "Mon, 31 Aug 2026 08:37:00 GMT",
+      "source": "The Motley Fool",
+      "sentiment": 0.333,
+      "label": "positive"
     },
     {
       "title": "Meta Stock And Founder Led Peers Built For Higher Rates - Yahoo Finance",
@@ -97,10 +97,42 @@
       "label": "neutral"
     },
     {
-      "title": "Great News for Meta Stock Investors - The Globe and Mail",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRzZHYnZnYTF3MUpMZjlCaDNocWwwTkFNRXU1a0RVN2E3bWxXMXFHNmc2NDRjbjROVFp1emxvTUNWOTlPMThwck1Janhrd3c1NTdFejYySmhlbTExampfY3kxbGs2MmRndjVvS3N6NjNCOTV1ZjdxN01qRkFtV01ZeHpyTE5TZnVQMXFJN3NWSFlqWmJkTEpWV1d4RTJXLVVjRzlmVFQ0VXBpcjgxRkptajN6Nmg?oc=5",
-      "published": "Tue, 01 Sep 2026 15:30:12 GMT",
+      "title": "Meta Stock Leads Founder Run Tech Names Worth A Closer Look - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUWF6eVJJejY4NUxjRXVNSWZBOUhGaGZ5dkVfV1BkTFpOM2ZLU19ldTR3ZldzME9WNm11VWFpM0M5ZnJQdzV3UHpjR1MtdkdSQjIxUXFrdlc0QnBCSjZkWDRETDZWLXNzMkhFTk02UWt1a3JGbU5veERFZ1Z4TFhVallwbkNXOGYycnhIZDNQMUxCaHREMzlhY3djZlF4X2EyTjVRLXJVYk9sQl9KZFZiUUh6RXZYeXRhaDdxVlZjc0tMM2FlWDFPOdIBzgFBVV95cUxNY2VQMUs4dzhjbHZrN280NzluN1R0d1p4UUNJa3U1V05CWUEwN01iWFJIWVV2N3FiR0dGSlpPVTByeDRfRF96a1cyNzBVSVlaMC1Qc3NraXRmVTJIMEctN1Z4bjJsOXFkdnI4NVFzY3ZDWDlDMkhfYzdrd1VYSkdQWjV3Nk53ZkRMTnJnUmQ2TU1xdnhFd0ZqbEZDd0kweEpKUzgyWXJnZXpsVDlwMVk5WnpuWkVrQjRuUkM2V2hjcVU1eXdfWUVEeDgzVC1EQQ?oc=5",
+      "published": "Mon, 31 Aug 2026 17:28:09 GMT",
+      "source": "simplywall.st",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Meta Stock Could Have 50% Upside. Here’s the Bull Case - 247wallst.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRU1FY3U5bXhBSzg1bGVkaS1lZTI4WE9RWm1Cdm9WUGZtZUVBX1lSb1hQazN5QVItTFVoV1BneTNlTHNtX1N0VW9ySXN4N3UxWFNOTVJtQ2ZFdFpqUFByMkRLZzVrX2lGc0E2eGtpM3lZRnhGMTNWSU1JUllWSU9jTFZLMVF4Q3d0ekZBYVJvMTBYNVdKR0RGaWpnRQ?oc=5",
+      "published": "Fri, 28 Aug 2026 13:00:00 GMT",
+      "source": "247wallst.com",
+      "sentiment": 0,
+      "label": "neutral"
+    },
+    {
+      "title": "Prediction: Meta Stock Reclaims Its All-Time High Before 2029. - The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOR1g4M2V2Z3lZRzN5d051cUtKRWgyQjhLemhqbW5RaElvVG4tQW1jWHYtQTlGSnpWU3J2a2lVMHJJSWQzeERTUnozN01fRjRhQzdpODBiMnlpX1piZ2tLYVRFaWM0ckFsX0syOFZJMlJ6MF96Z3Zhc2h0ejZuY2hMTEZCVXpjY2JHVHFrWjFLZmFKZDc4TWxBNkxSVi1iUncwaW1pYkljTWVzQy1tVlFLZDhIcjlibjVaeTVPNExXaVdnX2djZGY3QlM1ejFLZWE0RVB0YWx0Wk5LSVlSeEE?oc=5",
+      "published": "Mon, 31 Aug 2026 08:52:50 GMT",
       "source": "The Globe and Mail",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Meta's Stock Looks Too Cheap, Analysts Say. Why It's Now Set up for a Google-style Rally. - Moomoo",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSmpDMmE4R3dUc1MyclJTaUxvMVRkVG9iZ2R3NGpwZ05FbDhiWmY0NTRwRVg3T3J4WmJYRlNPT3hfbDEzOFQtbXBTa0lISHdGUlpjeFdPTFJJZG1sb0tCV19Cd3dKNEJ6TkZOZzgweE5ZQURzRmhjWTY3VUpvMHB1eGFnR2VTeW1kVjNlYlBveE1TNGdG?oc=5",
+      "published": "Mon, 31 Aug 2026 19:15:48 GMT",
+      "source": "Moomoo",
+      "sentiment": 0.333,
+      "label": "positive"
+    },
+    {
+      "title": "Meta Is Catching Google in Ads. Which Stock Does Wall Street Favor? - beincrypto.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5OWUtsRHprWmptM0o5VHV4SlpfMG12WGMxS05UZmhhUzZ5VEM2UXUtYlJVUkJGUjRtWFV3cF9XN0NxLS1MX1BjREdSS2ZLaVE1Wklwc2Nlb0RuZUtoWE5vQUZZd2VlSzlJ?oc=5",
+      "published": "Tue, 01 Sep 2026 19:36:00 GMT",
+      "source": "beincrypto.com",
       "sentiment": 0,
       "label": "neutral"
     },
@@ -113,102 +145,70 @@
       "label": "positive"
     },
     {
-      "title": "Meta Stock Leads Founder Run Tech Names Worth A Closer Look - simplywall.st",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUWF6eVJJejY4NUxjRXVNSWZBOUhGaGZ5dkVfV1BkTFpOM2ZLU19ldTR3ZldzME9WNm11VWFpM0M5ZnJQdzV3UHpjR1MtdkdSQjIxUXFrdlc0QnBCSjZkWDRETDZWLXNzMkhFTk02UWt1a3JGbU5veERFZ1Z4TFhVallwbkNXOGYycnhIZDNQMUxCaHREMzlhY3djZlF4X2EyTjVRLXJVYk9sQl9KZFZiUUh6RXZYeXRhaDdxVlZjc0tMM2FlWDFPOdIBzgFBVV95cUxNY2VQMUs4dzhjbHZrN280NzluN1R0d1p4UUNJa3U1V05CWUEwN01iWFJIWVV2N3FiR0dGSlpPVTByeDRfRF96a1cyNzBVSVlaMC1Qc3NraXRmVTJIMEctN1Z4bjJsOXFkdnI4NVFzY3ZDWDlDMkhfYzdrd1VYSkdQWjV3Nk53ZkRMTnJnUmQ2TU1xdnhFd0ZqbEZDd0kweEpKUzgyWXJnZXpsVDlwMVk5WnpuWkVrQjRuUkM2V2hjcVU1eXdfWUVEeDgzVC1EQQ?oc=5",
-      "published": "Mon, 31 Aug 2026 17:28:09 GMT",
-      "source": "simplywall.st",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Meta's Stock Looks Too Cheap, Analysts Say. Why It's Now Set up for a Google-style Rally. - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSmpDMmE4R3dUc1MyclJTaUxvMVRkVG9iZ2R3NGpwZ05FbDhiWmY0NTRwRVg3T3J4WmJYRlNPT3hfbDEzOFQtbXBTa0lISHdGUlpjeFdPTFJJZG1sb0tCV19Cd3dKNEJ6TkZOZzgweE5ZQURzRmhjWTY3VUpvMHB1eGFnR2VTeW1kVjNlYlBveE1TNGdG?oc=5",
-      "published": "Mon, 31 Aug 2026 19:15:48 GMT",
-      "source": "Moomoo",
-      "sentiment": 0.333,
-      "label": "positive"
-    },
-    {
-      "title": "Meta Stock Rises as U.S. Backs Lighter AI Rules Amid $145 Billio - GuruFocus",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNC1uTXlDbnk1NTFsRDNFUTZGNzNYdWVOaE1TQXE5Y1Vib0N3S09jRUdyT08tN2I5MjI0amFOX0JrNUNkLXVvV012SjFBRjJTeEwzZXllSG56RlBnRi1tQXFFVDAxVDZHbWZBQTRPOWJvaHFZZVFERkFzXzVtTjQxSUhGYW5qTnFCdUF5MkQ0cGtGNWtnWWdqX3pPR2pDS01yRGE2ZElnQ25aUQ?oc=5",
-      "published": "Tue, 01 Sep 2026 19:33:07 GMT",
-      "source": "GuruFocus",
-      "sentiment": 0,
-      "label": "neutral"
-    },
-    {
-      "title": "Prediction: Meta Stock Reclaims Its All-Time High Before 2029. - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORzI0VzhHT0hFVnAzay14cTNkX0p2VERPQi1HQzlKanhUUmJJWTR1ZXY1ckpZNzJOand0djIwbW1NWWczWFNnWG1YM1N0U1BCRHd2Yi1xaHRmMS1JT1k1RFgydm1xZk1oMzF3OG5WVkNDSW8tSGtDUm1WZG5KcF9haHRUNjV1Q01IdXBEeXF3S2pMRnFhUE5SNkNyUDRUQ1hZa0EyWjVn?oc=5",
-      "published": "Mon, 31 Aug 2026 08:37:00 GMT",
-      "source": "The Motley Fool",
-      "sentiment": 0.333,
-      "label": "positive"
-    },
-    {
-      "title": "Billionaire David Tepper just dumped a red-hot AI stock",
-      "link": "https://www.thestreet.com/investing/billionaire-david-tepper-just-dumped-a-red-hot-ai-stock?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:03:00 +0000",
+      "title": "New stablecoin venture backed by 21 banks eyes 2027 debut",
+      "link": "https://www.electronicpaymentsinternational.com/news/new-stablecoin-venture-backed-by-21-banks-eyes-2027-debut/?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:24:35 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Why The Trade Desk Stock Lost 24% in August",
-      "link": "https://www.fool.com/investing/2026/09/02/why-the-trade-desk-stock-lost-24-in-august/?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:35:00 +0000",
+      "title": "A Look Back at Investment Banking & Brokerage Stocks’ Q2 Earnings: Goldman Sachs (NYSE:GS) Vs The Rest Of The Pack",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/look-back-investment-banking-brokerage-110823771.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:08:23 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Broadcom Looks for a Reset with Third-Quarter Earnings",
-      "link": "https://finance.yahoo.com/m/58a6f508-b17a-37c1-90fd-729e1cd92db3/broadcom-looks-for-a-reset.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 05:00:00 +0000",
+      "title": "Brookfield Quintupled Its AI Power Framework to $25 Billion. Bloom Gets the Opportunity, but Who Takes the Risk?",
+      "link": "https://finance.yahoo.com/technology/ai/articles/brookfield-quintupled-ai-power-framework-110505014.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:05:05 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "NBIS, IREN, CRWV At Risk? OpenAI Co-Founder Warns AI Agents Could Turn Neoclouds Into Cybersecurity Targets — Palo Alto CEO Offers Fix",
-      "link": "https://stocktwits.com/news-articles/markets/equity/nbis-iren-crwv-at-risk-open-ai-co-founder-warns-ai-agents-could-turn-neoclouds-into-cybersecurity-targets-palo-alto-ceo-offers-fix/cZsAW0KRJuJ?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:55:25 +0000",
+      "title": "Tiger Global Cut Alphabet 45% and Opened an AMD Position. Is It Rotating From AI Platforms to AI Chips?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tiger-global-cut-alphabet-45-110107456.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:01:07 +0000",
+      "source": "Yahoo Finance",
+      "sentiment": -0.333,
+      "label": "negative"
+    },
+    {
+      "title": "La Caisse invests alongside Brookfield in Altius, India's largest independent telecom tower platform",
+      "link": "https://finance.yahoo.com/technology/articles/la-caisse-invests-alongside-brookfield-110100318.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:01:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "The Market’s Focus Is Shifting to Macro. That’s a Big Problem.",
-      "link": "https://finance.yahoo.com/m/6e9dc11c-7fee-374d-8b8e-813c49e523e6/the-market%E2%80%99s-focus-is.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:30:00 +0000",
+      "title": "ŌURA to Appoint Jason Warnick, Leslie Kilgore, Miki Kuusi, and David Sze to Board of Directors",
+      "link": "https://finance.yahoo.com/healthcare/articles/ura-appoint-jason-warnick-leslie-110000285.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:00:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "Comcast Technology Solutions Unveils Next-Gen Video AI Applications for Broadcasters, Content and Streaming Providers, and Operators",
-      "link": "https://finance.yahoo.com/technology/ai/articles/comcast-technology-solutions-unveils-next-040000864.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 04:00:00 +0000",
+      "title": "FactSet Schedules Fourth Quarter 2026 Earnings Call",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/factset-schedules-fourth-quarter-2026-110000138.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:00:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     },
     {
-      "title": "KKR-Singtel Consortium Completes Acquisition of STTGDC; Company Launches Refreshed Global Brand for Next Phase of Growth",
-      "link": "https://finance.yahoo.com/technology/ai/articles/kkr-singtel-consortium-completes-acquisition-034500716.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 03:45:00 +0000",
-      "source": "Yahoo Finance",
-      "sentiment": 0.333,
-      "label": "positive"
-    },
-    {
-      "title": "U.S. Bancorp (USB) Expands Business Banking Into Four Sun Belt States",
-      "link": "https://finance.yahoo.com/small-business/articles/u-bancorp-usb-expands-business-030857884.html?.tsrc=rss",
-      "published": "Wed, 02 Sep 2026 03:08:57 +0000",
+      "title": "Amex Gold Mining Completes Portal Construction and Commences Underground Ramp Development at Perron",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/amex-gold-mining-completes-portal-110000358.html?.tsrc=rss",
+      "published": "Wed, 02 Sep 2026 11:00:00 +0000",
       "source": "Yahoo Finance",
       "sentiment": 0,
       "label": "neutral"
     }
   ],
-  "sentiment": 0.07400000000000001,
+  "sentiment": 0.05550000000000001,
   "errors": []
 }
