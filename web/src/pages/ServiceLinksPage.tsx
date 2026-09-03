@@ -118,8 +118,8 @@ function LinkSection({ title, links }: { title: string; links: LinkItem[] }) {
 
 /* ── Link Data ── */
 
-const getHost = () => window.location.hostname;
-const getBaseUrl = () => `https://${window.location.hostname}:${window.location.port || "8787"}`;
+const getBaseUrl = () => `${window.location.protocol}//${window.location.host}`;
+const getWsUrl = () => `${window.location.protocol === "https:" ? "wss:" : "ws:"}//${window.location.host}/ws`;
 
 const serviceHealthLinks: LinkItem[] = [
   { label: "Gateway Health", url: `${getBaseUrl()}/api/health`, description: "API gateway health check", type: "health" },
@@ -130,7 +130,7 @@ const serviceHealthLinks: LinkItem[] = [
 
 const realtimeLinks: LinkItem[] = [
   { label: "SSE Event Stream", url: `${getBaseUrl()}/api/events`, description: "Server-Sent Events for real-time updates", type: "monitoring" },
-  { label: "WebSocket", url: `wss://${getHost()}:${window.location.port || "8787"}/ws`, description: "WebSocket for real-time price streaming", type: "monitoring" },
+  { label: "WebSocket", url: getWsUrl(), description: "WebSocket for real-time price streaming", type: "monitoring" },
   { label: "Kite Login", url: `${getBaseUrl()}/api/kite/login-url`, description: "Zerodha Kite OAuth login (if configured)", type: "monitoring" },
   { label: "Kite Status", url: `${getBaseUrl()}/api/kite/status`, description: "Zerodha Kite connection status", type: "monitoring" },
 ];
@@ -142,7 +142,7 @@ const appPages: LinkItem[] = [
   { label: "Paper Book", url: `${getBaseUrl()}/paper`, description: "Simulated portfolio with positions", type: "infra" },
   { label: "Data Crawler", url: `${getBaseUrl()}/crawler`, description: "Manage data collection and watchlist", type: "infra" },
   { label: "Service Status", url: `${getBaseUrl()}/status`, description: "Service health and metrics dashboard", type: "infra" },
-  { label: "Service Help", url: `${getBaseUrl()}/service-help`, description: "API documentation for all endpoints", type: "infra" },
+  { label: "Service Help", url: `${getBaseUrl()}/service-health`, description: "API documentation for all endpoints", type: "infra" },
 ];
 
 const quickApiLinks: LinkItem[] = [
@@ -213,22 +213,22 @@ export default function ServiceLinksPage() {
           }}
         >
 {`# Health check
-curl -sk https://HOST:8787/api/health | jq .
+curl -sk https://192.168.10.223:8787/api/health | jq .
 
 # Detailed status
-curl -sk https://HOST:8787/api/status/detailed | jq .
+curl -sk https://192.168.10.223:8787/api/status/detailed | jq .
 
 # Search stocks
-curl -sk "https://HOST:8787/api/market/search?q=AAPL" | jq .
+curl -sk "https://192.168.10.223:8787/api/market/search?q=AAPL" | jq .
 
 # Stock details (includes chart, fundamentals, signals)
-curl -sk "https://HOST:8787/api/market/stocks/AAPL" | jq .
+curl -sk "https://192.168.10.223:8787/api/market/stocks/AAPL" | jq .
 
 # Smart alert analysis
-curl -sk "https://HOST:8787/api/desk/alert/analyze/AAPL" | jq .
+curl -sk "https://192.168.10.223:8787/api/desk/alert/analyze/AAPL" | jq .
 
 # Crawler status
-curl -sk "https://HOST:8787/api/crawler/status" | jq .`}
+curl -sk "https://192.168.10.223:8787/api/crawler/status" | jq .`}
         </pre>
       </div>
 

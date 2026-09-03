@@ -299,6 +299,19 @@ export default function StockPage() {
         </div>
       </div>
 
+      {/* After Hours Section (US stocks only) */}
+      {!isIndian && data.quote && (
+        <div style={{ padding: "10px 14px", background: "var(--panel-2)", borderRadius: 8, marginBottom: 12 }}>
+          <div className="row" style={{ gap: 12, alignItems: "center" }}>
+            <span className="badge" style={{ fontSize: 11, background: "rgba(139,92,246,0.15)", color: "#8b5cf6" }}>After Hours</span>
+            <span className="mono" style={{ fontSize: 14 }}>{money(displayPrice, ccy)}</span>
+            <span className={cls("mono", displayChangePct >= 0 ? "up" : "down")} style={{ fontSize: 12 }}>{pct(displayChangePct)}</span>
+            {data.quote.dayHigh && <span className="muted" style={{ fontSize: 11 }}>H: {money(data.quote.dayHigh, ccy)}</span>}
+            {data.quote.dayLow && <span className="muted" style={{ fontSize: 11 }}>L: {money(data.quote.dayLow, ccy)}</span>}
+          </div>
+        </div>
+      )}
+
       {data.profile?.summary && <p className="muted">{data.profile.summary.slice(0, 360)}…</p>}
 
       <div className="row" style={{ marginBottom: 12 }}>

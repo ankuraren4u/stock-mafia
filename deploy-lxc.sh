@@ -20,7 +20,7 @@ DEPLOY_USER="${DEPLOY_USER:-root}"
 DEPLOY_PASS="${DEPLOY_PASS:-stockmafia2026}"
 REMOTE_DIR="/opt/stockmafia"
 SERVICE_NAME="stockmafia"
-APP_PORT=8787
+APP_PORT=80
 TARGET="${1:-all}"
 
 echo "╔══════════════════════════════════════╗"

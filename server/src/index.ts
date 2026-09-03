@@ -27,7 +27,7 @@ import { setupWebSocket } from "./services/websocket.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
-const port = Number(process.env.PORT || 8787);
+const port = Number(process.env.PORT || 80);
 const host = process.env.HOST || "0.0.0.0";
 
 // Create HTTP or HTTPS server based on SSL config
